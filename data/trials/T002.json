@@ -1,0 +1,10 @@
+{
+  "trial_id": "T002",
+  "eligibility_text": "Eligible patients are adults aged 50 to 80 diagnosed with hypertension and without prior stroke or myocardial infarction.",
+  "criteria": {
+    "min_age": 50,
+    "max_age": 80,
+    "required_conditions": ["hypertension"],
+    "excluded_conditions": ["stroke", "myocardial infarction"]
+  }
+}
