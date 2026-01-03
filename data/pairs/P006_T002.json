@@ -1,0 +1,7 @@
+{
+  "pair_id": "P006_T002",
+  "patient_id": "P006",
+  "trial_id": "T002",
+  "label": 0,
+  "reason": "Patient age 27 is below minimum 50 and missing required condition: hypertension."
+}
