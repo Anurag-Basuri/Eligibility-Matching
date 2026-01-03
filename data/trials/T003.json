@@ -1,0 +1,10 @@
+{
+  "trial_id": "T003",
+  "eligibility_text": "Eligible participants are females aged 18 to 45 diagnosed with polycystic ovary syndrome (PCOS) with no current pregnancy and no history of cancer.",
+  "criteria": {
+    "min_age": 18,
+    "max_age": 45,
+    "required_conditions": ["PCOS"],
+    "excluded_conditions": ["pregnancy", "cancer"]
+  }
+}
