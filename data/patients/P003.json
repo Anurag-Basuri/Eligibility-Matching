@@ -1,0 +1,12 @@
+{
+  "patient_id": "P005",
+  "raw_text": "Ramesh Kumar, a 58-year-old male, diagnosed with hypertension. No history of diabetes.",
+  "anonymized_text": "PATIENT_NAME, AGE-year-old male, diagnosed with hypertension. No history of diabetes.",
+  "metadata": {
+    "age": 58,
+    "gender": "male",
+    "conditions": ["hypertension"],
+    "negated_conditions": ["diabetes"],
+    "notes": "Lifestyle-related condition"
+  }
+}

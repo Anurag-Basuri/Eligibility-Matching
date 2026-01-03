@@ -1,12 +1,12 @@
 {
-  "patient_id": "P004",
-  "raw_text": "Sunita Sharma, a 45-year-old female, diagnosed with hypothyroidism and iron deficiency anemia.",
-  "anonymized_text": "PATIENT_NAME, AGE-year-old female, diagnosed with hypothyroidism and iron deficiency anemia.",
+  "patient_id": "P006",
+  "raw_text": "Ayesha Khan, a 32-year-old female, diagnosed with polycystic ovary syndrome (PCOS).",
+  "anonymized_text": "PATIENT_NAME, AGE-year-old female, diagnosed with polycystic ovary syndrome.",
   "metadata": {
-    "age": 45,
+    "age": 32,
     "gender": "female",
-    "conditions": ["hypothyroidism", "iron deficiency anemia"],
+    "conditions": ["PCOS"],
     "negated_conditions": [],
-    "notes": "Common endocrine and nutritional disorders"
+    "notes": "Reproductive and hormonal disorder"
   }
 }

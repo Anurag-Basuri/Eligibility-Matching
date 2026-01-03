@@ -1,12 +1,12 @@
 {
-  "patient_id": "P005",
-  "raw_text": "Ramesh Kumar, a 58-year-old male, diagnosed with hypertension. No history of diabetes.",
-  "anonymized_text": "PATIENT_NAME, AGE-year-old male, diagnosed with hypertension. No history of diabetes.",
+  "patient_id": "P007",
+  "raw_text": "Mahesh Patil, a 66-year-old male, diagnosed with chronic obstructive pulmonary disease. No known cancer history.",
+  "anonymized_text": "PATIENT_NAME, AGE-year-old male, diagnosed with chronic obstructive pulmonary disease. No known cancer history.",
   "metadata": {
-    "age": 58,
+    "age": 66,
     "gender": "male",
-    "conditions": ["hypertension"],
-    "negated_conditions": ["diabetes"],
-    "notes": "Lifestyle-related condition"
+    "conditions": ["COPD"],
+    "negated_conditions": ["cancer"],
+    "notes": "Long-term respiratory illness, often linked to smoking"
   }
 }
