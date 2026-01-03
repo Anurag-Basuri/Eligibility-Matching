@@ -1,0 +1,7 @@
+{
+  "pair_id": "P001_T001",
+  "patient_id": "P001",
+  "trial_id": "T001",
+  "label": 0,
+  "reason": "Patient record missing or empty."
+}
