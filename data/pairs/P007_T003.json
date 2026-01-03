@@ -1,0 +1,7 @@
+{
+  "pair_id": "P007_T003",
+  "patient_id": "P007",
+  "trial_id": "T003",
+  "label": 0,
+  "reason": "Patient age 74 exceeds maximum 45 and missing required condition: PCOS."
+}
