@@ -1,0 +1,7 @@
+{
+  "pair_id": "P005_T001",
+  "patient_id": "P005",
+  "trial_id": "T001",
+  "label": 0,
+  "reason": "Patient age 66 exceeds maximum 65 and missing required condition: type 2 diabetes."
+}
