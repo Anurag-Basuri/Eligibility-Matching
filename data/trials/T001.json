@@ -1,0 +1,10 @@
+{
+  "trial_id": "T001",
+  "eligibility_text": "Eligible patients are adults aged 18 to 65 diagnosed with type 2 diabetes and with no history of cardiovascular disease or cancer.",
+  "criteria": {
+    "min_age": 18,
+    "max_age": 65,
+    "required_conditions": ["type 2 diabetes"],
+    "excluded_conditions": ["cardiovascular disease", "cancer"]
+  }
+}
