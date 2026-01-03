@@ -1,0 +1,12 @@
+{
+  "patient_id": "P008",
+  "raw_text": "Neha Verma, a 27-year-old female, diagnosed with vitamin D deficiency and migraine.",
+  "anonymized_text": "PATIENT_NAME, AGE-year-old female, diagnosed with vitamin D deficiency and migraine.",
+  "metadata": {
+    "age": 27,
+    "gender": "female",
+    "conditions": ["vitamin D deficiency", "migraine"],
+    "negated_conditions": [],
+    "notes": "Common in young urban population"
+  }
+}
