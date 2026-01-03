@@ -1,0 +1,12 @@
+{
+  "patient_id": "P006",
+  "raw_text": "Ayesha Khan, a 32-year-old female, diagnosed with polycystic ovary syndrome (PCOS).",
+  "anonymized_text": "PATIENT_NAME, AGE-year-old female, diagnosed with polycystic ovary syndrome.",
+  "metadata": {
+    "age": 32,
+    "gender": "female",
+    "conditions": ["PCOS"],
+    "negated_conditions": [],
+    "notes": "Reproductive and hormonal disorder"
+  }
+}
