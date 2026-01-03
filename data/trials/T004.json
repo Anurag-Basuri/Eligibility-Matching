@@ -1,0 +1,10 @@
+{
+  "trial_id": "T004",
+  "eligibility_text": "Eligible patients are adults aged 60 to 80 diagnosed with osteoarthritis and with no history of stroke or cancer.",
+  "criteria": {
+    "min_age": 60,
+    "max_age": 80,
+    "required_conditions": ["osteoarthritis"],
+    "excluded_conditions": ["stroke", "cancer"]
+  }
+}
