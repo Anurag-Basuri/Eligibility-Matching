@@ -1,0 +1,7 @@
+{
+  "pair_id": "P003_T004",
+  "patient_id": "P003",
+  "trial_id": "T004",
+  "label": 0,
+  "reason": "Patient age 58 is below minimum 60 and missing required condition: osteoarthritis."
+}
