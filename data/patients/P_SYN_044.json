@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_SYN_044",
+  "raw_text": "Sourav Patel, a 37-year-old male, diagnosed with anemia and gout. No history of psoriasis.",
+  "anonymized_text": "PATIENT_NAME, a 37-AGE-year-old male, diagnosed with anemia and gout. No history of psoriasis.",
+  "metadata": {
+    "age": 37,
+    "gender": "male",
+    "conditions": [
+      "anemia",
+      "gout"
+    ],
+    "negated_conditions": [
+      "psoriasis"
+    ],
+    "notes": "Synthetic patient record"
+  }
+}

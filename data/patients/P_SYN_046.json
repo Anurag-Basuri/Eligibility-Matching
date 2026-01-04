@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_SYN_046",
+  "raw_text": "Wei Ling, a 43-year-old female, diagnosed with obesity. No history of eczema.",
+  "anonymized_text": "PATIENT_NAME, a 43-AGE-year-old female, diagnosed with obesity. No history of eczema.",
+  "metadata": {
+    "age": 43,
+    "gender": "female",
+    "conditions": [
+      "obesity"
+    ],
+    "negated_conditions": [
+      "eczema"
+    ],
+    "notes": "Synthetic patient record"
+  }
+}

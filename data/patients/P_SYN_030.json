@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_SYN_030",
+  "raw_text": "Rohan Mehta, a 15-year-old male, diagnosed with menopause. No history of polycystic kidney disease.",
+  "anonymized_text": "PATIENT_NAME, a 15-AGE-year-old male, diagnosed with menopause. No history of polycystic kidney disease.",
+  "metadata": {
+    "age": 15,
+    "gender": "male",
+    "conditions": [
+      "menopause"
+    ],
+    "negated_conditions": [
+      "polycystic kidney disease"
+    ],
+    "notes": "Synthetic patient record"
+  }
+}

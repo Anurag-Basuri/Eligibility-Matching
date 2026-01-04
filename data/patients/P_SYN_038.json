@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_SYN_038",
+  "raw_text": "Aisha Siddiqui, a 78-year-old female, diagnosed with polycystic kidney disease and type 2 diabetes. No history of Cushing's syndrome.",
+  "anonymized_text": "PATIENT_NAME, a 78-AGE-year-old female, diagnosed with polycystic kidney disease and type 2 diabetes. No history of Cushing's syndrome.",
+  "metadata": {
+    "age": 78,
+    "gender": "female",
+    "conditions": [
+      "polycystic kidney disease",
+      "type 2 diabetes"
+    ],
+    "negated_conditions": [
+      "Cushing's syndrome"
+    ],
+    "notes": "Synthetic patient record"
+  }
+}

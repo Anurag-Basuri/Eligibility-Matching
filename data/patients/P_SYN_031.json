@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_SYN_031",
+  "raw_text": "Meera Menon, a 36-year-old female, diagnosed with menopause and anemia.",
+  "anonymized_text": "PATIENT_NAME, a 36-AGE-year-old female, diagnosed with menopause and anemia.",
+  "metadata": {
+    "age": 36,
+    "gender": "female",
+    "conditions": [
+      "menopause",
+      "anemia"
+    ],
+    "negated_conditions": [],
+    "notes": "Synthetic patient record"
+  }
+}

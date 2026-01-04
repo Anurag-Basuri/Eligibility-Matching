@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_SYN_048",
+  "raw_text": "Nikhil Singh, a 17-year-old male, diagnosed with Crohn's disease and chronic kidney disease. No history of glaucoma.",
+  "anonymized_text": "PATIENT_NAME, a 17-AGE-year-old male, diagnosed with Crohn's disease and chronic kidney disease. No history of glaucoma.",
+  "metadata": {
+    "age": 17,
+    "gender": "male",
+    "conditions": [
+      "Crohn's disease",
+      "chronic kidney disease"
+    ],
+    "negated_conditions": [
+      "glaucoma"
+    ],
+    "notes": "Synthetic patient record"
+  }
+}

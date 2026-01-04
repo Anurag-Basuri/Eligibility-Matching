@@ -104,7 +104,7 @@ def generate_patient(patient_id):
     age = random.randint(15, 85)
 
     # pick a name from gendered lists; gender comes from the name chosen
-    if random.random() < 0.5:
+    if random.random() <= 0.5:
         name = random.choice(MALE_NAMES)
         gender = "male"
     else:

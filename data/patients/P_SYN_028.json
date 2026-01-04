@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_SYN_028",
+  "raw_text": "Fatima Khan, a 17-year-old female, diagnosed with anemia. No history of obesity.",
+  "anonymized_text": "PATIENT_NAME, a 17-AGE-year-old female, diagnosed with anemia. No history of obesity.",
+  "metadata": {
+    "age": 17,
+    "gender": "female",
+    "conditions": [
+      "anemia"
+    ],
+    "negated_conditions": [
+      "obesity"
+    ],
+    "notes": "Synthetic patient record"
+  }
+}
