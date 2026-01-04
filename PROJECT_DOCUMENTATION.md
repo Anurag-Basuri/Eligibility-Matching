@@ -302,3 +302,61 @@ Matched Conditions: Diabetes, Age Range
 This project demonstrates the practical application of Natural Language Processing techniques to solve a real-world healthcare problem while preserving data privacy.
 
 By combining classical NLP methods with modern models, the system provides an effective and scalable solution for clinical trial eligibility matching.
+
+```
+clinical-trial-matching/
+│
+├── data/
+│   ├── patients/                # Raw & anonymized patient JSON
+│   ├── trials/                  # Clinical trial JSON
+│   ├── pairs/                   # Training pairs with labels
+│   └── processed/               # Preprocessed text & TF-IDF vectors
+│
+├── src/
+│   ├── __init__.py
+│   ├── privacy/
+│   │   ├── anonymizer.py        # Rule-based privacy masking
+│   │   └── validators.py        # Ensures JSON is clean & safe
+│   │
+│   ├── preprocessing/
+│   │   ├── text_cleaner.py      # Lowercase, punctuation removal, etc.
+│   │   ├── tokenizer.py         # Tokenization + lemmatization
+│   │   └── stopwords.py         # Custom stopword list (medical)
+│   │
+│   ├── features/
+│   │   ├── tfidf_vectorizer.py  # Fit + transform TF-IDF
+│   │   └── similarity.py        # Cosine similarity functions
+│   │
+│   ├── models/
+│   │   ├── train_classifier.py  # LogisticRegression + Naive Bayes
+│   │   ├── predict.py           # Unified prediction pipeline
+│   │   └── explain.py           # NER-based explanation
+│   │
+│   ├── utils/
+│   │   ├── json_loader.py       # Reads/writes JSON safely
+│   │   ├── logger.py            # Logs for debugging & reproducibility
+│   │   └── config.py            # Configurations & paths
+│   │
+│   └── app/
+│       ├── interface.py         # CLI interface
+│       └── web_app.py           # Flask/FastAPI interface (optional)
+│
+├── models/
+│   ├── tfidf.pkl                # Saved TF-IDF model
+│   ├── classifier.pkl           # Saved Logistic Regression model
+│   └── vectorizer_config.json   # Parameters & metadata
+│
+├── notebooks/
+│   ├── EDA.ipynb                # Data exploration
+│   ├── training.ipynb           # Training + evaluation
+│   └── explainability.ipynb     # NER testing + case studies
+│
+├── docs/
+│   ├── architecture-diagram.png
+│   ├── workflow-diagram.png
+│   └── report/ (optional research paper files)
+│
+├── requirements.txt
+├── README.md
+└── run.py                       # Main entry point for pipeline
+```
