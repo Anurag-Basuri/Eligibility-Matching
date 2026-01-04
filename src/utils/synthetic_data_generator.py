@@ -4,7 +4,6 @@ import os
 import re
 import argparse
 from collections import Counter
-from datetime import datetime
 from pathlib import Path
 
 # CONFIG
@@ -183,9 +182,8 @@ for file in TRIAL_DIR.glob("*.json"):
     with open(file, "r") as f:
         trials.append(json.load(f))
 def parse_args():
-    parser = argparse.ArgumentParser(description="Generate synthetic patients and pair files (batchable).")
+    parser = argparse.ArgumentParser(description="Generate synthetic patients and pair files.")
     parser.add_argument("--num", type=int, default=NUM_SYNTHETIC_PATIENTS, help="Number of synthetic patients to generate")
-    parser.add_argument("--batch", type=str, default=None, help="Batch name/tag to include in generated IDs (default: timestamp)")
     parser.add_argument("--skip-pairs", action="store_true", help="Generate patients only, skip pair files")
     parser.add_argument("--visualize", action="store_true", help="Create simple visualizations (age histogram, condition counts)")
     parser.add_argument("--verbose", action="store_true", help="Verbose output while generating")
@@ -195,7 +193,6 @@ def parse_args():
 def main():
     args = parse_args()
     num = args.num
-    batch = args.batch or datetime.now().strftime("%Y%m%d%H%M%S")
     visualize = args.visualize
     verbose = args.verbose
 
@@ -203,12 +200,13 @@ def main():
     ages = []
     cond_counter = Counter()
     trial_eligible = Counter()
+    # single-run mode (no batch tag)
     total_pairs = 0
     eligible_pairs = 0
 
     # Generate patients and pairs for this batch
     for i in range(num):
-        pid = f"P_SYN_{batch}_{i+1:03d}"
+        pid = f"P_SYN_{i+1:03d}"
         patient = generate_patient(pid)
 
         patient_path = PATIENT_DIR / f"{pid}.json"
@@ -245,11 +243,10 @@ def main():
 
         # periodic progress
         if (i + 1) % max(1, num // 10) == 0:
-            print(f"Progress: {i+1}/{num} patients generated (batch={batch})")
+            print(f"Progress: {i+1}/{num} patients generated...")
 
     # Summary
     summary = {
-        "batch": batch,
         "patients_generated": num,
         "total_pairs": total_pairs,
         "eligible_pairs": eligible_pairs,
@@ -258,11 +255,11 @@ def main():
         "top_conditions": cond_counter.most_common(20)
     }
 
-    summary_path = PAIR_DIR / f"summary_{batch}.json"
+    summary_path = PAIR_DIR / f"summary.json"
     with open(summary_path, "w") as f:
         json.dump(summary, f, indent=2)
 
-    print(f"✅ Synthetic data generation complete. batch={batch} patients={num}")
+    print(f"✅ Synthetic data generation complete. patients={num}")
     print(f"Summary saved to {summary_path}")
 
     if visualize:
@@ -272,10 +269,10 @@ def main():
             # Age histogram
             plt.figure(figsize=(8, 4))
             plt.hist(ages, bins=range(10, 91, 5), color="#4C72B0", edgecolor="black")
-            plt.title(f"Age distribution (batch={batch})")
+            plt.title("Age distribution")
             plt.xlabel("Age")
             plt.ylabel("Count")
-            age_plot = PAIR_DIR / f"age_hist_{batch}.png"
+            age_plot = PAIR_DIR / f"age_hist.png"
             plt.tight_layout()
             plt.savefig(age_plot)
             plt.close()
@@ -284,9 +281,9 @@ def main():
             conds, counts = zip(*cond_counter.most_common(20)) if cond_counter else ([], [])
             plt.figure(figsize=(10, 6))
             plt.barh(conds[::-1], counts[::-1], color="#55A868")
-            plt.title(f"Top conditions (batch={batch})")
+            plt.title("Top conditions")
             plt.xlabel("Count")
-            cond_plot = PAIR_DIR / f"conditions_{batch}.png"
+            cond_plot = PAIR_DIR / f"conditions.png"
             plt.tight_layout()
             plt.savefig(cond_plot)
             plt.close()
@@ -296,10 +293,10 @@ def main():
             elig_counts = [trial_eligible[t] for t in trials_ids]
             plt.figure(figsize=(8, 4))
             plt.bar(trials_ids, elig_counts, color="#C44E52")
-            plt.title(f"Eligible counts per trial (batch={batch})")
+            plt.title("Eligible counts per trial")
             plt.xlabel("Trial ID")
             plt.ylabel("Eligible count")
-            trial_plot = PAIR_DIR / f"trial_eligible_{batch}.png"
+            trial_plot = PAIR_DIR / f"trial_eligible.png"
             plt.tight_layout()
             plt.savefig(trial_plot)
             plt.close()
