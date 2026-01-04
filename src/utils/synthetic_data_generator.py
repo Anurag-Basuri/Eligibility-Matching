@@ -2,6 +2,8 @@ import json
 import random
 import os
 import re
+import argparse
+from datetime import datetime
 from pathlib import Path
 
 # CONFIG
@@ -164,29 +166,48 @@ trials = []
 for file in TRIAL_DIR.glob("*.json"):
     with open(file, "r") as f:
         trials.append(json.load(f))
+def parse_args():
+    parser = argparse.ArgumentParser(description="Generate synthetic patients and pair files (batchable).")
+    parser.add_argument("--num", type=int, default=NUM_SYNTHETIC_PATIENTS, help="Number of synthetic patients to generate")
+    parser.add_argument("--batch", type=str, default=None, help="Batch name/tag to include in generated IDs (default: timestamp)")
+    parser.add_argument("--skip-pairs", action="store_true", help="Generate patients only, skip pair files")
+    return parser.parse_args()
 
-# GENERATE DATA
-for i in range(NUM_SYNTHETIC_PATIENTS):
-    pid = f"P_SYN_{i+1:03d}"
-    patient = generate_patient(pid)
 
-    patient_path = PATIENT_DIR / f"{pid}.json"
-    with open(patient_path, "w") as f:
-        json.dump(patient, f, indent=2)
+def main():
+    args = parse_args()
+    num = args.num
+    batch = args.batch or datetime.now().strftime("%Y%m%d%H%M%S")
 
-    for trial in trials:
-        label = int(is_eligible(patient, trial))
+    # Generate patients and pairs for this batch
+    for i in range(num):
+        pid = f"P_SYN_{batch}_{i+1:03d}"
+        patient = generate_patient(pid)
 
-        pair = {
-            "pair_id": f"{pid}_{trial['trial_id']}",
-            "patient_id": pid,
-            "trial_id": trial["trial_id"],
-            "label": label,
-            "reason": "Auto-generated using eligibility rules"
-        }
+        patient_path = PATIENT_DIR / f"{pid}.json"
+        with open(patient_path, "w") as f:
+            json.dump(patient, f, indent=2)
 
-        pair_path = PAIR_DIR / f"{pair['pair_id']}.json"
-        with open(pair_path, "w") as f:
-            json.dump(pair, f, indent=2)
+        if args.skip_pairs:
+            continue
 
-print("✅ Synthetic data generation complete.")
+        for trial in trials:
+            label = int(is_eligible(patient, trial))
+
+            pair = {
+                "pair_id": f"{pid}_{trial['trial_id']}",
+                "patient_id": pid,
+                "trial_id": trial["trial_id"],
+                "label": label,
+                "reason": "Auto-generated using eligibility rules"
+            }
+
+            pair_path = PAIR_DIR / f"{pair['pair_id']}.json"
+            with open(pair_path, "w") as f:
+                json.dump(pair, f, indent=2)
+
+    print(f"✅ Synthetic data generation complete. batch={batch} patients={num}")
+
+
+if __name__ == "__main__":
+    main()
