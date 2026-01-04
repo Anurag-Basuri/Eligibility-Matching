@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_SYN_108",
+  "raw_text": "Patient, a 58-year-old female, diagnosed with thyroid disorders and menopause.",
+  "metadata": {
+    "age": 58,
+    "gender": "female",
+    "conditions": [
+      "thyroid disorders",
+      "menopause"
+    ],
+    "negated_conditions": [],
+    "source": "synthetic_v3"
+  }
+}

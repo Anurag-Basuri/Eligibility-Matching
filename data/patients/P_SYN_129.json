@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_SYN_129",
+  "raw_text": "Patient, a 55-year-old female, diagnosed with no chronic medical conditions. No history of tuberculosis.",
+  "metadata": {
+    "age": 55,
+    "gender": "female",
+    "conditions": [],
+    "negated_conditions": [
+      "tuberculosis"
+    ],
+    "source": "synthetic_v3"
+  }
+}

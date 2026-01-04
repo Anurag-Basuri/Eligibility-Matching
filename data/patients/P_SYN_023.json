@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_SYN_023",
+  "raw_text": "Patient is a 59-year-old female with hepatitis C and IBS. No history of gestational diabetes.",
+  "metadata": {
+    "age": 59,
+    "gender": "female",
+    "conditions": [
+      "hepatitis C",
+      "IBS"
+    ],
+    "negated_conditions": [
+      "gestational diabetes"
+    ],
+    "source": "synthetic_v3"
+  }
+}

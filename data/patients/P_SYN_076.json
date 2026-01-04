@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_SYN_076",
+  "raw_text": "Patient, a 63-year-old male, diagnosed with migraine. No history of epilepsy.",
+  "metadata": {
+    "age": 63,
+    "gender": "male",
+    "conditions": [
+      "migraine"
+    ],
+    "negated_conditions": [
+      "epilepsy"
+    ],
+    "source": "synthetic_v3"
+  }
+}

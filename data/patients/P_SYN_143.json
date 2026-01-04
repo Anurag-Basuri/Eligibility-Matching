@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_SYN_143",
+  "raw_text": "Patient, aged 46, has a history of cancer and constipation.",
+  "metadata": {
+    "age": 46,
+    "gender": "female",
+    "conditions": [
+      "cancer",
+      "constipation"
+    ],
+    "negated_conditions": [],
+    "source": "synthetic_v3"
+  }
+}

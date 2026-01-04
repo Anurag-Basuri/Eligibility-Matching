@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_SYN_066",
+  "raw_text": "Patient is a 49-year-old male with fibromyalgia. No history of psoriasis or schizophrenia.",
+  "metadata": {
+    "age": 49,
+    "gender": "male",
+    "conditions": [
+      "fibromyalgia"
+    ],
+    "negated_conditions": [
+      "psoriasis",
+      "schizophrenia"
+    ],
+    "source": "synthetic_v3"
+  }
+}

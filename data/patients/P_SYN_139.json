@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_SYN_139",
+  "raw_text": "Patient, aged 47, has a history of hepatitis C.",
+  "metadata": {
+    "age": 47,
+    "gender": "male",
+    "conditions": [
+      "hepatitis C"
+    ],
+    "negated_conditions": [],
+    "source": "synthetic_v3"
+  }
+}

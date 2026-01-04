@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_SYN_026",
+  "raw_text": "Patient, a 46-year-old female, diagnosed with cardiovascular disease.",
+  "metadata": {
+    "age": 46,
+    "gender": "female",
+    "conditions": [
+      "cardiovascular disease"
+    ],
+    "negated_conditions": [],
+    "source": "synthetic_v3"
+  }
+}

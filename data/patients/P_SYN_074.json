@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_SYN_074",
+  "raw_text": "Patient, aged 52, has a history of allergies. No history of HIV/AIDS or PCOS.",
+  "metadata": {
+    "age": 52,
+    "gender": "male",
+    "conditions": [
+      "allergies"
+    ],
+    "negated_conditions": [
+      "HIV/AIDS",
+      "PCOS"
+    ],
+    "source": "synthetic_v3"
+  }
+}

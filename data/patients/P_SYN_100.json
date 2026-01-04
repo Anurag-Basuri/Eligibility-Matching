@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_SYN_100",
+  "raw_text": "Patient is a 31-year-old male with gestational diabetes and chronic back pain. No history of hyperlipidemia or anemia.",
+  "metadata": {
+    "age": 31,
+    "gender": "male",
+    "conditions": [
+      "gestational diabetes",
+      "chronic back pain"
+    ],
+    "negated_conditions": [
+      "hyperlipidemia",
+      "anemia"
+    ],
+    "source": "synthetic_v3"
+  }
+}

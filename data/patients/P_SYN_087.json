@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_SYN_087",
+  "raw_text": "Patient, aged 19, has a history of autoimmune diseases.",
+  "metadata": {
+    "age": 19,
+    "gender": "male",
+    "conditions": [
+      "autoimmune diseases"
+    ],
+    "negated_conditions": [],
+    "source": "synthetic_v3"
+  }
+}

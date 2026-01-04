@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_SYN_017",
+  "raw_text": "Patient, aged 54, has a history of type 2 diabetes. No history of ADHD or eczema.",
+  "metadata": {
+    "age": 54,
+    "gender": "female",
+    "conditions": [
+      "type 2 diabetes"
+    ],
+    "negated_conditions": [
+      "ADHD",
+      "eczema"
+    ],
+    "source": "synthetic_v3"
+  }
+}

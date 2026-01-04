@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_SYN_102",
+  "raw_text": "Patient, a 46-year-old male, diagnosed with autism spectrum disorder.",
+  "metadata": {
+    "age": 46,
+    "gender": "male",
+    "conditions": [
+      "autism spectrum disorder"
+    ],
+    "negated_conditions": [],
+    "source": "synthetic_v3"
+  }
+}

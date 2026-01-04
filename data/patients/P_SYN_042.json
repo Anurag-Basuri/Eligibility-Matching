@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_SYN_042",
+  "raw_text": "Patient, a 79-year-old female, diagnosed with smoking. No history of sinus infections or vomiting.",
+  "metadata": {
+    "age": 79,
+    "gender": "female",
+    "conditions": [
+      "smoking"
+    ],
+    "negated_conditions": [
+      "sinus infections",
+      "vomiting"
+    ],
+    "source": "synthetic_v3"
+  }
+}

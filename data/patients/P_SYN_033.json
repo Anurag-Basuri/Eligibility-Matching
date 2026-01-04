@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_SYN_033",
+  "raw_text": "Patient, a 72-year-old male, diagnosed with epilepsy. No history of allergies or HIV/AIDS.",
+  "metadata": {
+    "age": 72,
+    "gender": "male",
+    "conditions": [
+      "epilepsy"
+    ],
+    "negated_conditions": [
+      "allergies",
+      "HIV/AIDS"
+    ],
+    "source": "synthetic_v3"
+  }
+}

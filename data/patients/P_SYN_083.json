@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_SYN_083",
+  "raw_text": "Patient, a 18-year-old female, diagnosed with autoimmune diseases.",
+  "metadata": {
+    "age": 18,
+    "gender": "female",
+    "conditions": [
+      "autoimmune diseases"
+    ],
+    "negated_conditions": [],
+    "source": "synthetic_v3"
+  }
+}

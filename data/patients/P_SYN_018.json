@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_SYN_018",
+  "raw_text": "Patient, aged 32, has a history of bronchitis. No history of sleep apnea.",
+  "metadata": {
+    "age": 32,
+    "gender": "female",
+    "conditions": [
+      "bronchitis"
+    ],
+    "negated_conditions": [
+      "sleep apnea"
+    ],
+    "source": "synthetic_v3"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_SYN_034",
+  "raw_text": "Patient, a 31-year-old male, diagnosed with anxiety. No history of thyroid disorders or depression.",
+  "metadata": {
+    "age": 31,
+    "gender": "male",
+    "conditions": [
+      "anxiety"
+    ],
+    "negated_conditions": [
+      "thyroid disorders",
+      "depression"
+    ],
+    "source": "synthetic_v3"
+  }
+}

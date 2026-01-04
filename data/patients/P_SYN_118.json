@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_SYN_118",
+  "raw_text": "Patient, aged 56, has a history of heart disease. No history of anxiety or chronic kidney disease.",
+  "metadata": {
+    "age": 56,
+    "gender": "male",
+    "conditions": [
+      "heart disease"
+    ],
+    "negated_conditions": [
+      "anxiety",
+      "chronic kidney disease"
+    ],
+    "source": "synthetic_v3"
+  }
+}

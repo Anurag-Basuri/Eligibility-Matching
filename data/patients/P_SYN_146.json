@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_SYN_146",
+  "raw_text": "Patient is a 81-year-old male with heart disease. No history of endometriosis or dizziness.",
+  "metadata": {
+    "age": 81,
+    "gender": "male",
+    "conditions": [
+      "heart disease"
+    ],
+    "negated_conditions": [
+      "endometriosis",
+      "dizziness"
+    ],
+    "source": "synthetic_v3"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_SYN_125",
+  "raw_text": "Patient is a 51-year-old female with heart disease.",
+  "metadata": {
+    "age": 51,
+    "gender": "female",
+    "conditions": [
+      "heart disease"
+    ],
+    "negated_conditions": [],
+    "source": "synthetic_v3"
+  }
+}

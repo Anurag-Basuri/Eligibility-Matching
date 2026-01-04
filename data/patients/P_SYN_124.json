@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_SYN_124",
+  "raw_text": "Patient, aged 20, has a history of migraine.",
+  "metadata": {
+    "age": 20,
+    "gender": "male",
+    "conditions": [
+      "migraine"
+    ],
+    "negated_conditions": [],
+    "source": "synthetic_v3"
+  }
+}

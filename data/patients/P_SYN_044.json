@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_SYN_044",
+  "raw_text": "Patient, a 24-year-old female, diagnosed with bipolar disorder. No history of anxiety or IBS.",
+  "metadata": {
+    "age": 24,
+    "gender": "female",
+    "conditions": [
+      "bipolar disorder"
+    ],
+    "negated_conditions": [
+      "anxiety",
+      "IBS"
+    ],
+    "source": "synthetic_v3"
+  }
+}

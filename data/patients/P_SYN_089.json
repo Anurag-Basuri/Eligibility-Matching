@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_SYN_089",
+  "raw_text": "Patient, aged 34, has a history of ADHD.",
+  "metadata": {
+    "age": 34,
+    "gender": "female",
+    "conditions": [
+      "ADHD"
+    ],
+    "negated_conditions": [],
+    "source": "synthetic_v3"
+  }
+}

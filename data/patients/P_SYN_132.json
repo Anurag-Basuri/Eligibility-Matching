@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_SYN_132",
+  "raw_text": "Patient, a 25-year-old female, diagnosed with vomiting. No history of IBS.",
+  "metadata": {
+    "age": 25,
+    "gender": "female",
+    "conditions": [
+      "vomiting"
+    ],
+    "negated_conditions": [
+      "IBS"
+    ],
+    "source": "synthetic_v3"
+  }
+}

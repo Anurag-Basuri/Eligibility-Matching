@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_SYN_068",
+  "raw_text": "Patient, a 39-year-old male, diagnosed with hyperlipidemia.",
+  "metadata": {
+    "age": 39,
+    "gender": "male",
+    "conditions": [
+      "hyperlipidemia"
+    ],
+    "negated_conditions": [],
+    "source": "synthetic_v3"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_SYN_136",
+  "raw_text": "Patient is a 42-year-old female with glaucoma. No history of dehydration or sinus infections.",
+  "metadata": {
+    "age": 42,
+    "gender": "female",
+    "conditions": [
+      "glaucoma"
+    ],
+    "negated_conditions": [
+      "dehydration",
+      "sinus infections"
+    ],
+    "source": "synthetic_v3"
+  }
+}

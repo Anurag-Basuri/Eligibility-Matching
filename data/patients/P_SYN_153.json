@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_SYN_153",
+  "raw_text": "Patient, a 76-year-old male, diagnosed with depression and asthma. No history of autoimmune diseases.",
+  "metadata": {
+    "age": 76,
+    "gender": "male",
+    "conditions": [
+      "depression",
+      "asthma"
+    ],
+    "negated_conditions": [
+      "autoimmune diseases"
+    ],
+    "source": "synthetic_v3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_SYN_115",
+  "raw_text": "Patient, a 70-year-old male, diagnosed with heart disease and type 2 diabetes.",
+  "metadata": {
+    "age": 70,
+    "gender": "male",
+    "conditions": [
+      "heart disease",
+      "type 2 diabetes"
+    ],
+    "negated_conditions": [],
+    "source": "synthetic_v3"
+  }
+}

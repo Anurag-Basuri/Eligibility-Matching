@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_SYN_061",
+  "raw_text": "Patient, a 48-year-old female, diagnosed with chronic back pain. No history of GERD.",
+  "metadata": {
+    "age": 48,
+    "gender": "female",
+    "conditions": [
+      "chronic back pain"
+    ],
+    "negated_conditions": [
+      "GERD"
+    ],
+    "source": "synthetic_v3"
+  }
+}

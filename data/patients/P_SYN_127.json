@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_SYN_127",
+  "raw_text": "Patient is a 84-year-old female with PCOS. No history of cardiovascular disease.",
+  "metadata": {
+    "age": 84,
+    "gender": "female",
+    "conditions": [
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "cardiovascular disease"
+    ],
+    "source": "synthetic_v3"
+  }
+}

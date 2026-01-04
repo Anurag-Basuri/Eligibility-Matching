@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_SYN_009",
+  "raw_text": "Patient, a 29-year-old male, diagnosed with hypertension. No history of anxiety or heart disease.",
+  "metadata": {
+    "age": 29,
+    "gender": "male",
+    "conditions": [
+      "hypertension"
+    ],
+    "negated_conditions": [
+      "anxiety",
+      "heart disease"
+    ],
+    "source": "synthetic_v3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_SYN_071",
+  "raw_text": "Patient is a 25-year-old female with dehydration and obesity.",
+  "metadata": {
+    "age": 25,
+    "gender": "female",
+    "conditions": [
+      "dehydration",
+      "obesity"
+    ],
+    "negated_conditions": [],
+    "source": "synthetic_v3"
+  }
+}

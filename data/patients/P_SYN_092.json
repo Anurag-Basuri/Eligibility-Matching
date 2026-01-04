@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_SYN_092",
+  "raw_text": "Patient, aged 61, has a history of bipolar disorder and eczema. No history of bronchitis.",
+  "metadata": {
+    "age": 61,
+    "gender": "female",
+    "conditions": [
+      "bipolar disorder",
+      "eczema"
+    ],
+    "negated_conditions": [
+      "bronchitis"
+    ],
+    "source": "synthetic_v3"
+  }
+}

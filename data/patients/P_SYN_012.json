@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_SYN_012",
+  "raw_text": "Patient is a 28-year-old male with nausea.",
+  "metadata": {
+    "age": 28,
+    "gender": "male",
+    "conditions": [
+      "nausea"
+    ],
+    "negated_conditions": [],
+    "source": "synthetic_v3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_SYN_072",
+  "raw_text": "Patient, aged 79, has a history of PCOS and hypertension and hyperlipidemia. No history of thyroid disorders.",
+  "metadata": {
+    "age": 79,
+    "gender": "female",
+    "conditions": [
+      "PCOS",
+      "hypertension",
+      "hyperlipidemia"
+    ],
+    "negated_conditions": [
+      "thyroid disorders"
+    ],
+    "source": "synthetic_v3"
+  }
+}

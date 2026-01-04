@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_SYN_130",
+  "raw_text": "Patient is a 46-year-old female with Alzheimer's disease. No history of endometriosis.",
+  "metadata": {
+    "age": 46,
+    "gender": "female",
+    "conditions": [
+      "Alzheimer's disease"
+    ],
+    "negated_conditions": [
+      "endometriosis"
+    ],
+    "source": "synthetic_v3"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_SYN_065",
+  "raw_text": "Patient, a 19-year-old female, diagnosed with type 2 diabetes and migraine and obesity.",
+  "metadata": {
+    "age": 19,
+    "gender": "female",
+    "conditions": [
+      "type 2 diabetes",
+      "migraine",
+      "obesity"
+    ],
+    "negated_conditions": [],
+    "source": "synthetic_v3"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_SYN_047",
+  "raw_text": "Patient, aged 47, has a history of hyperlipidemia. No history of diarrhea.",
+  "metadata": {
+    "age": 47,
+    "gender": "female",
+    "conditions": [
+      "hyperlipidemia"
+    ],
+    "negated_conditions": [
+      "diarrhea"
+    ],
+    "source": "synthetic_v3"
+  }
+}

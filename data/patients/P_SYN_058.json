@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_SYN_058",
+  "raw_text": "Patient, aged 63, has a history of obesity.",
+  "metadata": {
+    "age": 63,
+    "gender": "male",
+    "conditions": [
+      "obesity"
+    ],
+    "negated_conditions": [],
+    "source": "synthetic_v3"
+  }
+}

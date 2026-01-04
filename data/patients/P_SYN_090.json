@@ -1,0 +1,19 @@
+{
+  "patient_id": "P_SYN_090",
+  "raw_text": "Patient, aged 43, has a history of menopause and type 2 diabetes and hypertension and obesity. No history of Alzheimer's disease or hyperlipidemia.",
+  "metadata": {
+    "age": 43,
+    "gender": "female",
+    "conditions": [
+      "menopause",
+      "type 2 diabetes",
+      "hypertension",
+      "obesity"
+    ],
+    "negated_conditions": [
+      "Alzheimer's disease",
+      "hyperlipidemia"
+    ],
+    "source": "synthetic_v3"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "patient_id": "P_SYN_080",
+  "raw_text": "Patient is a 84-year-old female with no chronic medical conditions.",
+  "metadata": {
+    "age": 84,
+    "gender": "female",
+    "conditions": [],
+    "negated_conditions": [],
+    "source": "synthetic_v3"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_SYN_038",
+  "raw_text": "Patient, a 25-year-old female, diagnosed with chronic kidney disease. No history of anxiety.",
+  "metadata": {
+    "age": 25,
+    "gender": "female",
+    "conditions": [
+      "chronic kidney disease"
+    ],
+    "negated_conditions": [
+      "anxiety"
+    ],
+    "source": "synthetic_v3"
+  }
+}

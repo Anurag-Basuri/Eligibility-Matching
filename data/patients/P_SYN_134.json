@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_SYN_134",
+  "raw_text": "Patient, aged 25, has a history of sinus infections. No history of hepatitis B.",
+  "metadata": {
+    "age": 25,
+    "gender": "female",
+    "conditions": [
+      "sinus infections"
+    ],
+    "negated_conditions": [
+      "hepatitis B"
+    ],
+    "source": "synthetic_v3"
+  }
+}

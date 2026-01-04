@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_SYN_149",
+  "raw_text": "Patient is a 37-year-old female with smoking.",
+  "metadata": {
+    "age": 37,
+    "gender": "female",
+    "conditions": [
+      "smoking"
+    ],
+    "negated_conditions": [],
+    "source": "synthetic_v3"
+  }
+}

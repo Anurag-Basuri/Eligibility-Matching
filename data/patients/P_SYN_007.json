@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_SYN_007",
+  "raw_text": "Patient, aged 33, has a history of gestational diabetes.",
+  "metadata": {
+    "age": 33,
+    "gender": "male",
+    "conditions": [
+      "gestational diabetes"
+    ],
+    "negated_conditions": [],
+    "source": "synthetic_v3"
+  }
+}

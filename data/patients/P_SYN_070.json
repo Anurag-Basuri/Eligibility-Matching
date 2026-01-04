@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_SYN_070",
+  "raw_text": "Patient, aged 50, has a history of obesity and heart disease and psoriasis. No history of chronic kidney disease or urinary tract infections.",
+  "metadata": {
+    "age": 50,
+    "gender": "male",
+    "conditions": [
+      "obesity",
+      "heart disease",
+      "psoriasis"
+    ],
+    "negated_conditions": [
+      "chronic kidney disease",
+      "urinary tract infections"
+    ],
+    "source": "synthetic_v3"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_SYN_032",
+  "raw_text": "Patient is a 67-year-old male with cardiovascular disease and postpartum depression and hypothyroidism. No history of endometriosis or anxiety.",
+  "metadata": {
+    "age": 67,
+    "gender": "male",
+    "conditions": [
+      "cardiovascular disease",
+      "postpartum depression",
+      "hypothyroidism"
+    ],
+    "negated_conditions": [
+      "endometriosis",
+      "anxiety"
+    ],
+    "source": "synthetic_v3"
+  }
+}

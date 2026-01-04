@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_SYN_015",
+  "raw_text": "Patient, a 69-year-old male, diagnosed with heart disease.",
+  "metadata": {
+    "age": 69,
+    "gender": "male",
+    "conditions": [
+      "heart disease"
+    ],
+    "negated_conditions": [],
+    "source": "synthetic_v3"
+  }
+}

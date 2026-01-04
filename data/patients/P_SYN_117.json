@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_SYN_117",
+  "raw_text": "Patient, a 43-year-old male, diagnosed with type 2 diabetes. No history of eczema.",
+  "metadata": {
+    "age": 43,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes"
+    ],
+    "negated_conditions": [
+      "eczema"
+    ],
+    "source": "synthetic_v3"
+  }
+}

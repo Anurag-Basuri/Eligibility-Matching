@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_SYN_021",
+  "raw_text": "Patient, aged 23, has a history of psoriasis. No history of Parkinson's disease or eczema.",
+  "metadata": {
+    "age": 23,
+    "gender": "male",
+    "conditions": [
+      "psoriasis"
+    ],
+    "negated_conditions": [
+      "Parkinson's disease",
+      "eczema"
+    ],
+    "source": "synthetic_v3"
+  }
+}

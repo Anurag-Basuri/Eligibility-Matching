@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_SYN_144",
+  "raw_text": "Patient is a 43-year-old male with urinary tract infections. No history of PCOS or GERD.",
+  "metadata": {
+    "age": 43,
+    "gender": "male",
+    "conditions": [
+      "urinary tract infections"
+    ],
+    "negated_conditions": [
+      "PCOS",
+      "GERD"
+    ],
+    "source": "synthetic_v3"
+  }
+}

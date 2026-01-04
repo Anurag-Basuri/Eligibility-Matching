@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_SYN_055",
+  "raw_text": "Patient, a 61-year-old male, diagnosed with no chronic medical conditions. No history of IBS.",
+  "metadata": {
+    "age": 61,
+    "gender": "male",
+    "conditions": [],
+    "negated_conditions": [
+      "IBS"
+    ],
+    "source": "synthetic_v3"
+  }
+}

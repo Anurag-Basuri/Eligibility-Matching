@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_SYN_004",
+  "raw_text": "Patient is a 63-year-old male with hyperlipidemia and smoking.",
+  "metadata": {
+    "age": 63,
+    "gender": "male",
+    "conditions": [
+      "hyperlipidemia",
+      "smoking"
+    ],
+    "negated_conditions": [],
+    "source": "synthetic_v3"
+  }
+}

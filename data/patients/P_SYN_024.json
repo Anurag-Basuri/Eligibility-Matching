@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_SYN_024",
+  "raw_text": "Patient, aged 56, has a history of hypertension. No history of cancer.",
+  "metadata": {
+    "age": 56,
+    "gender": "female",
+    "conditions": [
+      "hypertension"
+    ],
+    "negated_conditions": [
+      "cancer"
+    ],
+    "source": "synthetic_v3"
+  }
+}

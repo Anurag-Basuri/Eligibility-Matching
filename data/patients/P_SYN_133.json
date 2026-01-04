@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_SYN_133",
+  "raw_text": "Patient, aged 82, has a history of obesity. No history of cataracts or HIV/AIDS.",
+  "metadata": {
+    "age": 82,
+    "gender": "female",
+    "conditions": [
+      "obesity"
+    ],
+    "negated_conditions": [
+      "cataracts",
+      "HIV/AIDS"
+    ],
+    "source": "synthetic_v3"
+  }
+}

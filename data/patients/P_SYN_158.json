@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_SYN_158",
+  "raw_text": "Patient, aged 36, has a history of cancer. No history of pre-eclampsia.",
+  "metadata": {
+    "age": 36,
+    "gender": "female",
+    "conditions": [
+      "cancer"
+    ],
+    "negated_conditions": [
+      "pre-eclampsia"
+    ],
+    "source": "synthetic_v3"
+  }
+}

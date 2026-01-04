@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_SYN_159",
+  "raw_text": "Patient is a 56-year-old male with sleep apnea and cardiovascular disease and HIV/AIDS. No history of bipolar disorder.",
+  "metadata": {
+    "age": 56,
+    "gender": "male",
+    "conditions": [
+      "sleep apnea",
+      "cardiovascular disease",
+      "HIV/AIDS"
+    ],
+    "negated_conditions": [
+      "bipolar disorder"
+    ],
+    "source": "synthetic_v3"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_SYN_113",
+  "raw_text": "Patient, a 78-year-old male, diagnosed with anxiety. No history of allergies.",
+  "metadata": {
+    "age": 78,
+    "gender": "male",
+    "conditions": [
+      "anxiety"
+    ],
+    "negated_conditions": [
+      "allergies"
+    ],
+    "source": "synthetic_v3"
+  }
+}

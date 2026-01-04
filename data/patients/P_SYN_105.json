@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_SYN_105",
+  "raw_text": "Patient is a 23-year-old female with anxiety. No history of obesity.",
+  "metadata": {
+    "age": 23,
+    "gender": "female",
+    "conditions": [
+      "anxiety"
+    ],
+    "negated_conditions": [
+      "obesity"
+    ],
+    "source": "synthetic_v3"
+  }
+}

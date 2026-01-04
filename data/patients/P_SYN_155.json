@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_SYN_155",
+  "raw_text": "Patient, a 43-year-old female, diagnosed with COPD. No history of hepatitis C or allergies.",
+  "metadata": {
+    "age": 43,
+    "gender": "female",
+    "conditions": [
+      "COPD"
+    ],
+    "negated_conditions": [
+      "hepatitis C",
+      "allergies"
+    ],
+    "source": "synthetic_v3"
+  }
+}

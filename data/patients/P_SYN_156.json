@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_SYN_156",
+  "raw_text": "Patient, a 63-year-old female, diagnosed with sleep apnea and allergies.",
+  "metadata": {
+    "age": 63,
+    "gender": "female",
+    "conditions": [
+      "sleep apnea",
+      "allergies"
+    ],
+    "negated_conditions": [],
+    "source": "synthetic_v3"
+  }
+}

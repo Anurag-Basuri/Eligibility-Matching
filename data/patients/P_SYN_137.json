@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_SYN_137",
+  "raw_text": "Patient, a 83-year-old female, diagnosed with depression and COPD. No history of hyperlipidemia.",
+  "metadata": {
+    "age": 83,
+    "gender": "female",
+    "conditions": [
+      "depression",
+      "COPD"
+    ],
+    "negated_conditions": [
+      "hyperlipidemia"
+    ],
+    "source": "synthetic_v3"
+  }
+}

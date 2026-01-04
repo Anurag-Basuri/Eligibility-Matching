@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_SYN_048",
+  "raw_text": "Patient, aged 45, has a history of hypertension. No history of osteoporosis.",
+  "metadata": {
+    "age": 45,
+    "gender": "male",
+    "conditions": [
+      "hypertension"
+    ],
+    "negated_conditions": [
+      "osteoporosis"
+    ],
+    "source": "synthetic_v3"
+  }
+}

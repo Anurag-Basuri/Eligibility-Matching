@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_SYN_049",
+  "raw_text": "Patient, aged 50, has a history of cardiovascular disease and smoking. No history of skin infections or menopause.",
+  "metadata": {
+    "age": 50,
+    "gender": "male",
+    "conditions": [
+      "cardiovascular disease",
+      "smoking"
+    ],
+    "negated_conditions": [
+      "skin infections",
+      "menopause"
+    ],
+    "source": "synthetic_v3"
+  }
+}

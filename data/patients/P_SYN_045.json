@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_SYN_045",
+  "raw_text": "Patient is a 57-year-old female with hypertension and hyperlipidemia.",
+  "metadata": {
+    "age": 57,
+    "gender": "female",
+    "conditions": [
+      "hypertension",
+      "hyperlipidemia"
+    ],
+    "negated_conditions": [],
+    "source": "synthetic_v3"
+  }
+}

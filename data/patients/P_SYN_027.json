@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_SYN_027",
+  "raw_text": "Patient, aged 62, has a history of cardiovascular disease.",
+  "metadata": {
+    "age": 62,
+    "gender": "male",
+    "conditions": [
+      "cardiovascular disease"
+    ],
+    "negated_conditions": [],
+    "source": "synthetic_v3"
+  }
+}

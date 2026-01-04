@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_SYN_098",
+  "raw_text": "Patient is a 64-year-old female with depression and tuberculosis. No history of liver disease or smoking.",
+  "metadata": {
+    "age": 64,
+    "gender": "female",
+    "conditions": [
+      "depression",
+      "tuberculosis"
+    ],
+    "negated_conditions": [
+      "liver disease",
+      "smoking"
+    ],
+    "source": "synthetic_v3"
+  }
+}

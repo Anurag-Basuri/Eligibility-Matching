@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_SYN_035",
+  "raw_text": "Patient, a 58-year-old female, diagnosed with epilepsy. No history of GERD or hepatitis C.",
+  "metadata": {
+    "age": 58,
+    "gender": "female",
+    "conditions": [
+      "epilepsy"
+    ],
+    "negated_conditions": [
+      "GERD",
+      "hepatitis C"
+    ],
+    "source": "synthetic_v3"
+  }
+}

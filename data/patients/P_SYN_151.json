@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_SYN_151",
+  "raw_text": "Patient is a 49-year-old male with chronic back pain and hearing loss. No history of endometriosis.",
+  "metadata": {
+    "age": 49,
+    "gender": "male",
+    "conditions": [
+      "chronic back pain",
+      "hearing loss"
+    ],
+    "negated_conditions": [
+      "endometriosis"
+    ],
+    "source": "synthetic_v3"
+  }
+}

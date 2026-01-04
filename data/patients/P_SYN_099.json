@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_SYN_099",
+  "raw_text": "Patient is a 28-year-old female with obesity. No history of ADHD.",
+  "metadata": {
+    "age": 28,
+    "gender": "female",
+    "conditions": [
+      "obesity"
+    ],
+    "negated_conditions": [
+      "ADHD"
+    ],
+    "source": "synthetic_v3"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_SYN_014",
+  "raw_text": "Patient, a 70-year-old female, diagnosed with no chronic medical conditions. No history of hypertension.",
+  "metadata": {
+    "age": 70,
+    "gender": "female",
+    "conditions": [],
+    "negated_conditions": [
+      "hypertension"
+    ],
+    "source": "synthetic_v3"
+  }
+}

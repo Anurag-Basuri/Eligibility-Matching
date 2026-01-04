@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_SYN_075",
+  "raw_text": "Patient, a 22-year-old male, diagnosed with smoking and asthma. No history of cardiovascular disease.",
+  "metadata": {
+    "age": 22,
+    "gender": "male",
+    "conditions": [
+      "smoking",
+      "asthma"
+    ],
+    "negated_conditions": [
+      "cardiovascular disease"
+    ],
+    "source": "synthetic_v3"
+  }
+}

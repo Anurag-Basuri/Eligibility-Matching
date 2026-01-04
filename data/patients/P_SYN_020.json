@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_SYN_020",
+  "raw_text": "Patient, a 49-year-old female, diagnosed with vitamin D deficiency and obesity. No history of GERD.",
+  "metadata": {
+    "age": 49,
+    "gender": "female",
+    "conditions": [
+      "vitamin D deficiency",
+      "obesity"
+    ],
+    "negated_conditions": [
+      "GERD"
+    ],
+    "source": "synthetic_v3"
+  }
+}

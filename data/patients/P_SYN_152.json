@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_SYN_152",
+  "raw_text": "Patient, a 42-year-old female, diagnosed with no chronic medical conditions. No history of autism spectrum disorder or nausea.",
+  "metadata": {
+    "age": 42,
+    "gender": "female",
+    "conditions": [],
+    "negated_conditions": [
+      "autism spectrum disorder",
+      "nausea"
+    ],
+    "source": "synthetic_v3"
+  }
+}

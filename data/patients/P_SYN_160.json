@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_SYN_160",
+  "raw_text": "Patient, aged 41, has a history of anemia.",
+  "metadata": {
+    "age": 41,
+    "gender": "male",
+    "conditions": [
+      "anemia"
+    ],
+    "negated_conditions": [],
+    "source": "synthetic_v3"
+  }
+}

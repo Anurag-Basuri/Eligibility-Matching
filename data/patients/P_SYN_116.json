@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_SYN_116",
+  "raw_text": "Patient, aged 47, has a history of hypertension and heart disease. No history of anxiety.",
+  "metadata": {
+    "age": 47,
+    "gender": "female",
+    "conditions": [
+      "hypertension",
+      "heart disease"
+    ],
+    "negated_conditions": [
+      "anxiety"
+    ],
+    "source": "synthetic_v3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_SYN_043",
+  "raw_text": "Patient, a 44-year-old male, diagnosed with constipation and depression. No history of eczema or nausea.",
+  "metadata": {
+    "age": 44,
+    "gender": "male",
+    "conditions": [
+      "constipation",
+      "depression"
+    ],
+    "negated_conditions": [
+      "eczema",
+      "nausea"
+    ],
+    "source": "synthetic_v3"
+  }
+}

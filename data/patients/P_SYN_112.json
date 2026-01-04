@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_SYN_112",
+  "raw_text": "Patient is a 44-year-old male with hypothyroidism. No history of thyroid disorders or schizophrenia.",
+  "metadata": {
+    "age": 44,
+    "gender": "male",
+    "conditions": [
+      "hypothyroidism"
+    ],
+    "negated_conditions": [
+      "thyroid disorders",
+      "schizophrenia"
+    ],
+    "source": "synthetic_v3"
+  }
+}

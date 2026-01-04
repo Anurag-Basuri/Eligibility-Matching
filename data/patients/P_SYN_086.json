@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_SYN_086",
+  "raw_text": "Patient is a 46-year-old male with urinary tract infections.",
+  "metadata": {
+    "age": 46,
+    "gender": "male",
+    "conditions": [
+      "urinary tract infections"
+    ],
+    "negated_conditions": [],
+    "source": "synthetic_v3"
+  }
+}

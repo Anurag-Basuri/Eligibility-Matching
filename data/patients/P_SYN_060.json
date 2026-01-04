@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_SYN_060",
+  "raw_text": "Patient, aged 33, has a history of skin infections. No history of arthritis.",
+  "metadata": {
+    "age": 33,
+    "gender": "female",
+    "conditions": [
+      "skin infections"
+    ],
+    "negated_conditions": [
+      "arthritis"
+    ],
+    "source": "synthetic_v3"
+  }
+}

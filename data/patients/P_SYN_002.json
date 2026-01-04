@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_SYN_002",
+  "raw_text": "Patient, a 45-year-old male, diagnosed with hypertension and hypothyroidism. No history of migraine or autism spectrum disorder.",
+  "metadata": {
+    "age": 45,
+    "gender": "male",
+    "conditions": [
+      "hypertension",
+      "hypothyroidism"
+    ],
+    "negated_conditions": [
+      "migraine",
+      "autism spectrum disorder"
+    ],
+    "source": "synthetic_v3"
+  }
+}

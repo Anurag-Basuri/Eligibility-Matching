@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_SYN_103",
+  "raw_text": "Patient, a 65-year-old male, diagnosed with hyperlipidemia and IBS.",
+  "metadata": {
+    "age": 65,
+    "gender": "male",
+    "conditions": [
+      "hyperlipidemia",
+      "IBS"
+    ],
+    "negated_conditions": [],
+    "source": "synthetic_v3"
+  }
+}

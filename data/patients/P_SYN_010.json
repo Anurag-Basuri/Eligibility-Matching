@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_SYN_010",
+  "raw_text": "Patient, aged 53, has a history of anxiety.",
+  "metadata": {
+    "age": 53,
+    "gender": "female",
+    "conditions": [
+      "anxiety"
+    ],
+    "negated_conditions": [],
+    "source": "synthetic_v3"
+  }
+}

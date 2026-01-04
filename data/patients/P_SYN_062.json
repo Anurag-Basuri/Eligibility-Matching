@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_SYN_062",
+  "raw_text": "Patient is a 70-year-old male with osteoporosis and anxiety. No history of chronic kidney disease.",
+  "metadata": {
+    "age": 70,
+    "gender": "male",
+    "conditions": [
+      "osteoporosis",
+      "anxiety"
+    ],
+    "negated_conditions": [
+      "chronic kidney disease"
+    ],
+    "source": "synthetic_v3"
+  }
+}

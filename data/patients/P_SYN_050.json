@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_SYN_050",
+  "raw_text": "Patient is a 54-year-old male with COPD and obesity. No history of urinary tract infections.",
+  "metadata": {
+    "age": 54,
+    "gender": "male",
+    "conditions": [
+      "COPD",
+      "obesity"
+    ],
+    "negated_conditions": [
+      "urinary tract infections"
+    ],
+    "source": "synthetic_v3"
+  }
+}

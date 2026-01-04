@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_SYN_141",
+  "raw_text": "Patient, aged 39, has a history of type 2 diabetes and anxiety and cardiovascular disease.",
+  "metadata": {
+    "age": 39,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes",
+      "anxiety",
+      "cardiovascular disease"
+    ],
+    "negated_conditions": [],
+    "source": "synthetic_v3"
+  }
+}

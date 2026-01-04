@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_SYN_104",
+  "raw_text": "Patient is a 32-year-old female with ADHD and hepatitis C.",
+  "metadata": {
+    "age": 32,
+    "gender": "female",
+    "conditions": [
+      "ADHD",
+      "hepatitis C"
+    ],
+    "negated_conditions": [],
+    "source": "synthetic_v3"
+  }
+}

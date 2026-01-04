@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_SYN_005",
+  "raw_text": "Patient, aged 39, has a history of cataracts and sinus infections.",
+  "metadata": {
+    "age": 39,
+    "gender": "male",
+    "conditions": [
+      "cataracts",
+      "sinus infections"
+    ],
+    "negated_conditions": [],
+    "source": "synthetic_v3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_SYN_029",
+  "raw_text": "Patient is a 52-year-old male with hypertension and cancer. No history of anemia or fatigue.",
+  "metadata": {
+    "age": 52,
+    "gender": "male",
+    "conditions": [
+      "hypertension",
+      "cancer"
+    ],
+    "negated_conditions": [
+      "anemia",
+      "fatigue"
+    ],
+    "source": "synthetic_v3"
+  }
+}

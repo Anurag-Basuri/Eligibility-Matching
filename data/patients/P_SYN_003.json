@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_SYN_003",
+  "raw_text": "Patient, a 79-year-old male, diagnosed with no chronic medical conditions. No history of skin infections or schizophrenia.",
+  "metadata": {
+    "age": 79,
+    "gender": "male",
+    "conditions": [],
+    "negated_conditions": [
+      "skin infections",
+      "schizophrenia"
+    ],
+    "source": "synthetic_v3"
+  }
+}

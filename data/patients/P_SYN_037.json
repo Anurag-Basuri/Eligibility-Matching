@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_SYN_037",
+  "raw_text": "Patient is a 28-year-old male with urinary tract infections and thyroid disorders.",
+  "metadata": {
+    "age": 28,
+    "gender": "male",
+    "conditions": [
+      "urinary tract infections",
+      "thyroid disorders"
+    ],
+    "negated_conditions": [],
+    "source": "synthetic_v3"
+  }
+}

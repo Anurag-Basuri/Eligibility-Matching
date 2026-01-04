@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_SYN_145",
+  "raw_text": "Patient, a 67-year-old male, diagnosed with eczema and arthritis and obesity. No history of cataracts or thyroid disorders.",
+  "metadata": {
+    "age": 67,
+    "gender": "male",
+    "conditions": [
+      "eczema",
+      "arthritis",
+      "obesity"
+    ],
+    "negated_conditions": [
+      "cataracts",
+      "thyroid disorders"
+    ],
+    "source": "synthetic_v3"
+  }
+}

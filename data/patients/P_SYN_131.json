@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_SYN_131",
+  "raw_text": "Patient, aged 20, has a history of hyperlipidemia and sinus infections. No history of allergies.",
+  "metadata": {
+    "age": 20,
+    "gender": "female",
+    "conditions": [
+      "hyperlipidemia",
+      "sinus infections"
+    ],
+    "negated_conditions": [
+      "allergies"
+    ],
+    "source": "synthetic_v3"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_SYN_121",
+  "raw_text": "Patient, a 53-year-old female, diagnosed with type 2 diabetes and obesity. No history of anxiety.",
+  "metadata": {
+    "age": 53,
+    "gender": "female",
+    "conditions": [
+      "type 2 diabetes",
+      "obesity"
+    ],
+    "negated_conditions": [
+      "anxiety"
+    ],
+    "source": "synthetic_v3"
+  }
+}

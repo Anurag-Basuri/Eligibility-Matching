@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_SYN_107",
+  "raw_text": "Patient, aged 67, has a history of no chronic medical conditions. No history of hepatitis B or anemia.",
+  "metadata": {
+    "age": 67,
+    "gender": "female",
+    "conditions": [],
+    "negated_conditions": [
+      "hepatitis B",
+      "anemia"
+    ],
+    "source": "synthetic_v3"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_SYN_126",
+  "raw_text": "Patient, aged 52, has a history of constipation. No history of schizophrenia or glaucoma.",
+  "metadata": {
+    "age": 52,
+    "gender": "male",
+    "conditions": [
+      "constipation"
+    ],
+    "negated_conditions": [
+      "schizophrenia",
+      "glaucoma"
+    ],
+    "source": "synthetic_v3"
+  }
+}

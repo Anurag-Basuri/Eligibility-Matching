@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_SYN_056",
+  "raw_text": "Patient, aged 41, has a history of migraine and arthritis. No history of liver disease or ADHD.",
+  "metadata": {
+    "age": 41,
+    "gender": "female",
+    "conditions": [
+      "migraine",
+      "arthritis"
+    ],
+    "negated_conditions": [
+      "liver disease",
+      "ADHD"
+    ],
+    "source": "synthetic_v3"
+  }
+}

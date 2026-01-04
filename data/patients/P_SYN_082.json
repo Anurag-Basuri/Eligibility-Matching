@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_SYN_082",
+  "raw_text": "Patient, aged 38, has a history of cancer and hearing loss. No history of cataracts or GERD.",
+  "metadata": {
+    "age": 38,
+    "gender": "female",
+    "conditions": [
+      "cancer",
+      "hearing loss"
+    ],
+    "negated_conditions": [
+      "cataracts",
+      "GERD"
+    ],
+    "source": "synthetic_v3"
+  }
+}

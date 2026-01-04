@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_SYN_077",
+  "raw_text": "Patient, a 57-year-old male, diagnosed with vitamin D deficiency.",
+  "metadata": {
+    "age": 57,
+    "gender": "male",
+    "conditions": [
+      "vitamin D deficiency"
+    ],
+    "negated_conditions": [],
+    "source": "synthetic_v3"
+  }
+}
