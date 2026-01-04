@@ -1,0 +1,10 @@
+{
+	"trial_id": "T005",
+	"eligibility_text": "Eligible patients are adults aged 18 to 55 diagnosed with depression and without history of schizophrenia or bipolar disorder.",
+	"criteria": {
+		"min_age": 18,
+		"max_age": 55,
+		"required_conditions": ["depression"],
+		"excluded_conditions": ["schizophrenia", "bipolar disorder"]
+	}
+}

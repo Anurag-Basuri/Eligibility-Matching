@@ -1,0 +1,10 @@
+{
+	"trial_id": "T010",
+	"eligibility_text": "Eligible patients are adults aged 55 to 85 diagnosed with Parkinson's disease and without Alzheimer's disease or cancer.",
+	"criteria": {
+		"min_age": 55,
+		"max_age": 85,
+		"required_conditions": ["Parkinson's disease"],
+		"excluded_conditions": ["Alzheimer's disease", "cancer"]
+	}
+}

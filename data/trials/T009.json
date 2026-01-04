@@ -1,0 +1,10 @@
+{
+	"trial_id": "T009",
+	"eligibility_text": "Eligible patients are adults aged 21 to 40 diagnosed with anxiety and without epilepsy or substance abuse.",
+	"criteria": {
+		"min_age": 21,
+		"max_age": 40,
+		"required_conditions": ["anxiety"],
+		"excluded_conditions": ["epilepsy", "HIV/AIDS"]
+	}
+}

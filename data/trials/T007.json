@@ -1,0 +1,10 @@
+{
+	"trial_id": "T007",
+	"eligibility_text": "Eligible patients are adults aged 18 to 50 diagnosed with asthma and without chronic kidney disease or heart disease.",
+	"criteria": {
+		"min_age": 18,
+		"max_age": 50,
+		"required_conditions": ["asthma"],
+		"excluded_conditions": ["chronic kidney disease", "heart disease"]
+	}
+}

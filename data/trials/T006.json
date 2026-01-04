@@ -1,0 +1,10 @@
+{
+	"trial_id": "T006",
+	"eligibility_text": "Eligible patients are adults aged 40 to 75 diagnosed with COPD and without history of lung cancer or tuberculosis.",
+	"criteria": {
+		"min_age": 40,
+		"max_age": 75,
+		"required_conditions": ["COPD"],
+		"excluded_conditions": ["cancer", "tuberculosis"]
+	}
+}

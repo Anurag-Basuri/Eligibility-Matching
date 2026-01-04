@@ -1,0 +1,10 @@
+{
+	"trial_id": "T008",
+	"eligibility_text": "Eligible patients are adults aged 30 to 65 diagnosed with obesity and type 2 diabetes, without cardiovascular disease or liver disease.",
+	"criteria": {
+		"min_age": 30,
+		"max_age": 65,
+		"required_conditions": ["obesity", "type 2 diabetes"],
+		"excluded_conditions": ["cardiovascular disease", "liver disease"]
+	}
+}
