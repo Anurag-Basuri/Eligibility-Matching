@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_SYN_012",
+  "raw_text": "Raj Kumar, a 31-year-old male, diagnosed with Cushing's syndrome.",
+  "anonymized_text": "PATIENT_NAME, a 31-AGE-year-old male, diagnosed with Cushing's syndrome.",
+  "metadata": {
+    "age": 31,
+    "gender": "male",
+    "conditions": [
+      "Cushing's syndrome"
+    ],
+    "negated_conditions": [],
+    "notes": "Synthetic patient record"
+  }
+}
