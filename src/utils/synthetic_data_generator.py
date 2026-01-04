@@ -20,21 +20,70 @@ DEFAULT_NUM_PATIENTS = 160
 # CONDITION POOL
 # =========================
 CONDITIONS_POOL = [
-    "type 2 diabetes", "hypertension", "cardiovascular disease", "cancer",
-    "chronic kidney disease", "heart disease", "PCOS", "COPD",
-    "vitamin D deficiency", "migraine", "hypothyroidism", "depression",
-    "anxiety", "asthma", "obesity", "hyperlipidemia", "smoking",
-    "arthritis", "osteoporosis", "allergies", "eczema", "GERD", "sleep apnea",
-    "IBS", "anemia", "fibromyalgia",
-    "chronic back pain", "glaucoma", "hearing loss", "cataracts", "psoriasis",
-    "epilepsy", "multiple sclerosis", "Parkinson's disease", "Alzheimer's disease",
-    "HIV/AIDS", "liver disease", "thyroid disorders", "autoimmune diseases",
-    "dehydration", "dizziness", "fatigue", "constipation", "diarrhea",
-    "nausea", "vomiting", "skin infections", "urinary tract infections"
-    ,"sinus infections", "bronchitis", "pneumonia", "tuberculosis",
-    "hepatitis B", "hepatitis C", "menopause", "endometriosis",
-    "infertility", "gestational diabetes", "pre-eclampsia",
-    "postpartum depression", "ADHD", "autism spectrum disorder","bipolar disorder", "schizophrenia"
+    "type 2 diabetes",
+    "hypertension",
+    "cardiovascular disease",
+    "cancer",
+    "chronic kidney disease",
+    "heart disease",
+    "PCOS",
+    "COPD",
+    "vitamin D deficiency",
+    "migraine",
+    "hypothyroidism",
+    "depression",
+    "anxiety",
+    "asthma",
+    "obesity",
+    "hyperlipidemia",
+    "smoking",
+    "arthritis",
+    "osteoporosis",
+    "allergies",
+    "eczema",
+    "GERD",
+    "sleep apnea",
+    "IBS",
+    "anemia",
+    "fibromyalgia",
+    "chronic back pain",
+    "glaucoma",
+    "hearing loss",
+    "cataracts",
+    "psoriasis",
+    "epilepsy",
+    "multiple sclerosis",
+    "Parkinson's disease",
+    "Alzheimer's disease",
+    "HIV/AIDS",
+    "liver disease",
+    "thyroid disorders",
+    "autoimmune diseases",
+    "dehydration",
+    "dizziness",
+    "fatigue",
+    "constipation",
+    "diarrhea",
+    "nausea",
+    "vomiting",
+    "skin infections",
+    "urinary tract infections",
+    "sinus infections",
+    "bronchitis",
+    "pneumonia",
+    "tuberculosis",
+    "hepatitis B",
+    "hepatitis C",
+    "menopause",
+    "endometriosis",
+    "infertility",
+    "gestational diabetes",
+    "pre-eclampsia",
+    "postpartum depression",
+    "ADHD",
+    "autism spectrum disorder",
+    "bipolar disorder",
+    "schizophrenia",
 ]
 
 CONDITION_WEIGHTS = {
@@ -45,7 +94,7 @@ CONDITION_WEIGHTS = {
     "migraine": 3,
     "depression": 3,
     "anxiety": 3,
-    "smoking": 3
+    "smoking": 3,
 }
 
 WEIGHTS = [CONDITION_WEIGHTS.get(c, 1) for c in CONDITIONS_POOL]
@@ -88,9 +137,17 @@ def choose_conditions():
         weights.pop(idx)
 
     # correlations
-    if "type 2 diabetes" in chosen and "obesity" not in chosen and random.random() < 0.4:
+    if (
+        "type 2 diabetes" in chosen
+        and "obesity" not in chosen
+        and random.random() < 0.4
+    ):
         chosen.append("obesity")
-    if "hypertension" in chosen and "hyperlipidemia" not in chosen and random.random() < 0.3:
+    if (
+        "hypertension" in chosen
+        and "hyperlipidemia" not in chosen
+        and random.random() < 0.3
+    ):
         chosen.append("hyperlipidemia")
 
     return list(dict.fromkeys(chosen))
@@ -104,7 +161,9 @@ def generate_raw_text(age, gender, conditions):
     ]
     name = "Patient"
     conds = " and ".join(conditions) if conditions else "no chronic medical conditions"
-    return random.choice(templates).format(name=name, age=age, gender=gender, conds=conds)
+    return random.choice(templates).format(
+        name=name, age=age, gender=gender, conds=conds
+    )
 
 
 def generate_patient(pid):
@@ -113,8 +172,7 @@ def generate_patient(pid):
     conditions = choose_conditions()
 
     negated = random.sample(
-        [c for c in CONDITIONS_POOL if c not in conditions],
-        random.randint(0, 2)
+        [c for c in CONDITIONS_POOL if c not in conditions], random.randint(0, 2)
     )
 
     raw_text = generate_raw_text(age, gender, conditions)
@@ -129,8 +187,8 @@ def generate_patient(pid):
             "gender": gender,
             "conditions": conditions,
             "negated_conditions": negated,
-            "source": "synthetic_v3"
-        }
+            "source": "synthetic_v3",
+        },
     }
 
 
@@ -182,7 +240,7 @@ def main():
                 "patient_id": pid,
                 "trial_id": t["trial_id"],
                 "label": label,
-                "reason": "Auto-generated using rule-based eligibility logic"
+                "reason": "Auto-generated using rule-based eligibility logic",
             }
 
             with open(PAIR_DIR / f"{pair['pair_id']}.json", "w") as f:
