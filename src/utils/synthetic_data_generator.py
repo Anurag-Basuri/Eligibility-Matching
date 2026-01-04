@@ -12,7 +12,7 @@ PATIENT_DIR = BASE_DIR / "patients"
 TRIAL_DIR = BASE_DIR / "trials"
 PAIR_DIR = BASE_DIR / "pairs"
 
-NUM_SYNTHETIC_PATIENTS = 50
+NUM_SYNTHETIC_PATIENTS = 150
 
 # Expanded condition pool to match existing patient and trial data
 CONDITIONS_POOL = [
@@ -67,7 +67,22 @@ CONDITIONS_POOL = [
     "polycystic kidney disease",
     "endometriosis",
     "menopause",
-    "infertility"
+    "infertility",
+    "sleep apnea",
+    "GERD",
+    "IBS",
+    "diverticulitis",
+    "chronic fatigue syndrome",
+    "fibromyalgia",
+    "bipolar disorder",
+    "schizophrenia",
+    "PTSD",
+    "OCD",
+    "borderline personality disorder",
+    "substance use disorder",
+    "alcoholism",
+    "smoking",
+    "drug addiction",
 ]
 
 # Ensure directories exist
@@ -76,14 +91,15 @@ os.makedirs(TRIAL_DIR, exist_ok=True)
 os.makedirs(PAIR_DIR, exist_ok=True)
 
 # SAMPLE DATA
+# Indian names for diversity
 MALE_NAMES = [
     "Raj Kumar", "Aarav Sharma", "Sourav Patel", "Nikhil Singh", "Rohan Mehta",
-    "Deepak Gupta", "Vikram Rao", "Sanjay Verma", "Arjun Joshi", "Karan Dhillon"
+    "Deepak Gupta", "Vikram Rao", "Sanjay Verma", "Arjun Joshi", "Karan Dhillon", "Nitin Chauhan", "Manish Malhotra", "Amitabh Tiwari", "Rakesh Yadav", "Suresh Nair", "Vijay Desai", "Harish Iyer", "Pranav Sinha", "Aditya Ghosh", "Siddharth Chatterjee"
 ]
 
 FEMALE_NAMES = [
     "Ankita Sharma", "Wei Ling", "Fatima Khan", "Priya Nair", "Kavita Rao",
-    "Sneha Iyer", "Meera Menon", "Aisha Siddiqui", "Lakshmi Reddy", "Divya Kapoor"
+    "Sneha Iyer", "Meera Menon", "Aisha Siddiqui", "Lakshmi Reddy", "Divya Kapoor", "Sunita Joshi", "Pooja Verma", "Rina Patel", "Nisha Gupta", "Lata Singh", "Zara Ali", "Maya Das", "Sana Sheikh", "Tina Fernandes", "Ritu Chatterjee"
 ]
 
 # UTILS
