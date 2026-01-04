@@ -1,13 +1,17 @@
 {
   "patient_id": "P_SYN_010",
-  "raw_text": "Patient, aged 53, has a history of anxiety.",
+  "raw_text": "Patient, aged 81, has a history of hypertension and hyperlipidemia. No history of hepatitis C or urinary tract infections.",
   "metadata": {
-    "age": 53,
+    "age": 81,
     "gender": "female",
     "conditions": [
-      "anxiety"
+      "hypertension",
+      "hyperlipidemia"
     ],
-    "negated_conditions": [],
+    "negated_conditions": [
+      "hepatitis C",
+      "urinary tract infections"
+    ],
     "source": "synthetic_v3"
   }
 }

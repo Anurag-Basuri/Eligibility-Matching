@@ -1,13 +1,16 @@
 {
   "patient_id": "P_SYN_119",
-  "raw_text": "Patient is a 41-year-old female with psoriasis.",
+  "raw_text": "Patient, a 23-year-old female, diagnosed with diarrhea. No history of heart disease or multiple sclerosis.",
   "metadata": {
-    "age": 41,
+    "age": 23,
     "gender": "female",
     "conditions": [
-      "psoriasis"
+      "diarrhea"
     ],
-    "negated_conditions": [],
+    "negated_conditions": [
+      "heart disease",
+      "multiple sclerosis"
+    ],
     "source": "synthetic_v3"
   }
 }

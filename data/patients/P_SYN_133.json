@@ -1,15 +1,16 @@
 {
   "patient_id": "P_SYN_133",
-  "raw_text": "Patient, aged 82, has a history of obesity. No history of cataracts or HIV/AIDS.",
+  "raw_text": "Patient, a 81-year-old male, diagnosed with cardiovascular disease and anemia. No history of psoriasis or epilepsy.",
   "metadata": {
-    "age": 82,
-    "gender": "female",
+    "age": 81,
+    "gender": "male",
     "conditions": [
-      "obesity"
+      "cardiovascular disease",
+      "anemia"
     ],
     "negated_conditions": [
-      "cataracts",
-      "HIV/AIDS"
+      "psoriasis",
+      "epilepsy"
     ],
     "source": "synthetic_v3"
   }

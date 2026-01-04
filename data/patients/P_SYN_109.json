@@ -1,10 +1,12 @@
 {
   "patient_id": "P_SYN_109",
-  "raw_text": "Patient, aged 69, has a history of no chronic medical conditions.",
+  "raw_text": "Patient, a 45-year-old male, diagnosed with menopause.",
   "metadata": {
-    "age": 69,
-    "gender": "female",
-    "conditions": [],
+    "age": 45,
+    "gender": "male",
+    "conditions": [
+      "menopause"
+    ],
     "negated_conditions": [],
     "source": "synthetic_v3"
   }

@@ -1,15 +1,16 @@
 {
   "patient_id": "P_SYN_092",
-  "raw_text": "Patient, aged 61, has a history of bipolar disorder and eczema. No history of bronchitis.",
+  "raw_text": "Patient, aged 21, has a history of hepatitis C and gestational diabetes. No history of epilepsy or Alzheimer's disease.",
   "metadata": {
-    "age": 61,
+    "age": 21,
     "gender": "female",
     "conditions": [
-      "bipolar disorder",
-      "eczema"
+      "hepatitis C",
+      "gestational diabetes"
     ],
     "negated_conditions": [
-      "bronchitis"
+      "epilepsy",
+      "Alzheimer's disease"
     ],
     "source": "synthetic_v3"
   }

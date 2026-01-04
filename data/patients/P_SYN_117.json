@@ -1,15 +1,15 @@
 {
   "patient_id": "P_SYN_117",
-  "raw_text": "Patient, a 43-year-old male, diagnosed with type 2 diabetes. No history of eczema.",
+  "raw_text": "Patient is a 76-year-old female with chronic back pain and hypothyroidism and pneumonia.",
   "metadata": {
-    "age": 43,
-    "gender": "male",
+    "age": 76,
+    "gender": "female",
     "conditions": [
-      "type 2 diabetes"
+      "chronic back pain",
+      "hypothyroidism",
+      "pneumonia"
     ],
-    "negated_conditions": [
-      "eczema"
-    ],
+    "negated_conditions": [],
     "source": "synthetic_v3"
   }
 }

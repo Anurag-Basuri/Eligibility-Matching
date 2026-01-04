@@ -1,13 +1,14 @@
 {
   "patient_id": "P_SYN_152",
-  "raw_text": "Patient, a 42-year-old female, diagnosed with no chronic medical conditions. No history of autism spectrum disorder or nausea.",
+  "raw_text": "Patient, aged 23, has a history of chronic kidney disease. No history of Parkinson's disease.",
   "metadata": {
-    "age": 42,
+    "age": 23,
     "gender": "female",
-    "conditions": [],
+    "conditions": [
+      "chronic kidney disease"
+    ],
     "negated_conditions": [
-      "autism spectrum disorder",
-      "nausea"
+      "Parkinson's disease"
     ],
     "source": "synthetic_v3"
   }

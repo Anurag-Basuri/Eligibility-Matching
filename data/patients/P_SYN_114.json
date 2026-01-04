@@ -1,16 +1,13 @@
 {
   "patient_id": "P_SYN_114",
-  "raw_text": "Patient is a 22-year-old female with depression and skin infections. No history of gestational diabetes.",
+  "raw_text": "Patient is a 36-year-old female with postpartum depression.",
   "metadata": {
-    "age": 22,
+    "age": 36,
     "gender": "female",
     "conditions": [
-      "depression",
-      "skin infections"
+      "postpartum depression"
     ],
-    "negated_conditions": [
-      "gestational diabetes"
-    ],
+    "negated_conditions": [],
     "source": "synthetic_v3"
   }
 }

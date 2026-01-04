@@ -1,14 +1,15 @@
 {
   "patient_id": "P_SYN_076",
-  "raw_text": "Patient, a 63-year-old male, diagnosed with migraine. No history of epilepsy.",
+  "raw_text": "Patient, aged 57, has a history of chronic kidney disease and migraine. No history of bronchitis.",
   "metadata": {
-    "age": 63,
-    "gender": "male",
+    "age": 57,
+    "gender": "female",
     "conditions": [
+      "chronic kidney disease",
       "migraine"
     ],
     "negated_conditions": [
-      "epilepsy"
+      "bronchitis"
     ],
     "source": "synthetic_v3"
   }

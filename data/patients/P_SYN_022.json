@@ -1,16 +1,14 @@
 {
   "patient_id": "P_SYN_022",
-  "raw_text": "Patient, aged 25, has a history of Alzheimer's disease and eczema. No history of pneumonia or skin infections.",
+  "raw_text": "Patient, aged 58, has a history of anxiety. No history of smoking.",
   "metadata": {
-    "age": 25,
-    "gender": "male",
+    "age": 58,
+    "gender": "female",
     "conditions": [
-      "Alzheimer's disease",
-      "eczema"
+      "anxiety"
     ],
     "negated_conditions": [
-      "pneumonia",
-      "skin infections"
+      "smoking"
     ],
     "source": "synthetic_v3"
   }

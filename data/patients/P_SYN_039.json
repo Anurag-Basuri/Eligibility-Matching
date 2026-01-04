@@ -1,17 +1,14 @@
 {
   "patient_id": "P_SYN_039",
-  "raw_text": "Patient, aged 28, has a history of hearing loss and migraine and hypothyroidism. No history of chronic back pain or schizophrenia.",
+  "raw_text": "Patient is a 34-year-old male with eczema. No history of cardiovascular disease.",
   "metadata": {
-    "age": 28,
+    "age": 34,
     "gender": "male",
     "conditions": [
-      "hearing loss",
-      "migraine",
-      "hypothyroidism"
+      "eczema"
     ],
     "negated_conditions": [
-      "chronic back pain",
-      "schizophrenia"
+      "cardiovascular disease"
     ],
     "source": "synthetic_v3"
   }

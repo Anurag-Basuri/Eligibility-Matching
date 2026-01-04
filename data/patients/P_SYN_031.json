@@ -1,13 +1,15 @@
 {
   "patient_id": "P_SYN_031",
-  "raw_text": "Patient, aged 20, has a history of thyroid disorders.",
+  "raw_text": "Patient, aged 41, has a history of COPD. No history of nausea.",
   "metadata": {
-    "age": 20,
-    "gender": "female",
+    "age": 41,
+    "gender": "male",
     "conditions": [
-      "thyroid disorders"
+      "COPD"
     ],
-    "negated_conditions": [],
+    "negated_conditions": [
+      "nausea"
+    ],
     "source": "synthetic_v3"
   }
 }

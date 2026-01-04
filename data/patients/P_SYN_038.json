@@ -1,15 +1,14 @@
 {
   "patient_id": "P_SYN_038",
-  "raw_text": "Patient, a 25-year-old female, diagnosed with chronic kidney disease. No history of anxiety.",
+  "raw_text": "Patient is a 48-year-old male with asthma and hypertension.",
   "metadata": {
-    "age": 25,
-    "gender": "female",
+    "age": 48,
+    "gender": "male",
     "conditions": [
-      "chronic kidney disease"
+      "asthma",
+      "hypertension"
     ],
-    "negated_conditions": [
-      "anxiety"
-    ],
+    "negated_conditions": [],
     "source": "synthetic_v3"
   }
 }

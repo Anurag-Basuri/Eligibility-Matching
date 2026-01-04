@@ -1,15 +1,15 @@
 {
   "patient_id": "P_SYN_062",
-  "raw_text": "Patient is a 70-year-old male with osteoporosis and anxiety. No history of chronic kidney disease.",
+  "raw_text": "Patient is a 42-year-old male with thyroid disorders. No history of vitamin D deficiency or bipolar disorder.",
   "metadata": {
-    "age": 70,
+    "age": 42,
     "gender": "male",
     "conditions": [
-      "osteoporosis",
-      "anxiety"
+      "thyroid disorders"
     ],
     "negated_conditions": [
-      "chronic kidney disease"
+      "vitamin D deficiency",
+      "bipolar disorder"
     ],
     "source": "synthetic_v3"
   }

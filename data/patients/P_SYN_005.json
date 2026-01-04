@@ -1,14 +1,19 @@
 {
   "patient_id": "P_SYN_005",
-  "raw_text": "Patient, aged 39, has a history of cataracts and sinus infections.",
+  "raw_text": "Patient, a 34-year-old male, diagnosed with type 2 diabetes and ADHD and autism spectrum disorder and obesity. No history of bronchitis or urinary tract infections.",
   "metadata": {
-    "age": 39,
+    "age": 34,
     "gender": "male",
     "conditions": [
-      "cataracts",
-      "sinus infections"
+      "type 2 diabetes",
+      "ADHD",
+      "autism spectrum disorder",
+      "obesity"
     ],
-    "negated_conditions": [],
+    "negated_conditions": [
+      "bronchitis",
+      "urinary tract infections"
+    ],
     "source": "synthetic_v3"
   }
 }

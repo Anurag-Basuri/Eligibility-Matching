@@ -1,15 +1,15 @@
 {
   "patient_id": "P_SYN_079",
-  "raw_text": "Patient is a 82-year-old female with hypertension. No history of autism spectrum disorder or anemia.",
+  "raw_text": "Patient is a 22-year-old male with heart disease. No history of hearing loss or obesity.",
   "metadata": {
-    "age": 82,
-    "gender": "female",
+    "age": 22,
+    "gender": "male",
     "conditions": [
-      "hypertension"
+      "heart disease"
     ],
     "negated_conditions": [
-      "autism spectrum disorder",
-      "anemia"
+      "hearing loss",
+      "obesity"
     ],
     "source": "synthetic_v3"
   }

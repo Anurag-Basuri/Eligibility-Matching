@@ -1,14 +1,16 @@
 {
   "patient_id": "P_SYN_057",
-  "raw_text": "Patient, a 60-year-old female, diagnosed with skin infections. No history of urinary tract infections.",
+  "raw_text": "Patient, aged 80, has a history of anxiety and allergies and hypertension. No history of menopause.",
   "metadata": {
-    "age": 60,
-    "gender": "female",
+    "age": 80,
+    "gender": "male",
     "conditions": [
-      "skin infections"
+      "anxiety",
+      "allergies",
+      "hypertension"
     ],
     "negated_conditions": [
-      "urinary tract infections"
+      "menopause"
     ],
     "source": "synthetic_v3"
   }

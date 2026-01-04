@@ -1,12 +1,14 @@
 {
   "patient_id": "P_SYN_014",
-  "raw_text": "Patient, a 70-year-old female, diagnosed with no chronic medical conditions. No history of hypertension.",
+  "raw_text": "Patient, a 67-year-old male, diagnosed with smoking. No history of epilepsy.",
   "metadata": {
-    "age": 70,
-    "gender": "female",
-    "conditions": [],
+    "age": 67,
+    "gender": "male",
+    "conditions": [
+      "smoking"
+    ],
     "negated_conditions": [
-      "hypertension"
+      "epilepsy"
     ],
     "source": "synthetic_v3"
   }

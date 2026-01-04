@@ -1,13 +1,17 @@
 {
   "patient_id": "P_SYN_086",
-  "raw_text": "Patient is a 46-year-old male with urinary tract infections.",
+  "raw_text": "Patient, aged 18, has a history of vomiting and obesity. No history of menopause or hypothyroidism.",
   "metadata": {
-    "age": 46,
+    "age": 18,
     "gender": "male",
     "conditions": [
-      "urinary tract infections"
+      "vomiting",
+      "obesity"
     ],
-    "negated_conditions": [],
+    "negated_conditions": [
+      "menopause",
+      "hypothyroidism"
+    ],
     "source": "synthetic_v3"
   }
 }

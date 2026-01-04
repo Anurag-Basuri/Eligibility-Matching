@@ -1,16 +1,13 @@
 {
   "patient_id": "P_SYN_094",
-  "raw_text": "Patient, a 56-year-old female, diagnosed with type 2 diabetes. No history of dehydration or depression.",
+  "raw_text": "Patient is a 82-year-old female with thyroid disorders.",
   "metadata": {
-    "age": 56,
+    "age": 82,
     "gender": "female",
     "conditions": [
-      "type 2 diabetes"
+      "thyroid disorders"
     ],
-    "negated_conditions": [
-      "dehydration",
-      "depression"
-    ],
+    "negated_conditions": [],
     "source": "synthetic_v3"
   }
 }

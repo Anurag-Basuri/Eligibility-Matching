@@ -1,14 +1,16 @@
 {
   "patient_id": "P_SYN_158",
-  "raw_text": "Patient, aged 36, has a history of cancer. No history of pre-eclampsia.",
+  "raw_text": "Patient, a 20-year-old female, diagnosed with cancer and type 2 diabetes and obesity. No history of eczema.",
   "metadata": {
-    "age": 36,
+    "age": 20,
     "gender": "female",
     "conditions": [
-      "cancer"
+      "cancer",
+      "type 2 diabetes",
+      "obesity"
     ],
     "negated_conditions": [
-      "pre-eclampsia"
+      "eczema"
     ],
     "source": "synthetic_v3"
   }

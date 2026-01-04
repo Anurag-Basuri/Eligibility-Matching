@@ -1,18 +1,13 @@
 {
   "patient_id": "P_SYN_106",
-  "raw_text": "Patient, aged 62, has a history of GERD and obesity and IBS. No history of epilepsy or postpartum depression.",
+  "raw_text": "Patient is a 46-year-old female with migraine.",
   "metadata": {
-    "age": 62,
-    "gender": "male",
+    "age": 46,
+    "gender": "female",
     "conditions": [
-      "GERD",
-      "obesity",
-      "IBS"
+      "migraine"
     ],
-    "negated_conditions": [
-      "epilepsy",
-      "postpartum depression"
-    ],
+    "negated_conditions": [],
     "source": "synthetic_v3"
   }
 }

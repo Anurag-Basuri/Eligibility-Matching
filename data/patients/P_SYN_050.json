@@ -1,15 +1,17 @@
 {
   "patient_id": "P_SYN_050",
-  "raw_text": "Patient is a 54-year-old male with COPD and obesity. No history of urinary tract infections.",
+  "raw_text": "Patient, aged 62, has a history of Alzheimer's disease and schizophrenia and IBS. No history of pneumonia or thyroid disorders.",
   "metadata": {
-    "age": 54,
+    "age": 62,
     "gender": "male",
     "conditions": [
-      "COPD",
-      "obesity"
+      "Alzheimer's disease",
+      "schizophrenia",
+      "IBS"
     ],
     "negated_conditions": [
-      "urinary tract infections"
+      "pneumonia",
+      "thyroid disorders"
     ],
     "source": "synthetic_v3"
   }

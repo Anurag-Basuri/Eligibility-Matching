@@ -1,14 +1,14 @@
 {
   "patient_id": "P_SYN_127",
-  "raw_text": "Patient is a 84-year-old female with PCOS. No history of cardiovascular disease.",
+  "raw_text": "Patient, aged 46, has a history of migraine. No history of arthritis.",
   "metadata": {
-    "age": 84,
+    "age": 46,
     "gender": "female",
     "conditions": [
-      "PCOS"
+      "migraine"
     ],
     "negated_conditions": [
-      "cardiovascular disease"
+      "arthritis"
     ],
     "source": "synthetic_v3"
   }

@@ -1,14 +1,14 @@
 {
   "patient_id": "P_SYN_135",
-  "raw_text": "Patient is a 36-year-old female with hyperlipidemia and cardiovascular disease.",
+  "raw_text": "Patient is a 37-year-old male with no chronic medical conditions. No history of pneumonia or eczema.",
   "metadata": {
-    "age": 36,
-    "gender": "female",
-    "conditions": [
-      "hyperlipidemia",
-      "cardiovascular disease"
+    "age": 37,
+    "gender": "male",
+    "conditions": [],
+    "negated_conditions": [
+      "pneumonia",
+      "eczema"
     ],
-    "negated_conditions": [],
     "source": "synthetic_v3"
   }
 }

@@ -1,15 +1,13 @@
 {
   "patient_id": "P_SYN_154",
-  "raw_text": "Patient, aged 22, has a history of Alzheimer's disease. No history of chronic kidney disease.",
+  "raw_text": "Patient is a 83-year-old male with asthma.",
   "metadata": {
-    "age": 22,
+    "age": 83,
     "gender": "male",
     "conditions": [
-      "Alzheimer's disease"
+      "asthma"
     ],
-    "negated_conditions": [
-      "chronic kidney disease"
-    ],
+    "negated_conditions": [],
     "source": "synthetic_v3"
   }
 }

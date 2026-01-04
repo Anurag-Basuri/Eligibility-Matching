@@ -1,12 +1,16 @@
 {
   "patient_id": "P_SYN_055",
-  "raw_text": "Patient, a 61-year-old male, diagnosed with no chronic medical conditions. No history of IBS.",
+  "raw_text": "Patient, a 29-year-old female, diagnosed with psoriasis and COPD and arthritis. No history of HIV/AIDS.",
   "metadata": {
-    "age": 61,
-    "gender": "male",
-    "conditions": [],
+    "age": 29,
+    "gender": "female",
+    "conditions": [
+      "psoriasis",
+      "COPD",
+      "arthritis"
+    ],
     "negated_conditions": [
-      "IBS"
+      "HIV/AIDS"
     ],
     "source": "synthetic_v3"
   }

@@ -1,16 +1,15 @@
 {
   "patient_id": "P_SYN_121",
-  "raw_text": "Patient, a 53-year-old female, diagnosed with type 2 diabetes and obesity. No history of anxiety.",
+  "raw_text": "Patient, aged 26, has a history of hyperlipidemia and chronic kidney disease and chronic back pain.",
   "metadata": {
-    "age": 53,
-    "gender": "female",
+    "age": 26,
+    "gender": "male",
     "conditions": [
-      "type 2 diabetes",
-      "obesity"
+      "hyperlipidemia",
+      "chronic kidney disease",
+      "chronic back pain"
     ],
-    "negated_conditions": [
-      "anxiety"
-    ],
+    "negated_conditions": [],
     "source": "synthetic_v3"
   }
 }

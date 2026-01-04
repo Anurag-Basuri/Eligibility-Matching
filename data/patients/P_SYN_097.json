@@ -1,15 +1,14 @@
 {
   "patient_id": "P_SYN_097",
-  "raw_text": "Patient, a 45-year-old male, diagnosed with hypothyroidism. No history of GERD or cancer.",
+  "raw_text": "Patient, aged 39, has a history of cardiovascular disease. No history of asthma.",
   "metadata": {
-    "age": 45,
+    "age": 39,
     "gender": "male",
     "conditions": [
-      "hypothyroidism"
+      "cardiovascular disease"
     ],
     "negated_conditions": [
-      "GERD",
-      "cancer"
+      "asthma"
     ],
     "source": "synthetic_v3"
   }

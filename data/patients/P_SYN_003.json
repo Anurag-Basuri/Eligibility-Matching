@@ -1,13 +1,15 @@
 {
   "patient_id": "P_SYN_003",
-  "raw_text": "Patient, a 79-year-old male, diagnosed with no chronic medical conditions. No history of skin infections or schizophrenia.",
+  "raw_text": "Patient, aged 65, has a history of type 2 diabetes and migraine. No history of Alzheimer's disease.",
   "metadata": {
-    "age": 79,
-    "gender": "male",
-    "conditions": [],
+    "age": 65,
+    "gender": "female",
+    "conditions": [
+      "type 2 diabetes",
+      "migraine"
+    ],
     "negated_conditions": [
-      "skin infections",
-      "schizophrenia"
+      "Alzheimer's disease"
     ],
     "source": "synthetic_v3"
   }

@@ -1,13 +1,14 @@
 {
   "patient_id": "P_SYN_054",
-  "raw_text": "Patient, a 35-year-old female, diagnosed with psoriasis.",
+  "raw_text": "Patient is a 24-year-old female with no chronic medical conditions. No history of hearing loss or fibromyalgia.",
   "metadata": {
-    "age": 35,
+    "age": 24,
     "gender": "female",
-    "conditions": [
-      "psoriasis"
+    "conditions": [],
+    "negated_conditions": [
+      "hearing loss",
+      "fibromyalgia"
     ],
-    "negated_conditions": [],
     "source": "synthetic_v3"
   }
 }

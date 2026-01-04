@@ -1,18 +1,13 @@
 {
   "patient_id": "P_SYN_016",
-  "raw_text": "Patient, a 32-year-old male, diagnosed with Alzheimer's disease and type 2 diabetes and obesity. No history of hepatitis C or skin infections.",
+  "raw_text": "Patient, aged 29, has a history of eczema.",
   "metadata": {
-    "age": 32,
+    "age": 29,
     "gender": "male",
     "conditions": [
-      "Alzheimer's disease",
-      "type 2 diabetes",
-      "obesity"
+      "eczema"
     ],
-    "negated_conditions": [
-      "hepatitis C",
-      "skin infections"
-    ],
+    "negated_conditions": [],
     "source": "synthetic_v3"
   }
 }

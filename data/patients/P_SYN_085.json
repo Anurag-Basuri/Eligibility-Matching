@@ -1,15 +1,15 @@
 {
   "patient_id": "P_SYN_085",
-  "raw_text": "Patient is a 49-year-old male with hyperlipidemia. No history of GERD or COPD.",
+  "raw_text": "Patient, aged 47, has a history of dizziness and asthma. No history of bronchitis.",
   "metadata": {
-    "age": 49,
+    "age": 47,
     "gender": "male",
     "conditions": [
-      "hyperlipidemia"
+      "dizziness",
+      "asthma"
     ],
     "negated_conditions": [
-      "GERD",
-      "COPD"
+      "bronchitis"
     ],
     "source": "synthetic_v3"
   }

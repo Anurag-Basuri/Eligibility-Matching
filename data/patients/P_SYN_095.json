@@ -1,17 +1,14 @@
 {
   "patient_id": "P_SYN_095",
-  "raw_text": "Patient is a 79-year-old male with hypertension and hyperlipidemia. No history of sleep apnea or chronic kidney disease.",
+  "raw_text": "Patient, aged 58, has a history of urinary tract infections and osteoporosis.",
   "metadata": {
-    "age": 79,
-    "gender": "male",
+    "age": 58,
+    "gender": "female",
     "conditions": [
-      "hypertension",
-      "hyperlipidemia"
+      "urinary tract infections",
+      "osteoporosis"
     ],
-    "negated_conditions": [
-      "sleep apnea",
-      "chronic kidney disease"
-    ],
+    "negated_conditions": [],
     "source": "synthetic_v3"
   }
 }

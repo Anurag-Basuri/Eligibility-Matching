@@ -1,18 +1,13 @@
 {
   "patient_id": "P_SYN_032",
-  "raw_text": "Patient is a 67-year-old male with cardiovascular disease and postpartum depression and hypothyroidism. No history of endometriosis or anxiety.",
+  "raw_text": "Patient is a 55-year-old female with psoriasis.",
   "metadata": {
-    "age": 67,
-    "gender": "male",
+    "age": 55,
+    "gender": "female",
     "conditions": [
-      "cardiovascular disease",
-      "postpartum depression",
-      "hypothyroidism"
+      "psoriasis"
     ],
-    "negated_conditions": [
-      "endometriosis",
-      "anxiety"
-    ],
+    "negated_conditions": [],
     "source": "synthetic_v3"
   }
 }

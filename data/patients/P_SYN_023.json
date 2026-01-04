@@ -1,15 +1,14 @@
 {
   "patient_id": "P_SYN_023",
-  "raw_text": "Patient is a 59-year-old female with hepatitis C and IBS. No history of gestational diabetes.",
+  "raw_text": "Patient, aged 31, has a history of hearing loss. No history of epilepsy.",
   "metadata": {
-    "age": 59,
-    "gender": "female",
+    "age": 31,
+    "gender": "male",
     "conditions": [
-      "hepatitis C",
-      "IBS"
+      "hearing loss"
     ],
     "negated_conditions": [
-      "gestational diabetes"
+      "epilepsy"
     ],
     "source": "synthetic_v3"
   }

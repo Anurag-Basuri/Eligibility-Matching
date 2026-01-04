@@ -1,15 +1,16 @@
 {
   "patient_id": "P_SYN_081",
-  "raw_text": "Patient, a 75-year-old female, diagnosed with hypertension and hyperlipidemia. No history of depression.",
+  "raw_text": "Patient, a 84-year-old male, diagnosed with hypothyroidism and migraine and cardiovascular disease. No history of postpartum depression.",
   "metadata": {
-    "age": 75,
-    "gender": "female",
+    "age": 84,
+    "gender": "male",
     "conditions": [
-      "hypertension",
-      "hyperlipidemia"
+      "hypothyroidism",
+      "migraine",
+      "cardiovascular disease"
     ],
     "negated_conditions": [
-      "depression"
+      "postpartum depression"
     ],
     "source": "synthetic_v3"
   }

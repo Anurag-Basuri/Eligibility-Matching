@@ -1,13 +1,15 @@
 {
   "patient_id": "P_SYN_138",
-  "raw_text": "Patient, a 68-year-old female, diagnosed with chronic kidney disease.",
+  "raw_text": "Patient, a 18-year-old male, diagnosed with thyroid disorders. No history of IBS.",
   "metadata": {
-    "age": 68,
-    "gender": "female",
+    "age": 18,
+    "gender": "male",
     "conditions": [
-      "chronic kidney disease"
+      "thyroid disorders"
     ],
-    "negated_conditions": [],
+    "negated_conditions": [
+      "IBS"
+    ],
     "source": "synthetic_v3"
   }
 }

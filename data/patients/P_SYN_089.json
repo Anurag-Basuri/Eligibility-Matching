@@ -1,13 +1,16 @@
 {
   "patient_id": "P_SYN_089",
-  "raw_text": "Patient, aged 34, has a history of ADHD.",
+  "raw_text": "Patient is a 57-year-old female with bipolar disorder. No history of hearing loss or psoriasis.",
   "metadata": {
-    "age": 34,
+    "age": 57,
     "gender": "female",
     "conditions": [
-      "ADHD"
+      "bipolar disorder"
     ],
-    "negated_conditions": [],
+    "negated_conditions": [
+      "hearing loss",
+      "psoriasis"
+    ],
     "source": "synthetic_v3"
   }
 }

@@ -1,13 +1,13 @@
 {
   "patient_id": "P_SYN_027",
-  "raw_text": "Patient, aged 62, has a history of cardiovascular disease.",
+  "raw_text": "Patient, a 42-year-old male, diagnosed with no chronic medical conditions. No history of asthma.",
   "metadata": {
-    "age": 62,
+    "age": 42,
     "gender": "male",
-    "conditions": [
-      "cardiovascular disease"
+    "conditions": [],
+    "negated_conditions": [
+      "asthma"
     ],
-    "negated_conditions": [],
     "source": "synthetic_v3"
   }
 }

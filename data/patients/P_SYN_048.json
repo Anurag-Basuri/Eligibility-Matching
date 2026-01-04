@@ -1,14 +1,17 @@
 {
   "patient_id": "P_SYN_048",
-  "raw_text": "Patient, aged 45, has a history of hypertension. No history of osteoporosis.",
+  "raw_text": "Patient is a 25-year-old female with type 2 diabetes and arthritis and obesity. No history of hypertension or HIV/AIDS.",
   "metadata": {
-    "age": 45,
-    "gender": "male",
+    "age": 25,
+    "gender": "female",
     "conditions": [
-      "hypertension"
+      "type 2 diabetes",
+      "arthritis",
+      "obesity"
     ],
     "negated_conditions": [
-      "osteoporosis"
+      "hypertension",
+      "HIV/AIDS"
     ],
     "source": "synthetic_v3"
   }

@@ -1,15 +1,15 @@
 {
   "patient_id": "P_SYN_151",
-  "raw_text": "Patient is a 49-year-old male with chronic back pain and hearing loss. No history of endometriosis.",
+  "raw_text": "Patient, aged 55, has a history of IBS and GERD. No history of obesity.",
   "metadata": {
-    "age": 49,
-    "gender": "male",
+    "age": 55,
+    "gender": "female",
     "conditions": [
-      "chronic back pain",
-      "hearing loss"
+      "IBS",
+      "GERD"
     ],
     "negated_conditions": [
-      "endometriosis"
+      "obesity"
     ],
     "source": "synthetic_v3"
   }

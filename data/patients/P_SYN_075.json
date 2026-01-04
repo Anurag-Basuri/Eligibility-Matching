@@ -1,15 +1,15 @@
 {
   "patient_id": "P_SYN_075",
-  "raw_text": "Patient, a 22-year-old male, diagnosed with smoking and asthma. No history of cardiovascular disease.",
+  "raw_text": "Patient, aged 23, has a history of migraine and bipolar disorder. No history of Alzheimer's disease.",
   "metadata": {
-    "age": 22,
+    "age": 23,
     "gender": "male",
     "conditions": [
-      "smoking",
-      "asthma"
+      "migraine",
+      "bipolar disorder"
     ],
     "negated_conditions": [
-      "cardiovascular disease"
+      "Alzheimer's disease"
     ],
     "source": "synthetic_v3"
   }

@@ -1,15 +1,15 @@
 {
   "patient_id": "P_SYN_017",
-  "raw_text": "Patient, aged 54, has a history of type 2 diabetes. No history of ADHD or eczema.",
+  "raw_text": "Patient, a 45-year-old male, diagnosed with GERD and smoking. No history of Parkinson's disease.",
   "metadata": {
-    "age": 54,
-    "gender": "female",
+    "age": 45,
+    "gender": "male",
     "conditions": [
-      "type 2 diabetes"
+      "GERD",
+      "smoking"
     ],
     "negated_conditions": [
-      "ADHD",
-      "eczema"
+      "Parkinson's disease"
     ],
     "source": "synthetic_v3"
   }

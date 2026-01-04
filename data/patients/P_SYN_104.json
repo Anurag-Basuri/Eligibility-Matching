@@ -1,12 +1,11 @@
 {
   "patient_id": "P_SYN_104",
-  "raw_text": "Patient is a 32-year-old female with ADHD and hepatitis C.",
+  "raw_text": "Patient is a 49-year-old female with osteoporosis.",
   "metadata": {
-    "age": 32,
+    "age": 49,
     "gender": "female",
     "conditions": [
-      "ADHD",
-      "hepatitis C"
+      "osteoporosis"
     ],
     "negated_conditions": [],
     "source": "synthetic_v3"

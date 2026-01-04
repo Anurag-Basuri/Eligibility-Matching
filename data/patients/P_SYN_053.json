@@ -1,16 +1,11 @@
 {
   "patient_id": "P_SYN_053",
-  "raw_text": "Patient, a 31-year-old male, diagnosed with anxiety. No history of hepatitis C or constipation.",
+  "raw_text": "Patient, aged 57, has a history of no chronic medical conditions.",
   "metadata": {
-    "age": 31,
+    "age": 57,
     "gender": "male",
-    "conditions": [
-      "anxiety"
-    ],
-    "negated_conditions": [
-      "hepatitis C",
-      "constipation"
-    ],
+    "conditions": [],
+    "negated_conditions": [],
     "source": "synthetic_v3"
   }
 }

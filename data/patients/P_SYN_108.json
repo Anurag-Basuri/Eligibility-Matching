@@ -1,14 +1,15 @@
 {
   "patient_id": "P_SYN_108",
-  "raw_text": "Patient, a 58-year-old female, diagnosed with thyroid disorders and menopause.",
+  "raw_text": "Patient, aged 39, has a history of vitamin D deficiency. No history of cancer.",
   "metadata": {
-    "age": 58,
+    "age": 39,
     "gender": "female",
     "conditions": [
-      "thyroid disorders",
-      "menopause"
+      "vitamin D deficiency"
     ],
-    "negated_conditions": [],
+    "negated_conditions": [
+      "cancer"
+    ],
     "source": "synthetic_v3"
   }
 }

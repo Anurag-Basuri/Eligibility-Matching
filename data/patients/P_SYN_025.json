@@ -1,14 +1,14 @@
 {
   "patient_id": "P_SYN_025",
-  "raw_text": "Patient, a 42-year-old female, diagnosed with allergies. No history of hypothyroidism.",
+  "raw_text": "Patient, a 67-year-old female, diagnosed with sleep apnea. No history of epilepsy.",
   "metadata": {
-    "age": 42,
+    "age": 67,
     "gender": "female",
     "conditions": [
-      "allergies"
+      "sleep apnea"
     ],
     "negated_conditions": [
-      "hypothyroidism"
+      "epilepsy"
     ],
     "source": "synthetic_v3"
   }

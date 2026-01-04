@@ -1,14 +1,15 @@
 {
   "patient_id": "P_SYN_132",
-  "raw_text": "Patient, a 25-year-old female, diagnosed with vomiting. No history of IBS.",
+  "raw_text": "Patient, a 27-year-old female, diagnosed with cancer. No history of skin infections or pneumonia.",
   "metadata": {
-    "age": 25,
+    "age": 27,
     "gender": "female",
     "conditions": [
-      "vomiting"
+      "cancer"
     ],
     "negated_conditions": [
-      "IBS"
+      "skin infections",
+      "pneumonia"
     ],
     "source": "synthetic_v3"
   }

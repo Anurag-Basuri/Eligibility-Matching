@@ -1,11 +1,11 @@
 {
   "patient_id": "P_SYN_140",
-  "raw_text": "Patient, a 19-year-old female, diagnosed with hypertension.",
+  "raw_text": "Patient, aged 68, has a history of depression.",
   "metadata": {
-    "age": 19,
+    "age": 68,
     "gender": "female",
     "conditions": [
-      "hypertension"
+      "depression"
     ],
     "negated_conditions": [],
     "source": "synthetic_v3"

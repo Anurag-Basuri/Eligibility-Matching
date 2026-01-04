@@ -1,13 +1,16 @@
 {
   "patient_id": "P_SYN_015",
-  "raw_text": "Patient, a 69-year-old male, diagnosed with heart disease.",
+  "raw_text": "Patient is a 67-year-old male with sleep apnea and ADHD. No history of chronic back pain.",
   "metadata": {
-    "age": 69,
+    "age": 67,
     "gender": "male",
     "conditions": [
-      "heart disease"
+      "sleep apnea",
+      "ADHD"
     ],
-    "negated_conditions": [],
+    "negated_conditions": [
+      "chronic back pain"
+    ],
     "source": "synthetic_v3"
   }
 }

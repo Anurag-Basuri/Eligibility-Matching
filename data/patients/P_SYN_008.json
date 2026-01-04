@@ -1,14 +1,12 @@
 {
   "patient_id": "P_SYN_008",
-  "raw_text": "Patient is a 63-year-old female with bronchitis. No history of hearing loss.",
+  "raw_text": "Patient, aged 83, has a history of no chronic medical conditions. No history of depression.",
   "metadata": {
-    "age": 63,
+    "age": 83,
     "gender": "female",
-    "conditions": [
-      "bronchitis"
-    ],
+    "conditions": [],
     "negated_conditions": [
-      "hearing loss"
+      "depression"
     ],
     "source": "synthetic_v3"
   }

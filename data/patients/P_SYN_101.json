@@ -1,17 +1,13 @@
 {
   "patient_id": "P_SYN_101",
-  "raw_text": "Patient is a 56-year-old male with hypertension and hyperlipidemia. No history of cataracts or smoking.",
+  "raw_text": "Patient, aged 26, has a history of HIV/AIDS.",
   "metadata": {
-    "age": 56,
+    "age": 26,
     "gender": "male",
     "conditions": [
-      "hypertension",
-      "hyperlipidemia"
+      "HIV/AIDS"
     ],
-    "negated_conditions": [
-      "cataracts",
-      "smoking"
-    ],
+    "negated_conditions": [],
     "source": "synthetic_v3"
   }
 }

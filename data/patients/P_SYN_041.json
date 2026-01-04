@@ -1,13 +1,11 @@
 {
   "patient_id": "P_SYN_041",
-  "raw_text": "Patient, aged 58, has a history of type 2 diabetes and autism spectrum disorder and depression.",
+  "raw_text": "Patient, aged 37, has a history of migraine.",
   "metadata": {
-    "age": 58,
+    "age": 37,
     "gender": "male",
     "conditions": [
-      "type 2 diabetes",
-      "autism spectrum disorder",
-      "depression"
+      "migraine"
     ],
     "negated_conditions": [],
     "source": "synthetic_v3"

@@ -1,13 +1,16 @@
 {
   "patient_id": "P_SYN_069",
-  "raw_text": "Patient is a 65-year-old male with anemia.",
+  "raw_text": "Patient, a 39-year-old male, diagnosed with obesity and skin infections. No history of vitamin D deficiency.",
   "metadata": {
-    "age": 65,
+    "age": 39,
     "gender": "male",
     "conditions": [
-      "anemia"
+      "obesity",
+      "skin infections"
     ],
-    "negated_conditions": [],
+    "negated_conditions": [
+      "vitamin D deficiency"
+    ],
     "source": "synthetic_v3"
   }
 }

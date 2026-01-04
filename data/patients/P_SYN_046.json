@@ -1,14 +1,14 @@
 {
   "patient_id": "P_SYN_046",
-  "raw_text": "Patient, aged 19, has a history of asthma. No history of anxiety.",
+  "raw_text": "Patient is a 38-year-old female with hyperlipidemia. No history of menopause.",
   "metadata": {
-    "age": 19,
-    "gender": "male",
+    "age": 38,
+    "gender": "female",
     "conditions": [
-      "asthma"
+      "hyperlipidemia"
     ],
     "negated_conditions": [
-      "anxiety"
+      "menopause"
     ],
     "source": "synthetic_v3"
   }

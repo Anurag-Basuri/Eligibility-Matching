@@ -1,16 +1,14 @@
 {
   "patient_id": "P_SYN_074",
-  "raw_text": "Patient, aged 52, has a history of allergies. No history of HIV/AIDS or PCOS.",
+  "raw_text": "Patient, a 71-year-old male, diagnosed with glaucoma and pneumonia.",
   "metadata": {
-    "age": 52,
+    "age": 71,
     "gender": "male",
     "conditions": [
-      "allergies"
+      "glaucoma",
+      "pneumonia"
     ],
-    "negated_conditions": [
-      "HIV/AIDS",
-      "PCOS"
-    ],
+    "negated_conditions": [],
     "source": "synthetic_v3"
   }
 }

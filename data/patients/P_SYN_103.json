@@ -1,12 +1,11 @@
 {
   "patient_id": "P_SYN_103",
-  "raw_text": "Patient, a 65-year-old male, diagnosed with hyperlipidemia and IBS.",
+  "raw_text": "Patient is a 55-year-old male with autism spectrum disorder.",
   "metadata": {
-    "age": 65,
+    "age": 55,
     "gender": "male",
     "conditions": [
-      "hyperlipidemia",
-      "IBS"
+      "autism spectrum disorder"
     ],
     "negated_conditions": [],
     "source": "synthetic_v3"

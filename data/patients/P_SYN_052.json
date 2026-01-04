@@ -1,18 +1,15 @@
 {
   "patient_id": "P_SYN_052",
-  "raw_text": "Patient, a 33-year-old female, diagnosed with obesity and eczema and allergies. No history of skin infections or hypertension.",
+  "raw_text": "Patient, aged 43, has a history of depression and cardiovascular disease and nausea.",
   "metadata": {
-    "age": 33,
+    "age": 43,
     "gender": "female",
     "conditions": [
-      "obesity",
-      "eczema",
-      "allergies"
+      "depression",
+      "cardiovascular disease",
+      "nausea"
     ],
-    "negated_conditions": [
-      "skin infections",
-      "hypertension"
-    ],
+    "negated_conditions": [],
     "source": "synthetic_v3"
   }
 }

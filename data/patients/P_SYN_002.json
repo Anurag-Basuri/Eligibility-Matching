@@ -1,16 +1,15 @@
 {
   "patient_id": "P_SYN_002",
-  "raw_text": "Patient, a 45-year-old male, diagnosed with hypertension and hypothyroidism. No history of migraine or autism spectrum disorder.",
+  "raw_text": "Patient is a 50-year-old female with urinary tract infections. No history of endometriosis or COPD.",
   "metadata": {
-    "age": 45,
-    "gender": "male",
+    "age": 50,
+    "gender": "female",
     "conditions": [
-      "hypertension",
-      "hypothyroidism"
+      "urinary tract infections"
     ],
     "negated_conditions": [
-      "migraine",
-      "autism spectrum disorder"
+      "endometriosis",
+      "COPD"
     ],
     "source": "synthetic_v3"
   }

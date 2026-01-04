@@ -1,17 +1,18 @@
 {
   "patient_id": "P_SYN_145",
-  "raw_text": "Patient, a 67-year-old male, diagnosed with eczema and arthritis and obesity. No history of cataracts or thyroid disorders.",
+  "raw_text": "Patient, a 55-year-old male, diagnosed with menopause and smoking and hypertension and hyperlipidemia. No history of Parkinson's disease or hearing loss.",
   "metadata": {
-    "age": 67,
+    "age": 55,
     "gender": "male",
     "conditions": [
-      "eczema",
-      "arthritis",
-      "obesity"
+      "menopause",
+      "smoking",
+      "hypertension",
+      "hyperlipidemia"
     ],
     "negated_conditions": [
-      "cataracts",
-      "thyroid disorders"
+      "Parkinson's disease",
+      "hearing loss"
     ],
     "source": "synthetic_v3"
   }

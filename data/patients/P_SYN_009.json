@@ -1,16 +1,13 @@
 {
   "patient_id": "P_SYN_009",
-  "raw_text": "Patient, a 29-year-old male, diagnosed with hypertension. No history of anxiety or heart disease.",
+  "raw_text": "Patient, a 44-year-old female, diagnosed with tuberculosis.",
   "metadata": {
-    "age": 29,
-    "gender": "male",
+    "age": 44,
+    "gender": "female",
     "conditions": [
-      "hypertension"
+      "tuberculosis"
     ],
-    "negated_conditions": [
-      "anxiety",
-      "heart disease"
-    ],
+    "negated_conditions": [],
     "source": "synthetic_v3"
   }
 }

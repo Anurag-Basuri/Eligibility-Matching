@@ -1,13 +1,16 @@
 {
   "patient_id": "P_SYN_083",
-  "raw_text": "Patient, a 18-year-old female, diagnosed with autoimmune diseases.",
+  "raw_text": "Patient, aged 72, has a history of hypertension and hyperlipidemia. No history of infertility.",
   "metadata": {
-    "age": 18,
-    "gender": "female",
+    "age": 72,
+    "gender": "male",
     "conditions": [
-      "autoimmune diseases"
+      "hypertension",
+      "hyperlipidemia"
     ],
-    "negated_conditions": [],
+    "negated_conditions": [
+      "infertility"
+    ],
     "source": "synthetic_v3"
   }
 }

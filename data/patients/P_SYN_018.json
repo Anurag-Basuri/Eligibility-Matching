@@ -1,14 +1,16 @@
 {
   "patient_id": "P_SYN_018",
-  "raw_text": "Patient, aged 32, has a history of bronchitis. No history of sleep apnea.",
+  "raw_text": "Patient, a 36-year-old male, diagnosed with hyperlipidemia and hypertension. No history of hypothyroidism or heart disease.",
   "metadata": {
-    "age": 32,
-    "gender": "female",
+    "age": 36,
+    "gender": "male",
     "conditions": [
-      "bronchitis"
+      "hyperlipidemia",
+      "hypertension"
     ],
     "negated_conditions": [
-      "sleep apnea"
+      "hypothyroidism",
+      "heart disease"
     ],
     "source": "synthetic_v3"
   }

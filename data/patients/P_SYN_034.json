@@ -1,15 +1,17 @@
 {
   "patient_id": "P_SYN_034",
-  "raw_text": "Patient, a 31-year-old male, diagnosed with anxiety. No history of thyroid disorders or depression.",
+  "raw_text": "Patient, a 22-year-old male, diagnosed with hypertension and IBS and obesity. No history of GERD or epilepsy.",
   "metadata": {
-    "age": 31,
+    "age": 22,
     "gender": "male",
     "conditions": [
-      "anxiety"
+      "hypertension",
+      "IBS",
+      "obesity"
     ],
     "negated_conditions": [
-      "thyroid disorders",
-      "depression"
+      "GERD",
+      "epilepsy"
     ],
     "source": "synthetic_v3"
   }

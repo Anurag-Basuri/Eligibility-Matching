@@ -1,13 +1,15 @@
 {
   "patient_id": "P_SYN_125",
-  "raw_text": "Patient is a 51-year-old female with heart disease.",
+  "raw_text": "Patient, aged 31, has a history of hyperlipidemia. No history of bipolar disorder.",
   "metadata": {
-    "age": 51,
-    "gender": "female",
+    "age": 31,
+    "gender": "male",
     "conditions": [
-      "heart disease"
+      "hyperlipidemia"
     ],
-    "negated_conditions": [],
+    "negated_conditions": [
+      "bipolar disorder"
+    ],
     "source": "synthetic_v3"
   }
 }

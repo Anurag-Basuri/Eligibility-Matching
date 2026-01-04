@@ -1,16 +1,14 @@
 {
   "patient_id": "P_SYN_036",
-  "raw_text": "Patient, a 24-year-old female, diagnosed with bipolar disorder. No history of HIV/AIDS or infertility.",
+  "raw_text": "Patient is a 52-year-old male with thyroid disorders and asthma.",
   "metadata": {
-    "age": 24,
-    "gender": "female",
+    "age": 52,
+    "gender": "male",
     "conditions": [
-      "bipolar disorder"
+      "thyroid disorders",
+      "asthma"
     ],
-    "negated_conditions": [
-      "HIV/AIDS",
-      "infertility"
-    ],
+    "negated_conditions": [],
     "source": "synthetic_v3"
   }
 }

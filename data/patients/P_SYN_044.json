@@ -1,15 +1,15 @@
 {
   "patient_id": "P_SYN_044",
-  "raw_text": "Patient, a 24-year-old female, diagnosed with bipolar disorder. No history of anxiety or IBS.",
+  "raw_text": "Patient, aged 34, has a history of glaucoma. No history of postpartum depression or heart disease.",
   "metadata": {
-    "age": 24,
+    "age": 34,
     "gender": "female",
     "conditions": [
-      "bipolar disorder"
+      "glaucoma"
     ],
     "negated_conditions": [
-      "anxiety",
-      "IBS"
+      "postpartum depression",
+      "heart disease"
     ],
     "source": "synthetic_v3"
   }

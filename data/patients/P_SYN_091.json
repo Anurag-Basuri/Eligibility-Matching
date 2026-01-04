@@ -1,13 +1,15 @@
 {
   "patient_id": "P_SYN_091",
-  "raw_text": "Patient, aged 36, has a history of psoriasis.",
+  "raw_text": "Patient, a 47-year-old female, diagnosed with Alzheimer's disease. No history of glaucoma.",
   "metadata": {
-    "age": 36,
-    "gender": "male",
+    "age": 47,
+    "gender": "female",
     "conditions": [
-      "psoriasis"
+      "Alzheimer's disease"
     ],
-    "negated_conditions": [],
+    "negated_conditions": [
+      "glaucoma"
+    ],
     "source": "synthetic_v3"
   }
 }

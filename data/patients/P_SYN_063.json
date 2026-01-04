@@ -1,11 +1,11 @@
 {
   "patient_id": "P_SYN_063",
-  "raw_text": "Patient, aged 32, has a history of cataracts.",
+  "raw_text": "Patient, a 59-year-old male, diagnosed with hypertension.",
   "metadata": {
-    "age": 32,
+    "age": 59,
     "gender": "male",
     "conditions": [
-      "cataracts"
+      "hypertension"
     ],
     "negated_conditions": [],
     "source": "synthetic_v3"

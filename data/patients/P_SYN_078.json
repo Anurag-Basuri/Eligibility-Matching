@@ -1,13 +1,17 @@
 {
   "patient_id": "P_SYN_078",
-  "raw_text": "Patient is a 31-year-old female with smoking.",
+  "raw_text": "Patient is a 36-year-old male with menopause and hypertension and hyperlipidemia. No history of diarrhea.",
   "metadata": {
-    "age": 31,
-    "gender": "female",
+    "age": 36,
+    "gender": "male",
     "conditions": [
-      "smoking"
+      "menopause",
+      "hypertension",
+      "hyperlipidemia"
     ],
-    "negated_conditions": [],
+    "negated_conditions": [
+      "diarrhea"
+    ],
     "source": "synthetic_v3"
   }
 }

@@ -1,13 +1,11 @@
 {
   "patient_id": "P_SYN_019",
-  "raw_text": "Patient is a 36-year-old male with liver disease and arthritis and vomiting.",
+  "raw_text": "Patient, aged 46, has a history of hypertension.",
   "metadata": {
-    "age": 36,
+    "age": 46,
     "gender": "male",
     "conditions": [
-      "liver disease",
-      "arthritis",
-      "vomiting"
+      "hypertension"
     ],
     "negated_conditions": [],
     "source": "synthetic_v3"

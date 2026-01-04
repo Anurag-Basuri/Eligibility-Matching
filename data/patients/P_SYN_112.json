@@ -1,15 +1,15 @@
 {
   "patient_id": "P_SYN_112",
-  "raw_text": "Patient is a 44-year-old male with hypothyroidism. No history of thyroid disorders or schizophrenia.",
+  "raw_text": "Patient, aged 25, has a history of autoimmune diseases. No history of heart disease or obesity.",
   "metadata": {
-    "age": 44,
+    "age": 25,
     "gender": "male",
     "conditions": [
-      "hypothyroidism"
+      "autoimmune diseases"
     ],
     "negated_conditions": [
-      "thyroid disorders",
-      "schizophrenia"
+      "heart disease",
+      "obesity"
     ],
     "source": "synthetic_v3"
   }

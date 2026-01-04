@@ -1,14 +1,15 @@
 {
   "patient_id": "P_SYN_024",
-  "raw_text": "Patient, aged 56, has a history of hypertension. No history of cancer.",
+  "raw_text": "Patient is a 31-year-old female with cancer and obesity. No history of hypothyroidism.",
   "metadata": {
-    "age": 56,
+    "age": 31,
     "gender": "female",
     "conditions": [
-      "hypertension"
+      "cancer",
+      "obesity"
     ],
     "negated_conditions": [
-      "cancer"
+      "hypothyroidism"
     ],
     "source": "synthetic_v3"
   }

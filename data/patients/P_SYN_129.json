@@ -1,12 +1,14 @@
 {
   "patient_id": "P_SYN_129",
-  "raw_text": "Patient, a 55-year-old female, diagnosed with no chronic medical conditions. No history of tuberculosis.",
+  "raw_text": "Patient, a 37-year-old male, diagnosed with asthma. No history of fatigue.",
   "metadata": {
-    "age": 55,
-    "gender": "female",
-    "conditions": [],
+    "age": 37,
+    "gender": "male",
+    "conditions": [
+      "asthma"
+    ],
     "negated_conditions": [
-      "tuberculosis"
+      "fatigue"
     ],
     "source": "synthetic_v3"
   }

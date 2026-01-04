@@ -1,15 +1,14 @@
 {
   "patient_id": "P_SYN_155",
-  "raw_text": "Patient, a 43-year-old female, diagnosed with COPD. No history of hepatitis C or allergies.",
+  "raw_text": "Patient is a 21-year-old female with glaucoma. No history of type 2 diabetes.",
   "metadata": {
-    "age": 43,
+    "age": 21,
     "gender": "female",
     "conditions": [
-      "COPD"
+      "glaucoma"
     ],
     "negated_conditions": [
-      "hepatitis C",
-      "allergies"
+      "type 2 diabetes"
     ],
     "source": "synthetic_v3"
   }

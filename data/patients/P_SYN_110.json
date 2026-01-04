@@ -1,13 +1,16 @@
 {
   "patient_id": "P_SYN_110",
-  "raw_text": "Patient, a 30-year-old female, diagnosed with anxiety.",
+  "raw_text": "Patient, a 65-year-old female, diagnosed with asthma. No history of multiple sclerosis or migraine.",
   "metadata": {
-    "age": 30,
+    "age": 65,
     "gender": "female",
     "conditions": [
-      "anxiety"
+      "asthma"
     ],
-    "negated_conditions": [],
+    "negated_conditions": [
+      "multiple sclerosis",
+      "migraine"
+    ],
     "source": "synthetic_v3"
   }
 }

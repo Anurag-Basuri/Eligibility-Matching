@@ -1,12 +1,10 @@
 {
   "patient_id": "P_SYN_122",
-  "raw_text": "Patient is a 25-year-old male with cancer.",
+  "raw_text": "Patient, a 26-year-old male, diagnosed with no chronic medical conditions.",
   "metadata": {
-    "age": 25,
+    "age": 26,
     "gender": "male",
-    "conditions": [
-      "cancer"
-    ],
+    "conditions": [],
     "negated_conditions": [],
     "source": "synthetic_v3"
   }

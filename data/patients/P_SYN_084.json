@@ -1,13 +1,15 @@
 {
   "patient_id": "P_SYN_084",
-  "raw_text": "Patient, aged 51, has a history of psoriasis.",
+  "raw_text": "Patient, a 37-year-old female, diagnosed with endometriosis. No history of heart disease.",
   "metadata": {
-    "age": 51,
-    "gender": "male",
+    "age": 37,
+    "gender": "female",
     "conditions": [
-      "psoriasis"
+      "endometriosis"
     ],
-    "negated_conditions": [],
+    "negated_conditions": [
+      "heart disease"
+    ],
     "source": "synthetic_v3"
   }
 }

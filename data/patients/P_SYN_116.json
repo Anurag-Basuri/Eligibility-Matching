@@ -1,15 +1,15 @@
 {
   "patient_id": "P_SYN_116",
-  "raw_text": "Patient, aged 47, has a history of hypertension and heart disease. No history of anxiety.",
+  "raw_text": "Patient, aged 83, has a history of Parkinson's disease. No history of migraine or hepatitis B.",
   "metadata": {
-    "age": 47,
+    "age": 83,
     "gender": "female",
     "conditions": [
-      "hypertension",
-      "heart disease"
+      "Parkinson's disease"
     ],
     "negated_conditions": [
-      "anxiety"
+      "migraine",
+      "hepatitis B"
     ],
     "source": "synthetic_v3"
   }

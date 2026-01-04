@@ -1,15 +1,15 @@
 {
   "patient_id": "P_SYN_059",
-  "raw_text": "Patient is a 21-year-old female with hypertension and autoimmune diseases and hyperlipidemia.",
+  "raw_text": "Patient, a 69-year-old female, diagnosed with endometriosis. No history of urinary tract infections.",
   "metadata": {
-    "age": 21,
+    "age": 69,
     "gender": "female",
     "conditions": [
-      "hypertension",
-      "autoimmune diseases",
-      "hyperlipidemia"
+      "endometriosis"
     ],
-    "negated_conditions": [],
+    "negated_conditions": [
+      "urinary tract infections"
+    ],
     "source": "synthetic_v3"
   }
 }

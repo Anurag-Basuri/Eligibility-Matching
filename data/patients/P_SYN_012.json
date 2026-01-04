@@ -1,13 +1,15 @@
 {
   "patient_id": "P_SYN_012",
-  "raw_text": "Patient is a 28-year-old male with nausea.",
+  "raw_text": "Patient, a 47-year-old male, diagnosed with Parkinson's disease. No history of urinary tract infections.",
   "metadata": {
-    "age": 28,
+    "age": 47,
     "gender": "male",
     "conditions": [
-      "nausea"
+      "Parkinson's disease"
     ],
-    "negated_conditions": [],
+    "negated_conditions": [
+      "urinary tract infections"
+    ],
     "source": "synthetic_v3"
   }
 }

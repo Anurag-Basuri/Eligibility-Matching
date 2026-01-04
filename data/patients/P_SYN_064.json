@@ -1,17 +1,15 @@
 {
   "patient_id": "P_SYN_064",
-  "raw_text": "Patient is a 35-year-old female with hepatitis B and COPD and obesity. No history of liver disease or vitamin D deficiency.",
+  "raw_text": "Patient is a 57-year-old female with depression and hypothyroidism. No history of hepatitis B.",
   "metadata": {
-    "age": 35,
+    "age": 57,
     "gender": "female",
     "conditions": [
-      "hepatitis B",
-      "COPD",
-      "obesity"
+      "depression",
+      "hypothyroidism"
     ],
     "negated_conditions": [
-      "liver disease",
-      "vitamin D deficiency"
+      "hepatitis B"
     ],
     "source": "synthetic_v3"
   }

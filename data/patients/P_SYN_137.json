@@ -1,15 +1,15 @@
 {
   "patient_id": "P_SYN_137",
-  "raw_text": "Patient, a 83-year-old female, diagnosed with depression and COPD. No history of hyperlipidemia.",
+  "raw_text": "Patient, a 71-year-old male, diagnosed with glaucoma. No history of depression or autoimmune diseases.",
   "metadata": {
-    "age": 83,
-    "gender": "female",
+    "age": 71,
+    "gender": "male",
     "conditions": [
-      "depression",
-      "COPD"
+      "glaucoma"
     ],
     "negated_conditions": [
-      "hyperlipidemia"
+      "depression",
+      "autoimmune diseases"
     ],
     "source": "synthetic_v3"
   }

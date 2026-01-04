@@ -1,16 +1,13 @@
 {
   "patient_id": "P_SYN_093",
-  "raw_text": "Patient is a 50-year-old female with depression. No history of cancer or menopause.",
+  "raw_text": "Patient is a 59-year-old female with HIV/AIDS.",
   "metadata": {
-    "age": 50,
+    "age": 59,
     "gender": "female",
     "conditions": [
-      "depression"
+      "HIV/AIDS"
     ],
-    "negated_conditions": [
-      "cancer",
-      "menopause"
-    ],
+    "negated_conditions": [],
     "source": "synthetic_v3"
   }
 }

@@ -1,11 +1,11 @@
 {
   "patient_id": "P_SYN_011",
-  "raw_text": "Patient, aged 27, has a history of cardiovascular disease.",
+  "raw_text": "Patient, a 57-year-old female, diagnosed with allergies.",
   "metadata": {
-    "age": 27,
+    "age": 57,
     "gender": "female",
     "conditions": [
-      "cardiovascular disease"
+      "allergies"
     ],
     "negated_conditions": [],
     "source": "synthetic_v3"

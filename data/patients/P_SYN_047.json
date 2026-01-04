@@ -1,15 +1,13 @@
 {
   "patient_id": "P_SYN_047",
-  "raw_text": "Patient, aged 47, has a history of hyperlipidemia. No history of diarrhea.",
+  "raw_text": "Patient, a 18-year-old male, diagnosed with arthritis.",
   "metadata": {
-    "age": 47,
-    "gender": "female",
+    "age": 18,
+    "gender": "male",
     "conditions": [
-      "hyperlipidemia"
+      "arthritis"
     ],
-    "negated_conditions": [
-      "diarrhea"
-    ],
+    "negated_conditions": [],
     "source": "synthetic_v3"
   }
 }

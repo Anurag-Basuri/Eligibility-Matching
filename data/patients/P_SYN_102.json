@@ -1,13 +1,18 @@
 {
   "patient_id": "P_SYN_102",
-  "raw_text": "Patient, a 46-year-old male, diagnosed with autism spectrum disorder.",
+  "raw_text": "Patient is a 55-year-old male with depression and dizziness and type 2 diabetes. No history of asthma or constipation.",
   "metadata": {
-    "age": 46,
+    "age": 55,
     "gender": "male",
     "conditions": [
-      "autism spectrum disorder"
+      "depression",
+      "dizziness",
+      "type 2 diabetes"
     ],
-    "negated_conditions": [],
+    "negated_conditions": [
+      "asthma",
+      "constipation"
+    ],
     "source": "synthetic_v3"
   }
 }

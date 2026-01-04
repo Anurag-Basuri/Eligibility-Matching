@@ -1,13 +1,16 @@
 {
   "patient_id": "P_SYN_077",
-  "raw_text": "Patient, a 57-year-old male, diagnosed with vitamin D deficiency.",
+  "raw_text": "Patient is a 64-year-old male with pre-eclampsia. No history of glaucoma or hepatitis B.",
   "metadata": {
-    "age": 57,
+    "age": 64,
     "gender": "male",
     "conditions": [
-      "vitamin D deficiency"
+      "pre-eclampsia"
     ],
-    "negated_conditions": [],
+    "negated_conditions": [
+      "glaucoma",
+      "hepatitis B"
+    ],
     "source": "synthetic_v3"
   }
 }

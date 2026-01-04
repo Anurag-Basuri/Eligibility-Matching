@@ -1,16 +1,16 @@
 {
   "patient_id": "P_SYN_043",
-  "raw_text": "Patient, a 44-year-old male, diagnosed with constipation and depression. No history of eczema or nausea.",
+  "raw_text": "Patient, aged 39, has a history of constipation and multiple sclerosis. No history of chronic kidney disease or fibromyalgia.",
   "metadata": {
-    "age": 44,
-    "gender": "male",
+    "age": 39,
+    "gender": "female",
     "conditions": [
       "constipation",
-      "depression"
+      "multiple sclerosis"
     ],
     "negated_conditions": [
-      "eczema",
-      "nausea"
+      "chronic kidney disease",
+      "fibromyalgia"
     ],
     "source": "synthetic_v3"
   }

@@ -1,15 +1,15 @@
 {
   "patient_id": "P_SYN_020",
-  "raw_text": "Patient, a 49-year-old female, diagnosed with vitamin D deficiency and obesity. No history of GERD.",
+  "raw_text": "Patient, a 21-year-old male, diagnosed with menopause. No history of osteoporosis or migraine.",
   "metadata": {
-    "age": 49,
-    "gender": "female",
+    "age": 21,
+    "gender": "male",
     "conditions": [
-      "vitamin D deficiency",
-      "obesity"
+      "menopause"
     ],
     "negated_conditions": [
-      "GERD"
+      "osteoporosis",
+      "migraine"
     ],
     "source": "synthetic_v3"
   }

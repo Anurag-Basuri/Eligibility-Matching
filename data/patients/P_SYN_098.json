@@ -1,16 +1,16 @@
 {
   "patient_id": "P_SYN_098",
-  "raw_text": "Patient is a 64-year-old female with depression and tuberculosis. No history of liver disease or smoking.",
+  "raw_text": "Patient, a 32-year-old female, diagnosed with hypothyroidism and hypertension. No history of skin infections or type 2 diabetes.",
   "metadata": {
-    "age": 64,
+    "age": 32,
     "gender": "female",
     "conditions": [
-      "depression",
-      "tuberculosis"
+      "hypothyroidism",
+      "hypertension"
     ],
     "negated_conditions": [
-      "liver disease",
-      "smoking"
+      "skin infections",
+      "type 2 diabetes"
     ],
     "source": "synthetic_v3"
   }

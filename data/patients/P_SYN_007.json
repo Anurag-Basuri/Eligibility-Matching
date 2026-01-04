@@ -1,13 +1,18 @@
 {
   "patient_id": "P_SYN_007",
-  "raw_text": "Patient, aged 33, has a history of gestational diabetes.",
+  "raw_text": "Patient is a 38-year-old female with cardiovascular disease and chronic kidney disease and type 2 diabetes and obesity. No history of dizziness.",
   "metadata": {
-    "age": 33,
-    "gender": "male",
+    "age": 38,
+    "gender": "female",
     "conditions": [
-      "gestational diabetes"
+      "cardiovascular disease",
+      "chronic kidney disease",
+      "type 2 diabetes",
+      "obesity"
     ],
-    "negated_conditions": [],
+    "negated_conditions": [
+      "dizziness"
+    ],
     "source": "synthetic_v3"
   }
 }

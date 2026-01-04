@@ -1,15 +1,14 @@
 {
   "patient_id": "P_SYN_131",
-  "raw_text": "Patient, aged 20, has a history of hyperlipidemia and sinus infections. No history of allergies.",
+  "raw_text": "Patient, a 56-year-old male, diagnosed with chronic back pain. No history of arthritis.",
   "metadata": {
-    "age": 20,
-    "gender": "female",
+    "age": 56,
+    "gender": "male",
     "conditions": [
-      "hyperlipidemia",
-      "sinus infections"
+      "chronic back pain"
     ],
     "negated_conditions": [
-      "allergies"
+      "arthritis"
     ],
     "source": "synthetic_v3"
   }

@@ -1,13 +1,16 @@
 {
   "patient_id": "P_SYN_120",
-  "raw_text": "Patient, a 20-year-old female, diagnosed with allergies.",
+  "raw_text": "Patient, aged 21, has a history of cancer and migraine. No history of schizophrenia.",
   "metadata": {
-    "age": 20,
-    "gender": "female",
+    "age": 21,
+    "gender": "male",
     "conditions": [
-      "allergies"
+      "cancer",
+      "migraine"
     ],
-    "negated_conditions": [],
+    "negated_conditions": [
+      "schizophrenia"
+    ],
     "source": "synthetic_v3"
   }
 }

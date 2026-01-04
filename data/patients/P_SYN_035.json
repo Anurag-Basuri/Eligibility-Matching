@@ -1,15 +1,14 @@
 {
   "patient_id": "P_SYN_035",
-  "raw_text": "Patient, a 58-year-old female, diagnosed with epilepsy. No history of GERD or hepatitis C.",
+  "raw_text": "Patient, aged 21, has a history of autoimmune diseases. No history of Parkinson's disease.",
   "metadata": {
-    "age": 58,
-    "gender": "female",
+    "age": 21,
+    "gender": "male",
     "conditions": [
-      "epilepsy"
+      "autoimmune diseases"
     ],
     "negated_conditions": [
-      "GERD",
-      "hepatitis C"
+      "Parkinson's disease"
     ],
     "source": "synthetic_v3"
   }

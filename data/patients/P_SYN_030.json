@@ -1,13 +1,14 @@
 {
   "patient_id": "P_SYN_030",
-  "raw_text": "Patient, aged 33, has a history of no chronic medical conditions. No history of anxiety or schizophrenia.",
+  "raw_text": "Patient, a 51-year-old male, diagnosed with GERD. No history of tuberculosis.",
   "metadata": {
-    "age": 33,
+    "age": 51,
     "gender": "male",
-    "conditions": [],
+    "conditions": [
+      "GERD"
+    ],
     "negated_conditions": [
-      "anxiety",
-      "schizophrenia"
+      "tuberculosis"
     ],
     "source": "synthetic_v3"
   }

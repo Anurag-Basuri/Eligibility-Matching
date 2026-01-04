@@ -1,15 +1,15 @@
 {
   "patient_id": "P_SYN_066",
-  "raw_text": "Patient is a 49-year-old male with fibromyalgia. No history of psoriasis or schizophrenia.",
+  "raw_text": "Patient is a 40-year-old male with osteoporosis. No history of pre-eclampsia or vomiting.",
   "metadata": {
-    "age": 49,
+    "age": 40,
     "gender": "male",
     "conditions": [
-      "fibromyalgia"
+      "osteoporosis"
     ],
     "negated_conditions": [
-      "psoriasis",
-      "schizophrenia"
+      "pre-eclampsia",
+      "vomiting"
     ],
     "source": "synthetic_v3"
   }

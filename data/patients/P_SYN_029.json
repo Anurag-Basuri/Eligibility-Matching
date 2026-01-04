@@ -1,17 +1,14 @@
 {
   "patient_id": "P_SYN_029",
-  "raw_text": "Patient is a 52-year-old male with hypertension and cancer. No history of anemia or fatigue.",
+  "raw_text": "Patient, aged 80, has a history of migraine and chronic kidney disease.",
   "metadata": {
-    "age": 52,
+    "age": 80,
     "gender": "male",
     "conditions": [
-      "hypertension",
-      "cancer"
+      "migraine",
+      "chronic kidney disease"
     ],
-    "negated_conditions": [
-      "anemia",
-      "fatigue"
-    ],
+    "negated_conditions": [],
     "source": "synthetic_v3"
   }
 }

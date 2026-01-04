@@ -1,15 +1,18 @@
 {
   "patient_id": "P_SYN_141",
-  "raw_text": "Patient, aged 39, has a history of type 2 diabetes and anxiety and cardiovascular disease.",
+  "raw_text": "Patient is a 32-year-old male with COPD and urinary tract infections and arthritis. No history of bronchitis or thyroid disorders.",
   "metadata": {
-    "age": 39,
+    "age": 32,
     "gender": "male",
     "conditions": [
-      "type 2 diabetes",
-      "anxiety",
-      "cardiovascular disease"
+      "COPD",
+      "urinary tract infections",
+      "arthritis"
     ],
-    "negated_conditions": [],
+    "negated_conditions": [
+      "bronchitis",
+      "thyroid disorders"
+    ],
     "source": "synthetic_v3"
   }
 }

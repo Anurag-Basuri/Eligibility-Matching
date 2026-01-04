@@ -1,15 +1,14 @@
 {
   "patient_id": "P_SYN_126",
-  "raw_text": "Patient, aged 52, has a history of constipation. No history of schizophrenia or glaucoma.",
+  "raw_text": "Patient, a 60-year-old male, diagnosed with migraine. No history of tuberculosis.",
   "metadata": {
-    "age": 52,
+    "age": 60,
     "gender": "male",
     "conditions": [
-      "constipation"
+      "migraine"
     ],
     "negated_conditions": [
-      "schizophrenia",
-      "glaucoma"
+      "tuberculosis"
     ],
     "source": "synthetic_v3"
   }

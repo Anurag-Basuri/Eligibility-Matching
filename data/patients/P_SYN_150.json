@@ -1,13 +1,17 @@
 {
   "patient_id": "P_SYN_150",
-  "raw_text": "Patient, aged 49, has a history of anxiety.",
+  "raw_text": "Patient, aged 53, has a history of schizophrenia and heart disease. No history of endometriosis or chronic kidney disease.",
   "metadata": {
-    "age": 49,
+    "age": 53,
     "gender": "male",
     "conditions": [
-      "anxiety"
+      "schizophrenia",
+      "heart disease"
     ],
-    "negated_conditions": [],
+    "negated_conditions": [
+      "endometriosis",
+      "chronic kidney disease"
+    ],
     "source": "synthetic_v3"
   }
 }

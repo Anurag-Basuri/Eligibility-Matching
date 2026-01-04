@@ -1,14 +1,15 @@
 {
   "patient_id": "P_SYN_105",
-  "raw_text": "Patient is a 23-year-old female with anxiety. No history of obesity.",
+  "raw_text": "Patient, a 42-year-old male, diagnosed with vomiting. No history of cataracts or psoriasis.",
   "metadata": {
-    "age": 23,
-    "gender": "female",
+    "age": 42,
+    "gender": "male",
     "conditions": [
-      "anxiety"
+      "vomiting"
     ],
     "negated_conditions": [
-      "obesity"
+      "cataracts",
+      "psoriasis"
     ],
     "source": "synthetic_v3"
   }

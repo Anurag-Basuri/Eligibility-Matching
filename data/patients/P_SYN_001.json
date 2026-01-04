@@ -1,15 +1,15 @@
 {
   "patient_id": "P_SYN_001",
-  "raw_text": "Patient, aged 57, has a history of migraine and epilepsy. No history of heart disease.",
+  "raw_text": "Patient, aged 28, has a history of type 2 diabetes. No history of postpartum depression or fatigue.",
   "metadata": {
-    "age": 57,
+    "age": 28,
     "gender": "male",
     "conditions": [
-      "migraine",
-      "epilepsy"
+      "type 2 diabetes"
     ],
     "negated_conditions": [
-      "heart disease"
+      "postpartum depression",
+      "fatigue"
     ],
     "source": "synthetic_v3"
   }

@@ -1,16 +1,15 @@
 {
   "patient_id": "P_SYN_049",
-  "raw_text": "Patient, aged 50, has a history of cardiovascular disease and smoking. No history of skin infections or menopause.",
+  "raw_text": "Patient is a 39-year-old female with anxiety and vitamin D deficiency. No history of hypothyroidism.",
   "metadata": {
-    "age": 50,
-    "gender": "male",
+    "age": 39,
+    "gender": "female",
     "conditions": [
-      "cardiovascular disease",
-      "smoking"
+      "anxiety",
+      "vitamin D deficiency"
     ],
     "negated_conditions": [
-      "skin infections",
-      "menopause"
+      "hypothyroidism"
     ],
     "source": "synthetic_v3"
   }

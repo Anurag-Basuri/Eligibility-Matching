@@ -1,17 +1,16 @@
 {
   "patient_id": "P_SYN_070",
-  "raw_text": "Patient, aged 50, has a history of obesity and heart disease and psoriasis. No history of chronic kidney disease or urinary tract infections.",
+  "raw_text": "Patient is a 70-year-old male with anxiety and dizziness. No history of allergies or cataracts.",
   "metadata": {
-    "age": 50,
+    "age": 70,
     "gender": "male",
     "conditions": [
-      "obesity",
-      "heart disease",
-      "psoriasis"
+      "anxiety",
+      "dizziness"
     ],
     "negated_conditions": [
-      "chronic kidney disease",
-      "urinary tract infections"
+      "allergies",
+      "cataracts"
     ],
     "source": "synthetic_v3"
   }

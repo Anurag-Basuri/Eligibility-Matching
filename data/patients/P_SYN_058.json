@@ -1,10 +1,13 @@
 {
   "patient_id": "P_SYN_058",
-  "raw_text": "Patient, aged 63, has a history of obesity.",
+  "raw_text": "Patient is a 21-year-old male with smoking and type 2 diabetes and arthritis and obesity.",
   "metadata": {
-    "age": 63,
+    "age": 21,
     "gender": "male",
     "conditions": [
+      "smoking",
+      "type 2 diabetes",
+      "arthritis",
       "obesity"
     ],
     "negated_conditions": [],

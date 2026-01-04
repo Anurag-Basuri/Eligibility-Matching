@@ -1,16 +1,14 @@
 {
   "patient_id": "P_SYN_147",
-  "raw_text": "Patient, a 30-year-old female, diagnosed with GERD and chronic kidney disease. No history of cardiovascular disease or vitamin D deficiency.",
+  "raw_text": "Patient is a 64-year-old female with arthritis. No history of vomiting.",
   "metadata": {
-    "age": 30,
+    "age": 64,
     "gender": "female",
     "conditions": [
-      "GERD",
-      "chronic kidney disease"
+      "arthritis"
     ],
     "negated_conditions": [
-      "cardiovascular disease",
-      "vitamin D deficiency"
+      "vomiting"
     ],
     "source": "synthetic_v3"
   }

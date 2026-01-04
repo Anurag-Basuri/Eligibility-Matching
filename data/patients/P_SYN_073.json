@@ -1,13 +1,16 @@
 {
   "patient_id": "P_SYN_073",
-  "raw_text": "Patient, a 23-year-old female, diagnosed with cardiovascular disease.",
+  "raw_text": "Patient is a 30-year-old female with IBS. No history of hearing loss or migraine.",
   "metadata": {
-    "age": 23,
+    "age": 30,
     "gender": "female",
     "conditions": [
-      "cardiovascular disease"
+      "IBS"
     ],
-    "negated_conditions": [],
+    "negated_conditions": [
+      "hearing loss",
+      "migraine"
+    ],
     "source": "synthetic_v3"
   }
 }

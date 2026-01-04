@@ -1,14 +1,14 @@
 {
   "patient_id": "P_SYN_157",
-  "raw_text": "Patient is a 55-year-old female with type 2 diabetes. No history of cardiovascular disease.",
+  "raw_text": "Patient is a 45-year-old female with allergies. No history of hypothyroidism.",
   "metadata": {
-    "age": 55,
+    "age": 45,
     "gender": "female",
     "conditions": [
-      "type 2 diabetes"
+      "allergies"
     ],
     "negated_conditions": [
-      "cardiovascular disease"
+      "hypothyroidism"
     ],
     "source": "synthetic_v3"
   }

@@ -1,15 +1,14 @@
 {
   "patient_id": "P_SYN_146",
-  "raw_text": "Patient is a 81-year-old male with heart disease. No history of endometriosis or dizziness.",
+  "raw_text": "Patient is a 53-year-old male with hypothyroidism. No history of gestational diabetes.",
   "metadata": {
-    "age": 81,
+    "age": 53,
     "gender": "male",
     "conditions": [
-      "heart disease"
+      "hypothyroidism"
     ],
     "negated_conditions": [
-      "endometriosis",
-      "dizziness"
+      "gestational diabetes"
     ],
     "source": "synthetic_v3"
   }
