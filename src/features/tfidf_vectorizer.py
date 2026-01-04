@@ -1,8 +1,14 @@
 import pickle
-from sklearn.feature_extraction.text import TfidfVectorizer
+import importlib
 
 class TFIDFVectorizer:
     def __init__(self):
+        try:
+            sklearn_text = importlib.import_module("sklearn.feature_extraction.text")
+            TfidfVectorizer = getattr(sklearn_text, "TfidfVectorizer")
+        except Exception as e:
+            raise ImportError("scikit-learn is required to use TFIDFVectorizer; install it with 'pip install scikit-learn'") from e
+
         self.vectorizer = TfidfVectorizer(
             ngram_range=(1, 2),
             max_features=5000
