@@ -3,6 +3,7 @@ import random
 import os
 import re
 import argparse
+from collections import Counter
 from datetime import datetime
 from pathlib import Path
 
@@ -186,6 +187,8 @@ def parse_args():
     parser.add_argument("--num", type=int, default=NUM_SYNTHETIC_PATIENTS, help="Number of synthetic patients to generate")
     parser.add_argument("--batch", type=str, default=None, help="Batch name/tag to include in generated IDs (default: timestamp)")
     parser.add_argument("--skip-pairs", action="store_true", help="Generate patients only, skip pair files")
+    parser.add_argument("--visualize", action="store_true", help="Create simple visualizations (age histogram, condition counts)")
+    parser.add_argument("--verbose", action="store_true", help="Verbose output while generating")
     return parser.parse_args()
 
 
@@ -193,6 +196,15 @@ def main():
     args = parse_args()
     num = args.num
     batch = args.batch or datetime.now().strftime("%Y%m%d%H%M%S")
+    visualize = args.visualize
+    verbose = args.verbose
+
+    # Stats collectors for summary & visualization
+    ages = []
+    cond_counter = Counter()
+    trial_eligible = Counter()
+    total_pairs = 0
+    eligible_pairs = 0
 
     # Generate patients and pairs for this batch
     for i in range(num):
@@ -203,11 +215,18 @@ def main():
         with open(patient_path, "w") as f:
             json.dump(patient, f, indent=2)
 
+        ages.append(patient["metadata"]["age"])
+        for c in patient["metadata"]["conditions"]:
+            cond_counter[c] += 1
+
         if args.skip_pairs:
             continue
 
         for trial in trials:
             label = int(is_eligible(patient, trial))
+            total_pairs += 1
+            eligible_pairs += label
+            trial_eligible[trial["trial_id"]] += label
 
             pair = {
                 "pair_id": f"{pid}_{trial['trial_id']}",
@@ -221,7 +240,73 @@ def main():
             with open(pair_path, "w") as f:
                 json.dump(pair, f, indent=2)
 
+        if verbose:
+            print(f"[{i+1}/{num}] Generated {pid}: age={patient['metadata']['age']} gender={patient['metadata']['gender']} conditions={patient['metadata']['conditions']} pairs_created={len(trials)}")
+
+        # periodic progress
+        if (i + 1) % max(1, num // 10) == 0:
+            print(f"Progress: {i+1}/{num} patients generated (batch={batch})")
+
+    # Summary
+    summary = {
+        "batch": batch,
+        "patients_generated": num,
+        "total_pairs": total_pairs,
+        "eligible_pairs": eligible_pairs,
+        "eligible_rate": eligible_pairs / total_pairs if total_pairs else 0.0,
+        "trial_eligible_counts": dict(trial_eligible),
+        "top_conditions": cond_counter.most_common(20)
+    }
+
+    summary_path = PAIR_DIR / f"summary_{batch}.json"
+    with open(summary_path, "w") as f:
+        json.dump(summary, f, indent=2)
+
     print(f"✅ Synthetic data generation complete. batch={batch} patients={num}")
+    print(f"Summary saved to {summary_path}")
+
+    if visualize:
+        try:
+            import matplotlib.pyplot as plt
+
+            # Age histogram
+            plt.figure(figsize=(8, 4))
+            plt.hist(ages, bins=range(10, 91, 5), color="#4C72B0", edgecolor="black")
+            plt.title(f"Age distribution (batch={batch})")
+            plt.xlabel("Age")
+            plt.ylabel("Count")
+            age_plot = PAIR_DIR / f"age_hist_{batch}.png"
+            plt.tight_layout()
+            plt.savefig(age_plot)
+            plt.close()
+
+            # Top conditions
+            conds, counts = zip(*cond_counter.most_common(20)) if cond_counter else ([], [])
+            plt.figure(figsize=(10, 6))
+            plt.barh(conds[::-1], counts[::-1], color="#55A868")
+            plt.title(f"Top conditions (batch={batch})")
+            plt.xlabel("Count")
+            cond_plot = PAIR_DIR / f"conditions_{batch}.png"
+            plt.tight_layout()
+            plt.savefig(cond_plot)
+            plt.close()
+
+            # Eligible per trial
+            trials_ids = list(trial_eligible.keys())
+            elig_counts = [trial_eligible[t] for t in trials_ids]
+            plt.figure(figsize=(8, 4))
+            plt.bar(trials_ids, elig_counts, color="#C44E52")
+            plt.title(f"Eligible counts per trial (batch={batch})")
+            plt.xlabel("Trial ID")
+            plt.ylabel("Eligible count")
+            trial_plot = PAIR_DIR / f"trial_eligible_{batch}.png"
+            plt.tight_layout()
+            plt.savefig(trial_plot)
+            plt.close()
+
+            print(f"Visualizations saved: {age_plot}, {cond_plot}, {trial_plot}")
+        except Exception as e:
+            print("Visualization skipped: matplotlib not available or error occurred:", e)
 
 
 if __name__ == "__main__":
