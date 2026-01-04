@@ -22,6 +22,7 @@ CONDITIONS_POOL = [
 
 # Ensure directories exist
 os.makedirs(PATIENT_DIR, exist_ok=True)
+os.makedirs(TRIAL_DIR, exist_ok=True)
 os.makedirs(PAIR_DIR, exist_ok=True)
 
 # SAMPLE DATA
@@ -30,6 +31,26 @@ GENDERS = ["male", "female"]
 
 # UTILS
 def anonymize_text(text):
+    text = text.replace("Ankita", "NAME")
+    text = text.replace("Raj", "NAME")
+    text = text.replace("Wei", "NAME")
+    text = text.replace("Fatima", "NAME")
+    text = text.replace("Aarav", "NAME")
+    text = text.replace("Sourav", "NAME")
+    text = text.replace("Nikhil", "NAME")
+    text = text.replace("Priya", "NAME")
+    text = text.replace("Kavita", "NAME")
+    text = text.replace("Rohan", "NAME")
+    text = text.replace("Deepak", "NAME")
+    text = text.replace("Sneha", "NAME")
+    text = text.replace("Vikram", "NAME")
+    text = text.replace("Meera", "NAME")
+    text = text.replace("Aisha", "NAME")
+    text = text.replace("Sanjay", "NAME")
+    text = text.replace("Lakshmi", "NAME")
+    text = text.replace("Arjun", "NAME")
+    text = text.replace("Divya", "NAME")
+    text = text.replace("Karan", "NAME")
     
     return text.replace("year-old", "AGE-year-old")
 
