@@ -23,7 +23,18 @@ CONDITIONS_POOL = [
     "type 2 diabetes", "hypertension", "cardiovascular disease", "cancer",
     "chronic kidney disease", "heart disease", "PCOS", "COPD",
     "vitamin D deficiency", "migraine", "hypothyroidism", "depression",
-    "anxiety", "asthma", "obesity", "hyperlipidemia", "smoking"
+    "anxiety", "asthma", "obesity", "hyperlipidemia", "smoking",
+    "arthritis", "osteoporosis", "allergies", "eczema", "GERD", "sleep apnea",
+    "IBS", "anemia", "fibromyalgia",
+    "chronic back pain", "glaucoma", "hearing loss", "cataracts", "psoriasis",
+    "epilepsy", "multiple sclerosis", "Parkinson's disease", "Alzheimer's disease",
+    "HIV/AIDS", "liver disease", "thyroid disorders", "autoimmune diseases",
+    "dehydration", "dizziness", "fatigue", "constipation", "diarrhea",
+    "nausea", "vomiting", "skin infections", "urinary tract infections"
+    ,"sinus infections", "bronchitis", "pneumonia", "tuberculosis",
+    "hepatitis B", "hepatitis C", "menopause", "endometriosis",
+    "infertility", "gestational diabetes", "pre-eclampsia",
+    "postpartum depression", "ADHD", "autism spectrum disorder","bipolar disorder", "schizophrenia"
 ]
 
 CONDITION_WEIGHTS = {
