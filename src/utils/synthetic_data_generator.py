@@ -1,6 +1,7 @@
 import json
 import random
 import os
+import re
 from pathlib import Path
 
 # CONFIG
@@ -11,14 +12,6 @@ PAIR_DIR = BASE_DIR / "pairs"
 
 NUM_SYNTHETIC_PATIENTS = 50
 
-CONDITIONS_POOL = [
-    "type 2 diabetes",
-    "hypertension",
-    "cardiovascular disease",
-    "cancer",
-    "chronic kidney disease",
-    "heart disease"
-]
 
 # Ensure directories exist
 os.makedirs(PATIENT_DIR, exist_ok=True)
@@ -26,48 +19,48 @@ os.makedirs(TRIAL_DIR, exist_ok=True)
 os.makedirs(PAIR_DIR, exist_ok=True)
 
 # SAMPLE DATA
-NAMES = [ "Ankita", "Raj", "Wei", "Fatima", "Aarav", "Sourav", "Nikhil", "Priya", "Kavita", "Rohan", "Deepak", "Sneha", "Vikram", "Meera", "Aisha", "Sanjay", "Lakshmi", "Arjun", "Divya", "Karan" ]
-GENDERS = ["male", "female"]
+MALE_NAMES = [
+    "Raj Kumar", "Aarav Sharma", "Sourav Patel", "Nikhil Singh", "Rohan Mehta",
+    "Deepak Gupta", "Vikram Rao", "Sanjay Verma", "Arjun Joshi", "Karan Dhillon"
+]
+
+FEMALE_NAMES = [
+    "Ankita Sharma", "Wei Ling", "Fatima Khan", "Priya Nair", "Kavita Rao",
+    "Sneha Iyer", "Meera Menon", "Aisha Siddiqui", "Lakshmi Reddy", "Divya Kapoor"
+]
 
 # UTILS
 def anonymize_text(text):
-    text = text.replace("Ankita", "NAME")
-    text = text.replace("Raj", "NAME")
-    text = text.replace("Wei", "NAME")
-    text = text.replace("Fatima", "NAME")
-    text = text.replace("Aarav", "NAME")
-    text = text.replace("Sourav", "NAME")
-    text = text.replace("Nikhil", "NAME")
-    text = text.replace("Priya", "NAME")
-    text = text.replace("Kavita", "NAME")
-    text = text.replace("Rohan", "NAME")
-    text = text.replace("Deepak", "NAME")
-    text = text.replace("Sneha", "NAME")
-    text = text.replace("Vikram", "NAME")
-    text = text.replace("Meera", "NAME")
-    text = text.replace("Aisha", "NAME")
-    text = text.replace("Sanjay", "NAME")
-    text = text.replace("Lakshmi", "NAME")
-    text = text.replace("Arjun", "NAME")
-    text = text.replace("Divya", "NAME")
-    text = text.replace("Karan", "NAME")
-    
+    # Replace any full name or given name from our lists with a single placeholder
+    all_names = MALE_NAMES + FEMALE_NAMES
+    for name in all_names:
+        # replace full name occurrences (case-insensitive)
+        pattern = re.compile(r"\b" + re.escape(name) + r"\b", flags=re.IGNORECASE)
+        text = pattern.sub("PATIENT_NAME", text)
+        # also replace given name only (first token) to catch partial mentions
+        first_name = name.split()[0]
+        pattern2 = re.compile(r"\b" + re.escape(first_name) + r"\b", flags=re.IGNORECASE)
+        text = pattern2.sub("PATIENT_NAME", text)
+
     return text.replace("year-old", "AGE-year-old")
 
 
 def generate_patient(patient_id):
-    age = random.randint(18, 85)
-    gender = random.choice(GENDERS)
+    age = random.randint(15, 85)
+
+    # pick a name from gendered lists; gender comes from the name chosen
+    if random.random() < 0.5:
+        name = random.choice(MALE_NAMES)
+        gender = "male"
+    else:
+        name = random.choice(FEMALE_NAMES)
+        gender = "female"
 
     num_conditions = random.randint(1, 2)
     conditions = random.sample(CONDITIONS_POOL, num_conditions)
 
-    negated_conditions = random.sample(
-        [c for c in CONDITIONS_POOL if c not in conditions],
-        random.randint(0, 1)
-    )
-
-    name = random.choice(NAMES)
+    negated_candidates = [c for c in CONDITIONS_POOL if c not in conditions]
+    negated_conditions = random.sample(negated_candidates, k=random.randint(0, min(1, len(negated_candidates))))
 
     raw_text = (
         f"{name}, a {age}-year-old {gender}, diagnosed with "
