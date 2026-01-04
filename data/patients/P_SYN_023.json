@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_SYN_023",
+  "raw_text": "Sanjay Verma, a 21-year-old male, diagnosed with PCOS and allergies. No history of type 2 diabetes.",
+  "anonymized_text": "PATIENT_NAME, a 21-AGE-year-old male, diagnosed with PCOS and allergies. No history of type 2 diabetes.",
+  "metadata": {
+    "age": 21,
+    "gender": "male",
+    "conditions": [
+      "PCOS",
+      "allergies"
+    ],
+    "negated_conditions": [
+      "type 2 diabetes"
+    ],
+    "notes": "Synthetic patient record"
+  }
+}

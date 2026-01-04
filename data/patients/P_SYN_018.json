@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_SYN_018",
+  "raw_text": "Karan Dhillon, a 51-year-old male, diagnosed with stroke.",
+  "anonymized_text": "PATIENT_NAME, a 51-AGE-year-old male, diagnosed with stroke.",
+  "metadata": {
+    "age": 51,
+    "gender": "male",
+    "conditions": [
+      "stroke"
+    ],
+    "negated_conditions": [],
+    "notes": "Synthetic patient record"
+  }
+}

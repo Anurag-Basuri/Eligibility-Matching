@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_SYN_014",
+  "raw_text": "Karan Dhillon, a 56-year-old male, diagnosed with endometriosis and lymphoma.",
+  "anonymized_text": "PATIENT_NAME, a 56-AGE-year-old male, diagnosed with endometriosis and lymphoma.",
+  "metadata": {
+    "age": 56,
+    "gender": "male",
+    "conditions": [
+      "endometriosis",
+      "lymphoma"
+    ],
+    "negated_conditions": [],
+    "notes": "Synthetic patient record"
+  }
+}

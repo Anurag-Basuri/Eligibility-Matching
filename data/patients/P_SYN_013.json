@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_SYN_013",
+  "raw_text": "Arjun Joshi, a 75-year-old male, diagnosed with glaucoma.",
+  "anonymized_text": "PATIENT_NAME, a 75-AGE-year-old male, diagnosed with glaucoma.",
+  "metadata": {
+    "age": 75,
+    "gender": "male",
+    "conditions": [
+      "glaucoma"
+    ],
+    "negated_conditions": [],
+    "notes": "Synthetic patient record"
+  }
+}
