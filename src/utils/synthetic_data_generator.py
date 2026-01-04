@@ -3,9 +3,7 @@ import random
 import os
 from pathlib import Path
 
-# -----------------------------
 # CONFIG
-# -----------------------------
 BASE_DIR = Path("data")
 PATIENT_DIR = BASE_DIR / "patients"
 TRIAL_DIR = BASE_DIR / "trials"
@@ -22,19 +20,17 @@ CONDITIONS_POOL = [
     "heart disease"
 ]
 
-NAMES = ["John", "Mary", "Robert", "Linda", "James", "Susan"]
+# Ensure directories exist
+os.makedirs(PATIENT_DIR, exist_ok=True)
+os.makedirs(PAIR_DIR, exist_ok=True)
+
+# SAMPLE DATA
+NAMES = [ "Ankita", "Raj", "Wei", "Fatima", "Aarav", "Sourav", "Nikhil", "Priya", "Kavita", "Rohan", "Deepak", "Sneha", "Vikram", "Meera", "Aisha", "Sanjay", "Lakshmi", "Arjun", "Divya", "Karan" ]
 GENDERS = ["male", "female"]
 
-# -----------------------------
 # UTILS
-# -----------------------------
 def anonymize_text(text):
-    text = text.replace("John", "PATIENT_NAME")
-    text = text.replace("Mary", "PATIENT_NAME")
-    text = text.replace("Robert", "PATIENT_NAME")
-    text = text.replace("Linda", "PATIENT_NAME")
-    text = text.replace("James", "PATIENT_NAME")
-    text = text.replace("Susan", "PATIENT_NAME")
+    
     return text.replace("year-old", "AGE-year-old")
 
 
@@ -94,17 +90,13 @@ def is_eligible(patient, trial):
     return True
 
 
-# -----------------------------
 # LOAD TRIALS
-# -----------------------------
 trials = []
 for file in TRIAL_DIR.glob("*.json"):
     with open(file, "r") as f:
         trials.append(json.load(f))
 
-# -----------------------------
 # GENERATE DATA
-# -----------------------------
 for i in range(NUM_SYNTHETIC_PATIENTS):
     pid = f"P_SYN_{i+1:03d}"
     patient = generate_patient(pid)
