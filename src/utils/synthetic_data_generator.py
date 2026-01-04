@@ -12,7 +12,7 @@ PATIENT_DIR = BASE_DIR / "patients"
 TRIAL_DIR = BASE_DIR / "trials"
 PAIR_DIR = BASE_DIR / "pairs"
 
-NUM_SYNTHETIC_PATIENTS = 150
+NUM_SYNTHETIC_PATIENTS = 160
 
 # Sample pool of medical conditions(unique, diverse)
 CONDITIONS_POOL = [
@@ -85,6 +85,26 @@ CONDITIONS_POOL = [
     "drug addiction",
 ]
 
+# Conditions with higher prevalence (weights for sampling)
+CONDITION_WEIGHTS = {
+    "hypertension": 8,
+    "type 2 diabetes": 6,
+    "vitamin D deficiency": 5,
+    "migraine": 4,
+    "osteoarthritis": 4,
+    "COPD": 2,
+    "cancer": 1,
+    "PCOS": 2,
+    "depression": 3,
+    "anxiety": 4,
+    "obesity": 5,
+    "hyperlipidemia": 4,
+    "smoking": 3
+}
+
+# Helper: build weights list matching CONDITIONS_POOL
+CONDITION_WEIGHTS_LIST = [CONDITION_WEIGHTS.get(c, 1) for c in CONDITIONS_POOL]
+
 # Ensure directories exist
 os.makedirs(PATIENT_DIR, exist_ok=True)
 os.makedirs(TRIAL_DIR, exist_ok=True)
@@ -93,12 +113,12 @@ os.makedirs(PAIR_DIR, exist_ok=True)
 # SAMPLE DATA (names)
 MALE_NAMES = [
     "Raj Kumar", "Aarav Sharma", "Sourav Patel", "Nikhil Singh", "Rohan Mehta",
-    "Deepak Gupta", "Vikram Rao", "Sanjay Verma", "Arjun Joshi", "Karan Dhillon", "Nitin Chauhan", "Manish Malhotra", "Amitabh Tiwari", "Rakesh Yadav", "Suresh Nair", "Vijay Desai", "Harish Iyer", "Pranav Sinha", "Aditya Ghosh", "Siddharth Chatterjee"
+    "Deepak Gupta", "Vikram Rao", "Sanjay Verma", "Arjun Joshi", "Karan Dhillon", "Nitin Chauhan", "Manish Malhotra", "Amitabh Tiwari", "Rakesh Yadav", "Suresh Nair", "Vijay Desai", "Harish Iyer", "Pranav Sinha", "Aditya Ghosh", "Siddharth Chatterjee", "Mahesh Kulkarni", "Anil Kapoor", "Ravi Singh", "Kunal Shah", "Tarun Bhatia", "Ashok Jain"
 ]
 
 FEMALE_NAMES = [
     "Ankita Sharma", "Wei Ling", "Fatima Khan", "Priya Nair", "Kavita Rao",
-    "Sneha Iyer", "Meera Menon", "Aisha Siddiqui", "Lakshmi Reddy", "Divya Kapoor", "Sunita Joshi", "Pooja Verma", "Rina Patel", "Nisha Gupta", "Lata Singh", "Zara Ali", "Maya Das", "Sana Sheikh", "Tina Fernandes", "Ritu Chatterjee"
+    "Sneha Iyer", "Meera Menon", "Aisha Siddiqui", "Lakshmi Reddy", "Divya Kapoor", "Sunita Joshi", "Pooja Verma", "Rina Patel", "Nisha Gupta", "Lata Singh", "Zara Ali", "Maya Das", "Sana Sheikh", "Tina Fernandes", "Ritu Chatterjee", "Gita Kulkarni", "Anjali Mehta", "Kiran Malhotra", "Sonal Tiwari", "Rashmi Yadav", "Neha Dhillon", "Lina Chauhan"
 ]
 
 # UTILS
@@ -117,8 +137,43 @@ def anonymize_text(text):
     return text.replace("year-old", "AGE-year-old")
 
 # PATIENT GENERATION
+def _choose_age():
+    # realistic adult-focused age distribution by buckets
+    buckets = [
+        (15, 30, 0.2),
+        (31, 45, 0.3),
+        (46, 65, 0.35),
+        (66, 85, 0.15)
+    ]
+    r = random.random()
+    cum = 0.0
+    for low, high, p in buckets:
+        cum += p
+        if r <= cum:
+            return random.randint(low, high)
+    return random.randint(18, 85)
+
+
+def _select_conditions():
+    # choose 0-3 conditions with weighted probabilities
+    k = random.choices([0,1,2,3], weights=[5,50,30,15], k=1)[0]
+    if k == 0:
+        return []
+    # sample without replacement using weights
+    chosen = set()
+    pool = CONDITIONS_POOL.copy()
+    weights = CONDITION_WEIGHTS_LIST.copy()
+    while len(chosen) < k and pool:
+        c = random.choices(pool, weights=weights, k=1)[0]
+        chosen.add(c)
+        idx = pool.index(c)
+        pool.pop(idx)
+        weights.pop(idx)
+    return list(chosen)
+
+
 def generate_patient(patient_id):
-    age = random.randint(15, 85)
+    age = _choose_age()
 
     # pick a name from gendered lists; gender comes from the name chosen
     if random.random() <= 0.5:
@@ -128,16 +183,31 @@ def generate_patient(patient_id):
         name = random.choice(FEMALE_NAMES)
         gender = "female"
 
-    num_conditions = random.randint(1, 2)
-    conditions = random.sample(CONDITIONS_POOL, num_conditions)
+    # conditions and simple comorbidity rules
+    conditions = _select_conditions()
 
+    # simple correlations
+    if "type 2 diabetes" in conditions and "obesity" not in conditions and random.random() < 0.4:
+        conditions.append("obesity")
+    if "hypertension" in conditions and "hyperlipidemia" not in conditions and random.random() < 0.3:
+        conditions.append("hyperlipidemia")
+
+    # ensure uniqueness
+    conditions = list(dict.fromkeys(conditions))
+
+    # negated conditions (things explicitly denied)
     negated_candidates = [c for c in CONDITIONS_POOL if c not in conditions]
-    negated_conditions = random.sample(negated_candidates, k=random.randint(0, min(1, len(negated_candidates))))
+    negated_conditions = random.sample(negated_candidates, k=random.randint(0, min(2, len(negated_candidates))))
 
-    raw_text = (
-        f"{name}, a {age}-year-old {gender}, diagnosed with "
-        f"{' and '.join(conditions)}."
-    )
+    # Richer raw text templates
+    templates = [
+        "{name}, a {age}-year-old {gender}, diagnosed with {conds}.",
+        "{name} is a {age}-year-old {gender} with {conds}.",
+        "{name}, {age} years old {gender}, has a history of {conds}.",
+        "{name} ({age}-year-old {gender}) presented with {conds}."
+    ]
+    conds_text = " and ".join(conditions) if conditions else "no diagnosed chronic conditions"
+    raw_text = random.choice(templates).format(name=name, age=age, gender=gender, conds=conds_text)
 
     if negated_conditions:
         raw_text += f" No history of {' or '.join(negated_conditions)}."
@@ -153,7 +223,8 @@ def generate_patient(patient_id):
             "gender": gender,
             "conditions": conditions,
             "negated_conditions": negated_conditions,
-            "notes": "Synthetic patient record"
+            "notes": "Synthetic patient record",
+            "source": "synthetic_v2",
         }
     }
 
