@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_SYN_005",
+  "raw_text": "Sanjay Verma, a 64-year-old male, diagnosed with gout and hepatitis B. No history of Alzheimer's disease.",
+  "anonymized_text": "PATIENT_NAME, a 64-AGE-year-old male, diagnosed with gout and hepatitis B. No history of Alzheimer's disease.",
+  "metadata": {
+    "age": 64,
+    "gender": "male",
+    "conditions": [
+      "gout",
+      "hepatitis B"
+    ],
+    "negated_conditions": [
+      "Alzheimer's disease"
+    ],
+    "notes": "Synthetic patient record"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_SYN_009",
+  "raw_text": "Deepak Gupta, a 70-year-old male, diagnosed with hemophilia and Cushing's syndrome. No history of HIV/AIDS.",
+  "anonymized_text": "PATIENT_NAME, a 70-AGE-year-old male, diagnosed with hemophilia and Cushing's syndrome. No history of HIV/AIDS.",
+  "metadata": {
+    "age": 70,
+    "gender": "male",
+    "conditions": [
+      "hemophilia",
+      "Cushing's syndrome"
+    ],
+    "negated_conditions": [
+      "HIV/AIDS"
+    ],
+    "notes": "Synthetic patient record"
+  }
+}

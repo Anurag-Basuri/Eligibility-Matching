@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_SYN_007",
+  "raw_text": "Meera Menon, a 43-year-old female, diagnosed with asthma and glaucoma.",
+  "anonymized_text": "PATIENT_NAME, a 43-AGE-year-old female, diagnosed with asthma and glaucoma.",
+  "metadata": {
+    "age": 43,
+    "gender": "female",
+    "conditions": [
+      "asthma",
+      "glaucoma"
+    ],
+    "negated_conditions": [],
+    "notes": "Synthetic patient record"
+  }
+}

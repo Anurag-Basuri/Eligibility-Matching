@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_SYN_011",
+  "raw_text": "Fatima Khan, a 61-year-old female, diagnosed with Parkinson's disease and HIV/AIDS. No history of anxiety.",
+  "anonymized_text": "PATIENT_NAME, a 61-AGE-year-old female, diagnosed with Parkinson's disease and HIV/AIDS. No history of anxiety.",
+  "metadata": {
+    "age": 61,
+    "gender": "female",
+    "conditions": [
+      "Parkinson's disease",
+      "HIV/AIDS"
+    ],
+    "negated_conditions": [
+      "anxiety"
+    ],
+    "notes": "Synthetic patient record"
+  }
+}

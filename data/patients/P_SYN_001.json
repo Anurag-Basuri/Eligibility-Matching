@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_SYN_001",
+  "raw_text": "Ankita Sharma, a 23-year-old female, diagnosed with asthma.",
+  "anonymized_text": "PATIENT_NAME, a 23-AGE-year-old female, diagnosed with asthma.",
+  "metadata": {
+    "age": 23,
+    "gender": "female",
+    "conditions": [
+      "asthma"
+    ],
+    "negated_conditions": [],
+    "notes": "Synthetic patient record"
+  }
+}
