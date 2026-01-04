@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_SYN_20260104203557_014",
+  "raw_text": "Sourav Patel, a 38-year-old male, diagnosed with gout.",
+  "anonymized_text": "PATIENT_NAME, a 38-AGE-year-old male, diagnosed with gout.",
+  "metadata": {
+    "age": 38,
+    "gender": "male",
+    "conditions": [
+      "gout"
+    ],
+    "negated_conditions": [],
+    "notes": "Synthetic patient record"
+  }
+}

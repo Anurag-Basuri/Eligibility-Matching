@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_SYN_20260104203557_016",
+  "raw_text": "Sneha Iyer, a 82-year-old female, diagnosed with epilepsy. No history of migraine.",
+  "anonymized_text": "PATIENT_NAME, a 82-AGE-year-old female, diagnosed with epilepsy. No history of migraine.",
+  "metadata": {
+    "age": 82,
+    "gender": "female",
+    "conditions": [
+      "epilepsy"
+    ],
+    "negated_conditions": [
+      "migraine"
+    ],
+    "notes": "Synthetic patient record"
+  }
+}

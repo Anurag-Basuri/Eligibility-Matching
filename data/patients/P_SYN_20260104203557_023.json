@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_SYN_20260104203557_023",
+  "raw_text": "Nikhil Singh, a 72-year-old male, diagnosed with endometriosis. No history of stroke.",
+  "anonymized_text": "PATIENT_NAME, a 72-AGE-year-old male, diagnosed with endometriosis. No history of stroke.",
+  "metadata": {
+    "age": 72,
+    "gender": "male",
+    "conditions": [
+      "endometriosis"
+    ],
+    "negated_conditions": [
+      "stroke"
+    ],
+    "notes": "Synthetic patient record"
+  }
+}

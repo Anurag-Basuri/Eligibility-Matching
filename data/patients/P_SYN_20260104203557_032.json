@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_SYN_20260104203557_032",
+  "raw_text": "Rohan Mehta, a 40-year-old male, diagnosed with PCOS.",
+  "anonymized_text": "PATIENT_NAME, a 40-AGE-year-old male, diagnosed with PCOS.",
+  "metadata": {
+    "age": 40,
+    "gender": "male",
+    "conditions": [
+      "PCOS"
+    ],
+    "negated_conditions": [],
+    "notes": "Synthetic patient record"
+  }
+}

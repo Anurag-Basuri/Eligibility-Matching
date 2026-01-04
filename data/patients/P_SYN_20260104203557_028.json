@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_SYN_20260104203557_028",
+  "raw_text": "Meera Menon, a 51-year-old female, diagnosed with myocardial infarction and cancer. No history of cataracts.",
+  "anonymized_text": "PATIENT_NAME, a 51-AGE-year-old female, diagnosed with myocardial infarction and cancer. No history of cataracts.",
+  "metadata": {
+    "age": 51,
+    "gender": "female",
+    "conditions": [
+      "myocardial infarction",
+      "cancer"
+    ],
+    "negated_conditions": [
+      "cataracts"
+    ],
+    "notes": "Synthetic patient record"
+  }
+}

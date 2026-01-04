@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_SYN_20260104203557_024",
+  "raw_text": "Priya Nair, a 58-year-old female, diagnosed with PCOS. No history of stroke.",
+  "anonymized_text": "PATIENT_NAME, a 58-AGE-year-old female, diagnosed with PCOS. No history of stroke.",
+  "metadata": {
+    "age": 58,
+    "gender": "female",
+    "conditions": [
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "stroke"
+    ],
+    "notes": "Synthetic patient record"
+  }
+}

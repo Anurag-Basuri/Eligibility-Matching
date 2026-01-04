@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_SYN_20260104203557_025",
+  "raw_text": "Raj Kumar, a 48-year-old male, diagnosed with menopause and Crohn's disease.",
+  "anonymized_text": "PATIENT_NAME, a 48-AGE-year-old male, diagnosed with menopause and Crohn's disease.",
+  "metadata": {
+    "age": 48,
+    "gender": "male",
+    "conditions": [
+      "menopause",
+      "Crohn's disease"
+    ],
+    "negated_conditions": [],
+    "notes": "Synthetic patient record"
+  }
+}

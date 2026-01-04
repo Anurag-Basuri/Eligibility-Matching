@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_SYN_20260104203557_019",
+  "raw_text": "Aisha Siddiqui, a 54-year-old female, diagnosed with Parkinson's disease and eczema. No history of lymphoma.",
+  "anonymized_text": "PATIENT_NAME, a 54-AGE-year-old female, diagnosed with Parkinson's disease and eczema. No history of lymphoma.",
+  "metadata": {
+    "age": 54,
+    "gender": "female",
+    "conditions": [
+      "Parkinson's disease",
+      "eczema"
+    ],
+    "negated_conditions": [
+      "lymphoma"
+    ],
+    "notes": "Synthetic patient record"
+  }
+}

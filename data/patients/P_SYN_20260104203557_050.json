@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_SYN_20260104203557_050",
+  "raw_text": "Ankita Sharma, a 29-year-old female, diagnosed with gout.",
+  "anonymized_text": "PATIENT_NAME, a 29-AGE-year-old female, diagnosed with gout.",
+  "metadata": {
+    "age": 29,
+    "gender": "female",
+    "conditions": [
+      "gout"
+    ],
+    "negated_conditions": [],
+    "notes": "Synthetic patient record"
+  }
+}

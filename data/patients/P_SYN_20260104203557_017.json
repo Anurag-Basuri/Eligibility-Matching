@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_SYN_20260104203557_017",
+  "raw_text": "Sneha Iyer, a 32-year-old female, diagnosed with obesity and PCOS.",
+  "anonymized_text": "PATIENT_NAME, a 32-AGE-year-old female, diagnosed with obesity and PCOS.",
+  "metadata": {
+    "age": 32,
+    "gender": "female",
+    "conditions": [
+      "obesity",
+      "PCOS"
+    ],
+    "negated_conditions": [],
+    "notes": "Synthetic patient record"
+  }
+}

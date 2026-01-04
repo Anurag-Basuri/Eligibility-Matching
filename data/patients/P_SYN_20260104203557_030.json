@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_SYN_20260104203557_030",
+  "raw_text": "Meera Menon, a 33-year-old female, diagnosed with anxiety. No history of hyperlipidemia.",
+  "anonymized_text": "PATIENT_NAME, a 33-AGE-year-old female, diagnosed with anxiety. No history of hyperlipidemia.",
+  "metadata": {
+    "age": 33,
+    "gender": "female",
+    "conditions": [
+      "anxiety"
+    ],
+    "negated_conditions": [
+      "hyperlipidemia"
+    ],
+    "notes": "Synthetic patient record"
+  }
+}

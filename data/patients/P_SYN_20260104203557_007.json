@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_SYN_20260104203557_007",
+  "raw_text": "Wei Ling, a 42-year-old female, diagnosed with stroke and hepatitis C. No history of cancer.",
+  "anonymized_text": "PATIENT_NAME, a 42-AGE-year-old female, diagnosed with stroke and hepatitis C. No history of cancer.",
+  "metadata": {
+    "age": 42,
+    "gender": "female",
+    "conditions": [
+      "stroke",
+      "hepatitis C"
+    ],
+    "negated_conditions": [
+      "cancer"
+    ],
+    "notes": "Synthetic patient record"
+  }
+}

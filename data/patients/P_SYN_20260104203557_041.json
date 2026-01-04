@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_SYN_20260104203557_041",
+  "raw_text": "Sourav Patel, a 15-year-old male, diagnosed with type 2 diabetes. No history of obesity.",
+  "anonymized_text": "PATIENT_NAME, a 15-AGE-year-old male, diagnosed with type 2 diabetes. No history of obesity.",
+  "metadata": {
+    "age": 15,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes"
+    ],
+    "negated_conditions": [
+      "obesity"
+    ],
+    "notes": "Synthetic patient record"
+  }
+}

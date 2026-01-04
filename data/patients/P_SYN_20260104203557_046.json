@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_SYN_20260104203557_046",
+  "raw_text": "Sneha Iyer, a 46-year-old female, diagnosed with hepatitis C.",
+  "anonymized_text": "PATIENT_NAME, a 46-AGE-year-old female, diagnosed with hepatitis C.",
+  "metadata": {
+    "age": 46,
+    "gender": "female",
+    "conditions": [
+      "hepatitis C"
+    ],
+    "negated_conditions": [],
+    "notes": "Synthetic patient record"
+  }
+}

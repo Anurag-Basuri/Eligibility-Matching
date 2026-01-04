@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_SYN_20260104203557_001",
+  "raw_text": "Arjun Joshi, a 32-year-old male, diagnosed with hypertension. No history of infertility.",
+  "anonymized_text": "PATIENT_NAME, a 32-AGE-year-old male, diagnosed with hypertension. No history of infertility.",
+  "metadata": {
+    "age": 32,
+    "gender": "male",
+    "conditions": [
+      "hypertension"
+    ],
+    "negated_conditions": [
+      "infertility"
+    ],
+    "notes": "Synthetic patient record"
+  }
+}

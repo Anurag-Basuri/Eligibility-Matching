@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_SYN_20260104203557_031",
+  "raw_text": "Sneha Iyer, a 48-year-old female, diagnosed with menopause. No history of heart disease.",
+  "anonymized_text": "PATIENT_NAME, a 48-AGE-year-old female, diagnosed with menopause. No history of heart disease.",
+  "metadata": {
+    "age": 48,
+    "gender": "female",
+    "conditions": [
+      "menopause"
+    ],
+    "negated_conditions": [
+      "heart disease"
+    ],
+    "notes": "Synthetic patient record"
+  }
+}

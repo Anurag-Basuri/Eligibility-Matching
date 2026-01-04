@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_SYN_20260104203557_006",
+  "raw_text": "Arjun Joshi, a 37-year-old male, diagnosed with anemia and Cushing's syndrome.",
+  "anonymized_text": "PATIENT_NAME, a 37-AGE-year-old male, diagnosed with anemia and Cushing's syndrome.",
+  "metadata": {
+    "age": 37,
+    "gender": "male",
+    "conditions": [
+      "anemia",
+      "Cushing's syndrome"
+    ],
+    "negated_conditions": [],
+    "notes": "Synthetic patient record"
+  }
+}

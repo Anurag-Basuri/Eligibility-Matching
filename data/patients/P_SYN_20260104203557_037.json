@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_SYN_20260104203557_037",
+  "raw_text": "Kavita Rao, a 58-year-old female, diagnosed with COPD. No history of Addison's disease.",
+  "anonymized_text": "PATIENT_NAME, a 58-AGE-year-old female, diagnosed with COPD. No history of Addison's disease.",
+  "metadata": {
+    "age": 58,
+    "gender": "female",
+    "conditions": [
+      "COPD"
+    ],
+    "negated_conditions": [
+      "Addison's disease"
+    ],
+    "notes": "Synthetic patient record"
+  }
+}

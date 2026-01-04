@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_SYN_20260104203557_042",
+  "raw_text": "Ankita Sharma, a 26-year-old female, diagnosed with ulcerative colitis and obesity.",
+  "anonymized_text": "PATIENT_NAME, a 26-AGE-year-old female, diagnosed with ulcerative colitis and obesity.",
+  "metadata": {
+    "age": 26,
+    "gender": "female",
+    "conditions": [
+      "ulcerative colitis",
+      "obesity"
+    ],
+    "negated_conditions": [],
+    "notes": "Synthetic patient record"
+  }
+}
