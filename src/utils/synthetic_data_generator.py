@@ -14,7 +14,7 @@ PAIR_DIR = BASE_DIR / "pairs"
 
 NUM_SYNTHETIC_PATIENTS = 150
 
-# Expanded condition pool to match existing patient and trial data
+# Sample pool of medical conditions(unique, diverse)
 CONDITIONS_POOL = [
     "type 2 diabetes",
     "hypertension",
@@ -90,8 +90,7 @@ os.makedirs(PATIENT_DIR, exist_ok=True)
 os.makedirs(TRIAL_DIR, exist_ok=True)
 os.makedirs(PAIR_DIR, exist_ok=True)
 
-# SAMPLE DATA
-# Indian names for diversity
+# SAMPLE DATA (names)
 MALE_NAMES = [
     "Raj Kumar", "Aarav Sharma", "Sourav Patel", "Nikhil Singh", "Rohan Mehta",
     "Deepak Gupta", "Vikram Rao", "Sanjay Verma", "Arjun Joshi", "Karan Dhillon", "Nitin Chauhan", "Manish Malhotra", "Amitabh Tiwari", "Rakesh Yadav", "Suresh Nair", "Vijay Desai", "Harish Iyer", "Pranav Sinha", "Aditya Ghosh", "Siddharth Chatterjee"
@@ -117,7 +116,7 @@ def anonymize_text(text):
 
     return text.replace("year-old", "AGE-year-old")
 
-
+# PATIENT GENERATION
 def generate_patient(patient_id):
     age = random.randint(15, 85)
 
@@ -158,7 +157,7 @@ def generate_patient(patient_id):
         }
     }
 
-
+# ELIGIBILITY CHECK
 def is_eligible(patient, trial):
     age = patient["metadata"]["age"]
     conditions = set(patient["metadata"]["conditions"])
