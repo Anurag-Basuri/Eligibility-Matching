@@ -1,12 +1,17 @@
+import sys
+from pathlib import Path
+
+# Add project root to path so 'src' imports work
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(PROJECT_ROOT))
+
 import streamlit as st
 import pickle
-from pathlib import Path
 
 # Project imports
 from src.utils.json_loader import load_all_data
 from src.privacy.anonymizer import anonymize
 from src.preprocessing import preprocess
-from src.features.tfidf_vectorizer import TFIDFVectorizer
 
 
 # =============================
@@ -14,10 +19,11 @@ from src.features.tfidf_vectorizer import TFIDFVectorizer
 # =============================
 @st.cache_resource
 def load_models():
-    with open("models/tfidf.pkl", "rb") as f:
+    models_dir = PROJECT_ROOT / "models"
+    with open(models_dir / "tfidf.pkl", "rb") as f:
         vectorizer = pickle.load(f)
 
-    with open("models/classifier.pkl", "rb") as f:
+    with open(models_dir / "classifier.pkl", "rb") as f:
         classifier = pickle.load(f)
 
     return vectorizer, classifier
@@ -25,7 +31,7 @@ def load_models():
 
 @st.cache_data
 def load_data():
-    patients, trials, _ = load_all_data()
+    patients, trials, _ = load_all_data(base_dir=PROJECT_ROOT / "data")
     return patients, trials
 
 
@@ -107,7 +113,6 @@ if st.button("Check Eligibility"):
 
     prediction = classifier.predict(X)[0]
 
-    # Eligibility score (if supported)
     if hasattr(classifier, "predict_proba"):
         score = classifier.predict_proba(X)[0][1]
     else:
