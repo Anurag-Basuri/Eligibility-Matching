@@ -167,6 +167,5 @@ def main():
     print(f"Eligible pairs: {total_eligible}")
     print(f"Eligible ratio: {total_eligible / total_pairs:.2%}")
 
-
 if __name__ == "__main__":
     main()
