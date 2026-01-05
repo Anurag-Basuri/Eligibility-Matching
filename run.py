@@ -13,18 +13,25 @@ def main():
     print(f"Trials: {len(trials)}")
     print(f"Pairs: {len(pairs)}")
 
+    # Build fast lookup maps
+    patient_map = {p["patient_id"]: p for p in patients}
+    trial_map = {t["trial_id"]: t for t in trials}
+
     texts = []
     labels = []
+
+    skipped_pairs = 0
 
     print("🔹 Building training texts...")
 
     for pair in pairs:
-        patient = next(
-            p for p in patients if p["patient_id"] == pair["patient_id"]
-        )
-        trial = next(
-            t for t in trials if t["trial_id"] == pair["trial_id"]
-        )
+        patient = patient_map.get(pair["patient_id"])
+        trial = trial_map.get(pair["trial_id"])
+
+        # Skip invalid references
+        if patient is None or trial is None:
+            skipped_pairs += 1
+            continue
 
         # Runtime anonymization (privacy layer)
         anonymized_text = anonymize(patient["raw_text"])
@@ -37,6 +44,12 @@ def main():
 
         texts.append(processed_text)
         labels.append(pair["label"])
+
+    print(f"✅ Valid training samples: {len(texts)}")
+    print(f"⚠️ Skipped invalid pairs: {skipped_pairs}")
+
+    if not texts:
+        raise RuntimeError("No valid training samples found. Check data integrity.")
 
     print("🔹 Vectorizing text with TF-IDF...")
 
