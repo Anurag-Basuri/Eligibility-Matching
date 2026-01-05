@@ -3,5 +3,5 @@
   "patient_id": "P007",
   "trial_id": "T002",
   "label": 0,
-  "reason": "Missing required condition: hypertension."
+  "reason": "Missing required condition(s): hypertension."
 }

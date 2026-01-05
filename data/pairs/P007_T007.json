@@ -1,0 +1,7 @@
+{
+  "pair_id": "P007_T007",
+  "patient_id": "P007",
+  "trial_id": "T007",
+  "label": 0,
+  "reason": "Patient age (74) exceeds the maximum allowed age (50); Missing required condition(s): asthma."
+}

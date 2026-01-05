@@ -3,5 +3,5 @@
   "patient_id": "P005",
   "trial_id": "T004",
   "label": 0,
-  "reason": "Patient age 66 is within range 60–80 but missing required condition: osteoarthritis."
+  "reason": "Missing required condition(s): osteoarthritis."
 }

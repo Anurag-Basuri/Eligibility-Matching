@@ -1,0 +1,7 @@
+{
+  "pair_id": "P007_T008",
+  "patient_id": "P007",
+  "trial_id": "T008",
+  "label": 0,
+  "reason": "Patient age (74) exceeds the maximum allowed age (65); Missing required condition(s): obesity, type 2 diabetes."
+}

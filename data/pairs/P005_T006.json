@@ -1,0 +1,7 @@
+{
+  "pair_id": "P005_T006",
+  "patient_id": "P005",
+  "trial_id": "T006",
+  "label": 1,
+  "reason": "Age 66 is within range [40-75]; has required condition(s): COPD; none of the excluded conditions (cancer, tuberculosis) are present."
+}

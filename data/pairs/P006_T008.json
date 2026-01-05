@@ -1,0 +1,7 @@
+{
+  "pair_id": "P006_T008",
+  "patient_id": "P006",
+  "trial_id": "T008",
+  "label": 0,
+  "reason": "Patient age (27) is below the minimum required age (30); Missing required condition(s): obesity, type 2 diabetes."
+}
