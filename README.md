@@ -1,107 +1,193 @@
 # 🧪 Clinical Trial Eligibility Matching
 
-A privacy-preserving NLP-based system for matching patients to clinical trials based on eligibility criteria.
+[![Python 3.11+](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-## 📋 Overview
-
-This application uses machine learning to predict whether a patient is eligible for a clinical trial based on:
-
--   Patient demographics (age, gender)
--   Medical conditions
--   Trial eligibility criteria (age range, required/excluded conditions)
-
-### Key Features
-
--   **Privacy-preserving**: Patient names and identifying information are anonymized before processing
--   **Explainable AI**: Provides human-readable explanations for eligibility decisions
--   **Balanced synthetic data generation**: Creates realistic patient-trial pairs for training
--   **Interactive UI**: Streamlit-based web interface for real-time predictions
+A privacy-preserving NLP-based system for automatically matching patients to clinical trials based on eligibility criteria. Built with classical NLP techniques, machine learning classifiers, and an interactive Streamlit interface.
 
 ---
 
-## 🗂️ Project Structure
+## 📋 Table of Contents
+
+-   [Overview](#overview)
+-   [Features](#features)
+-   [Project Structure](#project-structure)
+-   [Installation](#installation)
+-   [Quick Start](#quick-start)
+-   [Data Schemas](#data-schemas)
+-   [Pipeline Details](#pipeline-details)
+-   [Web Application](#web-application)
+-   [Troubleshooting](#troubleshooting)
+-   [Development](#development)
+-   [Future Enhancements](#future-enhancements)
+
+---
+
+## Overview
+
+Clinical trials define eligibility criteria in unstructured natural language. Manually matching patients to appropriate trials is time-consuming, error-prone, and not scalable. This system automates the process using:
+
+-   **TF-IDF vectorization** for text representation
+-   **Machine learning classifiers** (Logistic Regression, Naive Bayes)
+-   **Rule-based explanations** for transparency
+-   **Privacy preservation** through text anonymization
+
+### Problem Solved
+
+| Challenge                         | Solution                         |
+| --------------------------------- | -------------------------------- |
+| Unstructured eligibility criteria | NLP preprocessing + TF-IDF       |
+| Manual matching errors            | ML-based classification          |
+| Privacy concerns                  | Runtime anonymization            |
+| Black-box predictions             | Explainable rule-based reasoning |
+
+---
+
+## Features
+
+-   ✅ **Automatic eligibility prediction** — ML model predicts patient-trial compatibility
+-   ✅ **Privacy-preserving** — Names and ages anonymized before processing
+-   ✅ **Explainable AI** — Rule-based breakdown of eligibility decisions
+-   ✅ **Balanced synthetic data** — Generator creates realistic patient-trial pairs
+-   ✅ **Interactive UI** — Streamlit app for single match, batch analysis, and statistics
+-   ✅ **Modular architecture** — Clean separation of concerns
+
+---
+
+## Project Structure
 
 ```
 clinical-trial-matching/
 ├── data/
-│   ├── patients/          # Patient JSON files
-│   ├── trials/            # Trial JSON files
-│   └── pairs/             # Patient-Trial pair files with labels
-├── models/
-│   ├── tfidf.pkl          # Trained TF-IDF vectorizer
-│   └── classifier.pkl     # Trained classifier model
+│   ├── patients/                 # Patient JSON files (P_BAL_*.json)
+│   ├── trials/                   # Trial JSON files (T001.json - T010.json)
+│   └── pairs/                    # Patient-Trial pairs with labels
+├── models/                       # Trained models (gitignored)
+│   ├── tfidf.pkl                 # TF-IDF vectorizer
+│   └── classifier.pkl            # Best classifier model
 ├── src/
 │   ├── app/
-│   │   └── streamlit_app.py    # Streamlit web interface
+│   │   └── streamlit_app.py      # Web interface
 │   ├── features/
-│   │   └── tfidf_vectorizer.py # TF-IDF feature extraction
+│   │   └── tfidf_vectorizer.py   # TF-IDF wrapper class
 │   ├── models/
-│   │   └── train_classifier.py # Model training logic
+│   │   └── train_classifier.py   # Model training & evaluation
 │   ├── preprocessing/
-│   │   ├── __init__.py
-│   │   ├── text_cleaner.py     # Text cleaning utilities
-│   │   └── tokenizer.py        # spaCy-based tokenization
+│   │   ├── __init__.py           # Preprocessing pipeline
+│   │   ├── text_cleaner.py       # Text normalization
+│   │   └── tokenizer.py          # spaCy-based tokenization
 │   ├── privacy/
-│   │   └── anonymizer.py       # PII anonymization
+│   │   └── anonymizer.py         # PII anonymization
 │   └── utils/
-│       ├── json_loader.py      # Data loading utilities
-│       ├── balancer.py         # Dataset balancing
-│       └── synthetic_data_generator.py  # Synthetic data generation
-├── run.py                  # Basic feature extraction script
-├── run_pipeline.py         # Full training pipeline
-├── requirements.txt        # Python dependencies
-└── README.md
+│       ├── balancer.py           # Dataset balancing
+│       ├── generate_pairs.py     # Pair generation utility
+│       ├── json_loader.py        # Data loading functions
+│       └── synthetic_data_generator.py  # Synthetic patient generator
+├── docs/                         # Additional documentation
+├── notebooks/                    # Jupyter notebooks for exploration
+├── run.py                        # Basic feature extraction script
+├── run_pipeline.py               # Full training pipeline
+├── PROJECT_DOCUMENTATION.md      # Detailed project documentation
+└── README.md                     # This file
 ```
 
 ---
 
-## 🚀 Quick Start
+## Installation
 
-### 1. Clone and Setup Environment
+### Prerequisites
+
+-   Python 3.11 or higher
+-   pip package manager
+
+### Setup
 
 ```powershell
 # Clone the repository
 git clone <repository-url>
 cd clinical-trial-matching
 
-# Create virtual environment
+# Create and activate virtual environment
 python -m venv .venv
-.\.venv\Scripts\Activate.ps1
+.\.venv\Scripts\Activate.ps1    # Windows PowerShell
+# source .venv/bin/activate     # Linux/macOS
 
 # Install dependencies
-pip install -r requirements.txt
+pip install --upgrade pip
+pip install scikit-learn spacy streamlit pandas numpy scipy
 
-# Download spaCy model
+# Download spaCy language model
 python -m spacy download en_core_web_sm
 ```
 
-### 2. Generate Synthetic Data
+### Verify Installation
+
+```powershell
+python -c "import sklearn; import spacy; import streamlit; print('All dependencies installed!')"
+```
+
+---
+
+## Quick Start
+
+### 1. Generate Synthetic Data
 
 ```powershell
 python .\src\utils\synthetic_data_generator.py
 ```
 
-This creates:
+**Output:**
 
--   Patient files in `data/patients/`
--   Pair files in `data/pairs/`
--   Balanced dataset with ~50% eligible, ~50% not eligible
+-   160 patient files in `data/patients/`
+-   1600 pair files in `data/pairs/` (160 patients × 10 trials)
+-   ~50% eligible, ~50% not eligible (balanced)
 
-### 3. Train the Model
+### 2. Train the Model
 
 ```powershell
 python .\run_pipeline.py
 ```
 
-This will:
+**Output:**
 
--   Load and preprocess data
--   Balance the dataset
--   Train TF-IDF vectorizer
--   Train and evaluate classifiers (Logistic Regression, Naive Bayes)
--   Save the best model to `models/`
+```
+========== CLINICAL TRIAL MATCHING PIPELINE ==========
 
-### 4. Run the Web Application
+🔹 Loading data...
+Patients loaded : 160
+Trials loaded   : 10
+Pairs loaded    : 1600
+
+🔹 Preparing training samples...
+✅ Valid samples used : 1600
+
+🔹 Balancing dataset at pair level...
+Balanced samples: 800
+Eligible ratio: 50.00%
+
+🔹 Vectorizing text with TF-IDF...
+✅ TF-IDF complete
+Feature matrix shape: (800, 5000)
+💾 TF-IDF vectorizer saved
+
+🔹 Training and evaluating classifiers...
+
+📊 MODEL: LOGISTIC_REGRESSION
+Accuracy : 0.85
+Precision: 0.84
+Recall   : 0.86
+F1-score : 0.85
+
+📊 MODEL: NAIVE_BAYES
+Accuracy : 0.82
+...
+
+💾 Best model saved: logistic_regression
+
+========== PIPELINE COMPLETE ==========
+```
+
+### 3. Run the Web Application
 
 ```powershell
 streamlit run .\src\app\streamlit_app.py
@@ -111,30 +197,30 @@ Open http://localhost:8501 in your browser.
 
 ---
 
-## 📊 Data Schemas
+## Data Schemas
 
-### Patient (`data/patients/*.json`)
+### Patient (`data/patients/P_BAL_*.json`)
 
 ```json
 {
-	"patient_id": "P_BAL_00001",
-	"raw_text": "Patient is a 45-year-old female with type 2 diabetes and hypertension.",
+	"patient_id": "P_BAL_001",
+	"raw_text": "Patient is a 45-year-old female with type 2 diabetes and hypertension. No history of cancer.",
 	"metadata": {
 		"age": 45,
 		"gender": "female",
 		"conditions": ["type 2 diabetes", "hypertension"],
 		"negated_conditions": ["cancer"],
-		"source": "balanced_global_v1"
+		"source": "balanced_160_patients_v1"
 	}
 }
 ```
 
-### Trial (`data/trials/*.json`)
+### Trial (`data/trials/T001.json`)
 
 ```json
 {
 	"trial_id": "T001",
-	"eligibility_text": "Eligible patients are adults aged 18-65 with type 2 diabetes...",
+	"eligibility_text": "Eligible patients are adults aged 18 to 65 diagnosed with type 2 diabetes and with no history of cardiovascular disease or cancer.",
 	"criteria": {
 		"min_age": 18,
 		"max_age": 65,
@@ -144,126 +230,118 @@ Open http://localhost:8501 in your browser.
 }
 ```
 
-### Pair (`data/pairs/*.json`)
+### Pair (`data/pairs/P_BAL_001_T001.json`)
 
 ```json
 {
-	"pair_id": "P_BAL_00001_T001",
-	"patient_id": "P_BAL_00001",
+	"pair_id": "P_BAL_001_T001",
+	"patient_id": "P_BAL_001",
 	"trial_id": "T001",
 	"label": 1,
-	"reason": "Age 45 within [18-65]; has required: type 2 diabetes; none of excluded conditions present"
+	"reason": "Controlled balanced generation"
 }
 ```
 
 ---
 
-## 🔬 Eligibility Logic
+## Pipeline Details
 
-A patient is **Eligible** (`label = 1`) if ALL of the following are true:
+### Eligibility Logic
 
-1. **Age**: `min_age ≤ patient_age ≤ max_age`
-2. **Required conditions**: Patient has ALL conditions listed in `required_conditions`
-3. **Excluded conditions**: Patient has NONE of the conditions listed in `excluded_conditions`
+A patient is **Eligible** (`label = 1`) if ALL conditions are met:
 
-If any condition fails → **Not Eligible** (`label = 0`)
+| Rule                | Description                                                 |
+| ------------------- | ----------------------------------------------------------- |
+| Age Range           | `min_age ≤ patient_age ≤ max_age`                           |
+| Required Conditions | Patient has ALL conditions in `required_conditions`         |
+| Excluded Conditions | Patient has NONE of the conditions in `excluded_conditions` |
 
----
+If any rule fails → **Not Eligible** (`label = 0`)
 
-## 🛠️ Dependencies
-
-| Package        | Purpose                            |
-| -------------- | ---------------------------------- |
-| `scikit-learn` | ML models, TF-IDF vectorization    |
-| `spacy`        | NLP tokenization and lemmatization |
-| `streamlit`    | Web application interface          |
-| `numpy`        | Numerical operations               |
-| `scipy`        | Sparse matrix support              |
-
-### requirements.txt
+### Processing Pipeline
 
 ```
-scikit-learn>=1.0
-spacy>=3.0
-streamlit>=1.20
-numpy>=1.20
-scipy>=1.7
+Patient Text + Trial Text
+        │
+        ▼
+┌─────────────────────────┐
+│  Privacy Anonymization  │  Names → PATIENT_NAME, Ages → AGE
+└───────────┬─────────────┘
+            ▼
+┌─────────────────────────┐
+│   Text Preprocessing    │  Lowercase, clean, tokenize, lemmatize
+└───────────┬─────────────┘
+            ▼
+┌─────────────────────────┐
+│   TF-IDF Vectorization  │  Unigrams + Bigrams, max 5000 features
+└───────────┬─────────────┘
+            ▼
+┌─────────────────────────┐
+│   ML Classification     │  Logistic Regression / Naive Bayes
+└───────────┬─────────────┘
+            ▼
+    Eligible / Not Eligible
 ```
 
----
+### Available Trials (T001–T010)
 
-## 📈 Model Performance
-
-The pipeline trains two classifiers and selects the best based on F1-score:
-
-| Model               | Accuracy | Precision | Recall | F1-Score |
-| ------------------- | -------- | --------- | ------ | -------- |
-| Logistic Regression | ~0.85    | ~0.84     | ~0.86  | ~0.85    |
-| Naive Bayes         | ~0.82    | ~0.81     | ~0.83  | ~0.82    |
-
-_Results may vary based on generated data._
-
----
-
-## 🔒 Privacy Features
-
--   **Name anonymization**: Patient names replaced with `PATIENT_NAME`
--   **Age anonymization**: Age patterns replaced with `AGE` token
--   **No PII storage**: Raw identifying information is never stored in models
+| Trial | Required Condition       | Age Range | Excluded                              |
+| ----- | ------------------------ | --------- | ------------------------------------- |
+| T001  | type 2 diabetes          | 18-65     | cardiovascular disease, cancer        |
+| T002  | hypertension             | 50-80     | stroke, myocardial infarction         |
+| T003  | PCOS                     | 18-45     | pregnancy, cancer                     |
+| T004  | osteoarthritis           | 60-80     | stroke, cancer                        |
+| T005  | depression               | 18-55     | schizophrenia, bipolar disorder       |
+| T006  | COPD                     | 40-75     | cancer, tuberculosis                  |
+| T007  | asthma                   | 18-50     | chronic kidney disease, heart disease |
+| T008  | obesity, type 2 diabetes | 30-65     | cardiovascular disease, liver disease |
+| T009  | anxiety                  | 21-40     | epilepsy, HIV/AIDS                    |
+| T010  | Parkinson's disease      | 55-85     | Alzheimer's disease, cancer           |
 
 ---
 
-## 🧪 Usage Examples
+## Web Application
 
-### Command Line
+### Features
 
-```powershell
-# Generate 200 synthetic patients
-python .\src\utils\synthetic_data_generator.py
+| Tab                | Description                                                         |
+| ------------------ | ------------------------------------------------------------------- |
+| **Single Match**   | Select patient + trial, get eligibility prediction with explanation |
+| **Batch Analysis** | Check one patient against ALL trials at once                        |
+| **Statistics**     | View age distribution, gender breakdown, top conditions             |
 
-# Retrain models after data changes
-python .\run_pipeline.py
+### Screenshots
 
-# Run web app
-streamlit run .\src\app\streamlit_app.py
-```
+The app provides:
 
-### Programmatic Usage
-
-```python
-from src.utils.json_loader import load_all_data
-from src.privacy.anonymizer import anonymize
-from src.preprocessing import preprocess
-
-# Load data
-patients, trials, pairs = load_all_data()
-
-# Anonymize text
-anon_text = anonymize(patient["raw_text"])
-
-# Preprocess for model
-processed = preprocess(anon_text + " " + trial["eligibility_text"])
-```
+-   Patient/Trial cards with formatted summaries
+-   Rule-based AND ML predictions side by side
+-   Confidence score with progress bar
+-   Color-coded eligibility breakdown table
+-   Agreement check between rule-based and ML predictions
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
-| Issue                                          | Solution                                                           |
-| ---------------------------------------------- | ------------------------------------------------------------------ |
-| `ModuleNotFoundError: No module named 'src'`   | Run from project root: `streamlit run .\src\app\streamlit_app.py`  |
-| `X has N features, but model expects M`        | Re-run `python .\run_pipeline.py` to retrain models                |
-| `ModuleNotFoundError: No module named 'spacy'` | Run `pip install spacy && python -m spacy download en_core_web_sm` |
-| Pylance `reportMissingModuleSource` warning    | Select correct Python interpreter in VS Code                       |
+| Issue                                          | Solution                                                                                   |
+| ---------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| `ModuleNotFoundError: No module named 'src'`   | Run Streamlit from project root: `streamlit run .\src\app\streamlit_app.py`                |
+| `X has N features, but model expects M`        | Re-run `python .\run_pipeline.py` after regenerating data                                  |
+| `ModuleNotFoundError: No module named 'spacy'` | Run `pip install spacy && python -m spacy download en_core_web_sm`                         |
+| `No module named 'en_core_web_sm'`             | Run `python -m spacy download en_core_web_sm`                                              |
+| Pylance `reportMissingModuleSource`            | Select correct Python interpreter in VS Code (Ctrl+Shift+P → "Python: Select Interpreter") |
+| Empty patients/pairs folders                   | Run `python .\src\utils\synthetic_data_generator.py` first                                 |
 
 ---
 
-## 📝 Development
+## Development
 
 ### Code Formatting
 
 ```powershell
 # Python (Black)
+pip install black
 python -m black .
 
 # JSON (Prettier)
@@ -273,27 +351,59 @@ npx prettier --write .\data\**\*.json
 ### Adding New Trials
 
 1. Create `data/trials/T0XX.json` following the schema
-2. Regenerate pairs: `python .\src\utils\synthetic_data_generator.py`
-3. Retrain models: `python .\run_pipeline.py`
+2. Regenerate patients/pairs:
+    ```powershell
+    python .\src\utils\synthetic_data_generator.py
+    ```
+3. Retrain models:
+    ```powershell
+    python .\run_pipeline.py
+    ```
+
+### Project Files (Git-tracked)
+
+| File/Folder      | Tracked | Description                    |
+| ---------------- | ------- | ------------------------------ |
+| `src/`           | ✅      | All source code                |
+| `data/trials/`   | ✅      | Trial definitions              |
+| `data/patients/` | ✅      | Synthetic patients             |
+| `data/pairs/`    | ✅      | Labeled pairs                  |
+| `models/`        | ❌      | Trained models (regeneratable) |
+| `.venv/`         | ❌      | Virtual environment            |
+| `__pycache__/`   | ❌      | Python cache                   |
 
 ---
 
-## 📄 License
+## Future Enhancements
+
+-   [ ] BERT/ClinicalBERT embeddings for better semantic understanding
+-   [ ] Support for complex eligibility criteria (lab values, medications)
+-   [ ] Multi-trial ranking for a single patient
+-   [ ] REST API endpoint for system integration
+-   [ ] Docker containerization
+-   [ ] Differential privacy techniques
+-   [ ] Multilingual support
+
+---
+
+## Technologies Used
+
+| Category | Tools                |
+| -------- | -------------------- |
+| Language | Python 3.11+         |
+| NLP      | spaCy, NLTK concepts |
+| ML       | scikit-learn         |
+| Web UI   | Streamlit            |
+| Data     | Pandas, NumPy, JSON  |
+
+---
+
+## License
 
 This project is for educational and research purposes.
 
 ---
 
-## 👥 Contributors
+## References
 
--   Clinical Trial Matching Team
-
----
-
-## 🔮 Future Enhancements
-
--   [ ] Add BERT-based embeddings for better semantic understanding
--   [ ] Support for more complex eligibility criteria (lab values, medications)
--   [ ] Multi-trial ranking for a single patient
--   [ ] REST API endpoint for integration
--   [ ] Docker containerization
+-   See [PROJECT_DOCUMENTATION.md](PROJECT_DOCUMENTATION.md) for detailed system design and module descriptions.
