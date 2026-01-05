@@ -1,0 +1,7 @@
+{
+  "pair_id": "P001_T010",
+  "patient_id": "P001",
+  "trial_id": "T010",
+  "label": 0,
+  "reason": "Patient age (45) is below the minimum required age (55); Missing required condition(s): Parkinson's disease."
+}

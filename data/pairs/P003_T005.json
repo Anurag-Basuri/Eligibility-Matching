@@ -1,0 +1,7 @@
+{
+  "pair_id": "P003_T005",
+  "patient_id": "P003",
+  "trial_id": "T005",
+  "label": 0,
+  "reason": "Patient age (58) exceeds the maximum allowed age (55); Missing required condition(s): depression."
+}
