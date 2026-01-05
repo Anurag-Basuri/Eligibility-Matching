@@ -108,27 +108,52 @@ def main():
     trials = [json.load(open(f)) for f in sorted(TRIAL_DIR.glob("*.json"))]
     print(f"Loaded {len(trials)} trials")
 
+    patients = []
+    patient_id = 0
+
+    # ---- STEP 1: Force eligible patients per trial ----
+    ELIGIBLE_PER_TRIAL = 20
+
+    for trial in trials:
+        count = 0
+        attempts = 0
+
+        while count < ELIGIBLE_PER_TRIAL and attempts < 1000:
+            attempts += 1
+            pid = f"P_BAL_{patient_id:03d}"
+            patient = generate_patient(pid)
+
+            if is_eligible(patient, trial):
+                patients.append(patient)
+                patient_id += 1
+                count += 1
+
+        print(f"Trial {trial['trial_id']}: forced eligible = {count}")
+
+    # ---- STEP 2: Fill remaining patients randomly ----
+    while len(patients) < NUM_PATIENTS:
+        pid = f"P_BAL_{patient_id:03d}"
+        patients.append(generate_patient(pid))
+        patient_id += 1
+
+    # ---- STEP 3: Save patients ----
+    for p in patients:
+        with open(PATIENT_DIR / f"{p['patient_id']}.json", "w") as f:
+            json.dump(p, f, indent=2)
+
+    # ---- STEP 4: Generate all pairs ----
     total_eligible = 0
     total_pairs = 0
 
-    for i in range(NUM_PATIENTS):
-        pid = f"P_BAL_{i:03d}"
-        patient = generate_patient(pid)
-
-        # Save patient
-        with open(PATIENT_DIR / f"{pid}.json", "w") as f:
-            json.dump(patient, f, indent=2)
-
-        # Evaluate against all trials
-        for trial in trials:
-            label = int(is_eligible(patient, trial))
-
+    for p in patients:
+        for t in trials:
+            label = int(is_eligible(p, t))
             pair = {
-                "pair_id": f"{pid}_{trial['trial_id']}",
-                "patient_id": pid,
-                "trial_id": trial["trial_id"],
+                "pair_id": f"{p['patient_id']}_{t['trial_id']}",
+                "patient_id": p["patient_id"],
+                "trial_id": t["trial_id"],
                 "label": label,
-                "reason": "Balanced global generation"
+                "reason": "Controlled balanced generation"
             }
 
             with open(PAIR_DIR / f"{pair['pair_id']}.json", "w") as f:
@@ -137,16 +162,11 @@ def main():
             total_pairs += 1
             total_eligible += label
 
-        if (i + 1) % 20 == 0:
-            print(f"Generated {i + 1}/{NUM_PATIENTS} patients")
+    print(f"\nPatients generated: {len(patients)}")
+    print(f"Total pairs: {total_pairs}")
+    print(f"Eligible pairs: {total_eligible}")
+    print(f"Eligible ratio: {total_eligible / total_pairs:.2%}")
 
-    print("\n" + "=" * 50)
-    print("✅ Balanced dataset generation complete")
-    print("=" * 50)
-    print(f"Patients generated: {NUM_PATIENTS}")
-    print(f"Total pairs       : {total_pairs}")
-    print(f"Eligible pairs    : {total_eligible}")
-    print(f"Eligible ratio    : {total_eligible / total_pairs:.2%}")
 
 if __name__ == "__main__":
     main()
