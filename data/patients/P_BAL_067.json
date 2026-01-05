@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_067",
+  "raw_text": "Patient is a 43-year-old male with autoimmune diseases and hepatitis C. No history of PCOS or cancer.",
+  "metadata": {
+    "age": 43,
+    "gender": "male",
+    "conditions": [
+      "autoimmune diseases",
+      "hepatitis C"
+    ],
+    "negated_conditions": [
+      "PCOS",
+      "cancer"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

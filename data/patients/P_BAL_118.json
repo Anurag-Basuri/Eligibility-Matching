@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_118",
+  "raw_text": "Patient is a 68-year-old male with schizophrenia and diarrhea and hyperlipidemia. No history of anxiety or cancer.",
+  "metadata": {
+    "age": 68,
+    "gender": "male",
+    "conditions": [
+      "schizophrenia",
+      "diarrhea",
+      "hyperlipidemia"
+    ],
+    "negated_conditions": [
+      "anxiety",
+      "cancer"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

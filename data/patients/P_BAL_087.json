@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_087",
+  "raw_text": "Patient is a 25-year-old male with arthritis and ADHD. No history of hepatitis B.",
+  "metadata": {
+    "age": 25,
+    "gender": "male",
+    "conditions": [
+      "arthritis",
+      "ADHD"
+    ],
+    "negated_conditions": [
+      "hepatitis B"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

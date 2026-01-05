@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_029",
+  "raw_text": "Patient is a 58-year-old male with hyperlipidemia and autism spectrum disorder.",
+  "metadata": {
+    "age": 58,
+    "gender": "male",
+    "conditions": [
+      "hyperlipidemia",
+      "autism spectrum disorder"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_095",
+  "raw_text": "Patient is a 44-year-old female with thyroid disorders and bipolar disorder.",
+  "metadata": {
+    "age": 44,
+    "gender": "female",
+    "conditions": [
+      "thyroid disorders",
+      "bipolar disorder"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

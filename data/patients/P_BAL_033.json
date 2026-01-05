@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_033",
+  "raw_text": "Patient is a 51-year-old male with diarrhea and cancer. No history of nausea or epilepsy.",
+  "metadata": {
+    "age": 51,
+    "gender": "male",
+    "conditions": [
+      "diarrhea",
+      "cancer"
+    ],
+    "negated_conditions": [
+      "nausea",
+      "epilepsy"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

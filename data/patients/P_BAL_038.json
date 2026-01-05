@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_038",
+  "raw_text": "Patient is a 63-year-old male with vitamin D deficiency and depression and heart disease. No history of Alzheimer's disease.",
+  "metadata": {
+    "age": 63,
+    "gender": "male",
+    "conditions": [
+      "vitamin D deficiency",
+      "depression",
+      "heart disease"
+    ],
+    "negated_conditions": [
+      "Alzheimer's disease"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

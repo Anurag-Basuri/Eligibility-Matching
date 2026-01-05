@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_136",
+  "raw_text": "Patient is a 60-year-old male with Parkinson's disease and autism spectrum disorder. No history of thyroid disorders or hepatitis B.",
+  "metadata": {
+    "age": 60,
+    "gender": "male",
+    "conditions": [
+      "Parkinson's disease",
+      "autism spectrum disorder"
+    ],
+    "negated_conditions": [
+      "thyroid disorders",
+      "hepatitis B"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

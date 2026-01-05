@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_090",
+  "raw_text": "Patient is a 52-year-old male with bronchitis and autism spectrum disorder and COPD. No history of arthritis.",
+  "metadata": {
+    "age": 52,
+    "gender": "male",
+    "conditions": [
+      "bronchitis",
+      "autism spectrum disorder",
+      "COPD"
+    ],
+    "negated_conditions": [
+      "arthritis"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_148",
+  "raw_text": "Patient is a 71-year-old female with migraine and cancer and bipolar disorder. No history of type 2 diabetes.",
+  "metadata": {
+    "age": 71,
+    "gender": "female",
+    "conditions": [
+      "migraine",
+      "cancer",
+      "bipolar disorder"
+    ],
+    "negated_conditions": [
+      "type 2 diabetes"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

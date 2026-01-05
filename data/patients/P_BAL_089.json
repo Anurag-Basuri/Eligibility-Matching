@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_089",
+  "raw_text": "Patient is a 50-year-old male with autism spectrum disorder and cardiovascular disease.",
+  "metadata": {
+    "age": 50,
+    "gender": "male",
+    "conditions": [
+      "autism spectrum disorder",
+      "cardiovascular disease"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

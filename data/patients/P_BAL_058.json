@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_058",
+  "raw_text": "Patient is a 77-year-old female with schizophrenia and hypertension and fatigue. No history of ADHD or osteoporosis.",
+  "metadata": {
+    "age": 77,
+    "gender": "female",
+    "conditions": [
+      "schizophrenia",
+      "hypertension",
+      "fatigue"
+    ],
+    "negated_conditions": [
+      "ADHD",
+      "osteoporosis"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

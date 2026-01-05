@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_121",
+  "raw_text": "Patient is a 32-year-old male with migraine and obesity. No history of dizziness or osteoarthritis.",
+  "metadata": {
+    "age": 32,
+    "gender": "male",
+    "conditions": [
+      "migraine",
+      "obesity"
+    ],
+    "negated_conditions": [
+      "dizziness",
+      "osteoarthritis"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

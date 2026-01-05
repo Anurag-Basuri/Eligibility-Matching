@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_098",
+  "raw_text": "Patient is a 76-year-old male with ADHD and multiple sclerosis.",
+  "metadata": {
+    "age": 76,
+    "gender": "male",
+    "conditions": [
+      "ADHD",
+      "multiple sclerosis"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

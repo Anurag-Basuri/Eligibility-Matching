@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_155",
+  "raw_text": "Patient is a 29-year-old female with Alzheimer's disease and autism spectrum disorder. No history of Parkinson's disease or bronchitis.",
+  "metadata": {
+    "age": 29,
+    "gender": "female",
+    "conditions": [
+      "Alzheimer's disease",
+      "autism spectrum disorder"
+    ],
+    "negated_conditions": [
+      "Parkinson's disease",
+      "bronchitis"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

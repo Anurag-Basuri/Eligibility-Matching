@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_080",
+  "raw_text": "Patient is a 79-year-old female with migraine and tuberculosis and depression and osteoporosis. No history of schizophrenia.",
+  "metadata": {
+    "age": 79,
+    "gender": "female",
+    "conditions": [
+      "migraine",
+      "tuberculosis",
+      "depression",
+      "osteoporosis"
+    ],
+    "negated_conditions": [
+      "schizophrenia"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

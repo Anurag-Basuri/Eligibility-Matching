@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_017",
+  "raw_text": "Patient is a 69-year-old female with tuberculosis and Alzheimer's disease. No history of obesity.",
+  "metadata": {
+    "age": 69,
+    "gender": "female",
+    "conditions": [
+      "tuberculosis",
+      "Alzheimer's disease"
+    ],
+    "negated_conditions": [
+      "obesity"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

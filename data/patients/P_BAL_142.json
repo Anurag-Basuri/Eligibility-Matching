@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_142",
+  "raw_text": "Patient is a 24-year-old male with dizziness and sinus infections and COPD. No history of heart disease.",
+  "metadata": {
+    "age": 24,
+    "gender": "male",
+    "conditions": [
+      "dizziness",
+      "sinus infections",
+      "COPD"
+    ],
+    "negated_conditions": [
+      "heart disease"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

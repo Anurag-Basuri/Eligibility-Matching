@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_055",
+  "raw_text": "Patient is a 78-year-old female with bronchitis and hyperlipidemia. No history of Alzheimer's disease.",
+  "metadata": {
+    "age": 78,
+    "gender": "female",
+    "conditions": [
+      "bronchitis",
+      "hyperlipidemia"
+    ],
+    "negated_conditions": [
+      "Alzheimer's disease"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

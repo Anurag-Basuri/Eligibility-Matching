@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_015",
+  "raw_text": "Patient is a 25-year-old male with migraine and autoimmune diseases. No history of asthma or autism spectrum disorder.",
+  "metadata": {
+    "age": 25,
+    "gender": "male",
+    "conditions": [
+      "migraine",
+      "autoimmune diseases"
+    ],
+    "negated_conditions": [
+      "asthma",
+      "autism spectrum disorder"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_060",
+  "raw_text": "Patient is a 46-year-old female with constipation and schizophrenia and obesity. No history of Parkinson's disease.",
+  "metadata": {
+    "age": 46,
+    "gender": "female",
+    "conditions": [
+      "constipation",
+      "schizophrenia",
+      "obesity"
+    ],
+    "negated_conditions": [
+      "Parkinson's disease"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

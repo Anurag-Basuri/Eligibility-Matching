@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_054",
+  "raw_text": "Patient is a 58-year-old female with PCOS. No history of osteoarthritis or sinus infections.",
+  "metadata": {
+    "age": 58,
+    "gender": "female",
+    "conditions": [
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "osteoarthritis",
+      "sinus infections"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

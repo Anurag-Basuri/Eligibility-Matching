@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_035",
+  "raw_text": "Patient is a 18-year-old female with migraine and chronic kidney disease. No history of vomiting.",
+  "metadata": {
+    "age": 18,
+    "gender": "female",
+    "conditions": [
+      "migraine",
+      "chronic kidney disease"
+    ],
+    "negated_conditions": [
+      "vomiting"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

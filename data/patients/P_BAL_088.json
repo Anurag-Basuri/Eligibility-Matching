@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_088",
+  "raw_text": "Patient is a 69-year-old female with liver disease and schizophrenia and fatigue. No history of chronic kidney disease or autoimmune diseases.",
+  "metadata": {
+    "age": 69,
+    "gender": "female",
+    "conditions": [
+      "liver disease",
+      "schizophrenia",
+      "fatigue"
+    ],
+    "negated_conditions": [
+      "chronic kidney disease",
+      "autoimmune diseases"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_128",
+  "raw_text": "Patient is a 59-year-old male with anxiety and COPD. No history of fatigue or osteoporosis.",
+  "metadata": {
+    "age": 59,
+    "gender": "male",
+    "conditions": [
+      "anxiety",
+      "COPD"
+    ],
+    "negated_conditions": [
+      "fatigue",
+      "osteoporosis"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

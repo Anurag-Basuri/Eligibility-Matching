@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_BAL_005",
+  "raw_text": "Patient is a 42-year-old male with hypertension.",
+  "metadata": {
+    "age": 42,
+    "gender": "male",
+    "conditions": [
+      "hypertension"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

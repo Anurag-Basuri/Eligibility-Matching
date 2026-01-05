@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_075",
+  "raw_text": "Patient is a 85-year-old female with Parkinson's disease. No history of liver disease.",
+  "metadata": {
+    "age": 85,
+    "gender": "female",
+    "conditions": [
+      "Parkinson's disease"
+    ],
+    "negated_conditions": [
+      "liver disease"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

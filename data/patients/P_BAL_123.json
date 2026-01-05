@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_123",
+  "raw_text": "Patient is a 65-year-old male with sinus infections and anxiety and Alzheimer's disease. No history of dizziness.",
+  "metadata": {
+    "age": 65,
+    "gender": "male",
+    "conditions": [
+      "sinus infections",
+      "anxiety",
+      "Alzheimer's disease"
+    ],
+    "negated_conditions": [
+      "dizziness"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

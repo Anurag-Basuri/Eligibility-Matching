@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_059",
+  "raw_text": "Patient is a 18-year-old female with arthritis. No history of schizophrenia.",
+  "metadata": {
+    "age": 18,
+    "gender": "female",
+    "conditions": [
+      "arthritis"
+    ],
+    "negated_conditions": [
+      "schizophrenia"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

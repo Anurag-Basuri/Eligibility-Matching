@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_086",
+  "raw_text": "Patient is a 72-year-old male with thyroid disorders and anxiety.",
+  "metadata": {
+    "age": 72,
+    "gender": "male",
+    "conditions": [
+      "thyroid disorders",
+      "anxiety"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_026",
+  "raw_text": "Patient is a 24-year-old female with bronchitis and liver disease.",
+  "metadata": {
+    "age": 24,
+    "gender": "female",
+    "conditions": [
+      "bronchitis",
+      "liver disease"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

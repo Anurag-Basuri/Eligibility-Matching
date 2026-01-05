@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_100",
+  "raw_text": "Patient is a 80-year-old male with vitamin D deficiency and bipolar disorder and Alzheimer's disease. No history of Parkinson's disease.",
+  "metadata": {
+    "age": 80,
+    "gender": "male",
+    "conditions": [
+      "vitamin D deficiency",
+      "bipolar disorder",
+      "Alzheimer's disease"
+    ],
+    "negated_conditions": [
+      "Parkinson's disease"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

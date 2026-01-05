@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_139",
+  "raw_text": "Patient is a 21-year-old female with autism spectrum disorder and type 2 diabetes. No history of constipation.",
+  "metadata": {
+    "age": 21,
+    "gender": "female",
+    "conditions": [
+      "autism spectrum disorder",
+      "type 2 diabetes"
+    ],
+    "negated_conditions": [
+      "constipation"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

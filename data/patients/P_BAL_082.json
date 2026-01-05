@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_082",
+  "raw_text": "Patient is a 71-year-old male with liver disease and schizophrenia and chronic back pain. No history of thyroid disorders or Alzheimer's disease.",
+  "metadata": {
+    "age": 71,
+    "gender": "male",
+    "conditions": [
+      "liver disease",
+      "schizophrenia",
+      "chronic back pain"
+    ],
+    "negated_conditions": [
+      "thyroid disorders",
+      "Alzheimer's disease"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

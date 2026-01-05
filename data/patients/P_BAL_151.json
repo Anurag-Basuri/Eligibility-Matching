@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_151",
+  "raw_text": "Patient is a 48-year-old male with anxiety and chronic kidney disease. No history of fatigue or chronic back pain.",
+  "metadata": {
+    "age": 48,
+    "gender": "male",
+    "conditions": [
+      "anxiety",
+      "chronic kidney disease"
+    ],
+    "negated_conditions": [
+      "fatigue",
+      "chronic back pain"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

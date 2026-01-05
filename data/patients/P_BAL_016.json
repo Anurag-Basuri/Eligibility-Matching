@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_016",
+  "raw_text": "Patient is a 39-year-old female with bronchitis and liver disease. No history of Parkinson's disease or hypertension.",
+  "metadata": {
+    "age": 39,
+    "gender": "female",
+    "conditions": [
+      "bronchitis",
+      "liver disease"
+    ],
+    "negated_conditions": [
+      "Parkinson's disease",
+      "hypertension"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

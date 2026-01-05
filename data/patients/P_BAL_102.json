@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_102",
+  "raw_text": "Patient is a 67-year-old male with HIV/AIDS and constipation. No history of asthma.",
+  "metadata": {
+    "age": 67,
+    "gender": "male",
+    "conditions": [
+      "HIV/AIDS",
+      "constipation"
+    ],
+    "negated_conditions": [
+      "asthma"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

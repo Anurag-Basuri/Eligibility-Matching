@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_152",
+  "raw_text": "Patient is a 81-year-old female with autoimmune diseases. No history of Alzheimer's disease or vitamin D deficiency.",
+  "metadata": {
+    "age": 81,
+    "gender": "female",
+    "conditions": [
+      "autoimmune diseases"
+    ],
+    "negated_conditions": [
+      "Alzheimer's disease",
+      "vitamin D deficiency"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

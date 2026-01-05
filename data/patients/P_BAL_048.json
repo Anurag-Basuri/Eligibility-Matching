@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_048",
+  "raw_text": "Patient is a 71-year-old female with diarrhea and heart disease.",
+  "metadata": {
+    "age": 71,
+    "gender": "female",
+    "conditions": [
+      "diarrhea",
+      "heart disease"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

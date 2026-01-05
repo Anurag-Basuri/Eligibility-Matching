@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_036",
+  "raw_text": "Patient is a 19-year-old male with tuberculosis and cardiovascular disease. No history of PCOS.",
+  "metadata": {
+    "age": 19,
+    "gender": "male",
+    "conditions": [
+      "tuberculosis",
+      "cardiovascular disease"
+    ],
+    "negated_conditions": [
+      "PCOS"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

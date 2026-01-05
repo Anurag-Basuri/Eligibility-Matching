@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_150",
+  "raw_text": "Patient is a 46-year-old female with vitamin D deficiency and hepatitis C and autism spectrum disorder and COPD. No history of migraine.",
+  "metadata": {
+    "age": 46,
+    "gender": "female",
+    "conditions": [
+      "vitamin D deficiency",
+      "hepatitis C",
+      "autism spectrum disorder",
+      "COPD"
+    ],
+    "negated_conditions": [
+      "migraine"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

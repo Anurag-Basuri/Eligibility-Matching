@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_031",
+  "raw_text": "Patient is a 62-year-old male with anxiety and obesity. No history of autoimmune diseases.",
+  "metadata": {
+    "age": 62,
+    "gender": "male",
+    "conditions": [
+      "anxiety",
+      "obesity"
+    ],
+    "negated_conditions": [
+      "autoimmune diseases"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

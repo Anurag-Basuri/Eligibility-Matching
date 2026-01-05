@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_132",
+  "raw_text": "Patient is a 59-year-old female with schizophrenia and PCOS. No history of cancer or dizziness.",
+  "metadata": {
+    "age": 59,
+    "gender": "female",
+    "conditions": [
+      "schizophrenia",
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "cancer",
+      "dizziness"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

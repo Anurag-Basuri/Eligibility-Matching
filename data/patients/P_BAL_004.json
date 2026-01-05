@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_004",
+  "raw_text": "Patient is a 76-year-old male with bipolar disorder and multiple sclerosis. No history of vomiting.",
+  "metadata": {
+    "age": 76,
+    "gender": "male",
+    "conditions": [
+      "bipolar disorder",
+      "multiple sclerosis"
+    ],
+    "negated_conditions": [
+      "vomiting"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

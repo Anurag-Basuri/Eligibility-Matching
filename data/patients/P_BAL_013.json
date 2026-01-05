@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_013",
+  "raw_text": "Patient is a 40-year-old male with hepatitis C and autism spectrum disorder and osteoarthritis.",
+  "metadata": {
+    "age": 40,
+    "gender": "male",
+    "conditions": [
+      "hepatitis C",
+      "autism spectrum disorder",
+      "osteoarthritis"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

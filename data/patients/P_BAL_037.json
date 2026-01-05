@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_037",
+  "raw_text": "Patient is a 36-year-old female with bipolar disorder and chronic kidney disease.",
+  "metadata": {
+    "age": 36,
+    "gender": "female",
+    "conditions": [
+      "bipolar disorder",
+      "chronic kidney disease"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

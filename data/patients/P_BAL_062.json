@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_062",
+  "raw_text": "Patient is a 72-year-old male with vomiting and bipolar disorder and Alzheimer's disease. No history of anxiety.",
+  "metadata": {
+    "age": 72,
+    "gender": "male",
+    "conditions": [
+      "vomiting",
+      "bipolar disorder",
+      "Alzheimer's disease"
+    ],
+    "negated_conditions": [
+      "anxiety"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

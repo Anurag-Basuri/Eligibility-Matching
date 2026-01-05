@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_008",
+  "raw_text": "Patient is a 25-year-old male with bronchitis and hypertension. No history of chronic kidney disease or hepatitis C.",
+  "metadata": {
+    "age": 25,
+    "gender": "male",
+    "conditions": [
+      "bronchitis",
+      "hypertension"
+    ],
+    "negated_conditions": [
+      "chronic kidney disease",
+      "hepatitis C"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

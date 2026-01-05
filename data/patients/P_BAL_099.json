@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_099",
+  "raw_text": "Patient is a 53-year-old female with osteoporosis. No history of hepatitis B.",
+  "metadata": {
+    "age": 53,
+    "gender": "female",
+    "conditions": [
+      "osteoporosis"
+    ],
+    "negated_conditions": [
+      "hepatitis B"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

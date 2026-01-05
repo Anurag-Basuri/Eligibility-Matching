@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_068",
+  "raw_text": "Patient is a 23-year-old female with constipation and thyroid disorders and bipolar disorder and pneumonia. No history of asthma.",
+  "metadata": {
+    "age": 23,
+    "gender": "female",
+    "conditions": [
+      "constipation",
+      "thyroid disorders",
+      "bipolar disorder",
+      "pneumonia"
+    ],
+    "negated_conditions": [
+      "asthma"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

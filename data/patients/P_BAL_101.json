@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_101",
+  "raw_text": "Patient is a 48-year-old female with obesity. No history of multiple sclerosis.",
+  "metadata": {
+    "age": 48,
+    "gender": "female",
+    "conditions": [
+      "obesity"
+    ],
+    "negated_conditions": [
+      "multiple sclerosis"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

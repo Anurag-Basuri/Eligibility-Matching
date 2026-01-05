@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_147",
+  "raw_text": "Patient is a 73-year-old male with Alzheimer's disease. No history of multiple sclerosis or vitamin D deficiency.",
+  "metadata": {
+    "age": 73,
+    "gender": "male",
+    "conditions": [
+      "Alzheimer's disease"
+    ],
+    "negated_conditions": [
+      "multiple sclerosis",
+      "vitamin D deficiency"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

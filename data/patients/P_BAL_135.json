@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_135",
+  "raw_text": "Patient is a 29-year-old male with autism spectrum disorder and cardiovascular disease. No history of thyroid disorders or PCOS.",
+  "metadata": {
+    "age": 29,
+    "gender": "male",
+    "conditions": [
+      "autism spectrum disorder",
+      "cardiovascular disease"
+    ],
+    "negated_conditions": [
+      "thyroid disorders",
+      "PCOS"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

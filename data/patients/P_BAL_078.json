@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_078",
+  "raw_text": "Patient is a 42-year-old female with vitamin D deficiency and bipolar disorder and obesity and tuberculosis.",
+  "metadata": {
+    "age": 42,
+    "gender": "female",
+    "conditions": [
+      "vitamin D deficiency",
+      "bipolar disorder",
+      "obesity",
+      "tuberculosis"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

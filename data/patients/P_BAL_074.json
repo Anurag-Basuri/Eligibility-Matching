@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_074",
+  "raw_text": "Patient is a 75-year-old male with schizophrenia and cardiovascular disease. No history of nausea or autism spectrum disorder.",
+  "metadata": {
+    "age": 75,
+    "gender": "male",
+    "conditions": [
+      "schizophrenia",
+      "cardiovascular disease"
+    ],
+    "negated_conditions": [
+      "nausea",
+      "autism spectrum disorder"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

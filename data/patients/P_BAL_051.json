@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_051",
+  "raw_text": "Patient is a 43-year-old male with schizophrenia and type 2 diabetes. No history of cardiovascular disease.",
+  "metadata": {
+    "age": 43,
+    "gender": "male",
+    "conditions": [
+      "schizophrenia",
+      "type 2 diabetes"
+    ],
+    "negated_conditions": [
+      "cardiovascular disease"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

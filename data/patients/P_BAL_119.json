@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_119",
+  "raw_text": "Patient is a 47-year-old female with type 2 diabetes. No history of epilepsy or Alzheimer's disease.",
+  "metadata": {
+    "age": 47,
+    "gender": "female",
+    "conditions": [
+      "type 2 diabetes"
+    ],
+    "negated_conditions": [
+      "epilepsy",
+      "Alzheimer's disease"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

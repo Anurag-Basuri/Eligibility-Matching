@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_064",
+  "raw_text": "Patient is a 62-year-old male with fatigue and autism spectrum disorder and osteoarthritis.",
+  "metadata": {
+    "age": 62,
+    "gender": "male",
+    "conditions": [
+      "fatigue",
+      "autism spectrum disorder",
+      "osteoarthritis"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

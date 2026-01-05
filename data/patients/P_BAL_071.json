@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_071",
+  "raw_text": "Patient is a 29-year-old female with schizophrenia and Alzheimer's disease. No history of obesity.",
+  "metadata": {
+    "age": 29,
+    "gender": "female",
+    "conditions": [
+      "schizophrenia",
+      "Alzheimer's disease"
+    ],
+    "negated_conditions": [
+      "obesity"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

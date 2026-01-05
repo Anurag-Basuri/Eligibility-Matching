@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_125",
+  "raw_text": "Patient is a 45-year-old male with nausea and hypertension.",
+  "metadata": {
+    "age": 45,
+    "gender": "male",
+    "conditions": [
+      "nausea",
+      "hypertension"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

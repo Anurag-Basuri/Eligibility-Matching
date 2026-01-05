@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_134",
+  "raw_text": "Patient is a 30-year-old female with bipolar disorder and Parkinson's disease and nausea. No history of fatigue.",
+  "metadata": {
+    "age": 30,
+    "gender": "female",
+    "conditions": [
+      "bipolar disorder",
+      "Parkinson's disease",
+      "nausea"
+    ],
+    "negated_conditions": [
+      "fatigue"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

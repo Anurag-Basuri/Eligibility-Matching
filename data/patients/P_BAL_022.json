@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_022",
+  "raw_text": "Patient is a 75-year-old male with dizziness and schizophrenia and Parkinson's disease. No history of diarrhea or thyroid disorders.",
+  "metadata": {
+    "age": 75,
+    "gender": "male",
+    "conditions": [
+      "dizziness",
+      "schizophrenia",
+      "Parkinson's disease"
+    ],
+    "negated_conditions": [
+      "diarrhea",
+      "thyroid disorders"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

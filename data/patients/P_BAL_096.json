@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_096",
+  "raw_text": "Patient is a 21-year-old male with tuberculosis and depression and COPD. No history of cancer.",
+  "metadata": {
+    "age": 21,
+    "gender": "male",
+    "conditions": [
+      "tuberculosis",
+      "depression",
+      "COPD"
+    ],
+    "negated_conditions": [
+      "cancer"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

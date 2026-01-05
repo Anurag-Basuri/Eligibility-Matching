@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_137",
+  "raw_text": "Patient is a 57-year-old female with migraine and tuberculosis and cancer and anxiety. No history of PCOS.",
+  "metadata": {
+    "age": 57,
+    "gender": "female",
+    "conditions": [
+      "migraine",
+      "tuberculosis",
+      "cancer",
+      "anxiety"
+    ],
+    "negated_conditions": [
+      "PCOS"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

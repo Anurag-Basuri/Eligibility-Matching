@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_050",
+  "raw_text": "Patient is a 45-year-old female with constipation and hepatitis B and COPD. No history of chronic kidney disease or epilepsy.",
+  "metadata": {
+    "age": 45,
+    "gender": "female",
+    "conditions": [
+      "constipation",
+      "hepatitis B",
+      "COPD"
+    ],
+    "negated_conditions": [
+      "chronic kidney disease",
+      "epilepsy"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

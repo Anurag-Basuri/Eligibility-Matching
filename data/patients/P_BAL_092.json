@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_092",
+  "raw_text": "Patient is a 81-year-old female with heart disease. No history of type 2 diabetes.",
+  "metadata": {
+    "age": 81,
+    "gender": "female",
+    "conditions": [
+      "heart disease"
+    ],
+    "negated_conditions": [
+      "type 2 diabetes"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

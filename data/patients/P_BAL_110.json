@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_110",
+  "raw_text": "Patient is a 38-year-old male with pneumonia and Alzheimer's disease. No history of COPD or hyperlipidemia.",
+  "metadata": {
+    "age": 38,
+    "gender": "male",
+    "conditions": [
+      "pneumonia",
+      "Alzheimer's disease"
+    ],
+    "negated_conditions": [
+      "COPD",
+      "hyperlipidemia"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

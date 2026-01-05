@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_007",
+  "raw_text": "Patient is a 39-year-old male with bipolar disorder and COPD. No history of depression or hypertension.",
+  "metadata": {
+    "age": 39,
+    "gender": "male",
+    "conditions": [
+      "bipolar disorder",
+      "COPD"
+    ],
+    "negated_conditions": [
+      "depression",
+      "hypertension"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}
