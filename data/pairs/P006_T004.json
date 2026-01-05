@@ -3,5 +3,5 @@
   "patient_id": "P006",
   "trial_id": "T004",
   "label": 0,
-  "reason": "Patient age 27 is below minimum 60 and missing required condition: osteoarthritis."
+  "reason": "Patient age (27) is below the minimum required age (60); Missing required condition(s): osteoarthritis."
 }
