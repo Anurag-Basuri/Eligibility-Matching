@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00990",
+  "raw_text": "Patient is a 46-year-old female with asthma. No history of vitamin D deficiency or dizziness.",
+  "metadata": {
+    "age": 46,
+    "gender": "female",
+    "conditions": [
+      "asthma"
+    ],
+    "negated_conditions": [
+      "vitamin D deficiency",
+      "dizziness"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

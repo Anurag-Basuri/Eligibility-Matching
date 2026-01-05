@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_00725",
+  "raw_text": "Patient is a 60-year-old male with depression. No history of tuberculosis.",
+  "metadata": {
+    "age": 60,
+    "gender": "male",
+    "conditions": [
+      "depression"
+    ],
+    "negated_conditions": [
+      "tuberculosis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00360",
+  "raw_text": "Patient is a 33-year-old male with PCOS and obesity. No history of liver disease.",
+  "metadata": {
+    "age": 33,
+    "gender": "male",
+    "conditions": [
+      "PCOS",
+      "obesity"
+    ],
+    "negated_conditions": [
+      "liver disease"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

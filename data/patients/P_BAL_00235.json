@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_00235",
+  "raw_text": "Patient is a 75-year-old male with hypertension. No history of epilepsy.",
+  "metadata": {
+    "age": 75,
+    "gender": "male",
+    "conditions": [
+      "hypertension"
+    ],
+    "negated_conditions": [
+      "epilepsy"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

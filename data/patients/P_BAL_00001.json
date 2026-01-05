@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00001",
+  "raw_text": "Patient is a 26-year-old male with type 2 diabetes. No history of HIV/AIDS or anxiety.",
+  "metadata": {
+    "age": 26,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes"
+    ],
+    "negated_conditions": [
+      "HIV/AIDS",
+      "anxiety"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

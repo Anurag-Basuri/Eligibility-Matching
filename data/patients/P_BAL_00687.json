@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00687",
+  "raw_text": "Patient is a 34-year-old female with depression and vomiting.",
+  "metadata": {
+    "age": 34,
+    "gender": "female",
+    "conditions": [
+      "depression",
+      "vomiting"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

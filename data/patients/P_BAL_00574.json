@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00574",
+  "raw_text": "Patient is a 84-year-old female with osteoarthritis. No history of nausea or hepatitis C.",
+  "metadata": {
+    "age": 84,
+    "gender": "female",
+    "conditions": [
+      "osteoarthritis"
+    ],
+    "negated_conditions": [
+      "nausea",
+      "hepatitis C"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

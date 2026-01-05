@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00038",
+  "raw_text": "Patient is a 24-year-old female with type 2 diabetes and epilepsy. No history of tuberculosis.",
+  "metadata": {
+    "age": 24,
+    "gender": "female",
+    "conditions": [
+      "type 2 diabetes",
+      "epilepsy"
+    ],
+    "negated_conditions": [
+      "tuberculosis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

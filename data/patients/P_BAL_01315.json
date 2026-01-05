@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_01315",
+  "raw_text": "Patient is a 27-year-old male with autism spectrum disorder and anxiety. No history of autoimmune diseases.",
+  "metadata": {
+    "age": 27,
+    "gender": "male",
+    "conditions": [
+      "autism spectrum disorder",
+      "anxiety"
+    ],
+    "negated_conditions": [
+      "autoimmune diseases"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

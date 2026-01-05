@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00903",
+  "raw_text": "Patient is a 21-year-old male with COPD. No history of cancer or hepatitis B.",
+  "metadata": {
+    "age": 21,
+    "gender": "male",
+    "conditions": [
+      "COPD"
+    ],
+    "negated_conditions": [
+      "cancer",
+      "hepatitis B"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

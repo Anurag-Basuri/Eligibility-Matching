@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00431",
+  "raw_text": "Patient is a 80-year-old female with PCOS. No history of constipation or hepatitis C.",
+  "metadata": {
+    "age": 80,
+    "gender": "female",
+    "conditions": [
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "constipation",
+      "hepatitis C"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

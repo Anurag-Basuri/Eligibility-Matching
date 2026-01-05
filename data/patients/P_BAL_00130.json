@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00130",
+  "raw_text": "Patient is a 46-year-old male with type 2 diabetes and cardiovascular disease. No history of arthritis.",
+  "metadata": {
+    "age": 46,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes",
+      "cardiovascular disease"
+    ],
+    "negated_conditions": [
+      "arthritis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

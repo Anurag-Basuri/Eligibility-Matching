@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_01234",
+  "raw_text": "Patient is a 30-year-old female with no significant conditions. No history of hepatitis C or vitamin D deficiency.",
+  "metadata": {
+    "age": 30,
+    "gender": "female",
+    "conditions": [],
+    "negated_conditions": [
+      "hepatitis C",
+      "vitamin D deficiency"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

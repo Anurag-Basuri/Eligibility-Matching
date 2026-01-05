@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00458",
+  "raw_text": "Patient is a 36-year-old female with pregnancy and PCOS. No history of Alzheimer's disease or obesity.",
+  "metadata": {
+    "age": 36,
+    "gender": "female",
+    "conditions": [
+      "pregnancy",
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "Alzheimer's disease",
+      "obesity"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_01346",
+  "raw_text": "Patient is a 31-year-old female with anxiety. No history of nausea.",
+  "metadata": {
+    "age": 31,
+    "gender": "female",
+    "conditions": [
+      "anxiety"
+    ],
+    "negated_conditions": [
+      "nausea"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

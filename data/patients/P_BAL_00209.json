@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00209",
+  "raw_text": "Patient is a 80-year-old female with hepatitis C and hypertension.",
+  "metadata": {
+    "age": 80,
+    "gender": "female",
+    "conditions": [
+      "hepatitis C",
+      "hypertension"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00489",
+  "raw_text": "Patient is a 60-year-old male with chronic kidney disease and osteoarthritis. No history of sinus infections or vitamin D deficiency.",
+  "metadata": {
+    "age": 60,
+    "gender": "male",
+    "conditions": [
+      "chronic kidney disease",
+      "osteoarthritis"
+    ],
+    "negated_conditions": [
+      "sinus infections",
+      "vitamin D deficiency"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

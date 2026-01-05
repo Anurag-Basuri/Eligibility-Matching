@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_01137",
+  "raw_text": "Patient is a 30-year-old male with type 2 diabetes and pneumonia and obesity. No history of vomiting or hyperlipidemia.",
+  "metadata": {
+    "age": 30,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes",
+      "pneumonia",
+      "obesity"
+    ],
+    "negated_conditions": [
+      "vomiting",
+      "hyperlipidemia"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

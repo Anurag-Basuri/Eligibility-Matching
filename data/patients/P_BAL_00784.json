@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00784",
+  "raw_text": "Patient is a 50-year-old female with depression and bipolar disorder. No history of chronic kidney disease or Alzheimer's disease.",
+  "metadata": {
+    "age": 50,
+    "gender": "female",
+    "conditions": [
+      "depression",
+      "bipolar disorder"
+    ],
+    "negated_conditions": [
+      "chronic kidney disease",
+      "Alzheimer's disease"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

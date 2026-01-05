@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_00070",
+  "raw_text": "Patient is a 28-year-old male with type 2 diabetes. No history of anxiety.",
+  "metadata": {
+    "age": 28,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes"
+    ],
+    "negated_conditions": [
+      "anxiety"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

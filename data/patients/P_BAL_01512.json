@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_01512",
+  "raw_text": "Patient is a 79-year-old male with Parkinson's disease and chronic back pain.",
+  "metadata": {
+    "age": 79,
+    "gender": "male",
+    "conditions": [
+      "Parkinson's disease",
+      "chronic back pain"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

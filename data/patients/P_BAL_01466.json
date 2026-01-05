@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_01466",
+  "raw_text": "Patient is a 78-year-old female with COPD and Parkinson's disease. No history of osteoarthritis or chronic back pain.",
+  "metadata": {
+    "age": 78,
+    "gender": "female",
+    "conditions": [
+      "COPD",
+      "Parkinson's disease"
+    ],
+    "negated_conditions": [
+      "osteoarthritis",
+      "chronic back pain"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00338",
+  "raw_text": "Patient is a 37-year-old male with PCOS and heart disease.",
+  "metadata": {
+    "age": 37,
+    "gender": "male",
+    "conditions": [
+      "PCOS",
+      "heart disease"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

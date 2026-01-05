@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00656",
+  "raw_text": "Patient is a 46-year-old male with depression and arthritis. No history of PCOS or bronchitis.",
+  "metadata": {
+    "age": 46,
+    "gender": "male",
+    "conditions": [
+      "depression",
+      "arthritis"
+    ],
+    "negated_conditions": [
+      "PCOS",
+      "bronchitis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

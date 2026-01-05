@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00631",
+  "raw_text": "Patient is a 64-year-old male with stroke and osteoarthritis. No history of ADHD or Parkinson's disease.",
+  "metadata": {
+    "age": 64,
+    "gender": "male",
+    "conditions": [
+      "stroke",
+      "osteoarthritis"
+    ],
+    "negated_conditions": [
+      "ADHD",
+      "Parkinson's disease"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

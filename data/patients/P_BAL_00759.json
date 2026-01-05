@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00759",
+  "raw_text": "Patient is a 49-year-old female with depression and schizophrenia. No history of anxiety.",
+  "metadata": {
+    "age": 49,
+    "gender": "female",
+    "conditions": [
+      "depression",
+      "schizophrenia"
+    ],
+    "negated_conditions": [
+      "anxiety"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

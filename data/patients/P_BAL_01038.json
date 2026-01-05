@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_01038",
+  "raw_text": "Patient is a 38-year-old male with asthma. No history of pneumonia or vitamin D deficiency.",
+  "metadata": {
+    "age": 38,
+    "gender": "male",
+    "conditions": [
+      "asthma"
+    ],
+    "negated_conditions": [
+      "pneumonia",
+      "vitamin D deficiency"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

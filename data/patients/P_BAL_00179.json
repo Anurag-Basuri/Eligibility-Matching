@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_00179",
+  "raw_text": "Patient is a 60-year-old female with hypertension. No history of Alzheimer's disease.",
+  "metadata": {
+    "age": 60,
+    "gender": "female",
+    "conditions": [
+      "hypertension"
+    ],
+    "negated_conditions": [
+      "Alzheimer's disease"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

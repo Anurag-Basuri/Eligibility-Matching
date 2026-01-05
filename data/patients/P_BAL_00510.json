@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_00510",
+  "raw_text": "Patient is a 80-year-old female with osteoarthritis. No history of HIV/AIDS.",
+  "metadata": {
+    "age": 80,
+    "gender": "female",
+    "conditions": [
+      "osteoarthritis"
+    ],
+    "negated_conditions": [
+      "HIV/AIDS"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

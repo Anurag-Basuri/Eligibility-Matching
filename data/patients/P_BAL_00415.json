@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00415",
+  "raw_text": "Patient is a 32-year-old male with cancer and PCOS. No history of vomiting.",
+  "metadata": {
+    "age": 32,
+    "gender": "male",
+    "conditions": [
+      "cancer",
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "vomiting"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

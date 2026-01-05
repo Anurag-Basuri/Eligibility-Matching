@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00665",
+  "raw_text": "Patient is a 30-year-old female with depression and thyroid disorders. No history of chronic back pain or vitamin D deficiency.",
+  "metadata": {
+    "age": 30,
+    "gender": "female",
+    "conditions": [
+      "depression",
+      "thyroid disorders"
+    ],
+    "negated_conditions": [
+      "chronic back pain",
+      "vitamin D deficiency"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

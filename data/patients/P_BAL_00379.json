@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00379",
+  "raw_text": "Patient is a 44-year-old female with PCOS. No history of chronic kidney disease or vitamin D deficiency.",
+  "metadata": {
+    "age": 44,
+    "gender": "female",
+    "conditions": [
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "chronic kidney disease",
+      "vitamin D deficiency"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

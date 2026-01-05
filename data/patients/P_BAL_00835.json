@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00835",
+  "raw_text": "Patient is a 45-year-old male with COPD. No history of cardiovascular disease or arthritis.",
+  "metadata": {
+    "age": 45,
+    "gender": "male",
+    "conditions": [
+      "COPD"
+    ],
+    "negated_conditions": [
+      "cardiovascular disease",
+      "arthritis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

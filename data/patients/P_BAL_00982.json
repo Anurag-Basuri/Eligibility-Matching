@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_00982",
+  "raw_text": "Patient is a 49-year-old male with asthma. No history of COPD.",
+  "metadata": {
+    "age": 49,
+    "gender": "male",
+    "conditions": [
+      "asthma"
+    ],
+    "negated_conditions": [
+      "COPD"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

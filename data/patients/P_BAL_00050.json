@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00050",
+  "raw_text": "Patient is a 50-year-old male with type 2 diabetes and schizophrenia. No history of PCOS or osteoporosis.",
+  "metadata": {
+    "age": 50,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes",
+      "schizophrenia"
+    ],
+    "negated_conditions": [
+      "PCOS",
+      "osteoporosis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00526",
+  "raw_text": "Patient is a 79-year-old male with fatigue and osteoarthritis. No history of obesity.",
+  "metadata": {
+    "age": 79,
+    "gender": "male",
+    "conditions": [
+      "fatigue",
+      "osteoarthritis"
+    ],
+    "negated_conditions": [
+      "obesity"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

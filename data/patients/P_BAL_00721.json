@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00721",
+  "raw_text": "Patient is a 67-year-old male with depression. No history of vitamin D deficiency or tuberculosis.",
+  "metadata": {
+    "age": 67,
+    "gender": "male",
+    "conditions": [
+      "depression"
+    ],
+    "negated_conditions": [
+      "vitamin D deficiency",
+      "tuberculosis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

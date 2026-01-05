@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00057",
+  "raw_text": "Patient is a 33-year-old female with type 2 diabetes and bipolar disorder. No history of liver disease or COPD.",
+  "metadata": {
+    "age": 33,
+    "gender": "female",
+    "conditions": [
+      "type 2 diabetes",
+      "bipolar disorder"
+    ],
+    "negated_conditions": [
+      "liver disease",
+      "COPD"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_BAL_01205",
+  "raw_text": "Patient is a 65-year-old male with no significant conditions. No history of hepatitis C.",
+  "metadata": {
+    "age": 65,
+    "gender": "male",
+    "conditions": [],
+    "negated_conditions": [
+      "hepatitis C"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

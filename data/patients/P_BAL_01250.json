@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_01250",
+  "raw_text": "Patient is a 47-year-old male with type 2 diabetes and cardiovascular disease and obesity. No history of osteoarthritis.",
+  "metadata": {
+    "age": 47,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes",
+      "cardiovascular disease",
+      "obesity"
+    ],
+    "negated_conditions": [
+      "osteoarthritis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

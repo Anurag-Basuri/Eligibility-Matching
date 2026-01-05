@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00182",
+  "raw_text": "Patient is a 73-year-old male with Alzheimer's disease and hypertension.",
+  "metadata": {
+    "age": 73,
+    "gender": "male",
+    "conditions": [
+      "Alzheimer's disease",
+      "hypertension"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

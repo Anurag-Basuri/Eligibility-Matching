@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00790",
+  "raw_text": "Patient is a 30-year-old male with depression and bipolar disorder. No history of ADHD.",
+  "metadata": {
+    "age": 30,
+    "gender": "male",
+    "conditions": [
+      "depression",
+      "bipolar disorder"
+    ],
+    "negated_conditions": [
+      "ADHD"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

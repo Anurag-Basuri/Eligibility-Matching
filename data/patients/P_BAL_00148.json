@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00148",
+  "raw_text": "Patient is a 28-year-old male with type 2 diabetes and cardiovascular disease. No history of PCOS or bipolar disorder.",
+  "metadata": {
+    "age": 28,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes",
+      "cardiovascular disease"
+    ],
+    "negated_conditions": [
+      "PCOS",
+      "bipolar disorder"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

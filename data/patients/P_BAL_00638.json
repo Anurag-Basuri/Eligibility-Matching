@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00638",
+  "raw_text": "Patient is a 76-year-old male with cancer and osteoarthritis.",
+  "metadata": {
+    "age": 76,
+    "gender": "male",
+    "conditions": [
+      "cancer",
+      "osteoarthritis"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

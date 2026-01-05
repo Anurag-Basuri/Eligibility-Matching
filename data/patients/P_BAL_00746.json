@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00746",
+  "raw_text": "Patient is a 36-year-old male with depression and schizophrenia. No history of heart disease or hepatitis C.",
+  "metadata": {
+    "age": 36,
+    "gender": "male",
+    "conditions": [
+      "depression",
+      "schizophrenia"
+    ],
+    "negated_conditions": [
+      "heart disease",
+      "hepatitis C"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

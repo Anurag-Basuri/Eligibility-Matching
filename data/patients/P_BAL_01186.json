@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_01186",
+  "raw_text": "Patient is a 55-year-old female with type 2 diabetes and diarrhea and obesity. No history of bronchitis or multiple sclerosis.",
+  "metadata": {
+    "age": 55,
+    "gender": "female",
+    "conditions": [
+      "type 2 diabetes",
+      "diarrhea",
+      "obesity"
+    ],
+    "negated_conditions": [
+      "bronchitis",
+      "multiple sclerosis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_01226",
+  "raw_text": "Patient is a 39-year-old female with type 2 diabetes and cardiovascular disease and obesity.",
+  "metadata": {
+    "age": 39,
+    "gender": "female",
+    "conditions": [
+      "type 2 diabetes",
+      "cardiovascular disease",
+      "obesity"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

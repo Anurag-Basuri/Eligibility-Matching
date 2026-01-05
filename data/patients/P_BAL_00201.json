@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00201",
+  "raw_text": "Patient is a 70-year-old male with epilepsy and hypertension. No history of bronchitis or constipation.",
+  "metadata": {
+    "age": 70,
+    "gender": "male",
+    "conditions": [
+      "epilepsy",
+      "hypertension"
+    ],
+    "negated_conditions": [
+      "bronchitis",
+      "constipation"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

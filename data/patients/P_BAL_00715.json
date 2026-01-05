@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00715",
+  "raw_text": "Patient is a 43-year-old male with depression. No history of pneumonia or Alzheimer's disease.",
+  "metadata": {
+    "age": 43,
+    "gender": "male",
+    "conditions": [
+      "depression"
+    ],
+    "negated_conditions": [
+      "pneumonia",
+      "Alzheimer's disease"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

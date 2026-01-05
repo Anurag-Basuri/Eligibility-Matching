@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_00867",
+  "raw_text": "Patient is a 70-year-old female with COPD. No history of chronic kidney disease.",
+  "metadata": {
+    "age": 70,
+    "gender": "female",
+    "conditions": [
+      "COPD"
+    ],
+    "negated_conditions": [
+      "chronic kidney disease"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00540",
+  "raw_text": "Patient is a 61-year-old male with obesity and osteoarthritis. No history of depression.",
+  "metadata": {
+    "age": 61,
+    "gender": "male",
+    "conditions": [
+      "obesity",
+      "osteoarthritis"
+    ],
+    "negated_conditions": [
+      "depression"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

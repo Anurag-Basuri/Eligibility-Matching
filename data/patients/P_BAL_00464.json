@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_00464",
+  "raw_text": "Patient is a 78-year-old female with PCOS. No history of nausea.",
+  "metadata": {
+    "age": 78,
+    "gender": "female",
+    "conditions": [
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "nausea"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

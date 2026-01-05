@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00861",
+  "raw_text": "Patient is a 72-year-old female with COPD and liver disease. No history of thyroid disorders or PCOS.",
+  "metadata": {
+    "age": 72,
+    "gender": "female",
+    "conditions": [
+      "COPD",
+      "liver disease"
+    ],
+    "negated_conditions": [
+      "thyroid disorders",
+      "PCOS"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

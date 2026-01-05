@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00131",
+  "raw_text": "Patient is a 62-year-old female with type 2 diabetes and cardiovascular disease. No history of hepatitis B or osteoarthritis.",
+  "metadata": {
+    "age": 62,
+    "gender": "female",
+    "conditions": [
+      "type 2 diabetes",
+      "cardiovascular disease"
+    ],
+    "negated_conditions": [
+      "hepatitis B",
+      "osteoarthritis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

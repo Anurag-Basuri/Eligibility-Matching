@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_01573",
+  "raw_text": "Patient is a 46-year-old male with Parkinson's disease. No history of bronchitis.",
+  "metadata": {
+    "age": 46,
+    "gender": "male",
+    "conditions": [
+      "Parkinson's disease"
+    ],
+    "negated_conditions": [
+      "bronchitis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

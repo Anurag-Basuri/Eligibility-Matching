@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00513",
+  "raw_text": "Patient is a 72-year-old male with hepatitis B and osteoarthritis. No history of pneumonia.",
+  "metadata": {
+    "age": 72,
+    "gender": "male",
+    "conditions": [
+      "hepatitis B",
+      "osteoarthritis"
+    ],
+    "negated_conditions": [
+      "pneumonia"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

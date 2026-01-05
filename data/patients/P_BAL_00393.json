@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_BAL_00393",
+  "raw_text": "Patient is a 42-year-old female with PCOS.",
+  "metadata": {
+    "age": 42,
+    "gender": "female",
+    "conditions": [
+      "PCOS"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

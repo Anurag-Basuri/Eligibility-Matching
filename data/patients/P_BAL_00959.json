@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_00959",
+  "raw_text": "Patient is a 25-year-old female with COPD. No history of hepatitis C.",
+  "metadata": {
+    "age": 25,
+    "gender": "female",
+    "conditions": [
+      "COPD"
+    ],
+    "negated_conditions": [
+      "hepatitis C"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

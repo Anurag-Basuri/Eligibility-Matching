@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_01113",
+  "raw_text": "Patient is a 60-year-old female with asthma. No history of osteoarthritis.",
+  "metadata": {
+    "age": 60,
+    "gender": "female",
+    "conditions": [
+      "asthma"
+    ],
+    "negated_conditions": [
+      "osteoarthritis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

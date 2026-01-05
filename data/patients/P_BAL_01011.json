@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_01011",
+  "raw_text": "Patient is a 48-year-old female with asthma. No history of Alzheimer's disease.",
+  "metadata": {
+    "age": 48,
+    "gender": "female",
+    "conditions": [
+      "asthma"
+    ],
+    "negated_conditions": [
+      "Alzheimer's disease"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

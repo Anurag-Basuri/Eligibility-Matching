@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00120",
+  "raw_text": "Patient is a 60-year-old male with type 2 diabetes and cancer. No history of obesity or hypertension.",
+  "metadata": {
+    "age": 60,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes",
+      "cancer"
+    ],
+    "negated_conditions": [
+      "obesity",
+      "hypertension"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

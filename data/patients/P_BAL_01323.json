@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_01323",
+  "raw_text": "Patient is a 26-year-old male with depression and anxiety. No history of fatigue.",
+  "metadata": {
+    "age": 26,
+    "gender": "male",
+    "conditions": [
+      "depression",
+      "anxiety"
+    ],
+    "negated_conditions": [
+      "fatigue"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

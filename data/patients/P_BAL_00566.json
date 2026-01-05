@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_00566",
+  "raw_text": "Patient is a 24-year-old female with osteoarthritis. No history of chronic back pain.",
+  "metadata": {
+    "age": 24,
+    "gender": "female",
+    "conditions": [
+      "osteoarthritis"
+    ],
+    "negated_conditions": [
+      "chronic back pain"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

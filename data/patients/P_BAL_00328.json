@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00328",
+  "raw_text": "Patient is a 41-year-old female with PCOS. No history of HIV/AIDS or ADHD.",
+  "metadata": {
+    "age": 41,
+    "gender": "female",
+    "conditions": [
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "HIV/AIDS",
+      "ADHD"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

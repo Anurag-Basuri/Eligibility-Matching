@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00762",
+  "raw_text": "Patient is a 45-year-old female with depression and schizophrenia. No history of fatigue.",
+  "metadata": {
+    "age": 45,
+    "gender": "female",
+    "conditions": [
+      "depression",
+      "schizophrenia"
+    ],
+    "negated_conditions": [
+      "fatigue"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

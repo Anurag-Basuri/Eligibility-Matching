@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00236",
+  "raw_text": "Patient is a 78-year-old female with hypertension and obesity. No history of HIV/AIDS.",
+  "metadata": {
+    "age": 78,
+    "gender": "female",
+    "conditions": [
+      "hypertension",
+      "obesity"
+    ],
+    "negated_conditions": [
+      "HIV/AIDS"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

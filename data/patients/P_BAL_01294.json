@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_BAL_01294",
+  "raw_text": "Patient is a 24-year-old female with anxiety.",
+  "metadata": {
+    "age": 24,
+    "gender": "female",
+    "conditions": [
+      "anxiety"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

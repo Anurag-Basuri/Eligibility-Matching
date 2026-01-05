@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_01078",
+  "raw_text": "Patient is a 49-year-old male with asthma and heart disease. No history of migraine or ADHD.",
+  "metadata": {
+    "age": 49,
+    "gender": "male",
+    "conditions": [
+      "asthma",
+      "heart disease"
+    ],
+    "negated_conditions": [
+      "migraine",
+      "ADHD"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

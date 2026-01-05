@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00961",
+  "raw_text": "Patient is a 37-year-old male with asthma. No history of anxiety or autism spectrum disorder.",
+  "metadata": {
+    "age": 37,
+    "gender": "male",
+    "conditions": [
+      "asthma"
+    ],
+    "negated_conditions": [
+      "anxiety",
+      "autism spectrum disorder"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

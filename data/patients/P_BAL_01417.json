@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_BAL_01417",
+  "raw_text": "Patient is a 28-year-old female with no significant conditions. No history of thyroid disorders.",
+  "metadata": {
+    "age": 28,
+    "gender": "female",
+    "conditions": [],
+    "negated_conditions": [
+      "thyroid disorders"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

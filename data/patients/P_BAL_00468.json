@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00468",
+  "raw_text": "Patient is a 61-year-old male with PCOS. No history of vomiting or osteoporosis.",
+  "metadata": {
+    "age": 61,
+    "gender": "male",
+    "conditions": [
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "vomiting",
+      "osteoporosis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

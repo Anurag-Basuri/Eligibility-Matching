@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00652",
+  "raw_text": "Patient is a 26-year-old female with depression and hypertension. No history of nausea or type 2 diabetes.",
+  "metadata": {
+    "age": 26,
+    "gender": "female",
+    "conditions": [
+      "depression",
+      "hypertension"
+    ],
+    "negated_conditions": [
+      "nausea",
+      "type 2 diabetes"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

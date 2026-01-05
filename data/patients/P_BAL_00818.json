@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00818",
+  "raw_text": "Patient is a 46-year-old male with COPD and chronic back pain. No history of epilepsy.",
+  "metadata": {
+    "age": 46,
+    "gender": "male",
+    "conditions": [
+      "COPD",
+      "chronic back pain"
+    ],
+    "negated_conditions": [
+      "epilepsy"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

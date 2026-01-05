@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00282",
+  "raw_text": "Patient is a 39-year-old male with hypertension. No history of osteoarthritis or chronic back pain.",
+  "metadata": {
+    "age": 39,
+    "gender": "male",
+    "conditions": [
+      "hypertension"
+    ],
+    "negated_conditions": [
+      "osteoarthritis",
+      "chronic back pain"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

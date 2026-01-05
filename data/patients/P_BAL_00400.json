@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_00400",
+  "raw_text": "Patient is a 72-year-old female with PCOS. No history of Alzheimer's disease.",
+  "metadata": {
+    "age": 72,
+    "gender": "female",
+    "conditions": [
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "Alzheimer's disease"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

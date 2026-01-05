@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_01289",
+  "raw_text": "Patient is a 26-year-old female with anxiety. No history of Parkinson's disease or nausea.",
+  "metadata": {
+    "age": 26,
+    "gender": "female",
+    "conditions": [
+      "anxiety"
+    ],
+    "negated_conditions": [
+      "Parkinson's disease",
+      "nausea"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

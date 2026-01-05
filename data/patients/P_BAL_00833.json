@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_00833",
+  "raw_text": "Patient is a 48-year-old female with COPD. No history of epilepsy.",
+  "metadata": {
+    "age": 48,
+    "gender": "female",
+    "conditions": [
+      "COPD"
+    ],
+    "negated_conditions": [
+      "epilepsy"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

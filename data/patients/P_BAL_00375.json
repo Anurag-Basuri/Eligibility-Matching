@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00375",
+  "raw_text": "Patient is a 24-year-old female with PCOS. No history of anxiety or constipation.",
+  "metadata": {
+    "age": 24,
+    "gender": "female",
+    "conditions": [
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "anxiety",
+      "constipation"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00944",
+  "raw_text": "Patient is a 31-year-old female with COPD. No history of migraine or hypertension.",
+  "metadata": {
+    "age": 31,
+    "gender": "female",
+    "conditions": [
+      "COPD"
+    ],
+    "negated_conditions": [
+      "migraine",
+      "hypertension"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

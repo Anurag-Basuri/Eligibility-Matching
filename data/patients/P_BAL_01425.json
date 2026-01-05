@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_01425",
+  "raw_text": "Patient is a 29-year-old female with no significant conditions. No history of vitamin D deficiency or tuberculosis.",
+  "metadata": {
+    "age": 29,
+    "gender": "female",
+    "conditions": [],
+    "negated_conditions": [
+      "vitamin D deficiency",
+      "tuberculosis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

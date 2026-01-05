@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00757",
+  "raw_text": "Patient is a 28-year-old female with depression and schizophrenia. No history of Parkinson's disease or thyroid disorders.",
+  "metadata": {
+    "age": 28,
+    "gender": "female",
+    "conditions": [
+      "depression",
+      "schizophrenia"
+    ],
+    "negated_conditions": [
+      "Parkinson's disease",
+      "thyroid disorders"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

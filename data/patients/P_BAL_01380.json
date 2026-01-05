@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_01380",
+  "raw_text": "Patient is a 32-year-old female with epilepsy and anxiety. No history of constipation or arthritis.",
+  "metadata": {
+    "age": 32,
+    "gender": "female",
+    "conditions": [
+      "epilepsy",
+      "anxiety"
+    ],
+    "negated_conditions": [
+      "constipation",
+      "arthritis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_BAL_01245",
+  "raw_text": "Patient is a 33-year-old male with no significant conditions. No history of dizziness.",
+  "metadata": {
+    "age": 33,
+    "gender": "male",
+    "conditions": [],
+    "negated_conditions": [
+      "dizziness"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

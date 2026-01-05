@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_01257",
+  "raw_text": "Patient is a 52-year-old female with type 2 diabetes and liver disease and obesity. No history of pneumonia or chronic back pain.",
+  "metadata": {
+    "age": 52,
+    "gender": "female",
+    "conditions": [
+      "type 2 diabetes",
+      "liver disease",
+      "obesity"
+    ],
+    "negated_conditions": [
+      "pneumonia",
+      "chronic back pain"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00909",
+  "raw_text": "Patient is a 46-year-old female with COPD and tuberculosis. No history of arthritis or schizophrenia.",
+  "metadata": {
+    "age": 46,
+    "gender": "female",
+    "conditions": [
+      "COPD",
+      "tuberculosis"
+    ],
+    "negated_conditions": [
+      "arthritis",
+      "schizophrenia"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00438",
+  "raw_text": "Patient is a 49-year-old male with PCOS. No history of chronic back pain or hepatitis C.",
+  "metadata": {
+    "age": 49,
+    "gender": "male",
+    "conditions": [
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "chronic back pain",
+      "hepatitis C"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_01008",
+  "raw_text": "Patient is a 50-year-old female with asthma and tuberculosis. No history of constipation.",
+  "metadata": {
+    "age": 50,
+    "gender": "female",
+    "conditions": [
+      "asthma",
+      "tuberculosis"
+    ],
+    "negated_conditions": [
+      "constipation"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

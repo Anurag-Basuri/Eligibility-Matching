@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00777",
+  "raw_text": "Patient is a 31-year-old male with depression and bipolar disorder. No history of dizziness or multiple sclerosis.",
+  "metadata": {
+    "age": 31,
+    "gender": "male",
+    "conditions": [
+      "depression",
+      "bipolar disorder"
+    ],
+    "negated_conditions": [
+      "dizziness",
+      "multiple sclerosis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00550",
+  "raw_text": "Patient is a 74-year-old female with osteoarthritis. No history of hypertension or diarrhea.",
+  "metadata": {
+    "age": 74,
+    "gender": "female",
+    "conditions": [
+      "osteoarthritis"
+    ],
+    "negated_conditions": [
+      "hypertension",
+      "diarrhea"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

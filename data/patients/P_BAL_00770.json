@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00770",
+  "raw_text": "Patient is a 37-year-old female with depression and schizophrenia. No history of osteoarthritis.",
+  "metadata": {
+    "age": 37,
+    "gender": "female",
+    "conditions": [
+      "depression",
+      "schizophrenia"
+    ],
+    "negated_conditions": [
+      "osteoarthritis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_01493",
+  "raw_text": "Patient is a 82-year-old male with Parkinson's disease. No history of nausea or HIV/AIDS.",
+  "metadata": {
+    "age": 82,
+    "gender": "male",
+    "conditions": [
+      "Parkinson's disease"
+    ],
+    "negated_conditions": [
+      "nausea",
+      "HIV/AIDS"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

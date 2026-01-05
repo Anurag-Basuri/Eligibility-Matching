@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_01031",
+  "raw_text": "Patient is a 34-year-old male with asthma. No history of osteoporosis or migraine.",
+  "metadata": {
+    "age": 34,
+    "gender": "male",
+    "conditions": [
+      "asthma"
+    ],
+    "negated_conditions": [
+      "osteoporosis",
+      "migraine"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

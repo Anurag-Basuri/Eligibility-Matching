@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_01135",
+  "raw_text": "Patient is a 42-year-old female with type 2 diabetes and obesity. No history of constipation.",
+  "metadata": {
+    "age": 42,
+    "gender": "female",
+    "conditions": [
+      "type 2 diabetes",
+      "obesity"
+    ],
+    "negated_conditions": [
+      "constipation"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

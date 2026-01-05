@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00330",
+  "raw_text": "Patient is a 39-year-old female with PCOS. No history of schizophrenia or pneumonia.",
+  "metadata": {
+    "age": 39,
+    "gender": "female",
+    "conditions": [
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "schizophrenia",
+      "pneumonia"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

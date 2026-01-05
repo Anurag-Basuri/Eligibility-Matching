@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_00576",
+  "raw_text": "Patient is a 51-year-old male with osteoarthritis. No history of vitamin D deficiency.",
+  "metadata": {
+    "age": 51,
+    "gender": "male",
+    "conditions": [
+      "osteoarthritis"
+    ],
+    "negated_conditions": [
+      "vitamin D deficiency"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

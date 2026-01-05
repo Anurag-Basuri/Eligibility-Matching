@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_01026",
+  "raw_text": "Patient is a 42-year-old male with asthma and bronchitis. No history of Parkinson's disease.",
+  "metadata": {
+    "age": 42,
+    "gender": "male",
+    "conditions": [
+      "asthma",
+      "bronchitis"
+    ],
+    "negated_conditions": [
+      "Parkinson's disease"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

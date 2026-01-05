@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00181",
+  "raw_text": "Patient is a 77-year-old male with epilepsy and hypertension. No history of cancer or pneumonia.",
+  "metadata": {
+    "age": 77,
+    "gender": "male",
+    "conditions": [
+      "epilepsy",
+      "hypertension"
+    ],
+    "negated_conditions": [
+      "cancer",
+      "pneumonia"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

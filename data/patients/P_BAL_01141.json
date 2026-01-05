@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_01141",
+  "raw_text": "Patient is a 62-year-old female with type 2 diabetes and thyroid disorders and obesity.",
+  "metadata": {
+    "age": 62,
+    "gender": "female",
+    "conditions": [
+      "type 2 diabetes",
+      "thyroid disorders",
+      "obesity"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

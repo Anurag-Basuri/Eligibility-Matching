@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00869",
+  "raw_text": "Patient is a 45-year-old female with COPD and asthma. No history of cardiovascular disease.",
+  "metadata": {
+    "age": 45,
+    "gender": "female",
+    "conditions": [
+      "COPD",
+      "asthma"
+    ],
+    "negated_conditions": [
+      "cardiovascular disease"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

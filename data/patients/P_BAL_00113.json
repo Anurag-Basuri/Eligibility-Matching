@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00113",
+  "raw_text": "Patient is a 59-year-old male with type 2 diabetes and cardiovascular disease.",
+  "metadata": {
+    "age": 59,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes",
+      "cardiovascular disease"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00212",
+  "raw_text": "Patient is a 63-year-old male with nausea and hypertension. No history of heart disease.",
+  "metadata": {
+    "age": 63,
+    "gender": "male",
+    "conditions": [
+      "nausea",
+      "hypertension"
+    ],
+    "negated_conditions": [
+      "heart disease"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

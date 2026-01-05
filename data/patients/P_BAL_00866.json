@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00866",
+  "raw_text": "Patient is a 66-year-old female with COPD and anxiety.",
+  "metadata": {
+    "age": 66,
+    "gender": "female",
+    "conditions": [
+      "COPD",
+      "anxiety"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

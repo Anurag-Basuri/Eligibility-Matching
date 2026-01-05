@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00537",
+  "raw_text": "Patient is a 75-year-old male with osteoarthritis. No history of depression or osteoporosis.",
+  "metadata": {
+    "age": 75,
+    "gender": "male",
+    "conditions": [
+      "osteoarthritis"
+    ],
+    "negated_conditions": [
+      "depression",
+      "osteoporosis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

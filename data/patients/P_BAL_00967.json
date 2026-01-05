@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00967",
+  "raw_text": "Patient is a 49-year-old female with asthma and Alzheimer's disease. No history of nausea or obesity.",
+  "metadata": {
+    "age": 49,
+    "gender": "female",
+    "conditions": [
+      "asthma",
+      "Alzheimer's disease"
+    ],
+    "negated_conditions": [
+      "nausea",
+      "obesity"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

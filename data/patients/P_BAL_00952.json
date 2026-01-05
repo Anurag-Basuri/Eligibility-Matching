@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_00952",
+  "raw_text": "Patient is a 23-year-old male with COPD. No history of osteoporosis.",
+  "metadata": {
+    "age": 23,
+    "gender": "male",
+    "conditions": [
+      "COPD"
+    ],
+    "negated_conditions": [
+      "osteoporosis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

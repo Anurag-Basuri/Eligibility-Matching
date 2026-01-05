@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00524",
+  "raw_text": "Patient is a 78-year-old male with asthma and osteoarthritis. No history of vitamin D deficiency.",
+  "metadata": {
+    "age": 78,
+    "gender": "male",
+    "conditions": [
+      "asthma",
+      "osteoarthritis"
+    ],
+    "negated_conditions": [
+      "vitamin D deficiency"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

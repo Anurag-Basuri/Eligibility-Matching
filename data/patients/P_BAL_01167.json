@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_01167",
+  "raw_text": "Patient is a 63-year-old female with type 2 diabetes and schizophrenia and obesity. No history of hypertension or PCOS.",
+  "metadata": {
+    "age": 63,
+    "gender": "female",
+    "conditions": [
+      "type 2 diabetes",
+      "schizophrenia",
+      "obesity"
+    ],
+    "negated_conditions": [
+      "hypertension",
+      "PCOS"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

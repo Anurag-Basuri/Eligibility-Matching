@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_01424",
+  "raw_text": "Patient is a 72-year-old female with anxiety. No history of bronchitis or HIV/AIDS.",
+  "metadata": {
+    "age": 72,
+    "gender": "female",
+    "conditions": [
+      "anxiety"
+    ],
+    "negated_conditions": [
+      "bronchitis",
+      "HIV/AIDS"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_01005",
+  "raw_text": "Patient is a 37-year-old female with asthma. No history of chronic kidney disease or constipation.",
+  "metadata": {
+    "age": 37,
+    "gender": "female",
+    "conditions": [
+      "asthma"
+    ],
+    "negated_conditions": [
+      "chronic kidney disease",
+      "constipation"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

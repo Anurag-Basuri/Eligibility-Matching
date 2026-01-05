@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_01596",
+  "raw_text": "Patient is a 20-year-old female with Parkinson's disease. No history of PCOS.",
+  "metadata": {
+    "age": 20,
+    "gender": "female",
+    "conditions": [
+      "Parkinson's disease"
+    ],
+    "negated_conditions": [
+      "PCOS"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

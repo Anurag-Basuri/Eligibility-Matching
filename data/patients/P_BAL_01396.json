@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_01396",
+  "raw_text": "Patient is a 40-year-old female with anxiety and HIV/AIDS. No history of pneumonia or PCOS.",
+  "metadata": {
+    "age": 40,
+    "gender": "female",
+    "conditions": [
+      "anxiety",
+      "HIV/AIDS"
+    ],
+    "negated_conditions": [
+      "pneumonia",
+      "PCOS"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

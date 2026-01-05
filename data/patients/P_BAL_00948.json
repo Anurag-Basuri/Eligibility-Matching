@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_BAL_00948",
+  "raw_text": "Patient is a 58-year-old female with no significant conditions. No history of cardiovascular disease.",
+  "metadata": {
+    "age": 58,
+    "gender": "female",
+    "conditions": [],
+    "negated_conditions": [
+      "cardiovascular disease"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_00359",
+  "raw_text": "Patient is a 20-year-old male with PCOS. No history of tuberculosis.",
+  "metadata": {
+    "age": 20,
+    "gender": "male",
+    "conditions": [
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "tuberculosis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

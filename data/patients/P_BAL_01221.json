@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_01221",
+  "raw_text": "Patient is a 25-year-old male with type 2 diabetes and obesity.",
+  "metadata": {
+    "age": 25,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes",
+      "obesity"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

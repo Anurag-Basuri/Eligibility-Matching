@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00720",
+  "raw_text": "Patient is a 26-year-old male with depression and bipolar disorder. No history of dizziness or diarrhea.",
+  "metadata": {
+    "age": 26,
+    "gender": "male",
+    "conditions": [
+      "depression",
+      "bipolar disorder"
+    ],
+    "negated_conditions": [
+      "dizziness",
+      "diarrhea"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

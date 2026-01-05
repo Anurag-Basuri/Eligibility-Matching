@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_01508",
+  "raw_text": "Patient is a 77-year-old female with Parkinson's disease. No history of osteoarthritis.",
+  "metadata": {
+    "age": 77,
+    "gender": "female",
+    "conditions": [
+      "Parkinson's disease"
+    ],
+    "negated_conditions": [
+      "osteoarthritis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

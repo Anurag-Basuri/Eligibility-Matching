@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_01242",
+  "raw_text": "Patient is a 41-year-old female with type 2 diabetes and liver disease and obesity. No history of hypertension or PCOS.",
+  "metadata": {
+    "age": 41,
+    "gender": "female",
+    "conditions": [
+      "type 2 diabetes",
+      "liver disease",
+      "obesity"
+    ],
+    "negated_conditions": [
+      "hypertension",
+      "PCOS"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

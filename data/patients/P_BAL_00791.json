@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00791",
+  "raw_text": "Patient is a 82-year-old male with depression. No history of chronic back pain or migraine.",
+  "metadata": {
+    "age": 82,
+    "gender": "male",
+    "conditions": [
+      "depression"
+    ],
+    "negated_conditions": [
+      "chronic back pain",
+      "migraine"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

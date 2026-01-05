@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00906",
+  "raw_text": "Patient is a 65-year-old male with no significant conditions. No history of autoimmune diseases or nausea.",
+  "metadata": {
+    "age": 65,
+    "gender": "male",
+    "conditions": [],
+    "negated_conditions": [
+      "autoimmune diseases",
+      "nausea"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

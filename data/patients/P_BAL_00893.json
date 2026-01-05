@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00893",
+  "raw_text": "Patient is a 34-year-old female with COPD. No history of asthma or arthritis.",
+  "metadata": {
+    "age": 34,
+    "gender": "female",
+    "conditions": [
+      "COPD"
+    ],
+    "negated_conditions": [
+      "asthma",
+      "arthritis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

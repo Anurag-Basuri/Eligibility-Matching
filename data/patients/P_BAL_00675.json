@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00675",
+  "raw_text": "Patient is a 40-year-old female with depression. No history of hepatitis C or asthma.",
+  "metadata": {
+    "age": 40,
+    "gender": "female",
+    "conditions": [
+      "depression"
+    ],
+    "negated_conditions": [
+      "hepatitis C",
+      "asthma"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

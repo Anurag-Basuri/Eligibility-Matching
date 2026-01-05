@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_00456",
+  "raw_text": "Patient is a 55-year-old male with PCOS. No history of asthma.",
+  "metadata": {
+    "age": 55,
+    "gender": "male",
+    "conditions": [
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "asthma"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

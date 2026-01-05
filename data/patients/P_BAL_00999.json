@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_00999",
+  "raw_text": "Patient is a 31-year-old female with asthma. No history of schizophrenia.",
+  "metadata": {
+    "age": 31,
+    "gender": "female",
+    "conditions": [
+      "asthma"
+    ],
+    "negated_conditions": [
+      "schizophrenia"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

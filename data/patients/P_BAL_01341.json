@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_01341",
+  "raw_text": "Patient is a 26-year-old male with anxiety and liver disease. No history of COPD.",
+  "metadata": {
+    "age": 26,
+    "gender": "male",
+    "conditions": [
+      "anxiety",
+      "liver disease"
+    ],
+    "negated_conditions": [
+      "COPD"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

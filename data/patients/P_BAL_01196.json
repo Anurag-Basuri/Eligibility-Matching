@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_01196",
+  "raw_text": "Patient is a 44-year-old male with type 2 diabetes and obesity. No history of constipation or heart disease.",
+  "metadata": {
+    "age": 44,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes",
+      "obesity"
+    ],
+    "negated_conditions": [
+      "constipation",
+      "heart disease"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

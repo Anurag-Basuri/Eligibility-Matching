@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_01316",
+  "raw_text": "Patient is a 29-year-old male with anxiety and vitamin D deficiency.",
+  "metadata": {
+    "age": 29,
+    "gender": "male",
+    "conditions": [
+      "anxiety",
+      "vitamin D deficiency"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

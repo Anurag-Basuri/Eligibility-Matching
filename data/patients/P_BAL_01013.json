@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_01013",
+  "raw_text": "Patient is a 22-year-old female with asthma and tuberculosis. No history of thyroid disorders or diarrhea.",
+  "metadata": {
+    "age": 22,
+    "gender": "female",
+    "conditions": [
+      "asthma",
+      "tuberculosis"
+    ],
+    "negated_conditions": [
+      "thyroid disorders",
+      "diarrhea"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

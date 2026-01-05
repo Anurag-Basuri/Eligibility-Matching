@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00402",
+  "raw_text": "Patient is a 42-year-old male with pregnancy and PCOS. No history of anxiety or cardiovascular disease.",
+  "metadata": {
+    "age": 42,
+    "gender": "male",
+    "conditions": [
+      "pregnancy",
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "anxiety",
+      "cardiovascular disease"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

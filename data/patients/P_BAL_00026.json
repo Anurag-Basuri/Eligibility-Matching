@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00026",
+  "raw_text": "Patient is a 41-year-old male with type 2 diabetes. No history of liver disease or Parkinson's disease.",
+  "metadata": {
+    "age": 41,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes"
+    ],
+    "negated_conditions": [
+      "liver disease",
+      "Parkinson's disease"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

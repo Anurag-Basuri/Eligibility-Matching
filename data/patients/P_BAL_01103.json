@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_BAL_01103",
+  "raw_text": "Patient is a 46-year-old male with no significant conditions. No history of constipation.",
+  "metadata": {
+    "age": 46,
+    "gender": "male",
+    "conditions": [],
+    "negated_conditions": [
+      "constipation"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

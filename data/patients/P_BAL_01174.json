@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_01174",
+  "raw_text": "Patient is a 57-year-old female with type 2 diabetes and obesity. No history of bipolar disorder.",
+  "metadata": {
+    "age": 57,
+    "gender": "female",
+    "conditions": [
+      "type 2 diabetes",
+      "obesity"
+    ],
+    "negated_conditions": [
+      "bipolar disorder"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

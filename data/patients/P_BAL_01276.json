@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_01276",
+  "raw_text": "Patient is a 33-year-old male with no significant conditions. No history of heart disease or migraine.",
+  "metadata": {
+    "age": 33,
+    "gender": "male",
+    "conditions": [],
+    "negated_conditions": [
+      "heart disease",
+      "migraine"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

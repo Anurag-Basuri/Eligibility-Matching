@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00511",
+  "raw_text": "Patient is a 63-year-old male with arthritis and osteoarthritis. No history of autism spectrum disorder or chronic kidney disease.",
+  "metadata": {
+    "age": 63,
+    "gender": "male",
+    "conditions": [
+      "arthritis",
+      "osteoarthritis"
+    ],
+    "negated_conditions": [
+      "autism spectrum disorder",
+      "chronic kidney disease"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

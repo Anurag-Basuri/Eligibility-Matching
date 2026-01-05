@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_00151",
+  "raw_text": "Patient is a 74-year-old male with type 2 diabetes. No history of depression.",
+  "metadata": {
+    "age": 74,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes"
+    ],
+    "negated_conditions": [
+      "depression"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

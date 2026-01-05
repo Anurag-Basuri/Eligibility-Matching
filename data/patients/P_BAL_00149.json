@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00149",
+  "raw_text": "Patient is a 44-year-old female with type 2 diabetes and cancer. No history of anxiety.",
+  "metadata": {
+    "age": 44,
+    "gender": "female",
+    "conditions": [
+      "type 2 diabetes",
+      "cancer"
+    ],
+    "negated_conditions": [
+      "anxiety"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_01583",
+  "raw_text": "Patient is a 52-year-old female with Parkinson's disease. No history of asthma or epilepsy.",
+  "metadata": {
+    "age": 52,
+    "gender": "female",
+    "conditions": [
+      "Parkinson's disease"
+    ],
+    "negated_conditions": [
+      "asthma",
+      "epilepsy"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

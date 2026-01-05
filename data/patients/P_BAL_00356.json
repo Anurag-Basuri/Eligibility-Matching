@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_00356",
+  "raw_text": "Patient is a 31-year-old male with PCOS. No history of COPD.",
+  "metadata": {
+    "age": 31,
+    "gender": "male",
+    "conditions": [
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "COPD"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

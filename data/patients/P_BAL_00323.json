@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00323",
+  "raw_text": "Patient is a 43-year-old female with fatigue and PCOS. No history of obesity.",
+  "metadata": {
+    "age": 43,
+    "gender": "female",
+    "conditions": [
+      "fatigue",
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "obesity"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

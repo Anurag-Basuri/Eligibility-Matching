@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00502",
+  "raw_text": "Patient is a 78-year-old male with asthma and osteoarthritis. No history of chronic kidney disease or pneumonia.",
+  "metadata": {
+    "age": 78,
+    "gender": "male",
+    "conditions": [
+      "asthma",
+      "osteoarthritis"
+    ],
+    "negated_conditions": [
+      "chronic kidney disease",
+      "pneumonia"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

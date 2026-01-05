@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00938",
+  "raw_text": "Patient is a 85-year-old female with COPD. No history of sinus infections or asthma.",
+  "metadata": {
+    "age": 85,
+    "gender": "female",
+    "conditions": [
+      "COPD"
+    ],
+    "negated_conditions": [
+      "sinus infections",
+      "asthma"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

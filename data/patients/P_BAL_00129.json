@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00129",
+  "raw_text": "Patient is a 79-year-old female with type 2 diabetes. No history of arthritis or cancer.",
+  "metadata": {
+    "age": 79,
+    "gender": "female",
+    "conditions": [
+      "type 2 diabetes"
+    ],
+    "negated_conditions": [
+      "arthritis",
+      "cancer"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

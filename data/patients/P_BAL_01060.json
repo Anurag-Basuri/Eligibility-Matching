@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_BAL_01060",
+  "raw_text": "Patient is a 75-year-old female with asthma.",
+  "metadata": {
+    "age": 75,
+    "gender": "female",
+    "conditions": [
+      "asthma"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

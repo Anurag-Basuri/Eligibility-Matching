@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_01271",
+  "raw_text": "Patient is a 50-year-old male with type 2 diabetes and cardiovascular disease and obesity. No history of chronic kidney disease or autism spectrum disorder.",
+  "metadata": {
+    "age": 50,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes",
+      "cardiovascular disease",
+      "obesity"
+    ],
+    "negated_conditions": [
+      "chronic kidney disease",
+      "autism spectrum disorder"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

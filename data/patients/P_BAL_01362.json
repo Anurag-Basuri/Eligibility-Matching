@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_01362",
+  "raw_text": "Patient is a 23-year-old female with epilepsy and anxiety. No history of PCOS.",
+  "metadata": {
+    "age": 23,
+    "gender": "female",
+    "conditions": [
+      "epilepsy",
+      "anxiety"
+    ],
+    "negated_conditions": [
+      "PCOS"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

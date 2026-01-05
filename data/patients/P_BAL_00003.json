@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00003",
+  "raw_text": "Patient is a 44-year-old female with type 2 diabetes and sinus infections.",
+  "metadata": {
+    "age": 44,
+    "gender": "female",
+    "conditions": [
+      "type 2 diabetes",
+      "sinus infections"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

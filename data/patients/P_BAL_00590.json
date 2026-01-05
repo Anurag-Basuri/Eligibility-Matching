@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_BAL_00590",
+  "raw_text": "Patient is a 76-year-old male with no significant conditions. No history of asthma.",
+  "metadata": {
+    "age": 76,
+    "gender": "male",
+    "conditions": [],
+    "negated_conditions": [
+      "asthma"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

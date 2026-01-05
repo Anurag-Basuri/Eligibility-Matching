@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00248",
+  "raw_text": "Patient is a 81-year-old male with hypertension. No history of vomiting or migraine.",
+  "metadata": {
+    "age": 81,
+    "gender": "male",
+    "conditions": [
+      "hypertension"
+    ],
+    "negated_conditions": [
+      "vomiting",
+      "migraine"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

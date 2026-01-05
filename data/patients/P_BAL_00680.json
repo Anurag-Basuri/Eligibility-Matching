@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00680",
+  "raw_text": "Patient is a 26-year-old female with depression and diarrhea.",
+  "metadata": {
+    "age": 26,
+    "gender": "female",
+    "conditions": [
+      "depression",
+      "diarrhea"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

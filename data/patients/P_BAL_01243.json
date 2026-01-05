@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_01243",
+  "raw_text": "Patient is a 51-year-old female with type 2 diabetes and cardiovascular disease and obesity. No history of chronic back pain.",
+  "metadata": {
+    "age": 51,
+    "gender": "female",
+    "conditions": [
+      "type 2 diabetes",
+      "cardiovascular disease",
+      "obesity"
+    ],
+    "negated_conditions": [
+      "chronic back pain"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

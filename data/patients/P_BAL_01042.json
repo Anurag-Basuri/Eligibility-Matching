@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_01042",
+  "raw_text": "Patient is a 65-year-old male with asthma. No history of pneumonia or obesity.",
+  "metadata": {
+    "age": 65,
+    "gender": "male",
+    "conditions": [
+      "asthma"
+    ],
+    "negated_conditions": [
+      "pneumonia",
+      "obesity"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

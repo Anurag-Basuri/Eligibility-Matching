@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_01568",
+  "raw_text": "Patient is a 61-year-old female with Parkinson's disease and cancer. No history of arthritis or HIV/AIDS.",
+  "metadata": {
+    "age": 61,
+    "gender": "female",
+    "conditions": [
+      "Parkinson's disease",
+      "cancer"
+    ],
+    "negated_conditions": [
+      "arthritis",
+      "HIV/AIDS"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

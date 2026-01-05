@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00384",
+  "raw_text": "Patient is a 44-year-old male with PCOS. No history of autoimmune diseases or type 2 diabetes.",
+  "metadata": {
+    "age": 44,
+    "gender": "male",
+    "conditions": [
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "autoimmune diseases",
+      "type 2 diabetes"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

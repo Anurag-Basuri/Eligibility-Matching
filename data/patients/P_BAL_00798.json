@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00798",
+  "raw_text": "Patient is a 26-year-old male with no significant conditions. No history of arthritis or hypertension.",
+  "metadata": {
+    "age": 26,
+    "gender": "male",
+    "conditions": [],
+    "negated_conditions": [
+      "arthritis",
+      "hypertension"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

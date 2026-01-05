@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00859",
+  "raw_text": "Patient is a 53-year-old female with COPD and Parkinson's disease.",
+  "metadata": {
+    "age": 53,
+    "gender": "female",
+    "conditions": [
+      "COPD",
+      "Parkinson's disease"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

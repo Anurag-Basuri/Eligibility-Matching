@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_00380",
+  "raw_text": "Patient is a 33-year-old female with PCOS. No history of autoimmune diseases.",
+  "metadata": {
+    "age": 33,
+    "gender": "female",
+    "conditions": [
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "autoimmune diseases"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

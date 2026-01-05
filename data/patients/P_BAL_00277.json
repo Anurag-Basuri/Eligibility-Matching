@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_BAL_00277",
+  "raw_text": "Patient is a 81-year-old female with hypertension.",
+  "metadata": {
+    "age": 81,
+    "gender": "female",
+    "conditions": [
+      "hypertension"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

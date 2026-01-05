@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00727",
+  "raw_text": "Patient is a 39-year-old female with depression and schizophrenia. No history of nausea or hypertension.",
+  "metadata": {
+    "age": 39,
+    "gender": "female",
+    "conditions": [
+      "depression",
+      "schizophrenia"
+    ],
+    "negated_conditions": [
+      "nausea",
+      "hypertension"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

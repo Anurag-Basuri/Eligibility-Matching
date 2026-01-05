@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_01288",
+  "raw_text": "Patient is a 38-year-old male with anxiety and hepatitis B.",
+  "metadata": {
+    "age": 38,
+    "gender": "male",
+    "conditions": [
+      "anxiety",
+      "hepatitis B"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

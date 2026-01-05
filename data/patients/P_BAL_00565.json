@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00565",
+  "raw_text": "Patient is a 62-year-old female with stroke and osteoarthritis.",
+  "metadata": {
+    "age": 62,
+    "gender": "female",
+    "conditions": [
+      "stroke",
+      "osteoarthritis"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

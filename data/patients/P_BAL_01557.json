@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_01557",
+  "raw_text": "Patient is a 57-year-old male with Parkinson's disease and cancer. No history of Alzheimer's disease.",
+  "metadata": {
+    "age": 57,
+    "gender": "male",
+    "conditions": [
+      "Parkinson's disease",
+      "cancer"
+    ],
+    "negated_conditions": [
+      "Alzheimer's disease"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

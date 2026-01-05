@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_BAL_00910",
+  "raw_text": "Patient is a 55-year-old female with no significant conditions. No history of hepatitis B.",
+  "metadata": {
+    "age": 55,
+    "gender": "female",
+    "conditions": [],
+    "negated_conditions": [
+      "hepatitis B"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

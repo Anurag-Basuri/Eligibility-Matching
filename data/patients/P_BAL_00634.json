@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_00634",
+  "raw_text": "Patient is a 85-year-old male with osteoarthritis. No history of obesity.",
+  "metadata": {
+    "age": 85,
+    "gender": "male",
+    "conditions": [
+      "osteoarthritis"
+    ],
+    "negated_conditions": [
+      "obesity"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

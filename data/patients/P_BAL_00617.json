@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00617",
+  "raw_text": "Patient is a 68-year-old male with stroke and osteoarthritis.",
+  "metadata": {
+    "age": 68,
+    "gender": "male",
+    "conditions": [
+      "stroke",
+      "osteoarthritis"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

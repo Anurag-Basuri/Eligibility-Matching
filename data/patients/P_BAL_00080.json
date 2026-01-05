@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00080",
+  "raw_text": "Patient is a 45-year-old male with no significant conditions. No history of liver disease or hepatitis B.",
+  "metadata": {
+    "age": 45,
+    "gender": "male",
+    "conditions": [],
+    "negated_conditions": [
+      "liver disease",
+      "hepatitis B"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

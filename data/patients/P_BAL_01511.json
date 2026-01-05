@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_01511",
+  "raw_text": "Patient is a 75-year-old female with Parkinson's disease and asthma. No history of obesity or osteoarthritis.",
+  "metadata": {
+    "age": 75,
+    "gender": "female",
+    "conditions": [
+      "Parkinson's disease",
+      "asthma"
+    ],
+    "negated_conditions": [
+      "obesity",
+      "osteoarthritis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

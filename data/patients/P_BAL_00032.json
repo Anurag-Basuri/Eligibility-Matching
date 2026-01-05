@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00032",
+  "raw_text": "Patient is a 60-year-old female with type 2 diabetes. No history of epilepsy or depression.",
+  "metadata": {
+    "age": 60,
+    "gender": "female",
+    "conditions": [
+      "type 2 diabetes"
+    ],
+    "negated_conditions": [
+      "epilepsy",
+      "depression"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

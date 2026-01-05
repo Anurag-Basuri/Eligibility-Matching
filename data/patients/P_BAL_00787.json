@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00787",
+  "raw_text": "Patient is a 25-year-old female with no significant conditions. No history of hyperlipidemia or chronic kidney disease.",
+  "metadata": {
+    "age": 25,
+    "gender": "female",
+    "conditions": [],
+    "negated_conditions": [
+      "hyperlipidemia",
+      "chronic kidney disease"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

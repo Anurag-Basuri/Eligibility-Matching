@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00569",
+  "raw_text": "Patient is a 82-year-old female with osteoarthritis. No history of epilepsy or type 2 diabetes.",
+  "metadata": {
+    "age": 82,
+    "gender": "female",
+    "conditions": [
+      "osteoarthritis"
+    ],
+    "negated_conditions": [
+      "epilepsy",
+      "type 2 diabetes"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

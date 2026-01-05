@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00466",
+  "raw_text": "Patient is a 18-year-old female with pregnancy and PCOS. No history of chronic back pain or pneumonia.",
+  "metadata": {
+    "age": 18,
+    "gender": "female",
+    "conditions": [
+      "pregnancy",
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "chronic back pain",
+      "pneumonia"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

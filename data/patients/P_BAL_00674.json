@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00674",
+  "raw_text": "Patient is a 35-year-old male with depression. No history of multiple sclerosis or diarrhea.",
+  "metadata": {
+    "age": 35,
+    "gender": "male",
+    "conditions": [
+      "depression"
+    ],
+    "negated_conditions": [
+      "multiple sclerosis",
+      "diarrhea"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

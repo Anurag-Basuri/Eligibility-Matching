@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_01197",
+  "raw_text": "Patient is a 31-year-old male with type 2 diabetes and anxiety and obesity. No history of constipation or hypertension.",
+  "metadata": {
+    "age": 31,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes",
+      "anxiety",
+      "obesity"
+    ],
+    "negated_conditions": [
+      "constipation",
+      "hypertension"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

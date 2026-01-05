@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_01099",
+  "raw_text": "Patient is a 18-year-old male with asthma and heart disease. No history of sinus infections or diarrhea.",
+  "metadata": {
+    "age": 18,
+    "gender": "male",
+    "conditions": [
+      "asthma",
+      "heart disease"
+    ],
+    "negated_conditions": [
+      "sinus infections",
+      "diarrhea"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

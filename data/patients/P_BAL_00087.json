@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00087",
+  "raw_text": "Patient is a 82-year-old female with type 2 diabetes. No history of bipolar disorder or diarrhea.",
+  "metadata": {
+    "age": 82,
+    "gender": "female",
+    "conditions": [
+      "type 2 diabetes"
+    ],
+    "negated_conditions": [
+      "bipolar disorder",
+      "diarrhea"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

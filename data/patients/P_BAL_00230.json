@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00230",
+  "raw_text": "Patient is a 65-year-old female with hypertension. No history of depression or Parkinson's disease.",
+  "metadata": {
+    "age": 65,
+    "gender": "female",
+    "conditions": [
+      "hypertension"
+    ],
+    "negated_conditions": [
+      "depression",
+      "Parkinson's disease"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

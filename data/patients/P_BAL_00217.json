@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00217",
+  "raw_text": "Patient is a 77-year-old female with bronchitis and hypertension.",
+  "metadata": {
+    "age": 77,
+    "gender": "female",
+    "conditions": [
+      "bronchitis",
+      "hypertension"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

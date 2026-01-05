@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00241",
+  "raw_text": "Patient is a 77-year-old female with stroke and hypertension. No history of vitamin D deficiency or dizziness.",
+  "metadata": {
+    "age": 77,
+    "gender": "female",
+    "conditions": [
+      "stroke",
+      "hypertension"
+    ],
+    "negated_conditions": [
+      "vitamin D deficiency",
+      "dizziness"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

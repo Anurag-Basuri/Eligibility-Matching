@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_01313",
+  "raw_text": "Patient is a 27-year-old female with anxiety and multiple sclerosis. No history of constipation or diarrhea.",
+  "metadata": {
+    "age": 27,
+    "gender": "female",
+    "conditions": [
+      "anxiety",
+      "multiple sclerosis"
+    ],
+    "negated_conditions": [
+      "constipation",
+      "diarrhea"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

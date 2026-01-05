@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_01519",
+  "raw_text": "Patient is a 73-year-old female with Parkinson's disease. No history of hepatitis C.",
+  "metadata": {
+    "age": 73,
+    "gender": "female",
+    "conditions": [
+      "Parkinson's disease"
+    ],
+    "negated_conditions": [
+      "hepatitis C"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

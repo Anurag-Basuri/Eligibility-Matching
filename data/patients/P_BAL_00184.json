@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00184",
+  "raw_text": "Patient is a 72-year-old female with multiple sclerosis and hypertension. No history of asthma or fatigue.",
+  "metadata": {
+    "age": 72,
+    "gender": "female",
+    "conditions": [
+      "multiple sclerosis",
+      "hypertension"
+    ],
+    "negated_conditions": [
+      "asthma",
+      "fatigue"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00972",
+  "raw_text": "Patient is a 29-year-old female with asthma. No history of epilepsy or osteoporosis.",
+  "metadata": {
+    "age": 29,
+    "gender": "female",
+    "conditions": [
+      "asthma"
+    ],
+    "negated_conditions": [
+      "epilepsy",
+      "osteoporosis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00315",
+  "raw_text": "Patient is a 57-year-old male with no significant conditions. No history of liver disease or autoimmune diseases.",
+  "metadata": {
+    "age": 57,
+    "gender": "male",
+    "conditions": [],
+    "negated_conditions": [
+      "liver disease",
+      "autoimmune diseases"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

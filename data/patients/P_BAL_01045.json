@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_01045",
+  "raw_text": "Patient is a 65-year-old male with asthma. No history of hypertension.",
+  "metadata": {
+    "age": 65,
+    "gender": "male",
+    "conditions": [
+      "asthma"
+    ],
+    "negated_conditions": [
+      "hypertension"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

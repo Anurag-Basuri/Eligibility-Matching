@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_01282",
+  "raw_text": "Patient is a 35-year-old female with anxiety. No history of chronic back pain.",
+  "metadata": {
+    "age": 35,
+    "gender": "female",
+    "conditions": [
+      "anxiety"
+    ],
+    "negated_conditions": [
+      "chronic back pain"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

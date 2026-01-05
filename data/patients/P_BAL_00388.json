@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00388",
+  "raw_text": "Patient is a 23-year-old female with asthma and PCOS. No history of dizziness or osteoporosis.",
+  "metadata": {
+    "age": 23,
+    "gender": "female",
+    "conditions": [
+      "asthma",
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "dizziness",
+      "osteoporosis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

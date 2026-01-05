@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00743",
+  "raw_text": "Patient is a 69-year-old male with depression. No history of sinus infections or autoimmune diseases.",
+  "metadata": {
+    "age": 69,
+    "gender": "male",
+    "conditions": [
+      "depression"
+    ],
+    "negated_conditions": [
+      "sinus infections",
+      "autoimmune diseases"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00226",
+  "raw_text": "Patient is a 55-year-old female with constipation and hypertension. No history of autoimmune diseases or diarrhea.",
+  "metadata": {
+    "age": 55,
+    "gender": "female",
+    "conditions": [
+      "constipation",
+      "hypertension"
+    ],
+    "negated_conditions": [
+      "autoimmune diseases",
+      "diarrhea"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

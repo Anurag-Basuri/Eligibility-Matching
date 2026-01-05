@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_BAL_00696",
+  "raw_text": "Patient is a 37-year-old female with depression.",
+  "metadata": {
+    "age": 37,
+    "gender": "female",
+    "conditions": [
+      "depression"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

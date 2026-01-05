@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00059",
+  "raw_text": "Patient is a 34-year-old male with type 2 diabetes and multiple sclerosis. No history of vitamin D deficiency.",
+  "metadata": {
+    "age": 34,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes",
+      "multiple sclerosis"
+    ],
+    "negated_conditions": [
+      "vitamin D deficiency"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

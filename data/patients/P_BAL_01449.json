@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_01449",
+  "raw_text": "Patient is a 74-year-old female with Parkinson's disease and tuberculosis. No history of schizophrenia or HIV/AIDS.",
+  "metadata": {
+    "age": 74,
+    "gender": "female",
+    "conditions": [
+      "Parkinson's disease",
+      "tuberculosis"
+    ],
+    "negated_conditions": [
+      "schizophrenia",
+      "HIV/AIDS"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

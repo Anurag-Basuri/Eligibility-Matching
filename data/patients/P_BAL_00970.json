@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00970",
+  "raw_text": "Patient is a 19-year-old female with asthma. No history of autoimmune diseases or arthritis.",
+  "metadata": {
+    "age": 19,
+    "gender": "female",
+    "conditions": [
+      "asthma"
+    ],
+    "negated_conditions": [
+      "autoimmune diseases",
+      "arthritis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

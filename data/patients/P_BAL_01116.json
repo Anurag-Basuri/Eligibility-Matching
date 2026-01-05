@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_01116",
+  "raw_text": "Patient is a 28-year-old female with asthma and heart disease. No history of thyroid disorders or autoimmune diseases.",
+  "metadata": {
+    "age": 28,
+    "gender": "female",
+    "conditions": [
+      "asthma",
+      "heart disease"
+    ],
+    "negated_conditions": [
+      "thyroid disorders",
+      "autoimmune diseases"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

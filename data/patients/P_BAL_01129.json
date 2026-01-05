@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_01129",
+  "raw_text": "Patient is a 52-year-old male with type 2 diabetes and obesity. No history of vomiting or tuberculosis.",
+  "metadata": {
+    "age": 52,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes",
+      "obesity"
+    ],
+    "negated_conditions": [
+      "vomiting",
+      "tuberculosis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

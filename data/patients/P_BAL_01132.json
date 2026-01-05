@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_01132",
+  "raw_text": "Patient is a 48-year-old male with type 2 diabetes and obesity. No history of hepatitis B.",
+  "metadata": {
+    "age": 48,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes",
+      "obesity"
+    ],
+    "negated_conditions": [
+      "hepatitis B"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

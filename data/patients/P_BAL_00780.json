@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00780",
+  "raw_text": "Patient is a 55-year-old male with depression and bipolar disorder. No history of hepatitis B or type 2 diabetes.",
+  "metadata": {
+    "age": 55,
+    "gender": "male",
+    "conditions": [
+      "depression",
+      "bipolar disorder"
+    ],
+    "negated_conditions": [
+      "hepatitis B",
+      "type 2 diabetes"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

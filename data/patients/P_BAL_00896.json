@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00896",
+  "raw_text": "Patient is a 54-year-old female with COPD and cancer. No history of obesity.",
+  "metadata": {
+    "age": 54,
+    "gender": "female",
+    "conditions": [
+      "COPD",
+      "cancer"
+    ],
+    "negated_conditions": [
+      "obesity"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

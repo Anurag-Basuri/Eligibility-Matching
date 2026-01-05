@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00842",
+  "raw_text": "Patient is a 50-year-old male with COPD and thyroid disorders. No history of hyperlipidemia or obesity.",
+  "metadata": {
+    "age": 50,
+    "gender": "male",
+    "conditions": [
+      "COPD",
+      "thyroid disorders"
+    ],
+    "negated_conditions": [
+      "hyperlipidemia",
+      "obesity"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

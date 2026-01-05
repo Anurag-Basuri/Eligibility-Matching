@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00747",
+  "raw_text": "Patient is a 39-year-old male with depression and schizophrenia.",
+  "metadata": {
+    "age": 39,
+    "gender": "male",
+    "conditions": [
+      "depression",
+      "schizophrenia"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

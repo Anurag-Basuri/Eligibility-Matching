@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00445",
+  "raw_text": "Patient is a 35-year-old female with cancer and PCOS. No history of autism spectrum disorder or constipation.",
+  "metadata": {
+    "age": 35,
+    "gender": "female",
+    "conditions": [
+      "cancer",
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "autism spectrum disorder",
+      "constipation"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

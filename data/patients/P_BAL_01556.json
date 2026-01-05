@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_01556",
+  "raw_text": "Patient is a 35-year-old male with Parkinson's disease. No history of epilepsy.",
+  "metadata": {
+    "age": 35,
+    "gender": "male",
+    "conditions": [
+      "Parkinson's disease"
+    ],
+    "negated_conditions": [
+      "epilepsy"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

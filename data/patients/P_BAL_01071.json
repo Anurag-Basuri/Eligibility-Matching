@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_01071",
+  "raw_text": "Patient is a 44-year-old male with asthma and chronic kidney disease. No history of ADHD or COPD.",
+  "metadata": {
+    "age": 44,
+    "gender": "male",
+    "conditions": [
+      "asthma",
+      "chronic kidney disease"
+    ],
+    "negated_conditions": [
+      "ADHD",
+      "COPD"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

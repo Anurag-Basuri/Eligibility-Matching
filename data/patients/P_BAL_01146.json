@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_01146",
+  "raw_text": "Patient is a 60-year-old male with type 2 diabetes and obesity. No history of Alzheimer's disease or asthma.",
+  "metadata": {
+    "age": 60,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes",
+      "obesity"
+    ],
+    "negated_conditions": [
+      "Alzheimer's disease",
+      "asthma"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

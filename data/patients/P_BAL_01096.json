@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_01096",
+  "raw_text": "Patient is a 63-year-old female with asthma. No history of heart disease.",
+  "metadata": {
+    "age": 63,
+    "gender": "female",
+    "conditions": [
+      "asthma"
+    ],
+    "negated_conditions": [
+      "heart disease"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

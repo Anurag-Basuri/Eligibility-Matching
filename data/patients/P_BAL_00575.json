@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00575",
+  "raw_text": "Patient is a 72-year-old male with stroke and osteoarthritis. No history of COPD.",
+  "metadata": {
+    "age": 72,
+    "gender": "male",
+    "conditions": [
+      "stroke",
+      "osteoarthritis"
+    ],
+    "negated_conditions": [
+      "COPD"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

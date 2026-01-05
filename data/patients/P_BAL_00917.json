@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_BAL_00917",
+  "raw_text": "Patient is a 71-year-old female with no significant conditions. No history of autism spectrum disorder.",
+  "metadata": {
+    "age": 71,
+    "gender": "female",
+    "conditions": [],
+    "negated_conditions": [
+      "autism spectrum disorder"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

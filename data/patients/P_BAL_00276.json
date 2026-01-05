@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00276",
+  "raw_text": "Patient is a 79-year-old female with stroke and hypertension. No history of cancer or heart disease.",
+  "metadata": {
+    "age": 79,
+    "gender": "female",
+    "conditions": [
+      "stroke",
+      "hypertension"
+    ],
+    "negated_conditions": [
+      "cancer",
+      "heart disease"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00200",
+  "raw_text": "Patient is a 70-year-old male with osteoporosis and hypertension. No history of depression or Alzheimer's disease.",
+  "metadata": {
+    "age": 70,
+    "gender": "male",
+    "conditions": [
+      "osteoporosis",
+      "hypertension"
+    ],
+    "negated_conditions": [
+      "depression",
+      "Alzheimer's disease"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

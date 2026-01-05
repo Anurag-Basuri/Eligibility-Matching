@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_01251",
+  "raw_text": "Patient is a 61-year-old female with type 2 diabetes and cardiovascular disease and obesity. No history of chronic kidney disease or vitamin D deficiency.",
+  "metadata": {
+    "age": 61,
+    "gender": "female",
+    "conditions": [
+      "type 2 diabetes",
+      "cardiovascular disease",
+      "obesity"
+    ],
+    "negated_conditions": [
+      "chronic kidney disease",
+      "vitamin D deficiency"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

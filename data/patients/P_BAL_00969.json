@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00969",
+  "raw_text": "Patient is a 49-year-old female with asthma and thyroid disorders. No history of cardiovascular disease.",
+  "metadata": {
+    "age": 49,
+    "gender": "female",
+    "conditions": [
+      "asthma",
+      "thyroid disorders"
+    ],
+    "negated_conditions": [
+      "cardiovascular disease"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

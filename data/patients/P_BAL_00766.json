@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00766",
+  "raw_text": "Patient is a 50-year-old female with depression and schizophrenia. No history of osteoporosis.",
+  "metadata": {
+    "age": 50,
+    "gender": "female",
+    "conditions": [
+      "depression",
+      "schizophrenia"
+    ],
+    "negated_conditions": [
+      "osteoporosis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

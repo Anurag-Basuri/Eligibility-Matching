@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00532",
+  "raw_text": "Patient is a 69-year-old female with vitamin D deficiency and osteoarthritis. No history of nausea or dizziness.",
+  "metadata": {
+    "age": 69,
+    "gender": "female",
+    "conditions": [
+      "vitamin D deficiency",
+      "osteoarthritis"
+    ],
+    "negated_conditions": [
+      "nausea",
+      "dizziness"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

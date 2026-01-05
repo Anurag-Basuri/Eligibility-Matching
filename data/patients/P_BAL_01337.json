@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_01337",
+  "raw_text": "Patient is a 39-year-old female with anxiety and fatigue. No history of sinus infections.",
+  "metadata": {
+    "age": 39,
+    "gender": "female",
+    "conditions": [
+      "anxiety",
+      "fatigue"
+    ],
+    "negated_conditions": [
+      "sinus infections"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

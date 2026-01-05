@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00383",
+  "raw_text": "Patient is a 33-year-old female with PCOS and Alzheimer's disease.",
+  "metadata": {
+    "age": 33,
+    "gender": "female",
+    "conditions": [
+      "PCOS",
+      "Alzheimer's disease"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

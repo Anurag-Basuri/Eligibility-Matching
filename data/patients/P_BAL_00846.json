@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00846",
+  "raw_text": "Patient is a 60-year-old female with autism spectrum disorder and COPD. No history of arthritis or thyroid disorders.",
+  "metadata": {
+    "age": 60,
+    "gender": "female",
+    "conditions": [
+      "autism spectrum disorder",
+      "COPD"
+    ],
+    "negated_conditions": [
+      "arthritis",
+      "thyroid disorders"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

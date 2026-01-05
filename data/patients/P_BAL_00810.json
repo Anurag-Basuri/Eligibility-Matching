@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00810",
+  "raw_text": "Patient is a 50-year-old male with COPD. No history of PCOS or type 2 diabetes.",
+  "metadata": {
+    "age": 50,
+    "gender": "male",
+    "conditions": [
+      "COPD"
+    ],
+    "negated_conditions": [
+      "PCOS",
+      "type 2 diabetes"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

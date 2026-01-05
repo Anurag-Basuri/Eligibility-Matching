@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_01170",
+  "raw_text": "Patient is a 32-year-old male with type 2 diabetes and diarrhea and obesity. No history of hepatitis C or COPD.",
+  "metadata": {
+    "age": 32,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes",
+      "diarrhea",
+      "obesity"
+    ],
+    "negated_conditions": [
+      "hepatitis C",
+      "COPD"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

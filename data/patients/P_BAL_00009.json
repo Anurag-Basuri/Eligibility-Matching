@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_BAL_00009",
+  "raw_text": "Patient is a 20-year-old female with type 2 diabetes.",
+  "metadata": {
+    "age": 20,
+    "gender": "female",
+    "conditions": [
+      "type 2 diabetes"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

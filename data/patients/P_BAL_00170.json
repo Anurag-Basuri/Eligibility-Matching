@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00170",
+  "raw_text": "Patient is a 72-year-old female with cancer and hypertension.",
+  "metadata": {
+    "age": 72,
+    "gender": "female",
+    "conditions": [
+      "cancer",
+      "hypertension"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_BAL_01577",
+  "raw_text": "Patient is a 37-year-old male with Parkinson's disease.",
+  "metadata": {
+    "age": 37,
+    "gender": "male",
+    "conditions": [
+      "Parkinson's disease"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

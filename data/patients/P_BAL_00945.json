@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00945",
+  "raw_text": "Patient is a 52-year-old female with no significant conditions. No history of tuberculosis or osteoarthritis.",
+  "metadata": {
+    "age": 52,
+    "gender": "female",
+    "conditions": [],
+    "negated_conditions": [
+      "tuberculosis",
+      "osteoarthritis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00964",
+  "raw_text": "Patient is a 18-year-old male with osteoporosis and asthma. No history of hepatitis C.",
+  "metadata": {
+    "age": 18,
+    "gender": "male",
+    "conditions": [
+      "osteoporosis",
+      "asthma"
+    ],
+    "negated_conditions": [
+      "hepatitis C"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

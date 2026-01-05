@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00742",
+  "raw_text": "Patient is a 37-year-old male with depression and bipolar disorder. No history of autism spectrum disorder or chronic back pain.",
+  "metadata": {
+    "age": 37,
+    "gender": "male",
+    "conditions": [
+      "depression",
+      "bipolar disorder"
+    ],
+    "negated_conditions": [
+      "autism spectrum disorder",
+      "chronic back pain"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

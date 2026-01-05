@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00754",
+  "raw_text": "Patient is a 35-year-old female with depression and schizophrenia. No history of type 2 diabetes.",
+  "metadata": {
+    "age": 35,
+    "gender": "female",
+    "conditions": [
+      "depression",
+      "schizophrenia"
+    ],
+    "negated_conditions": [
+      "type 2 diabetes"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_01483",
+  "raw_text": "Patient is a 83-year-old female with Parkinson's disease and bronchitis. No history of dizziness or cancer.",
+  "metadata": {
+    "age": 83,
+    "gender": "female",
+    "conditions": [
+      "Parkinson's disease",
+      "bronchitis"
+    ],
+    "negated_conditions": [
+      "dizziness",
+      "cancer"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

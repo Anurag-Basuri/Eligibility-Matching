@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_01158",
+  "raw_text": "Patient is a 54-year-old male with type 2 diabetes and Parkinson's disease and obesity.",
+  "metadata": {
+    "age": 54,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes",
+      "Parkinson's disease",
+      "obesity"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

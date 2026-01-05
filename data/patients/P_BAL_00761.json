@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00761",
+  "raw_text": "Patient is a 77-year-old female with depression. No history of vomiting or sinus infections.",
+  "metadata": {
+    "age": 77,
+    "gender": "female",
+    "conditions": [
+      "depression"
+    ],
+    "negated_conditions": [
+      "vomiting",
+      "sinus infections"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00597",
+  "raw_text": "Patient is a 67-year-old female with no significant conditions. No history of vitamin D deficiency or osteoporosis.",
+  "metadata": {
+    "age": 67,
+    "gender": "female",
+    "conditions": [],
+    "negated_conditions": [
+      "vitamin D deficiency",
+      "osteoporosis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

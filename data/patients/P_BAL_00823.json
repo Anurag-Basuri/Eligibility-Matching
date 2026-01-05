@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00823",
+  "raw_text": "Patient is a 59-year-old male with COPD and obesity. No history of heart disease.",
+  "metadata": {
+    "age": 59,
+    "gender": "male",
+    "conditions": [
+      "COPD",
+      "obesity"
+    ],
+    "negated_conditions": [
+      "heart disease"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00425",
+  "raw_text": "Patient is a 32-year-old female with pregnancy and PCOS. No history of vitamin D deficiency or pneumonia.",
+  "metadata": {
+    "age": 32,
+    "gender": "female",
+    "conditions": [
+      "pregnancy",
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "vitamin D deficiency",
+      "pneumonia"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

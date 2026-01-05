@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00591",
+  "raw_text": "Patient is a 49-year-old female with osteoarthritis. No history of dizziness or nausea.",
+  "metadata": {
+    "age": 49,
+    "gender": "female",
+    "conditions": [
+      "osteoarthritis"
+    ],
+    "negated_conditions": [
+      "dizziness",
+      "nausea"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

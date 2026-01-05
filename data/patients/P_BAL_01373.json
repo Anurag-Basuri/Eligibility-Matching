@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_01373",
+  "raw_text": "Patient is a 26-year-old female with no significant conditions. No history of thyroid disorders or hepatitis C.",
+  "metadata": {
+    "age": 26,
+    "gender": "female",
+    "conditions": [],
+    "negated_conditions": [
+      "thyroid disorders",
+      "hepatitis C"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

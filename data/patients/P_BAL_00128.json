@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00128",
+  "raw_text": "Patient is a 53-year-old male with no significant conditions. No history of cardiovascular disease or diarrhea.",
+  "metadata": {
+    "age": 53,
+    "gender": "male",
+    "conditions": [],
+    "negated_conditions": [
+      "cardiovascular disease",
+      "diarrhea"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

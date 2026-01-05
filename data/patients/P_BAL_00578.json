@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_BAL_00578",
+  "raw_text": "Patient is a 84-year-old male with osteoarthritis.",
+  "metadata": {
+    "age": 84,
+    "gender": "male",
+    "conditions": [
+      "osteoarthritis"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

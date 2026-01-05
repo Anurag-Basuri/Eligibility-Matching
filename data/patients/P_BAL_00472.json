@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00472",
+  "raw_text": "Patient is a 30-year-old female with cancer and PCOS. No history of Parkinson's disease or nausea.",
+  "metadata": {
+    "age": 30,
+    "gender": "female",
+    "conditions": [
+      "cancer",
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "Parkinson's disease",
+      "nausea"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

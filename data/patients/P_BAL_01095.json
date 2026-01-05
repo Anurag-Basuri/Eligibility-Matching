@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_01095",
+  "raw_text": "Patient is a 56-year-old female with asthma. No history of pneumonia or hyperlipidemia.",
+  "metadata": {
+    "age": 56,
+    "gender": "female",
+    "conditions": [
+      "asthma"
+    ],
+    "negated_conditions": [
+      "pneumonia",
+      "hyperlipidemia"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

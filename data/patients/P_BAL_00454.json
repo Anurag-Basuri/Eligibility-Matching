@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00454",
+  "raw_text": "Patient is a 32-year-old female with pregnancy and PCOS. No history of migraine.",
+  "metadata": {
+    "age": 32,
+    "gender": "female",
+    "conditions": [
+      "pregnancy",
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "migraine"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

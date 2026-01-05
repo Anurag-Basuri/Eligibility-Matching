@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_01134",
+  "raw_text": "Patient is a 57-year-old male with type 2 diabetes and obesity. No history of autoimmune diseases.",
+  "metadata": {
+    "age": 57,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes",
+      "obesity"
+    ],
+    "negated_conditions": [
+      "autoimmune diseases"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

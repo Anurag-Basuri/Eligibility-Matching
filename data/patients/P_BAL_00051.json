@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00051",
+  "raw_text": "Patient is a 43-year-old male with type 2 diabetes and hepatitis B. No history of sinus infections or anxiety.",
+  "metadata": {
+    "age": 43,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes",
+      "hepatitis B"
+    ],
+    "negated_conditions": [
+      "sinus infections",
+      "anxiety"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_01087",
+  "raw_text": "Patient is a 39-year-old female with asthma and heart disease. No history of nausea or vomiting.",
+  "metadata": {
+    "age": 39,
+    "gender": "female",
+    "conditions": [
+      "asthma",
+      "heart disease"
+    ],
+    "negated_conditions": [
+      "nausea",
+      "vomiting"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

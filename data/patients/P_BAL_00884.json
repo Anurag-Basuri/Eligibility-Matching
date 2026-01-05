@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_BAL_00884",
+  "raw_text": "Patient is a 24-year-old female with COPD.",
+  "metadata": {
+    "age": 24,
+    "gender": "female",
+    "conditions": [
+      "COPD"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

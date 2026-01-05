@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00012",
+  "raw_text": "Patient is a 31-year-old male with type 2 diabetes. No history of COPD or bipolar disorder.",
+  "metadata": {
+    "age": 31,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes"
+    ],
+    "negated_conditions": [
+      "COPD",
+      "bipolar disorder"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

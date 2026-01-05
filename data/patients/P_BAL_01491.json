@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_01491",
+  "raw_text": "Patient is a 72-year-old female with arthritis and Parkinson's disease. No history of anxiety.",
+  "metadata": {
+    "age": 72,
+    "gender": "female",
+    "conditions": [
+      "arthritis",
+      "Parkinson's disease"
+    ],
+    "negated_conditions": [
+      "anxiety"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

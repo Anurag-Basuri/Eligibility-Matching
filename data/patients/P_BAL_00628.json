@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00628",
+  "raw_text": "Patient is a 61-year-old female with stroke and osteoarthritis. No history of fatigue or Parkinson's disease.",
+  "metadata": {
+    "age": 61,
+    "gender": "female",
+    "conditions": [
+      "stroke",
+      "osteoarthritis"
+    ],
+    "negated_conditions": [
+      "fatigue",
+      "Parkinson's disease"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_01378",
+  "raw_text": "Patient is a 82-year-old male with anxiety. No history of Parkinson's disease or pneumonia.",
+  "metadata": {
+    "age": 82,
+    "gender": "male",
+    "conditions": [
+      "anxiety"
+    ],
+    "negated_conditions": [
+      "Parkinson's disease",
+      "pneumonia"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_01308",
+  "raw_text": "Patient is a 23-year-old male with constipation and anxiety. No history of bronchitis.",
+  "metadata": {
+    "age": 23,
+    "gender": "male",
+    "conditions": [
+      "constipation",
+      "anxiety"
+    ],
+    "negated_conditions": [
+      "bronchitis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

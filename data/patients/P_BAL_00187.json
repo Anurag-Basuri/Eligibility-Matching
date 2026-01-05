@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00187",
+  "raw_text": "Patient is a 73-year-old male with depression and hypertension. No history of cardiovascular disease.",
+  "metadata": {
+    "age": 73,
+    "gender": "male",
+    "conditions": [
+      "depression",
+      "hypertension"
+    ],
+    "negated_conditions": [
+      "cardiovascular disease"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

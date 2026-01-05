@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00180",
+  "raw_text": "Patient is a 54-year-old male with nausea and hypertension. No history of hepatitis B or dizziness.",
+  "metadata": {
+    "age": 54,
+    "gender": "male",
+    "conditions": [
+      "nausea",
+      "hypertension"
+    ],
+    "negated_conditions": [
+      "hepatitis B",
+      "dizziness"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

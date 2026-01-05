@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_01408",
+  "raw_text": "Patient is a 35-year-old male with anxiety and HIV/AIDS.",
+  "metadata": {
+    "age": 35,
+    "gender": "male",
+    "conditions": [
+      "anxiety",
+      "HIV/AIDS"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

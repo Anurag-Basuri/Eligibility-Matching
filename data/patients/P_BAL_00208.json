@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00208",
+  "raw_text": "Patient is a 71-year-old female with hypertension. No history of osteoarthritis or COPD.",
+  "metadata": {
+    "age": 71,
+    "gender": "female",
+    "conditions": [
+      "hypertension"
+    ],
+    "negated_conditions": [
+      "osteoarthritis",
+      "COPD"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

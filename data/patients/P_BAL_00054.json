@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_00054",
+  "raw_text": "Patient is a 26-year-old female with type 2 diabetes. No history of liver disease.",
+  "metadata": {
+    "age": 26,
+    "gender": "female",
+    "conditions": [
+      "type 2 diabetes"
+    ],
+    "negated_conditions": [
+      "liver disease"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

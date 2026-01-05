@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_00015",
+  "raw_text": "Patient is a 32-year-old female with type 2 diabetes. No history of ADHD.",
+  "metadata": {
+    "age": 32,
+    "gender": "female",
+    "conditions": [
+      "type 2 diabetes"
+    ],
+    "negated_conditions": [
+      "ADHD"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

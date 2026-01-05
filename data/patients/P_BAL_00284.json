@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00284",
+  "raw_text": "Patient is a 83-year-old female with hypertension. No history of fatigue or constipation.",
+  "metadata": {
+    "age": 83,
+    "gender": "female",
+    "conditions": [
+      "hypertension"
+    ],
+    "negated_conditions": [
+      "fatigue",
+      "constipation"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

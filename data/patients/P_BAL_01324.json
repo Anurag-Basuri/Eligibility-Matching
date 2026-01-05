@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_01324",
+  "raw_text": "Patient is a 34-year-old female with hepatitis C and anxiety.",
+  "metadata": {
+    "age": 34,
+    "gender": "female",
+    "conditions": [
+      "hepatitis C",
+      "anxiety"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_01343",
+  "raw_text": "Patient is a 30-year-old female with anxiety. No history of osteoporosis or autism spectrum disorder.",
+  "metadata": {
+    "age": 30,
+    "gender": "female",
+    "conditions": [
+      "anxiety"
+    ],
+    "negated_conditions": [
+      "osteoporosis",
+      "autism spectrum disorder"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

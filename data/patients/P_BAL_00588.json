@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00588",
+  "raw_text": "Patient is a 71-year-old male with cancer and osteoarthritis. No history of autoimmune diseases.",
+  "metadata": {
+    "age": 71,
+    "gender": "male",
+    "conditions": [
+      "cancer",
+      "osteoarthritis"
+    ],
+    "negated_conditions": [
+      "autoimmune diseases"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

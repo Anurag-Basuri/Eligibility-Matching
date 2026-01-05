@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_01455",
+  "raw_text": "Patient is a 71-year-old male with Parkinson's disease and thyroid disorders. No history of PCOS or anxiety.",
+  "metadata": {
+    "age": 71,
+    "gender": "male",
+    "conditions": [
+      "Parkinson's disease",
+      "thyroid disorders"
+    ],
+    "negated_conditions": [
+      "PCOS",
+      "anxiety"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

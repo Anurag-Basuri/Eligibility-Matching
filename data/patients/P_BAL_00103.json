@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00103",
+  "raw_text": "Patient is a 31-year-old female with type 2 diabetes and cancer. No history of pneumonia or thyroid disorders.",
+  "metadata": {
+    "age": 31,
+    "gender": "female",
+    "conditions": [
+      "type 2 diabetes",
+      "cancer"
+    ],
+    "negated_conditions": [
+      "pneumonia",
+      "thyroid disorders"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

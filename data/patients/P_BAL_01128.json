@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_01128",
+  "raw_text": "Patient is a 42-year-old female with type 2 diabetes and bronchitis and obesity. No history of vitamin D deficiency or hyperlipidemia.",
+  "metadata": {
+    "age": 42,
+    "gender": "female",
+    "conditions": [
+      "type 2 diabetes",
+      "bronchitis",
+      "obesity"
+    ],
+    "negated_conditions": [
+      "vitamin D deficiency",
+      "hyperlipidemia"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

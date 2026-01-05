@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_00494",
+  "raw_text": "Patient is a 75-year-old female with osteoarthritis. No history of hepatitis C.",
+  "metadata": {
+    "age": 75,
+    "gender": "female",
+    "conditions": [
+      "osteoarthritis"
+    ],
+    "negated_conditions": [
+      "hepatitis C"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

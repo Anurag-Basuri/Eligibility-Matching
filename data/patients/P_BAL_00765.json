@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00765",
+  "raw_text": "Patient is a 49-year-old male with depression and bipolar disorder. No history of chronic back pain.",
+  "metadata": {
+    "age": 49,
+    "gender": "male",
+    "conditions": [
+      "depression",
+      "bipolar disorder"
+    ],
+    "negated_conditions": [
+      "chronic back pain"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

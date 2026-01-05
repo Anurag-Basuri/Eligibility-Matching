@@ -1,0 +1,11 @@
+{
+  "patient_id": "P_BAL_01263",
+  "raw_text": "Patient is a 48-year-old female with no significant conditions.",
+  "metadata": {
+    "age": 48,
+    "gender": "female",
+    "conditions": [],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

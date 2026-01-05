@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_01347",
+  "raw_text": "Patient is a 22-year-old male with anxiety and vitamin D deficiency. No history of epilepsy.",
+  "metadata": {
+    "age": 22,
+    "gender": "male",
+    "conditions": [
+      "anxiety",
+      "vitamin D deficiency"
+    ],
+    "negated_conditions": [
+      "epilepsy"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

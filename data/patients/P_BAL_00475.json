@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_00475",
+  "raw_text": "Patient is a 82-year-old female with PCOS. No history of anxiety.",
+  "metadata": {
+    "age": 82,
+    "gender": "female",
+    "conditions": [
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "anxiety"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

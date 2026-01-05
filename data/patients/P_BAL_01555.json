@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_01555",
+  "raw_text": "Patient is a 79-year-old female with Parkinson's disease and Alzheimer's disease. No history of heart disease or bronchitis.",
+  "metadata": {
+    "age": 79,
+    "gender": "female",
+    "conditions": [
+      "Parkinson's disease",
+      "Alzheimer's disease"
+    ],
+    "negated_conditions": [
+      "heart disease",
+      "bronchitis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

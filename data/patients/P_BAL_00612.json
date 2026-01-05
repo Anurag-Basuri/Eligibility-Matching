@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_BAL_00612",
+  "raw_text": "Patient is a 68-year-old female with no significant conditions. No history of vitamin D deficiency.",
+  "metadata": {
+    "age": 68,
+    "gender": "female",
+    "conditions": [],
+    "negated_conditions": [
+      "vitamin D deficiency"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

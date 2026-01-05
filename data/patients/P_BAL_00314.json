@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00314",
+  "raw_text": "Patient is a 61-year-old male with myocardial infarction and hypertension. No history of diarrhea.",
+  "metadata": {
+    "age": 61,
+    "gender": "male",
+    "conditions": [
+      "myocardial infarction",
+      "hypertension"
+    ],
+    "negated_conditions": [
+      "diarrhea"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

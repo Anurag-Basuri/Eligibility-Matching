@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_00177",
+  "raw_text": "Patient is a 74-year-old female with hypertension. No history of type 2 diabetes.",
+  "metadata": {
+    "age": 74,
+    "gender": "female",
+    "conditions": [
+      "hypertension"
+    ],
+    "negated_conditions": [
+      "type 2 diabetes"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

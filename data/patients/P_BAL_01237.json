@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_01237",
+  "raw_text": "Patient is a 60-year-old female with type 2 diabetes and cardiovascular disease and obesity. No history of osteoporosis.",
+  "metadata": {
+    "age": 60,
+    "gender": "female",
+    "conditions": [
+      "type 2 diabetes",
+      "cardiovascular disease",
+      "obesity"
+    ],
+    "negated_conditions": [
+      "osteoporosis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

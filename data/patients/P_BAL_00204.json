@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00204",
+  "raw_text": "Patient is a 76-year-old female with cancer and hypertension. No history of obesity or autoimmune diseases.",
+  "metadata": {
+    "age": 76,
+    "gender": "female",
+    "conditions": [
+      "cancer",
+      "hypertension"
+    ],
+    "negated_conditions": [
+      "obesity",
+      "autoimmune diseases"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

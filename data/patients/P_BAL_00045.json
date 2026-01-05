@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_00045",
+  "raw_text": "Patient is a 43-year-old male with type 2 diabetes. No history of hypertension.",
+  "metadata": {
+    "age": 43,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes"
+    ],
+    "negated_conditions": [
+      "hypertension"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

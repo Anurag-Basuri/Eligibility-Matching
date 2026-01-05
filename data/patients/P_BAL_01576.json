@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_01576",
+  "raw_text": "Patient is a 78-year-old female with Parkinson's disease and Alzheimer's disease. No history of obesity or cardiovascular disease.",
+  "metadata": {
+    "age": 78,
+    "gender": "female",
+    "conditions": [
+      "Parkinson's disease",
+      "Alzheimer's disease"
+    ],
+    "negated_conditions": [
+      "obesity",
+      "cardiovascular disease"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

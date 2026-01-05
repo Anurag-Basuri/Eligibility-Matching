@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00504",
+  "raw_text": "Patient is a 62-year-old female with osteoarthritis. No history of Parkinson's disease or autoimmune diseases.",
+  "metadata": {
+    "age": 62,
+    "gender": "female",
+    "conditions": [
+      "osteoarthritis"
+    ],
+    "negated_conditions": [
+      "Parkinson's disease",
+      "autoimmune diseases"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

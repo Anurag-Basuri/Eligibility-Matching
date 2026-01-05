@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00662",
+  "raw_text": "Patient is a 42-year-old male with depression and PCOS. No history of sinus infections.",
+  "metadata": {
+    "age": 42,
+    "gender": "male",
+    "conditions": [
+      "depression",
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "sinus infections"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

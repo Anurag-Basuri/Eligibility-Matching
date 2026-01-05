@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00755",
+  "raw_text": "Patient is a 43-year-old female with depression and bipolar disorder. No history of fatigue.",
+  "metadata": {
+    "age": 43,
+    "gender": "female",
+    "conditions": [
+      "depression",
+      "bipolar disorder"
+    ],
+    "negated_conditions": [
+      "fatigue"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

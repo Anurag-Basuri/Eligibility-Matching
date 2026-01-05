@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_01448",
+  "raw_text": "Patient is a 69-year-old female with Parkinson's disease. No history of chronic kidney disease.",
+  "metadata": {
+    "age": 69,
+    "gender": "female",
+    "conditions": [
+      "Parkinson's disease"
+    ],
+    "negated_conditions": [
+      "chronic kidney disease"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

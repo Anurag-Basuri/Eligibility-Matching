@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_00881",
+  "raw_text": "Patient is a 26-year-old male with COPD. No history of diarrhea.",
+  "metadata": {
+    "age": 26,
+    "gender": "male",
+    "conditions": [
+      "COPD"
+    ],
+    "negated_conditions": [
+      "diarrhea"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

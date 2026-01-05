@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_01393",
+  "raw_text": "Patient is a 31-year-old male with anxiety and HIV/AIDS. No history of multiple sclerosis.",
+  "metadata": {
+    "age": 31,
+    "gender": "male",
+    "conditions": [
+      "anxiety",
+      "HIV/AIDS"
+    ],
+    "negated_conditions": [
+      "multiple sclerosis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

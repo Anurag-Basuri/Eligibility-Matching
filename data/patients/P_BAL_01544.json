@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_01544",
+  "raw_text": "Patient is a 71-year-old male with Parkinson's disease and Alzheimer's disease. No history of autism spectrum disorder or schizophrenia.",
+  "metadata": {
+    "age": 71,
+    "gender": "male",
+    "conditions": [
+      "Parkinson's disease",
+      "Alzheimer's disease"
+    ],
+    "negated_conditions": [
+      "autism spectrum disorder",
+      "schizophrenia"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

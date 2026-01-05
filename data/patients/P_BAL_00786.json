@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00786",
+  "raw_text": "Patient is a 78-year-old male with depression. No history of autism spectrum disorder or COPD.",
+  "metadata": {
+    "age": 78,
+    "gender": "male",
+    "conditions": [
+      "depression"
+    ],
+    "negated_conditions": [
+      "autism spectrum disorder",
+      "COPD"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_01063",
+  "raw_text": "Patient is a 46-year-old female with no significant conditions. No history of schizophrenia or depression.",
+  "metadata": {
+    "age": 46,
+    "gender": "female",
+    "conditions": [],
+    "negated_conditions": [
+      "schizophrenia",
+      "depression"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

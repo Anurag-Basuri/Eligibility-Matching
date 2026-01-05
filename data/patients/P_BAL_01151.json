@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_01151",
+  "raw_text": "Patient is a 33-year-old male with type 2 diabetes and obesity. No history of nausea or chronic back pain.",
+  "metadata": {
+    "age": 33,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes",
+      "obesity"
+    ],
+    "negated_conditions": [
+      "nausea",
+      "chronic back pain"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

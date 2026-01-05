@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00930",
+  "raw_text": "Patient is a 79-year-old female with COPD. No history of diarrhea or type 2 diabetes.",
+  "metadata": {
+    "age": 79,
+    "gender": "female",
+    "conditions": [
+      "COPD"
+    ],
+    "negated_conditions": [
+      "diarrhea",
+      "type 2 diabetes"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

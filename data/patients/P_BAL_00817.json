@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_00817",
+  "raw_text": "Patient is a 42-year-old male with COPD. No history of Parkinson's disease.",
+  "metadata": {
+    "age": 42,
+    "gender": "male",
+    "conditions": [
+      "COPD"
+    ],
+    "negated_conditions": [
+      "Parkinson's disease"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

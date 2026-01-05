@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_00310",
+  "raw_text": "Patient is a 82-year-old female with hypertension. No history of pneumonia.",
+  "metadata": {
+    "age": 82,
+    "gender": "female",
+    "conditions": [
+      "hypertension"
+    ],
+    "negated_conditions": [
+      "pneumonia"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

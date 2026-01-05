@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_01478",
+  "raw_text": "Patient is a 77-year-old female with pneumonia and Parkinson's disease. No history of liver disease or chronic kidney disease.",
+  "metadata": {
+    "age": 77,
+    "gender": "female",
+    "conditions": [
+      "pneumonia",
+      "Parkinson's disease"
+    ],
+    "negated_conditions": [
+      "liver disease",
+      "chronic kidney disease"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

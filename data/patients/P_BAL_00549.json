@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00549",
+  "raw_text": "Patient is a 74-year-old female with diarrhea and osteoarthritis. No history of ADHD or bronchitis.",
+  "metadata": {
+    "age": 74,
+    "gender": "female",
+    "conditions": [
+      "diarrhea",
+      "osteoarthritis"
+    ],
+    "negated_conditions": [
+      "ADHD",
+      "bronchitis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

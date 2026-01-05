@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00853",
+  "raw_text": "Patient is a 61-year-old female with COPD. No history of hyperlipidemia or type 2 diabetes.",
+  "metadata": {
+    "age": 61,
+    "gender": "female",
+    "conditions": [
+      "COPD"
+    ],
+    "negated_conditions": [
+      "hyperlipidemia",
+      "type 2 diabetes"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

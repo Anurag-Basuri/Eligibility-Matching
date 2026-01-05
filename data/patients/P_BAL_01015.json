@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_01015",
+  "raw_text": "Patient is a 30-year-old male with COPD and asthma. No history of bipolar disorder.",
+  "metadata": {
+    "age": 30,
+    "gender": "male",
+    "conditions": [
+      "COPD",
+      "asthma"
+    ],
+    "negated_conditions": [
+      "bipolar disorder"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00543",
+  "raw_text": "Patient is a 61-year-old female with osteoarthritis. No history of autism spectrum disorder or bipolar disorder.",
+  "metadata": {
+    "age": 61,
+    "gender": "female",
+    "conditions": [
+      "osteoarthritis"
+    ],
+    "negated_conditions": [
+      "autism spectrum disorder",
+      "bipolar disorder"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

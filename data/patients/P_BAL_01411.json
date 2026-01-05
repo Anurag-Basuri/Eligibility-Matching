@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_01411",
+  "raw_text": "Patient is a 67-year-old male with anxiety. No history of bipolar disorder.",
+  "metadata": {
+    "age": 67,
+    "gender": "male",
+    "conditions": [
+      "anxiety"
+    ],
+    "negated_conditions": [
+      "bipolar disorder"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00219",
+  "raw_text": "Patient is a 71-year-old male with COPD and hypertension.",
+  "metadata": {
+    "age": 71,
+    "gender": "male",
+    "conditions": [
+      "COPD",
+      "hypertension"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

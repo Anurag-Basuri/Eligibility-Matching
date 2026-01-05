@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00507",
+  "raw_text": "Patient is a 76-year-old female with osteoarthritis. No history of anxiety or dizziness.",
+  "metadata": {
+    "age": 76,
+    "gender": "female",
+    "conditions": [
+      "osteoarthritis"
+    ],
+    "negated_conditions": [
+      "anxiety",
+      "dizziness"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

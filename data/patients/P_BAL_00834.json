@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00834",
+  "raw_text": "Patient is a 68-year-old female with COPD and chronic back pain. No history of multiple sclerosis or schizophrenia.",
+  "metadata": {
+    "age": 68,
+    "gender": "female",
+    "conditions": [
+      "COPD",
+      "chronic back pain"
+    ],
+    "negated_conditions": [
+      "multiple sclerosis",
+      "schizophrenia"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

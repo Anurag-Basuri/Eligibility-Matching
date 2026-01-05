@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00227",
+  "raw_text": "Patient is a 65-year-old male with bronchitis and hypertension. No history of vomiting.",
+  "metadata": {
+    "age": 65,
+    "gender": "male",
+    "conditions": [
+      "bronchitis",
+      "hypertension"
+    ],
+    "negated_conditions": [
+      "vomiting"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

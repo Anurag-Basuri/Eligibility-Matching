@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_01278",
+  "raw_text": "Patient is a 35-year-old male with type 2 diabetes and liver disease and obesity. No history of dizziness.",
+  "metadata": {
+    "age": 35,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes",
+      "liver disease",
+      "obesity"
+    ],
+    "negated_conditions": [
+      "dizziness"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

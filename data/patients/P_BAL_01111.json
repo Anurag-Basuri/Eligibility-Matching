@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_01111",
+  "raw_text": "Patient is a 47-year-old male with asthma and chronic kidney disease. No history of epilepsy or multiple sclerosis.",
+  "metadata": {
+    "age": 47,
+    "gender": "male",
+    "conditions": [
+      "asthma",
+      "chronic kidney disease"
+    ],
+    "negated_conditions": [
+      "epilepsy",
+      "multiple sclerosis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

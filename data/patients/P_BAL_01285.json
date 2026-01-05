@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_01285",
+  "raw_text": "Patient is a 30-year-old female with anxiety and asthma.",
+  "metadata": {
+    "age": 30,
+    "gender": "female",
+    "conditions": [
+      "anxiety",
+      "asthma"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

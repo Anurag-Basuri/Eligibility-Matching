@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00430",
+  "raw_text": "Patient is a 30-year-old male with pregnancy and PCOS. No history of dizziness or autoimmune diseases.",
+  "metadata": {
+    "age": 30,
+    "gender": "male",
+    "conditions": [
+      "pregnancy",
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "dizziness",
+      "autoimmune diseases"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

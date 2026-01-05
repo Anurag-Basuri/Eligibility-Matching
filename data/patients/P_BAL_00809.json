@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00809",
+  "raw_text": "Patient is a 71-year-old female with COPD and cardiovascular disease. No history of diarrhea or multiple sclerosis.",
+  "metadata": {
+    "age": 71,
+    "gender": "female",
+    "conditions": [
+      "COPD",
+      "cardiovascular disease"
+    ],
+    "negated_conditions": [
+      "diarrhea",
+      "multiple sclerosis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

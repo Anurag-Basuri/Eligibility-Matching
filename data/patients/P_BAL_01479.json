@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_01479",
+  "raw_text": "Patient is a 57-year-old female with Parkinson's disease and fatigue.",
+  "metadata": {
+    "age": 57,
+    "gender": "female",
+    "conditions": [
+      "Parkinson's disease",
+      "fatigue"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

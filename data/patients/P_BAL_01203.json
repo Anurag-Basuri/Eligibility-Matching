@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_01203",
+  "raw_text": "Patient is a 27-year-old male with type 2 diabetes and obesity. No history of PCOS.",
+  "metadata": {
+    "age": 27,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes",
+      "obesity"
+    ],
+    "negated_conditions": [
+      "PCOS"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00839",
+  "raw_text": "Patient is a 65-year-old female with COPD and hepatitis B.",
+  "metadata": {
+    "age": 65,
+    "gender": "female",
+    "conditions": [
+      "COPD",
+      "hepatitis B"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

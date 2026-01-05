@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_01572",
+  "raw_text": "Patient is a 79-year-old male with Parkinson's disease and cancer. No history of PCOS or asthma.",
+  "metadata": {
+    "age": 79,
+    "gender": "male",
+    "conditions": [
+      "Parkinson's disease",
+      "cancer"
+    ],
+    "negated_conditions": [
+      "PCOS",
+      "asthma"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00815",
+  "raw_text": "Patient is a 66-year-old female with COPD and osteoarthritis. No history of pneumonia.",
+  "metadata": {
+    "age": 66,
+    "gender": "female",
+    "conditions": [
+      "COPD",
+      "osteoarthritis"
+    ],
+    "negated_conditions": [
+      "pneumonia"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

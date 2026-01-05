@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00167",
+  "raw_text": "Patient is a 67-year-old male with tuberculosis and hypertension.",
+  "metadata": {
+    "age": 67,
+    "gender": "male",
+    "conditions": [
+      "tuberculosis",
+      "hypertension"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

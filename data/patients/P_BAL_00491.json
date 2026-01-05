@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00491",
+  "raw_text": "Patient is a 77-year-old male with osteoarthritis. No history of vomiting or bipolar disorder.",
+  "metadata": {
+    "age": 77,
+    "gender": "male",
+    "conditions": [
+      "osteoarthritis"
+    ],
+    "negated_conditions": [
+      "vomiting",
+      "bipolar disorder"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

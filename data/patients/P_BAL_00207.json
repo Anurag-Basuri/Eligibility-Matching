@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00207",
+  "raw_text": "Patient is a 75-year-old male with osteoporosis and hypertension. No history of osteoarthritis.",
+  "metadata": {
+    "age": 75,
+    "gender": "male",
+    "conditions": [
+      "osteoporosis",
+      "hypertension"
+    ],
+    "negated_conditions": [
+      "osteoarthritis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

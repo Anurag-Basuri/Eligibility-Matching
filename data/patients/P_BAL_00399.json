@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00399",
+  "raw_text": "Patient is a 21-year-old male with Parkinson's disease and PCOS. No history of constipation or hypertension.",
+  "metadata": {
+    "age": 21,
+    "gender": "male",
+    "conditions": [
+      "Parkinson's disease",
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "constipation",
+      "hypertension"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

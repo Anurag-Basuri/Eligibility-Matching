@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00147",
+  "raw_text": "Patient is a 57-year-old male with type 2 diabetes and cardiovascular disease. No history of hepatitis C or ADHD.",
+  "metadata": {
+    "age": 57,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes",
+      "cardiovascular disease"
+    ],
+    "negated_conditions": [
+      "hepatitis C",
+      "ADHD"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00989",
+  "raw_text": "Patient is a 24-year-old female with asthma and schizophrenia. No history of obesity or bipolar disorder.",
+  "metadata": {
+    "age": 24,
+    "gender": "female",
+    "conditions": [
+      "asthma",
+      "schizophrenia"
+    ],
+    "negated_conditions": [
+      "obesity",
+      "bipolar disorder"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

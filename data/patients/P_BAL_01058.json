@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_01058",
+  "raw_text": "Patient is a 38-year-old male with no significant conditions. No history of depression or diarrhea.",
+  "metadata": {
+    "age": 38,
+    "gender": "male",
+    "conditions": [],
+    "negated_conditions": [
+      "depression",
+      "diarrhea"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

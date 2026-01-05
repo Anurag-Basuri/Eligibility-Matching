@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00883",
+  "raw_text": "Patient is a 43-year-old male with no significant conditions. No history of cancer or HIV/AIDS.",
+  "metadata": {
+    "age": 43,
+    "gender": "male",
+    "conditions": [],
+    "negated_conditions": [
+      "cancer",
+      "HIV/AIDS"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_01076",
+  "raw_text": "Patient is a 24-year-old female with asthma and chronic kidney disease. No history of sinus infections or ADHD.",
+  "metadata": {
+    "age": 24,
+    "gender": "female",
+    "conditions": [
+      "asthma",
+      "chronic kidney disease"
+    ],
+    "negated_conditions": [
+      "sinus infections",
+      "ADHD"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

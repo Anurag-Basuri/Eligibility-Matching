@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00937",
+  "raw_text": "Patient is a 69-year-old female with COPD and tuberculosis.",
+  "metadata": {
+    "age": 69,
+    "gender": "female",
+    "conditions": [
+      "COPD",
+      "tuberculosis"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

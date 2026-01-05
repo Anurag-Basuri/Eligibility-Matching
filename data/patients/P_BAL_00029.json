@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00029",
+  "raw_text": "Patient is a 64-year-old male with type 2 diabetes and PCOS.",
+  "metadata": {
+    "age": 64,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes",
+      "PCOS"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

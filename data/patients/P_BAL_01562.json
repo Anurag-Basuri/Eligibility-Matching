@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_01562",
+  "raw_text": "Patient is a 85-year-old male with Parkinson's disease and cancer.",
+  "metadata": {
+    "age": 85,
+    "gender": "male",
+    "conditions": [
+      "Parkinson's disease",
+      "cancer"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

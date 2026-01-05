@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00022",
+  "raw_text": "Patient is a 18-year-old male with type 2 diabetes. No history of autism spectrum disorder or ADHD.",
+  "metadata": {
+    "age": 18,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes"
+    ],
+    "negated_conditions": [
+      "autism spectrum disorder",
+      "ADHD"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

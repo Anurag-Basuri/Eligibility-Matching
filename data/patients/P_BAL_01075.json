@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_01075",
+  "raw_text": "Patient is a 35-year-old female with asthma and heart disease. No history of type 2 diabetes or COPD.",
+  "metadata": {
+    "age": 35,
+    "gender": "female",
+    "conditions": [
+      "asthma",
+      "heart disease"
+    ],
+    "negated_conditions": [
+      "type 2 diabetes",
+      "COPD"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

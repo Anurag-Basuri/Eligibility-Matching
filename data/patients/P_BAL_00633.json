@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_BAL_00633",
+  "raw_text": "Patient is a 72-year-old male with no significant conditions. No history of cardiovascular disease.",
+  "metadata": {
+    "age": 72,
+    "gender": "male",
+    "conditions": [],
+    "negated_conditions": [
+      "cardiovascular disease"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

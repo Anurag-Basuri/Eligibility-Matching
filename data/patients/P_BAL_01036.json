@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_01036",
+  "raw_text": "Patient is a 37-year-old male with asthma. No history of constipation.",
+  "metadata": {
+    "age": 37,
+    "gender": "male",
+    "conditions": [
+      "asthma"
+    ],
+    "negated_conditions": [
+      "constipation"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

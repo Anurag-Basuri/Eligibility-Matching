@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00030",
+  "raw_text": "Patient is a 60-year-old male with type 2 diabetes and thyroid disorders. No history of vomiting.",
+  "metadata": {
+    "age": 60,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes",
+      "thyroid disorders"
+    ],
+    "negated_conditions": [
+      "vomiting"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

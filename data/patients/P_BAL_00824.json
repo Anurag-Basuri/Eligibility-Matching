@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00824",
+  "raw_text": "Patient is a 49-year-old female with migraine and COPD.",
+  "metadata": {
+    "age": 49,
+    "gender": "female",
+    "conditions": [
+      "migraine",
+      "COPD"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

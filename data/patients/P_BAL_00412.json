@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00412",
+  "raw_text": "Patient is a 28-year-old male with pregnancy and PCOS. No history of osteoarthritis.",
+  "metadata": {
+    "age": 28,
+    "gender": "male",
+    "conditions": [
+      "pregnancy",
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "osteoarthritis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

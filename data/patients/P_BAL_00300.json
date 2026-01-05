@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_00300",
+  "raw_text": "Patient is a 32-year-old female with hypertension. No history of anxiety.",
+  "metadata": {
+    "age": 32,
+    "gender": "female",
+    "conditions": [
+      "hypertension"
+    ],
+    "negated_conditions": [
+      "anxiety"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

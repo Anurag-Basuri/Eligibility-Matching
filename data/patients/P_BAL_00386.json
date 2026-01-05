@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00386",
+  "raw_text": "Patient is a 31-year-old female with PCOS. No history of nausea or constipation.",
+  "metadata": {
+    "age": 31,
+    "gender": "female",
+    "conditions": [
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "nausea",
+      "constipation"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

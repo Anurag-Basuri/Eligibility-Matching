@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_00279",
+  "raw_text": "Patient is a 33-year-old female with hypertension. No history of vomiting.",
+  "metadata": {
+    "age": 33,
+    "gender": "female",
+    "conditions": [
+      "hypertension"
+    ],
+    "negated_conditions": [
+      "vomiting"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

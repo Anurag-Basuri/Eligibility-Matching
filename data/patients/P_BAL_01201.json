@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_01201",
+  "raw_text": "Patient is a 79-year-old female with type 2 diabetes and obesity. No history of tuberculosis or liver disease.",
+  "metadata": {
+    "age": 79,
+    "gender": "female",
+    "conditions": [
+      "type 2 diabetes",
+      "obesity"
+    ],
+    "negated_conditions": [
+      "tuberculosis",
+      "liver disease"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

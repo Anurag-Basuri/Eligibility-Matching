@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_01515",
+  "raw_text": "Patient is a 60-year-old female with Parkinson's disease and asthma.",
+  "metadata": {
+    "age": 60,
+    "gender": "female",
+    "conditions": [
+      "Parkinson's disease",
+      "asthma"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

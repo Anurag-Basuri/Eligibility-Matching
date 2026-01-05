@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00365",
+  "raw_text": "Patient is a 45-year-old female with PCOS. No history of liver disease or type 2 diabetes.",
+  "metadata": {
+    "age": 45,
+    "gender": "female",
+    "conditions": [
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "liver disease",
+      "type 2 diabetes"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

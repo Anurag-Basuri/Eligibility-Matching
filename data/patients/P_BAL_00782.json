@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00782",
+  "raw_text": "Patient is a 44-year-old female with depression and schizophrenia. No history of dizziness.",
+  "metadata": {
+    "age": 44,
+    "gender": "female",
+    "conditions": [
+      "depression",
+      "schizophrenia"
+    ],
+    "negated_conditions": [
+      "dizziness"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00830",
+  "raw_text": "Patient is a 68-year-old male with COPD and chronic back pain. No history of chronic kidney disease or bronchitis.",
+  "metadata": {
+    "age": 68,
+    "gender": "male",
+    "conditions": [
+      "COPD",
+      "chronic back pain"
+    ],
+    "negated_conditions": [
+      "chronic kidney disease",
+      "bronchitis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

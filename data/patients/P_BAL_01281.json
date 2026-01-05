@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_01281",
+  "raw_text": "Patient is a 32-year-old male with anxiety and cancer.",
+  "metadata": {
+    "age": 32,
+    "gender": "male",
+    "conditions": [
+      "anxiety",
+      "cancer"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

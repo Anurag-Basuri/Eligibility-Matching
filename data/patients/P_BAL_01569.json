@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_BAL_01569",
+  "raw_text": "Patient is a 62-year-old female with no significant conditions. No history of type 2 diabetes.",
+  "metadata": {
+    "age": 62,
+    "gender": "female",
+    "conditions": [],
+    "negated_conditions": [
+      "type 2 diabetes"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

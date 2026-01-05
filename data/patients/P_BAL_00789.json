@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00789",
+  "raw_text": "Patient is a 19-year-old male with depression and bipolar disorder.",
+  "metadata": {
+    "age": 19,
+    "gender": "male",
+    "conditions": [
+      "depression",
+      "bipolar disorder"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

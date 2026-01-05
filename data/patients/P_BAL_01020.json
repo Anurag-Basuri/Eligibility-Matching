@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_01020",
+  "raw_text": "Patient is a 39-year-old male with asthma. No history of HIV/AIDS.",
+  "metadata": {
+    "age": 39,
+    "gender": "male",
+    "conditions": [
+      "asthma"
+    ],
+    "negated_conditions": [
+      "HIV/AIDS"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

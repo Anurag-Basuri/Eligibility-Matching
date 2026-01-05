@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_01298",
+  "raw_text": "Patient is a 31-year-old female with constipation and anxiety.",
+  "metadata": {
+    "age": 31,
+    "gender": "female",
+    "conditions": [
+      "constipation",
+      "anxiety"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

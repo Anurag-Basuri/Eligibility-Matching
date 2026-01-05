@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_01517",
+  "raw_text": "Patient is a 81-year-old female with Parkinson's disease and vomiting.",
+  "metadata": {
+    "age": 81,
+    "gender": "female",
+    "conditions": [
+      "Parkinson's disease",
+      "vomiting"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

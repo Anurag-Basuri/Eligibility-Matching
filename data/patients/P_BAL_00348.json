@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00348",
+  "raw_text": "Patient is a 39-year-old male with PCOS. No history of COPD or thyroid disorders.",
+  "metadata": {
+    "age": 39,
+    "gender": "male",
+    "conditions": [
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "COPD",
+      "thyroid disorders"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

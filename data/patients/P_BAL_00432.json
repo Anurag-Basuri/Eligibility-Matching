@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00432",
+  "raw_text": "Patient is a 42-year-old female with pregnancy and PCOS. No history of autism spectrum disorder.",
+  "metadata": {
+    "age": 42,
+    "gender": "female",
+    "conditions": [
+      "pregnancy",
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "autism spectrum disorder"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

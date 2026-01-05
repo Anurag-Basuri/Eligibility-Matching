@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00515",
+  "raw_text": "Patient is a 64-year-old female with liver disease and osteoarthritis.",
+  "metadata": {
+    "age": 64,
+    "gender": "female",
+    "conditions": [
+      "liver disease",
+      "osteoarthritis"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00052",
+  "raw_text": "Patient is a 57-year-old female with type 2 diabetes and sinus infections. No history of migraine.",
+  "metadata": {
+    "age": 57,
+    "gender": "female",
+    "conditions": [
+      "type 2 diabetes",
+      "sinus infections"
+    ],
+    "negated_conditions": [
+      "migraine"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

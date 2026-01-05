@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00376",
+  "raw_text": "Patient is a 40-year-old female with Parkinson's disease and PCOS.",
+  "metadata": {
+    "age": 40,
+    "gender": "female",
+    "conditions": [
+      "Parkinson's disease",
+      "PCOS"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

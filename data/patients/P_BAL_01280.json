@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_01280",
+  "raw_text": "Patient is a 34-year-old male with anxiety and bronchitis. No history of dizziness.",
+  "metadata": {
+    "age": 34,
+    "gender": "male",
+    "conditions": [
+      "anxiety",
+      "bronchitis"
+    ],
+    "negated_conditions": [
+      "dizziness"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

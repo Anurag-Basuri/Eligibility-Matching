@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_00706",
+  "raw_text": "Patient is a 19-year-old male with depression. No history of constipation.",
+  "metadata": {
+    "age": 19,
+    "gender": "male",
+    "conditions": [
+      "depression"
+    ],
+    "negated_conditions": [
+      "constipation"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

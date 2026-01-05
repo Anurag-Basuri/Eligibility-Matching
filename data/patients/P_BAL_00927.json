@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00927",
+  "raw_text": "Patient is a 60-year-old female with no significant conditions. No history of osteoporosis or thyroid disorders.",
+  "metadata": {
+    "age": 60,
+    "gender": "female",
+    "conditions": [],
+    "negated_conditions": [
+      "osteoporosis",
+      "thyroid disorders"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

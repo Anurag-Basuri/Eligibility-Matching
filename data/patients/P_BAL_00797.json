@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00797",
+  "raw_text": "Patient is a 42-year-old female with depression and schizophrenia. No history of chronic kidney disease.",
+  "metadata": {
+    "age": 42,
+    "gender": "female",
+    "conditions": [
+      "depression",
+      "schizophrenia"
+    ],
+    "negated_conditions": [
+      "chronic kidney disease"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

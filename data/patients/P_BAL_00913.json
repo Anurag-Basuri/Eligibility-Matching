@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00913",
+  "raw_text": "Patient is a 68-year-old male with no significant conditions. No history of autoimmune diseases or asthma.",
+  "metadata": {
+    "age": 68,
+    "gender": "male",
+    "conditions": [],
+    "negated_conditions": [
+      "autoimmune diseases",
+      "asthma"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

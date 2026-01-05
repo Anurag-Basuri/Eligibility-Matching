@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_00940",
+  "raw_text": "Patient is a 77-year-old female with COPD. No history of dizziness.",
+  "metadata": {
+    "age": 77,
+    "gender": "female",
+    "conditions": [
+      "COPD"
+    ],
+    "negated_conditions": [
+      "dizziness"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

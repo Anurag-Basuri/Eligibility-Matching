@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00882",
+  "raw_text": "Patient is a 30-year-old female with COPD. No history of Alzheimer's disease or heart disease.",
+  "metadata": {
+    "age": 30,
+    "gender": "female",
+    "conditions": [
+      "COPD"
+    ],
+    "negated_conditions": [
+      "Alzheimer's disease",
+      "heart disease"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

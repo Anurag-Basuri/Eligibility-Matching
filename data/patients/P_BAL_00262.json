@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00262",
+  "raw_text": "Patient is a 72-year-old female with myocardial infarction and hypertension.",
+  "metadata": {
+    "age": 72,
+    "gender": "female",
+    "conditions": [
+      "myocardial infarction",
+      "hypertension"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

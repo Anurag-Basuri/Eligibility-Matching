@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_01567",
+  "raw_text": "Patient is a 77-year-old male with Parkinson's disease and Alzheimer's disease. No history of asthma or osteoporosis.",
+  "metadata": {
+    "age": 77,
+    "gender": "male",
+    "conditions": [
+      "Parkinson's disease",
+      "Alzheimer's disease"
+    ],
+    "negated_conditions": [
+      "asthma",
+      "osteoporosis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

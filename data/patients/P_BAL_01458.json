@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_01458",
+  "raw_text": "Patient is a 73-year-old male with Parkinson's disease and vomiting.",
+  "metadata": {
+    "age": 73,
+    "gender": "male",
+    "conditions": [
+      "Parkinson's disease",
+      "vomiting"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

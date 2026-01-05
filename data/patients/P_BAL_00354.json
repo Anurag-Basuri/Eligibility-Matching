@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00354",
+  "raw_text": "Patient is a 36-year-old female with COPD and PCOS. No history of anxiety or pneumonia.",
+  "metadata": {
+    "age": 36,
+    "gender": "female",
+    "conditions": [
+      "COPD",
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "anxiety",
+      "pneumonia"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

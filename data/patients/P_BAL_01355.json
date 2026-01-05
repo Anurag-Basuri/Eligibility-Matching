@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_01355",
+  "raw_text": "Patient is a 28-year-old male with anxiety and vitamin D deficiency. No history of diarrhea or liver disease.",
+  "metadata": {
+    "age": 28,
+    "gender": "male",
+    "conditions": [
+      "anxiety",
+      "vitamin D deficiency"
+    ],
+    "negated_conditions": [
+      "diarrhea",
+      "liver disease"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

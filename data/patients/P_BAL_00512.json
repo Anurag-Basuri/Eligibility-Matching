@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_00512",
+  "raw_text": "Patient is a 78-year-old male with osteoarthritis. No history of dizziness.",
+  "metadata": {
+    "age": 78,
+    "gender": "male",
+    "conditions": [
+      "osteoarthritis"
+    ],
+    "negated_conditions": [
+      "dizziness"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

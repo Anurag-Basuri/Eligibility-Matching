@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00965",
+  "raw_text": "Patient is a 18-year-old female with asthma. No history of hepatitis B or constipation.",
+  "metadata": {
+    "age": 18,
+    "gender": "female",
+    "conditions": [
+      "asthma"
+    ],
+    "negated_conditions": [
+      "hepatitis B",
+      "constipation"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

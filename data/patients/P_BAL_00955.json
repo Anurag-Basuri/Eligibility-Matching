@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_BAL_00955",
+  "raw_text": "Patient is a 66-year-old female with no significant conditions. No history of dizziness.",
+  "metadata": {
+    "age": 66,
+    "gender": "female",
+    "conditions": [],
+    "negated_conditions": [
+      "dizziness"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

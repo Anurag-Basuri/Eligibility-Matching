@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_01108",
+  "raw_text": "Patient is a 52-year-old female with asthma. No history of nausea or multiple sclerosis.",
+  "metadata": {
+    "age": 52,
+    "gender": "female",
+    "conditions": [
+      "asthma"
+    ],
+    "negated_conditions": [
+      "nausea",
+      "multiple sclerosis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

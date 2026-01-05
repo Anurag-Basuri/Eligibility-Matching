@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_01194",
+  "raw_text": "Patient is a 51-year-old female with type 2 diabetes and anxiety and obesity.",
+  "metadata": {
+    "age": 51,
+    "gender": "female",
+    "conditions": [
+      "type 2 diabetes",
+      "anxiety",
+      "obesity"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

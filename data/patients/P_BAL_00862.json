@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00862",
+  "raw_text": "Patient is a 54-year-old male with COPD and autoimmune diseases.",
+  "metadata": {
+    "age": 54,
+    "gender": "male",
+    "conditions": [
+      "COPD",
+      "autoimmune diseases"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

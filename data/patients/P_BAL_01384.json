@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_01384",
+  "raw_text": "Patient is a 27-year-old male with epilepsy and anxiety.",
+  "metadata": {
+    "age": 27,
+    "gender": "male",
+    "conditions": [
+      "epilepsy",
+      "anxiety"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

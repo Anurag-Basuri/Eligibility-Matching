@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00055",
+  "raw_text": "Patient is a 22-year-old male with type 2 diabetes and Alzheimer's disease.",
+  "metadata": {
+    "age": 22,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes",
+      "Alzheimer's disease"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

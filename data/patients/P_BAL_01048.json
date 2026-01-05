@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_01048",
+  "raw_text": "Patient is a 38-year-old male with asthma and heart disease. No history of osteoarthritis.",
+  "metadata": {
+    "age": 38,
+    "gender": "male",
+    "conditions": [
+      "asthma",
+      "heart disease"
+    ],
+    "negated_conditions": [
+      "osteoarthritis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

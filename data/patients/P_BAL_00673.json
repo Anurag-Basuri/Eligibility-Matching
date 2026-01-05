@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00673",
+  "raw_text": "Patient is a 46-year-old female with depression and cancer. No history of hepatitis C.",
+  "metadata": {
+    "age": 46,
+    "gender": "female",
+    "conditions": [
+      "depression",
+      "cancer"
+    ],
+    "negated_conditions": [
+      "hepatitis C"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

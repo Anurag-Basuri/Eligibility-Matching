@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00444",
+  "raw_text": "Patient is a 25-year-old female with pregnancy and PCOS. No history of bipolar disorder or hyperlipidemia.",
+  "metadata": {
+    "age": 25,
+    "gender": "female",
+    "conditions": [
+      "pregnancy",
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "bipolar disorder",
+      "hyperlipidemia"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

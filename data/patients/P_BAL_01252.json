@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_01252",
+  "raw_text": "Patient is a 53-year-old male with type 2 diabetes and cardiovascular disease and obesity. No history of diarrhea.",
+  "metadata": {
+    "age": 53,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes",
+      "cardiovascular disease",
+      "obesity"
+    ],
+    "negated_conditions": [
+      "diarrhea"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

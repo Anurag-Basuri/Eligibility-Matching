@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00153",
+  "raw_text": "Patient is a 21-year-old female with type 2 diabetes and cardiovascular disease. No history of thyroid disorders or vitamin D deficiency.",
+  "metadata": {
+    "age": 21,
+    "gender": "female",
+    "conditions": [
+      "type 2 diabetes",
+      "cardiovascular disease"
+    ],
+    "negated_conditions": [
+      "thyroid disorders",
+      "vitamin D deficiency"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

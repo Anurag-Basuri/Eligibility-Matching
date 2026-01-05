@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_00577",
+  "raw_text": "Patient is a 84-year-old female with osteoarthritis. No history of autism spectrum disorder.",
+  "metadata": {
+    "age": 84,
+    "gender": "female",
+    "conditions": [
+      "osteoarthritis"
+    ],
+    "negated_conditions": [
+      "autism spectrum disorder"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

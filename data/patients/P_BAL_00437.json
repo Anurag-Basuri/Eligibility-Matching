@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00437",
+  "raw_text": "Patient is a 25-year-old female with pregnancy and PCOS. No history of hepatitis C.",
+  "metadata": {
+    "age": 25,
+    "gender": "female",
+    "conditions": [
+      "pregnancy",
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "hepatitis C"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

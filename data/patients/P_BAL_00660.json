@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00660",
+  "raw_text": "Patient is a 32-year-old male with depression and PCOS. No history of pneumonia.",
+  "metadata": {
+    "age": 32,
+    "gender": "male",
+    "conditions": [
+      "depression",
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "pneumonia"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

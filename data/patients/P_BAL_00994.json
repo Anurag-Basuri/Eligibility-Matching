@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00994",
+  "raw_text": "Patient is a 20-year-old male with asthma. No history of autoimmune diseases or chronic back pain.",
+  "metadata": {
+    "age": 20,
+    "gender": "male",
+    "conditions": [
+      "asthma"
+    ],
+    "negated_conditions": [
+      "autoimmune diseases",
+      "chronic back pain"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

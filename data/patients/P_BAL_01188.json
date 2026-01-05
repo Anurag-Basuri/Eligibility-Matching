@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_01188",
+  "raw_text": "Patient is a 65-year-old male with type 2 diabetes and HIV/AIDS and obesity. No history of fatigue.",
+  "metadata": {
+    "age": 65,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes",
+      "HIV/AIDS",
+      "obesity"
+    ],
+    "negated_conditions": [
+      "fatigue"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

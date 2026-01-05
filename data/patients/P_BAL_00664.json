@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00664",
+  "raw_text": "Patient is a 45-year-old female with depression and multiple sclerosis.",
+  "metadata": {
+    "age": 45,
+    "gender": "female",
+    "conditions": [
+      "depression",
+      "multiple sclerosis"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

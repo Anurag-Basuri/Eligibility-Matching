@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00403",
+  "raw_text": "Patient is a 44-year-old male with pregnancy and PCOS. No history of Parkinson's disease.",
+  "metadata": {
+    "age": 44,
+    "gender": "male",
+    "conditions": [
+      "pregnancy",
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "Parkinson's disease"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

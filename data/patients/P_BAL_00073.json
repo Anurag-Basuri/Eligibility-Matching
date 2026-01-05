@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_00073",
+  "raw_text": "Patient is a 22-year-old female with type 2 diabetes. No history of Alzheimer's disease.",
+  "metadata": {
+    "age": 22,
+    "gender": "female",
+    "conditions": [
+      "type 2 diabetes"
+    ],
+    "negated_conditions": [
+      "Alzheimer's disease"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

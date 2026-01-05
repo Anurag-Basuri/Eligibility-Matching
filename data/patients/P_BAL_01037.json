@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_01037",
+  "raw_text": "Patient is a 28-year-old male with asthma and thyroid disorders.",
+  "metadata": {
+    "age": 28,
+    "gender": "male",
+    "conditions": [
+      "asthma",
+      "thyroid disorders"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

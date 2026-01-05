@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_00481",
+  "raw_text": "Patient is a 70-year-old female with osteoarthritis. No history of pneumonia.",
+  "metadata": {
+    "age": 70,
+    "gender": "female",
+    "conditions": [
+      "osteoarthritis"
+    ],
+    "negated_conditions": [
+      "pneumonia"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

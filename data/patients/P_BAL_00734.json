@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00734",
+  "raw_text": "Patient is a 37-year-old female with depression and bipolar disorder. No history of autism spectrum disorder or sinus infections.",
+  "metadata": {
+    "age": 37,
+    "gender": "female",
+    "conditions": [
+      "depression",
+      "bipolar disorder"
+    ],
+    "negated_conditions": [
+      "autism spectrum disorder",
+      "sinus infections"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

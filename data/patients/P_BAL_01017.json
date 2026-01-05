@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_BAL_01017",
+  "raw_text": "Patient is a 20-year-old male with asthma.",
+  "metadata": {
+    "age": 20,
+    "gender": "male",
+    "conditions": [
+      "asthma"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

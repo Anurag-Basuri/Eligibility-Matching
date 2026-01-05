@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00285",
+  "raw_text": "Patient is a 37-year-old female with hypertension. No history of obesity or constipation.",
+  "metadata": {
+    "age": 37,
+    "gender": "female",
+    "conditions": [
+      "hypertension"
+    ],
+    "negated_conditions": [
+      "obesity",
+      "constipation"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

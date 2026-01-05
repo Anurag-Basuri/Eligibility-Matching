@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00856",
+  "raw_text": "Patient is a 72-year-old male with COPD and thyroid disorders.",
+  "metadata": {
+    "age": 72,
+    "gender": "male",
+    "conditions": [
+      "COPD",
+      "thyroid disorders"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

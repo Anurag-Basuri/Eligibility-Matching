@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_00942",
+  "raw_text": "Patient is a 34-year-old male with COPD. No history of ADHD.",
+  "metadata": {
+    "age": 34,
+    "gender": "male",
+    "conditions": [
+      "COPD"
+    ],
+    "negated_conditions": [
+      "ADHD"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

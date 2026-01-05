@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_01301",
+  "raw_text": "Patient is a 40-year-old female with anxiety. No history of vitamin D deficiency.",
+  "metadata": {
+    "age": 40,
+    "gender": "female",
+    "conditions": [
+      "anxiety"
+    ],
+    "negated_conditions": [
+      "vitamin D deficiency"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00958",
+  "raw_text": "Patient is a 51-year-old female with COPD and cancer. No history of hypertension.",
+  "metadata": {
+    "age": 51,
+    "gender": "female",
+    "conditions": [
+      "COPD",
+      "cancer"
+    ],
+    "negated_conditions": [
+      "hypertension"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

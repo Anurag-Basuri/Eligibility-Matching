@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_BAL_00246",
+  "raw_text": "Patient is a 72-year-old female with no significant conditions. No history of obesity.",
+  "metadata": {
+    "age": 72,
+    "gender": "female",
+    "conditions": [],
+    "negated_conditions": [
+      "obesity"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

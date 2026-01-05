@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00485",
+  "raw_text": "Patient is a 62-year-old female with constipation and osteoarthritis. No history of Alzheimer's disease or bipolar disorder.",
+  "metadata": {
+    "age": 62,
+    "gender": "female",
+    "conditions": [
+      "constipation",
+      "osteoarthritis"
+    ],
+    "negated_conditions": [
+      "Alzheimer's disease",
+      "bipolar disorder"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

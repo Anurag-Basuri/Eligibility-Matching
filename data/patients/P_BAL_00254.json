@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00254",
+  "raw_text": "Patient is a 53-year-old female with myocardial infarction and hypertension. No history of vitamin D deficiency or nausea.",
+  "metadata": {
+    "age": 53,
+    "gender": "female",
+    "conditions": [
+      "myocardial infarction",
+      "hypertension"
+    ],
+    "negated_conditions": [
+      "vitamin D deficiency",
+      "nausea"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

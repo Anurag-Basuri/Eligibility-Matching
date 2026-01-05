@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00636",
+  "raw_text": "Patient is a 68-year-old male with stroke and osteoarthritis. No history of hepatitis B.",
+  "metadata": {
+    "age": 68,
+    "gender": "male",
+    "conditions": [
+      "stroke",
+      "osteoarthritis"
+    ],
+    "negated_conditions": [
+      "hepatitis B"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00215",
+  "raw_text": "Patient is a 70-year-old female with Parkinson's disease and hypertension. No history of nausea.",
+  "metadata": {
+    "age": 70,
+    "gender": "female",
+    "conditions": [
+      "Parkinson's disease",
+      "hypertension"
+    ],
+    "negated_conditions": [
+      "nausea"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

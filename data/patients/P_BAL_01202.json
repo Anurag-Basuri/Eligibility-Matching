@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_01202",
+  "raw_text": "Patient is a 28-year-old male with type 2 diabetes and obesity. No history of migraine.",
+  "metadata": {
+    "age": 28,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes",
+      "obesity"
+    ],
+    "negated_conditions": [
+      "migraine"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

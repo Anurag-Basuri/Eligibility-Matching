@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00191",
+  "raw_text": "Patient is a 52-year-old female with hypertension. No history of arthritis or Parkinson's disease.",
+  "metadata": {
+    "age": 52,
+    "gender": "female",
+    "conditions": [
+      "hypertension"
+    ],
+    "negated_conditions": [
+      "arthritis",
+      "Parkinson's disease"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

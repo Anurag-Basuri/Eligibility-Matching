@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_00915",
+  "raw_text": "Patient is a 64-year-old male with COPD and cancer. No history of constipation or hyperlipidemia.",
+  "metadata": {
+    "age": 64,
+    "gender": "male",
+    "conditions": [
+      "COPD",
+      "cancer"
+    ],
+    "negated_conditions": [
+      "constipation",
+      "hyperlipidemia"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

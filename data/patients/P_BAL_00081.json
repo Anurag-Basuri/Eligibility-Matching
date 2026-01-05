@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00081",
+  "raw_text": "Patient is a 60-year-old male with no significant conditions. No history of chronic back pain or Parkinson's disease.",
+  "metadata": {
+    "age": 60,
+    "gender": "male",
+    "conditions": [],
+    "negated_conditions": [
+      "chronic back pain",
+      "Parkinson's disease"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

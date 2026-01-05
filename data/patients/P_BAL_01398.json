@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_01398",
+  "raw_text": "Patient is a 27-year-old female with anxiety and HIV/AIDS. No history of multiple sclerosis or autoimmune diseases.",
+  "metadata": {
+    "age": 27,
+    "gender": "female",
+    "conditions": [
+      "anxiety",
+      "HIV/AIDS"
+    ],
+    "negated_conditions": [
+      "multiple sclerosis",
+      "autoimmune diseases"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

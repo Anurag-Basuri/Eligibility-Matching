@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00068",
+  "raw_text": "Patient is a 65-year-old male with type 2 diabetes and osteoporosis.",
+  "metadata": {
+    "age": 65,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes",
+      "osteoporosis"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

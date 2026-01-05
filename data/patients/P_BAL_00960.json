@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00960",
+  "raw_text": "Patient is a 20-year-old male with asthma and multiple sclerosis. No history of osteoarthritis.",
+  "metadata": {
+    "age": 20,
+    "gender": "male",
+    "conditions": [
+      "asthma",
+      "multiple sclerosis"
+    ],
+    "negated_conditions": [
+      "osteoarthritis"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

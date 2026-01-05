@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_00274",
+  "raw_text": "Patient is a 51-year-old female with stroke and hypertension. No history of diarrhea.",
+  "metadata": {
+    "age": 51,
+    "gender": "female",
+    "conditions": [
+      "stroke",
+      "hypertension"
+    ],
+    "negated_conditions": [
+      "diarrhea"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

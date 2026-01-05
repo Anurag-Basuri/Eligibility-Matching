@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_01114",
+  "raw_text": "Patient is a 72-year-old female with asthma. No history of cancer.",
+  "metadata": {
+    "age": 72,
+    "gender": "female",
+    "conditions": [
+      "asthma"
+    ],
+    "negated_conditions": [
+      "cancer"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_01379",
+  "raw_text": "Patient is a 18-year-old female with anxiety. No history of vitamin D deficiency or diarrhea.",
+  "metadata": {
+    "age": 18,
+    "gender": "female",
+    "conditions": [
+      "anxiety"
+    ],
+    "negated_conditions": [
+      "vitamin D deficiency",
+      "diarrhea"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}

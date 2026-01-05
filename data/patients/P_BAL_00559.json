@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_00559",
+  "raw_text": "Patient is a 68-year-old female with dizziness and osteoarthritis.",
+  "metadata": {
+    "age": 68,
+    "gender": "female",
+    "conditions": [
+      "dizziness",
+      "osteoarthritis"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_per_trial_v1"
+  }
+}

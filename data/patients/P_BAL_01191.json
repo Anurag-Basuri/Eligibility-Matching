@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_01191",
+  "raw_text": "Patient is a 42-year-old male with type 2 diabetes and COPD and obesity. No history of fatigue.",
+  "metadata": {
+    "age": 42,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes",
+      "COPD",
+      "obesity"
+    ],
+    "negated_conditions": [
+      "fatigue"
+    ],
+    "source": "balanced_per_trial_v1"
+  }
+}
