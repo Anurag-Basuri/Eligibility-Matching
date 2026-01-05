@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_016",
+  "raw_text": "Patient is a 18-year-old male with depression and type 2 diabetes and bronchitis. No history of chronic back pain.",
+  "metadata": {
+    "age": 18,
+    "gender": "male",
+    "conditions": [
+      "depression",
+      "type 2 diabetes",
+      "bronchitis"
+    ],
+    "negated_conditions": [
+      "chronic back pain"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

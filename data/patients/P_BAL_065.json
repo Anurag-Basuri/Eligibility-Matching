@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_065",
+  "raw_text": "Patient is a 65-year-old male with bipolar disorder and pneumonia and osteoarthritis.",
+  "metadata": {
+    "age": 65,
+    "gender": "male",
+    "conditions": [
+      "bipolar disorder",
+      "pneumonia",
+      "osteoarthritis"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

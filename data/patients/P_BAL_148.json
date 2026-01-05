@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_148",
+  "raw_text": "Patient is a 84-year-old female with Parkinson's disease and autism spectrum disorder and vitamin D deficiency. No history of Alzheimer's disease.",
+  "metadata": {
+    "age": 84,
+    "gender": "female",
+    "conditions": [
+      "Parkinson's disease",
+      "autism spectrum disorder",
+      "vitamin D deficiency"
+    ],
+    "negated_conditions": [
+      "Alzheimer's disease"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

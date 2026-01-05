@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_150",
+  "raw_text": "Patient is a 85-year-old male with anxiety and hepatitis B and Parkinson's disease. No history of fatigue or obesity.",
+  "metadata": {
+    "age": 85,
+    "gender": "male",
+    "conditions": [
+      "anxiety",
+      "hepatitis B",
+      "Parkinson's disease"
+    ],
+    "negated_conditions": [
+      "fatigue",
+      "obesity"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

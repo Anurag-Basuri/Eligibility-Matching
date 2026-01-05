@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_044",
+  "raw_text": "Patient is a 38-year-old male with dizziness and PCOS. No history of type 2 diabetes or cardiovascular disease.",
+  "metadata": {
+    "age": 38,
+    "gender": "male",
+    "conditions": [
+      "dizziness",
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "type 2 diabetes",
+      "cardiovascular disease"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

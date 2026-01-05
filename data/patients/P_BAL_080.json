@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_080",
+  "raw_text": "Patient is a 53-year-old male with depression and PCOS. No history of Parkinson's disease.",
+  "metadata": {
+    "age": 53,
+    "gender": "male",
+    "conditions": [
+      "depression",
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "Parkinson's disease"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

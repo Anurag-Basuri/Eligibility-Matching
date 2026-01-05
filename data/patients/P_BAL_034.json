@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_034",
+  "raw_text": "Patient is a 75-year-old male with constipation and hypertension and autism spectrum disorder. No history of hepatitis C or osteoporosis.",
+  "metadata": {
+    "age": 75,
+    "gender": "male",
+    "conditions": [
+      "constipation",
+      "hypertension",
+      "autism spectrum disorder"
+    ],
+    "negated_conditions": [
+      "hepatitis C",
+      "osteoporosis"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

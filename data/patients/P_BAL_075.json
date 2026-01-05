@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_075",
+  "raw_text": "Patient is a 34-year-old male with asthma and depression. No history of migraine or dizziness.",
+  "metadata": {
+    "age": 34,
+    "gender": "male",
+    "conditions": [
+      "asthma",
+      "depression"
+    ],
+    "negated_conditions": [
+      "migraine",
+      "dizziness"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

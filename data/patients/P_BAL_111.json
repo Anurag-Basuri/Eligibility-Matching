@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_111",
+  "raw_text": "Patient is a 23-year-old male with fatigue and asthma.",
+  "metadata": {
+    "age": 23,
+    "gender": "male",
+    "conditions": [
+      "fatigue",
+      "asthma"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

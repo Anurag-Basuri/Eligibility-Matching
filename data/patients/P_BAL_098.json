@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_098",
+  "raw_text": "Patient is a 70-year-old female with schizophrenia and COPD. No history of asthma.",
+  "metadata": {
+    "age": 70,
+    "gender": "female",
+    "conditions": [
+      "schizophrenia",
+      "COPD"
+    ],
+    "negated_conditions": [
+      "asthma"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_138",
+  "raw_text": "Patient is a 38-year-old female with anxiety and multiple sclerosis. No history of pneumonia or tuberculosis.",
+  "metadata": {
+    "age": 38,
+    "gender": "female",
+    "conditions": [
+      "anxiety",
+      "multiple sclerosis"
+    ],
+    "negated_conditions": [
+      "pneumonia",
+      "tuberculosis"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

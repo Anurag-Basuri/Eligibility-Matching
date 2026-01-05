@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_104",
+  "raw_text": "Patient is a 34-year-old female with fatigue and asthma and schizophrenia. No history of osteoporosis or diarrhea.",
+  "metadata": {
+    "age": 34,
+    "gender": "female",
+    "conditions": [
+      "fatigue",
+      "asthma",
+      "schizophrenia"
+    ],
+    "negated_conditions": [
+      "osteoporosis",
+      "diarrhea"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

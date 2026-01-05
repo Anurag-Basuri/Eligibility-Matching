@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_144",
+  "raw_text": "Patient is a 76-year-old male with chronic back pain and Parkinson's disease and autism spectrum disorder.",
+  "metadata": {
+    "age": 76,
+    "gender": "male",
+    "conditions": [
+      "chronic back pain",
+      "Parkinson's disease",
+      "autism spectrum disorder"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

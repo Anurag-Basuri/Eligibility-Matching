@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_085",
+  "raw_text": "Patient is a 21-year-old male with fatigue and depression and Parkinson's disease.",
+  "metadata": {
+    "age": 21,
+    "gender": "male",
+    "conditions": [
+      "fatigue",
+      "depression",
+      "Parkinson's disease"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

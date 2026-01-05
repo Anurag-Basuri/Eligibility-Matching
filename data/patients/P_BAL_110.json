@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_110",
+  "raw_text": "Patient is a 42-year-old male with ADHD and asthma.",
+  "metadata": {
+    "age": 42,
+    "gender": "male",
+    "conditions": [
+      "ADHD",
+      "asthma"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

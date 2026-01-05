@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_068",
+  "raw_text": "Patient is a 63-year-old female with vomiting and schizophrenia and osteoarthritis. No history of arthritis or sinus infections.",
+  "metadata": {
+    "age": 63,
+    "gender": "female",
+    "conditions": [
+      "vomiting",
+      "schizophrenia",
+      "osteoarthritis"
+    ],
+    "negated_conditions": [
+      "arthritis",
+      "sinus infections"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

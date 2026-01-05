@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_109",
+  "raw_text": "Patient is a 39-year-old male with bipolar disorder and asthma and diarrhea.",
+  "metadata": {
+    "age": 39,
+    "gender": "male",
+    "conditions": [
+      "bipolar disorder",
+      "asthma",
+      "diarrhea"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

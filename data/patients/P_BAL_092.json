@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_092",
+  "raw_text": "Patient is a 74-year-old female with ADHD and bronchitis and COPD. No history of multiple sclerosis or cancer.",
+  "metadata": {
+    "age": 74,
+    "gender": "female",
+    "conditions": [
+      "ADHD",
+      "bronchitis",
+      "COPD"
+    ],
+    "negated_conditions": [
+      "multiple sclerosis",
+      "cancer"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

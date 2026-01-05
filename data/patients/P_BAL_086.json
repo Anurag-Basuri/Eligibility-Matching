@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_086",
+  "raw_text": "Patient is a 55-year-old female with bronchitis and depression and chronic kidney disease and diarrhea. No history of COPD.",
+  "metadata": {
+    "age": 55,
+    "gender": "female",
+    "conditions": [
+      "bronchitis",
+      "depression",
+      "chronic kidney disease",
+      "diarrhea"
+    ],
+    "negated_conditions": [
+      "COPD"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_077",
+  "raw_text": "Patient is a 46-year-old female with depression and type 2 diabetes.",
+  "metadata": {
+    "age": 46,
+    "gender": "female",
+    "conditions": [
+      "depression",
+      "type 2 diabetes"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

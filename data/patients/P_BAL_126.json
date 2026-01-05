@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_126",
+  "raw_text": "Patient is a 21-year-old female with cardiovascular disease and anxiety. No history of nausea or pneumonia.",
+  "metadata": {
+    "age": 21,
+    "gender": "female",
+    "conditions": [
+      "cardiovascular disease",
+      "anxiety"
+    ],
+    "negated_conditions": [
+      "nausea",
+      "pneumonia"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

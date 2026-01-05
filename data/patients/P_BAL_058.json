@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_058",
+  "raw_text": "Patient is a 70-year-old male with osteoarthritis. No history of type 2 diabetes or nausea.",
+  "metadata": {
+    "age": 70,
+    "gender": "male",
+    "conditions": [
+      "osteoarthritis"
+    ],
+    "negated_conditions": [
+      "type 2 diabetes",
+      "nausea"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

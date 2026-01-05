@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_023",
+  "raw_text": "Patient is a 59-year-old male with hypertension and nausea. No history of anxiety or asthma.",
+  "metadata": {
+    "age": 59,
+    "gender": "male",
+    "conditions": [
+      "hypertension",
+      "nausea"
+    ],
+    "negated_conditions": [
+      "anxiety",
+      "asthma"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

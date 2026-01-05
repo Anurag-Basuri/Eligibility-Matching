@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_036",
+  "raw_text": "Patient is a 55-year-old female with hypertension and schizophrenia.",
+  "metadata": {
+    "age": 55,
+    "gender": "female",
+    "conditions": [
+      "hypertension",
+      "schizophrenia"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

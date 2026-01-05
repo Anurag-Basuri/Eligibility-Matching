@@ -1,0 +1,19 @@
+{
+  "patient_id": "P_BAL_009",
+  "raw_text": "Patient is a 18-year-old female with sinus infections and type 2 diabetes and autism spectrum disorder and diarrhea. No history of chronic back pain or hepatitis C.",
+  "metadata": {
+    "age": 18,
+    "gender": "female",
+    "conditions": [
+      "sinus infections",
+      "type 2 diabetes",
+      "autism spectrum disorder",
+      "diarrhea"
+    ],
+    "negated_conditions": [
+      "chronic back pain",
+      "hepatitis C"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

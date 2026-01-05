@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_071",
+  "raw_text": "Patient is a 40-year-old female with depression and type 2 diabetes. No history of bronchitis.",
+  "metadata": {
+    "age": 40,
+    "gender": "female",
+    "conditions": [
+      "depression",
+      "type 2 diabetes"
+    ],
+    "negated_conditions": [
+      "bronchitis"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

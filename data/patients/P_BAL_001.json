@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_001",
+  "raw_text": "Patient is a 39-year-old female with sinus infections and type 2 diabetes and migraine. No history of autism spectrum disorder or anxiety.",
+  "metadata": {
+    "age": 39,
+    "gender": "female",
+    "conditions": [
+      "sinus infections",
+      "type 2 diabetes",
+      "migraine"
+    ],
+    "negated_conditions": [
+      "autism spectrum disorder",
+      "anxiety"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

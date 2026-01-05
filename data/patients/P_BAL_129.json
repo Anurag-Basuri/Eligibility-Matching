@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_129",
+  "raw_text": "Patient is a 23-year-old female with cardiovascular disease and anxiety. No history of autism spectrum disorder.",
+  "metadata": {
+    "age": 23,
+    "gender": "female",
+    "conditions": [
+      "cardiovascular disease",
+      "anxiety"
+    ],
+    "negated_conditions": [
+      "autism spectrum disorder"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

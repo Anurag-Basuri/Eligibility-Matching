@@ -1,0 +1,19 @@
+{
+  "patient_id": "P_BAL_007",
+  "raw_text": "Patient is a 55-year-old male with sinus infections and ADHD and constipation and type 2 diabetes. No history of arthritis or migraine.",
+  "metadata": {
+    "age": 55,
+    "gender": "male",
+    "conditions": [
+      "sinus infections",
+      "ADHD",
+      "constipation",
+      "type 2 diabetes"
+    ],
+    "negated_conditions": [
+      "arthritis",
+      "migraine"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

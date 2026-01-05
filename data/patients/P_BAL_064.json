@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_064",
+  "raw_text": "Patient is a 69-year-old female with bipolar disorder and osteoarthritis. No history of nausea.",
+  "metadata": {
+    "age": 69,
+    "gender": "female",
+    "conditions": [
+      "bipolar disorder",
+      "osteoarthritis"
+    ],
+    "negated_conditions": [
+      "nausea"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

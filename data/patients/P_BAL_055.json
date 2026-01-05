@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_055",
+  "raw_text": "Patient is a 26-year-old female with ADHD and PCOS and hepatitis C. No history of nausea.",
+  "metadata": {
+    "age": 26,
+    "gender": "female",
+    "conditions": [
+      "ADHD",
+      "PCOS",
+      "hepatitis C"
+    ],
+    "negated_conditions": [
+      "nausea"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

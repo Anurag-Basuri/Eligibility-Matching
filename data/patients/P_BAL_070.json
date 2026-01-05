@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_070",
+  "raw_text": "Patient is a 43-year-old male with HIV/AIDS and depression and constipation. No history of chronic kidney disease or vomiting.",
+  "metadata": {
+    "age": 43,
+    "gender": "male",
+    "conditions": [
+      "HIV/AIDS",
+      "depression",
+      "constipation"
+    ],
+    "negated_conditions": [
+      "chronic kidney disease",
+      "vomiting"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

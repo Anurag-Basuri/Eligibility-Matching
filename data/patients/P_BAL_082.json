@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_082",
+  "raw_text": "Patient is a 31-year-old male with cancer and depression and tuberculosis. No history of chronic kidney disease.",
+  "metadata": {
+    "age": 31,
+    "gender": "male",
+    "conditions": [
+      "cancer",
+      "depression",
+      "tuberculosis"
+    ],
+    "negated_conditions": [
+      "chronic kidney disease"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

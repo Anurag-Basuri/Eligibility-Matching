@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_BAL_042",
+  "raw_text": "Patient is a 25-year-old male with PCOS.",
+  "metadata": {
+    "age": 25,
+    "gender": "male",
+    "conditions": [
+      "PCOS"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

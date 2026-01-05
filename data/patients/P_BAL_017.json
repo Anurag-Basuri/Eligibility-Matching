@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_017",
+  "raw_text": "Patient is a 31-year-old female with bipolar disorder and hepatitis B and type 2 diabetes.",
+  "metadata": {
+    "age": 31,
+    "gender": "female",
+    "conditions": [
+      "bipolar disorder",
+      "hepatitis B",
+      "type 2 diabetes"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

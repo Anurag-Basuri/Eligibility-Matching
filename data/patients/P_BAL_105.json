@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_105",
+  "raw_text": "Patient is a 29-year-old male with sinus infections and asthma. No history of PCOS.",
+  "metadata": {
+    "age": 29,
+    "gender": "male",
+    "conditions": [
+      "sinus infections",
+      "asthma"
+    ],
+    "negated_conditions": [
+      "PCOS"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

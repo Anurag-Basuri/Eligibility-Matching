@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_118",
+  "raw_text": "Patient is a 25-year-old female with vomiting and hepatitis B and asthma and autism spectrum disorder. No history of chronic back pain.",
+  "metadata": {
+    "age": 25,
+    "gender": "female",
+    "conditions": [
+      "vomiting",
+      "hepatitis B",
+      "asthma",
+      "autism spectrum disorder"
+    ],
+    "negated_conditions": [
+      "chronic back pain"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

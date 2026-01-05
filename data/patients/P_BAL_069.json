@@ -1,0 +1,19 @@
+{
+  "patient_id": "P_BAL_069",
+  "raw_text": "Patient is a 32-year-old female with liver disease and depression and vitamin D deficiency and tuberculosis. No history of epilepsy or Alzheimer's disease.",
+  "metadata": {
+    "age": 32,
+    "gender": "female",
+    "conditions": [
+      "liver disease",
+      "depression",
+      "vitamin D deficiency",
+      "tuberculosis"
+    ],
+    "negated_conditions": [
+      "epilepsy",
+      "Alzheimer's disease"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

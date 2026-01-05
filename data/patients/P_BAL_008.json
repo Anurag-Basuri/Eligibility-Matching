@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_008",
+  "raw_text": "Patient is a 26-year-old male with migraine and type 2 diabetes and schizophrenia.",
+  "metadata": {
+    "age": 26,
+    "gender": "male",
+    "conditions": [
+      "migraine",
+      "type 2 diabetes",
+      "schizophrenia"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

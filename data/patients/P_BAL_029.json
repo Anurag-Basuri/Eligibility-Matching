@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_029",
+  "raw_text": "Patient is a 57-year-old male with dizziness and hypertension and autism spectrum disorder. No history of arthritis.",
+  "metadata": {
+    "age": 57,
+    "gender": "male",
+    "conditions": [
+      "dizziness",
+      "hypertension",
+      "autism spectrum disorder"
+    ],
+    "negated_conditions": [
+      "arthritis"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

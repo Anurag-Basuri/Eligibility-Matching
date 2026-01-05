@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_132",
+  "raw_text": "Patient is a 33-year-old female with anxiety and type 2 diabetes and vomiting. No history of migraine or constipation.",
+  "metadata": {
+    "age": 33,
+    "gender": "female",
+    "conditions": [
+      "anxiety",
+      "type 2 diabetes",
+      "vomiting"
+    ],
+    "negated_conditions": [
+      "migraine",
+      "constipation"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

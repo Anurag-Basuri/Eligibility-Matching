@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_041",
+  "raw_text": "Patient is a 32-year-old female with depression and PCOS and constipation. No history of hypertension.",
+  "metadata": {
+    "age": 32,
+    "gender": "female",
+    "conditions": [
+      "depression",
+      "PCOS",
+      "constipation"
+    ],
+    "negated_conditions": [
+      "hypertension"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

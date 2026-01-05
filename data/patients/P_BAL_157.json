@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_157",
+  "raw_text": "Patient is a 39-year-old male with autoimmune diseases and anxiety.",
+  "metadata": {
+    "age": 39,
+    "gender": "male",
+    "conditions": [
+      "autoimmune diseases",
+      "anxiety"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_130",
+  "raw_text": "Patient is a 36-year-old male with liver disease and anxiety and bronchitis. No history of epilepsy.",
+  "metadata": {
+    "age": 36,
+    "gender": "male",
+    "conditions": [
+      "liver disease",
+      "anxiety",
+      "bronchitis"
+    ],
+    "negated_conditions": [
+      "epilepsy"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

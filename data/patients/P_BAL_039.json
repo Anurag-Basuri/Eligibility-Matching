@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_039",
+  "raw_text": "Patient is a 25-year-old female with PCOS. No history of dizziness.",
+  "metadata": {
+    "age": 25,
+    "gender": "female",
+    "conditions": [
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "dizziness"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

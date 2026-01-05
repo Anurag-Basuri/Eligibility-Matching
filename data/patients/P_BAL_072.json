@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_072",
+  "raw_text": "Patient is a 21-year-old female with hyperlipidemia and depression. No history of cancer or tuberculosis.",
+  "metadata": {
+    "age": 21,
+    "gender": "female",
+    "conditions": [
+      "hyperlipidemia",
+      "depression"
+    ],
+    "negated_conditions": [
+      "cancer",
+      "tuberculosis"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

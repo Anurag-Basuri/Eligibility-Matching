@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_059",
+  "raw_text": "Patient is a 69-year-old female with constipation and anxiety and osteoarthritis. No history of dizziness.",
+  "metadata": {
+    "age": 69,
+    "gender": "female",
+    "conditions": [
+      "constipation",
+      "anxiety",
+      "osteoarthritis"
+    ],
+    "negated_conditions": [
+      "dizziness"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

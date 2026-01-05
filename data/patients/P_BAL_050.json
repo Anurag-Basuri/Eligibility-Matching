@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_050",
+  "raw_text": "Patient is a 25-year-old male with sinus infections and constipation and PCOS. No history of hypertension or autoimmune diseases.",
+  "metadata": {
+    "age": 25,
+    "gender": "male",
+    "conditions": [
+      "sinus infections",
+      "constipation",
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "hypertension",
+      "autoimmune diseases"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

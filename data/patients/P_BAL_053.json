@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_053",
+  "raw_text": "Patient is a 38-year-old male with dizziness and PCOS. No history of Alzheimer's disease.",
+  "metadata": {
+    "age": 38,
+    "gender": "male",
+    "conditions": [
+      "dizziness",
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "Alzheimer's disease"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

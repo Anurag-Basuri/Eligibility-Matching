@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_155",
+  "raw_text": "Patient is a 33-year-old female with osteoporosis and migraine and schizophrenia. No history of dizziness.",
+  "metadata": {
+    "age": 33,
+    "gender": "female",
+    "conditions": [
+      "osteoporosis",
+      "migraine",
+      "schizophrenia"
+    ],
+    "negated_conditions": [
+      "dizziness"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

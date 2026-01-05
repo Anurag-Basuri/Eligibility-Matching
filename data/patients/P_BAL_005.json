@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_005",
+  "raw_text": "Patient is a 61-year-old male with hepatitis B and type 2 diabetes and autism spectrum disorder. No history of hyperlipidemia or diarrhea.",
+  "metadata": {
+    "age": 61,
+    "gender": "male",
+    "conditions": [
+      "hepatitis B",
+      "type 2 diabetes",
+      "autism spectrum disorder"
+    ],
+    "negated_conditions": [
+      "hyperlipidemia",
+      "diarrhea"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

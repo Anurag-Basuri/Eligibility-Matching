@@ -1,0 +1,19 @@
+{
+  "patient_id": "P_BAL_154",
+  "raw_text": "Patient is a 82-year-old male with ADHD and tuberculosis and Parkinson's disease and diarrhea. No history of chronic back pain or heart disease.",
+  "metadata": {
+    "age": 82,
+    "gender": "male",
+    "conditions": [
+      "ADHD",
+      "tuberculosis",
+      "Parkinson's disease",
+      "diarrhea"
+    ],
+    "negated_conditions": [
+      "chronic back pain",
+      "heart disease"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

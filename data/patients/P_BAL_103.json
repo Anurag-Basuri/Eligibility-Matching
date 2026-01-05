@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_103",
+  "raw_text": "Patient is a 43-year-old male with bipolar disorder and asthma and bronchitis and nausea.",
+  "metadata": {
+    "age": 43,
+    "gender": "male",
+    "conditions": [
+      "bipolar disorder",
+      "asthma",
+      "bronchitis",
+      "nausea"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

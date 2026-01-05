@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_015",
+  "raw_text": "Patient is a 34-year-old male with type 2 diabetes and bronchitis. No history of autoimmune diseases or fatigue.",
+  "metadata": {
+    "age": 34,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes",
+      "bronchitis"
+    ],
+    "negated_conditions": [
+      "autoimmune diseases",
+      "fatigue"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

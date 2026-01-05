@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_006",
+  "raw_text": "Patient is a 57-year-old female with type 2 diabetes and schizophrenia.",
+  "metadata": {
+    "age": 57,
+    "gender": "female",
+    "conditions": [
+      "type 2 diabetes",
+      "schizophrenia"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

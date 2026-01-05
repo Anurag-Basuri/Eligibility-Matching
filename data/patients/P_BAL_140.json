@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_140",
+  "raw_text": "Patient is a 23-year-old female with anxiety and thyroid disorders. No history of osteoporosis.",
+  "metadata": {
+    "age": 23,
+    "gender": "female",
+    "conditions": [
+      "anxiety",
+      "thyroid disorders"
+    ],
+    "negated_conditions": [
+      "osteoporosis"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

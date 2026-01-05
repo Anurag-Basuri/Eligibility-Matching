@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_142",
+  "raw_text": "Patient is a 66-year-old female with vomiting and Parkinson's disease and autism spectrum disorder. No history of nausea.",
+  "metadata": {
+    "age": 66,
+    "gender": "female",
+    "conditions": [
+      "vomiting",
+      "Parkinson's disease",
+      "autism spectrum disorder"
+    ],
+    "negated_conditions": [
+      "nausea"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

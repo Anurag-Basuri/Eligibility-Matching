@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_124",
+  "raw_text": "Patient is a 26-year-old female with cardiovascular disease and anxiety. No history of hyperlipidemia or cancer.",
+  "metadata": {
+    "age": 26,
+    "gender": "female",
+    "conditions": [
+      "cardiovascular disease",
+      "anxiety"
+    ],
+    "negated_conditions": [
+      "hyperlipidemia",
+      "cancer"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

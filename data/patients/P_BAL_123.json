@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_123",
+  "raw_text": "Patient is a 30-year-old female with fatigue and pneumonia and anxiety and hypertension. No history of HIV/AIDS.",
+  "metadata": {
+    "age": 30,
+    "gender": "female",
+    "conditions": [
+      "fatigue",
+      "pneumonia",
+      "anxiety",
+      "hypertension"
+    ],
+    "negated_conditions": [
+      "HIV/AIDS"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

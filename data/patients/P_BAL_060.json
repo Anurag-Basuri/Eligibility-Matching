@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_060",
+  "raw_text": "Patient is a 65-year-old male with osteoarthritis and hepatitis C. No history of Parkinson's disease.",
+  "metadata": {
+    "age": 65,
+    "gender": "male",
+    "conditions": [
+      "osteoarthritis",
+      "hepatitis C"
+    ],
+    "negated_conditions": [
+      "Parkinson's disease"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

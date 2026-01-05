@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_030",
+  "raw_text": "Patient is a 61-year-old female with sinus infections and depression and hypertension. No history of osteoporosis or Alzheimer's disease.",
+  "metadata": {
+    "age": 61,
+    "gender": "female",
+    "conditions": [
+      "sinus infections",
+      "depression",
+      "hypertension"
+    ],
+    "negated_conditions": [
+      "osteoporosis",
+      "Alzheimer's disease"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

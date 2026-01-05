@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_127",
+  "raw_text": "Patient is a 24-year-old female with anxiety and migraine and multiple sclerosis.",
+  "metadata": {
+    "age": 24,
+    "gender": "female",
+    "conditions": [
+      "anxiety",
+      "migraine",
+      "multiple sclerosis"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

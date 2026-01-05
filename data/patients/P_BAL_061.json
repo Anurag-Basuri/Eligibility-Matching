@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_061",
+  "raw_text": "Patient is a 77-year-old male with depression and osteoarthritis.",
+  "metadata": {
+    "age": 77,
+    "gender": "male",
+    "conditions": [
+      "depression",
+      "osteoarthritis"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

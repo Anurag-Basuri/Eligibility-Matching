@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_120",
+  "raw_text": "Patient is a 19-year-old female with asthma and anxiety and migraine.",
+  "metadata": {
+    "age": 19,
+    "gender": "female",
+    "conditions": [
+      "asthma",
+      "anxiety",
+      "migraine"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

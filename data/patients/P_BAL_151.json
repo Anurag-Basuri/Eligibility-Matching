@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_151",
+  "raw_text": "Patient is a 55-year-old female with Parkinson's disease. No history of liver disease or chronic back pain.",
+  "metadata": {
+    "age": 55,
+    "gender": "female",
+    "conditions": [
+      "Parkinson's disease"
+    ],
+    "negated_conditions": [
+      "liver disease",
+      "chronic back pain"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

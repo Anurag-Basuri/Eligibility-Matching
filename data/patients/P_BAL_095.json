@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_095",
+  "raw_text": "Patient is a 66-year-old male with ADHD and pneumonia and COPD. No history of hepatitis C.",
+  "metadata": {
+    "age": 66,
+    "gender": "male",
+    "conditions": [
+      "ADHD",
+      "pneumonia",
+      "COPD"
+    ],
+    "negated_conditions": [
+      "hepatitis C"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

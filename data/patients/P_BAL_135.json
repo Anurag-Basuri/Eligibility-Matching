@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_135",
+  "raw_text": "Patient is a 27-year-old female with vomiting and anxiety and chronic kidney disease and tuberculosis. No history of migraine.",
+  "metadata": {
+    "age": 27,
+    "gender": "female",
+    "conditions": [
+      "vomiting",
+      "anxiety",
+      "chronic kidney disease",
+      "tuberculosis"
+    ],
+    "negated_conditions": [
+      "migraine"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

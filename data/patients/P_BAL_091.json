@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_091",
+  "raw_text": "Patient is a 46-year-old female with migraine and COPD and hepatitis C. No history of asthma or thyroid disorders.",
+  "metadata": {
+    "age": 46,
+    "gender": "female",
+    "conditions": [
+      "migraine",
+      "COPD",
+      "hepatitis C"
+    ],
+    "negated_conditions": [
+      "asthma",
+      "thyroid disorders"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

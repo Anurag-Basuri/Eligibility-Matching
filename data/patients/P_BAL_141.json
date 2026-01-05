@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_141",
+  "raw_text": "Patient is a 73-year-old male with ADHD and Parkinson's disease. No history of dizziness or cardiovascular disease.",
+  "metadata": {
+    "age": 73,
+    "gender": "male",
+    "conditions": [
+      "ADHD",
+      "Parkinson's disease"
+    ],
+    "negated_conditions": [
+      "dizziness",
+      "cardiovascular disease"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_101",
+  "raw_text": "Patient is a 63-year-old female with depression and COPD.",
+  "metadata": {
+    "age": 63,
+    "gender": "female",
+    "conditions": [
+      "depression",
+      "COPD"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_019",
+  "raw_text": "Patient is a 42-year-old male with type 2 diabetes and vitamin D deficiency. No history of osteoporosis.",
+  "metadata": {
+    "age": 42,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes",
+      "vitamin D deficiency"
+    ],
+    "negated_conditions": [
+      "osteoporosis"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

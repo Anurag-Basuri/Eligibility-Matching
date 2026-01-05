@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_108",
+  "raw_text": "Patient is a 31-year-old male with bipolar disorder and asthma and nausea. No history of hepatitis B or thyroid disorders.",
+  "metadata": {
+    "age": 31,
+    "gender": "male",
+    "conditions": [
+      "bipolar disorder",
+      "asthma",
+      "nausea"
+    ],
+    "negated_conditions": [
+      "hepatitis B",
+      "thyroid disorders"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

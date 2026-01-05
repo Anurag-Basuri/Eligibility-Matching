@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_147",
+  "raw_text": "Patient is a 70-year-old male with anxiety and chronic back pain and Parkinson's disease and sinus infections. No history of nausea.",
+  "metadata": {
+    "age": 70,
+    "gender": "male",
+    "conditions": [
+      "anxiety",
+      "chronic back pain",
+      "Parkinson's disease",
+      "sinus infections"
+    ],
+    "negated_conditions": [
+      "nausea"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

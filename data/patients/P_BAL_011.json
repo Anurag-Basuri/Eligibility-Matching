@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_011",
+  "raw_text": "Patient is a 61-year-old female with chronic back pain and type 2 diabetes and autism spectrum disorder and tuberculosis. No history of osteoarthritis.",
+  "metadata": {
+    "age": 61,
+    "gender": "female",
+    "conditions": [
+      "chronic back pain",
+      "type 2 diabetes",
+      "autism spectrum disorder",
+      "tuberculosis"
+    ],
+    "negated_conditions": [
+      "osteoarthritis"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

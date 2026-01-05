@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_057",
+  "raw_text": "Patient is a 70-year-old male with depression and osteoarthritis. No history of vomiting or chronic kidney disease.",
+  "metadata": {
+    "age": 70,
+    "gender": "male",
+    "conditions": [
+      "depression",
+      "osteoarthritis"
+    ],
+    "negated_conditions": [
+      "vomiting",
+      "chronic kidney disease"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

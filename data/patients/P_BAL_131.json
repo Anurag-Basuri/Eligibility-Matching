@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_131",
+  "raw_text": "Patient is a 37-year-old female with anxiety and COPD. No history of schizophrenia.",
+  "metadata": {
+    "age": 37,
+    "gender": "female",
+    "conditions": [
+      "anxiety",
+      "COPD"
+    ],
+    "negated_conditions": [
+      "schizophrenia"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

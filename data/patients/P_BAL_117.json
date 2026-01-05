@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_117",
+  "raw_text": "Patient is a 19-year-old female with hepatitis B and asthma and depression. No history of migraine or PCOS.",
+  "metadata": {
+    "age": 19,
+    "gender": "female",
+    "conditions": [
+      "hepatitis B",
+      "asthma",
+      "depression"
+    ],
+    "negated_conditions": [
+      "migraine",
+      "PCOS"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

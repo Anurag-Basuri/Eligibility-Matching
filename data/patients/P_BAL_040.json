@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_040",
+  "raw_text": "Patient is a 28-year-old male with dizziness and depression and PCOS.",
+  "metadata": {
+    "age": 28,
+    "gender": "male",
+    "conditions": [
+      "dizziness",
+      "depression",
+      "PCOS"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

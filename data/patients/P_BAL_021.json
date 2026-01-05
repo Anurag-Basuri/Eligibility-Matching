@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_021",
+  "raw_text": "Patient is a 61-year-old female with hypertension. No history of anxiety or osteoporosis.",
+  "metadata": {
+    "age": 61,
+    "gender": "female",
+    "conditions": [
+      "hypertension"
+    ],
+    "negated_conditions": [
+      "anxiety",
+      "osteoporosis"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

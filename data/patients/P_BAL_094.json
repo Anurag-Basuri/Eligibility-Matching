@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_094",
+  "raw_text": "Patient is a 59-year-old male with vomiting and ADHD and sinus infections and COPD. No history of tuberculosis.",
+  "metadata": {
+    "age": 59,
+    "gender": "male",
+    "conditions": [
+      "vomiting",
+      "ADHD",
+      "sinus infections",
+      "COPD"
+    ],
+    "negated_conditions": [
+      "tuberculosis"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

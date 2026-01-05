@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_107",
+  "raw_text": "Patient is a 23-year-old female with fatigue and asthma and bronchitis. No history of constipation or osteoporosis.",
+  "metadata": {
+    "age": 23,
+    "gender": "female",
+    "conditions": [
+      "fatigue",
+      "asthma",
+      "bronchitis"
+    ],
+    "negated_conditions": [
+      "constipation",
+      "osteoporosis"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

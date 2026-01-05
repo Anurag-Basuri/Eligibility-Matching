@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_027",
+  "raw_text": "Patient is a 55-year-old female with constipation and hypertension and hepatitis C.",
+  "metadata": {
+    "age": 55,
+    "gender": "female",
+    "conditions": [
+      "constipation",
+      "hypertension",
+      "hepatitis C"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

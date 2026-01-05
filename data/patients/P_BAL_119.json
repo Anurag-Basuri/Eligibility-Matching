@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_119",
+  "raw_text": "Patient is a 43-year-old male with bronchitis and asthma and autism spectrum disorder. No history of diarrhea or ADHD.",
+  "metadata": {
+    "age": 43,
+    "gender": "male",
+    "conditions": [
+      "bronchitis",
+      "asthma",
+      "autism spectrum disorder"
+    ],
+    "negated_conditions": [
+      "diarrhea",
+      "ADHD"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

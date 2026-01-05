@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_002",
+  "raw_text": "Patient is a 43-year-old male with type 2 diabetes and schizophrenia. No history of Parkinson's disease.",
+  "metadata": {
+    "age": 43,
+    "gender": "male",
+    "conditions": [
+      "type 2 diabetes",
+      "schizophrenia"
+    ],
+    "negated_conditions": [
+      "Parkinson's disease"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

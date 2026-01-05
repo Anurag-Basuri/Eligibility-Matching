@@ -1,0 +1,13 @@
+{
+  "patient_id": "P_BAL_149",
+  "raw_text": "Patient is a 65-year-old female with Parkinson's disease.",
+  "metadata": {
+    "age": 65,
+    "gender": "female",
+    "conditions": [
+      "Parkinson's disease"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

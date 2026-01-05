@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_114",
+  "raw_text": "Patient is a 18-year-old male with asthma and autism spectrum disorder. No history of bipolar disorder or cardiovascular disease.",
+  "metadata": {
+    "age": 18,
+    "gender": "male",
+    "conditions": [
+      "asthma",
+      "autism spectrum disorder"
+    ],
+    "negated_conditions": [
+      "bipolar disorder",
+      "cardiovascular disease"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

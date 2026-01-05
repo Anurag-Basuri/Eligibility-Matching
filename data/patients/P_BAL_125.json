@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_125",
+  "raw_text": "Patient is a 27-year-old male with osteoporosis and anxiety. No history of cardiovascular disease or pneumonia.",
+  "metadata": {
+    "age": 27,
+    "gender": "male",
+    "conditions": [
+      "osteoporosis",
+      "anxiety"
+    ],
+    "negated_conditions": [
+      "cardiovascular disease",
+      "pneumonia"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

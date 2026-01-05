@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_143",
+  "raw_text": "Patient is a 62-year-old female with Parkinson's disease and schizophrenia and nausea.",
+  "metadata": {
+    "age": 62,
+    "gender": "female",
+    "conditions": [
+      "Parkinson's disease",
+      "schizophrenia",
+      "nausea"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

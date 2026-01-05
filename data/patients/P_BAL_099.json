@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_099",
+  "raw_text": "Patient is a 58-year-old female with bipolar disorder and COPD. No history of anxiety or chronic kidney disease.",
+  "metadata": {
+    "age": 58,
+    "gender": "female",
+    "conditions": [
+      "bipolar disorder",
+      "COPD"
+    ],
+    "negated_conditions": [
+      "anxiety",
+      "chronic kidney disease"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

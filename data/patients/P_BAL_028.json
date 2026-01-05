@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_028",
+  "raw_text": "Patient is a 53-year-old female with vomiting and hypertension and schizophrenia.",
+  "metadata": {
+    "age": 53,
+    "gender": "female",
+    "conditions": [
+      "vomiting",
+      "hypertension",
+      "schizophrenia"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

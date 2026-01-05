@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_121",
+  "raw_text": "Patient is a 32-year-old female with anxiety and thyroid disorders. No history of autoimmune diseases or fatigue.",
+  "metadata": {
+    "age": 32,
+    "gender": "female",
+    "conditions": [
+      "anxiety",
+      "thyroid disorders"
+    ],
+    "negated_conditions": [
+      "autoimmune diseases",
+      "fatigue"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

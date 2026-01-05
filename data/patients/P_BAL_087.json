@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_087",
+  "raw_text": "Patient is a 23-year-old male with hepatitis B and depression and hypertension. No history of constipation.",
+  "metadata": {
+    "age": 23,
+    "gender": "male",
+    "conditions": [
+      "hepatitis B",
+      "depression",
+      "hypertension"
+    ],
+    "negated_conditions": [
+      "constipation"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

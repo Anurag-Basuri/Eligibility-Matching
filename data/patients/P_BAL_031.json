@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_031",
+  "raw_text": "Patient is a 76-year-old male with hepatitis B and hypertension and diarrhea. No history of depression or nausea.",
+  "metadata": {
+    "age": 76,
+    "gender": "male",
+    "conditions": [
+      "hepatitis B",
+      "hypertension",
+      "diarrhea"
+    ],
+    "negated_conditions": [
+      "depression",
+      "nausea"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

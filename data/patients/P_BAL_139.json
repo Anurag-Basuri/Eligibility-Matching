@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_139",
+  "raw_text": "Patient is a 32-year-old female with diarrhea and anxiety and osteoarthritis.",
+  "metadata": {
+    "age": 32,
+    "gender": "female",
+    "conditions": [
+      "diarrhea",
+      "anxiety",
+      "osteoarthritis"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

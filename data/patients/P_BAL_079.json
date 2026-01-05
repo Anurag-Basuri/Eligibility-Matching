@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_079",
+  "raw_text": "Patient is a 46-year-old female with hyperlipidemia and depression. No history of osteoporosis or Parkinson's disease.",
+  "metadata": {
+    "age": 46,
+    "gender": "female",
+    "conditions": [
+      "hyperlipidemia",
+      "depression"
+    ],
+    "negated_conditions": [
+      "osteoporosis",
+      "Parkinson's disease"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

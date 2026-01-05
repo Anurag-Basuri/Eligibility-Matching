@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_003",
+  "raw_text": "Patient is a 47-year-old female with type 2 diabetes. No history of autoimmune diseases or diarrhea.",
+  "metadata": {
+    "age": 47,
+    "gender": "female",
+    "conditions": [
+      "type 2 diabetes"
+    ],
+    "negated_conditions": [
+      "autoimmune diseases",
+      "diarrhea"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

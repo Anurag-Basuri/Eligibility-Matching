@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_033",
+  "raw_text": "Patient is a 71-year-old male with sinus infections and depression and hypertension and migraine.",
+  "metadata": {
+    "age": 71,
+    "gender": "male",
+    "conditions": [
+      "sinus infections",
+      "depression",
+      "hypertension",
+      "migraine"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

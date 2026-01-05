@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_137",
+  "raw_text": "Patient is a 26-year-old male with vomiting and anxiety and PCOS. No history of HIV/AIDS.",
+  "metadata": {
+    "age": 26,
+    "gender": "male",
+    "conditions": [
+      "vomiting",
+      "anxiety",
+      "PCOS"
+    ],
+    "negated_conditions": [
+      "HIV/AIDS"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

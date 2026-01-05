@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_113",
+  "raw_text": "Patient is a 43-year-old male with asthma and anxiety and constipation.",
+  "metadata": {
+    "age": 43,
+    "gender": "male",
+    "conditions": [
+      "asthma",
+      "anxiety",
+      "constipation"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

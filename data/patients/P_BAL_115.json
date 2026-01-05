@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_115",
+  "raw_text": "Patient is a 49-year-old female with asthma and schizophrenia. No history of bronchitis or thyroid disorders.",
+  "metadata": {
+    "age": 49,
+    "gender": "female",
+    "conditions": [
+      "asthma",
+      "schizophrenia"
+    ],
+    "negated_conditions": [
+      "bronchitis",
+      "thyroid disorders"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

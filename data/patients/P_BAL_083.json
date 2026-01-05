@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_083",
+  "raw_text": "Patient is a 49-year-old female with depression and osteoarthritis.",
+  "metadata": {
+    "age": 49,
+    "gender": "female",
+    "conditions": [
+      "depression",
+      "osteoarthritis"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

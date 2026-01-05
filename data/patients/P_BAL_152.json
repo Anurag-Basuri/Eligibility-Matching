@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_152",
+  "raw_text": "Patient is a 69-year-old female with ADHD and Parkinson's disease and bronchitis. No history of fatigue or Alzheimer's disease.",
+  "metadata": {
+    "age": 69,
+    "gender": "female",
+    "conditions": [
+      "ADHD",
+      "Parkinson's disease",
+      "bronchitis"
+    ],
+    "negated_conditions": [
+      "fatigue",
+      "Alzheimer's disease"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

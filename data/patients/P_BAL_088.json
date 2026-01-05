@@ -1,0 +1,19 @@
+{
+  "patient_id": "P_BAL_088",
+  "raw_text": "Patient is a 55-year-old male with fatigue and autoimmune diseases and depression and tuberculosis. No history of diarrhea or chronic back pain.",
+  "metadata": {
+    "age": 55,
+    "gender": "male",
+    "conditions": [
+      "fatigue",
+      "autoimmune diseases",
+      "depression",
+      "tuberculosis"
+    ],
+    "negated_conditions": [
+      "diarrhea",
+      "chronic back pain"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

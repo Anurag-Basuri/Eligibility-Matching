@@ -1,0 +1,15 @@
+{
+  "patient_id": "P_BAL_073",
+  "raw_text": "Patient is a 45-year-old female with fatigue and depression and obesity.",
+  "metadata": {
+    "age": 45,
+    "gender": "female",
+    "conditions": [
+      "fatigue",
+      "depression",
+      "obesity"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

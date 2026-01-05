@@ -1,0 +1,16 @@
+{
+  "patient_id": "P_BAL_004",
+  "raw_text": "Patient is a 21-year-old female with type 2 diabetes and autism spectrum disorder. No history of epilepsy.",
+  "metadata": {
+    "age": 21,
+    "gender": "female",
+    "conditions": [
+      "type 2 diabetes",
+      "autism spectrum disorder"
+    ],
+    "negated_conditions": [
+      "epilepsy"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

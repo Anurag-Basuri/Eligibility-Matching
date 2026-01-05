@@ -1,0 +1,19 @@
+{
+  "patient_id": "P_BAL_122",
+  "raw_text": "Patient is a 21-year-old female with chronic back pain and pneumonia and anxiety and Alzheimer's disease. No history of thyroid disorders or arthritis.",
+  "metadata": {
+    "age": 21,
+    "gender": "female",
+    "conditions": [
+      "chronic back pain",
+      "pneumonia",
+      "anxiety",
+      "Alzheimer's disease"
+    ],
+    "negated_conditions": [
+      "thyroid disorders",
+      "arthritis"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

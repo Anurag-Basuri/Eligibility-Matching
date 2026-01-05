@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_089",
+  "raw_text": "Patient is a 63-year-old female with bipolar disorder and COPD. No history of sinus infections or vomiting.",
+  "metadata": {
+    "age": 63,
+    "gender": "female",
+    "conditions": [
+      "bipolar disorder",
+      "COPD"
+    ],
+    "negated_conditions": [
+      "sinus infections",
+      "vomiting"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

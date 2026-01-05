@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_106",
+  "raw_text": "Patient is a 48-year-old female with asthma and depression.",
+  "metadata": {
+    "age": 48,
+    "gender": "female",
+    "conditions": [
+      "asthma",
+      "depression"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

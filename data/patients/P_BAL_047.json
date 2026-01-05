@@ -1,0 +1,14 @@
+{
+  "patient_id": "P_BAL_047",
+  "raw_text": "Patient is a 19-year-old female with dizziness and PCOS.",
+  "metadata": {
+    "age": 19,
+    "gender": "female",
+    "conditions": [
+      "dizziness",
+      "PCOS"
+    ],
+    "negated_conditions": [],
+    "source": "balanced_160_patients_v1"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "patient_id": "P_BAL_000",
+  "raw_text": "Patient is a 47-year-old male with dizziness and type 2 diabetes and autism spectrum disorder. No history of bipolar disorder.",
+  "metadata": {
+    "age": 47,
+    "gender": "male",
+    "conditions": [
+      "dizziness",
+      "type 2 diabetes",
+      "autism spectrum disorder"
+    ],
+    "negated_conditions": [
+      "bipolar disorder"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}

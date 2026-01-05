@@ -1,0 +1,18 @@
+{
+  "patient_id": "P_BAL_084",
+  "raw_text": "Patient is a 22-year-old female with fatigue and depression and Parkinson's disease. No history of migraine or nausea.",
+  "metadata": {
+    "age": 22,
+    "gender": "female",
+    "conditions": [
+      "fatigue",
+      "depression",
+      "Parkinson's disease"
+    ],
+    "negated_conditions": [
+      "migraine",
+      "nausea"
+    ],
+    "source": "balanced_160_patients_v1"
+  }
+}
