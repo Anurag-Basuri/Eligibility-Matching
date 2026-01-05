@@ -87,6 +87,8 @@ clinical-trial-matching/
 ├── notebooks/                    # Jupyter notebooks for exploration
 ├── run.py                        # Basic feature extraction script
 ├── run_pipeline.py               # Full training pipeline
+├── requirements.txt              # Python dependencies
+├── LICENSE                       # MIT License
 ├── PROJECT_DOCUMENTATION.md      # Detailed project documentation
 └── README.md                     # This file
 ```
@@ -114,7 +116,7 @@ python -m venv .venv
 
 # Install dependencies
 pip install --upgrade pip
-pip install scikit-learn spacy streamlit pandas numpy scipy
+pip install -r requirements.txt
 
 # Download spaCy language model
 python -m spacy download en_core_web_sm
@@ -125,6 +127,19 @@ python -m spacy download en_core_web_sm
 ```powershell
 python -c "import sklearn; import spacy; import streamlit; print('All dependencies installed!')"
 ```
+
+### Dependencies
+
+See [requirements.txt](requirements.txt) for the full list. Key packages:
+
+| Package      | Version | Purpose                            |
+| ------------ | ------- | ---------------------------------- |
+| scikit-learn | ≥1.0.0  | ML models, TF-IDF vectorization    |
+| spacy        | ≥3.0.0  | NLP tokenization and lemmatization |
+| streamlit    | ≥1.20.0 | Web application interface          |
+| pandas       | ≥1.3.0  | Data manipulation                  |
+| numpy        | ≥1.20.0 | Numerical operations               |
+| scipy        | ≥1.7.0  | Sparse matrix support              |
 
 ---
 
@@ -328,7 +343,7 @@ The app provides:
 | ---------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | `ModuleNotFoundError: No module named 'src'`   | Run Streamlit from project root: `streamlit run .\src\app\streamlit_app.py`                |
 | `X has N features, but model expects M`        | Re-run `python .\run_pipeline.py` after regenerating data                                  |
-| `ModuleNotFoundError: No module named 'spacy'` | Run `pip install spacy && python -m spacy download en_core_web_sm`                         |
+| `ModuleNotFoundError: No module named 'spacy'` | Run `pip install -r requirements.txt && python -m spacy download en_core_web_sm`           |
 | `No module named 'en_core_web_sm'`             | Run `python -m spacy download en_core_web_sm`                                              |
 | Pylance `reportMissingModuleSource`            | Select correct Python interpreter in VS Code (Ctrl+Shift+P → "Python: Select Interpreter") |
 | Empty patients/pairs folders                   | Run `python .\src\utils\synthetic_data_generator.py` first                                 |
@@ -348,6 +363,13 @@ python -m black .
 npx prettier --write .\data\**\*.json
 ```
 
+### Running Tests
+
+```powershell
+pip install pytest
+pytest
+```
+
 ### Adding New Trials
 
 1. Create `data/trials/T0XX.json` following the schema
@@ -362,15 +384,17 @@ npx prettier --write .\data\**\*.json
 
 ### Project Files (Git-tracked)
 
-| File/Folder      | Tracked | Description                    |
-| ---------------- | ------- | ------------------------------ |
-| `src/`           | ✅      | All source code                |
-| `data/trials/`   | ✅      | Trial definitions              |
-| `data/patients/` | ✅      | Synthetic patients             |
-| `data/pairs/`    | ✅      | Labeled pairs                  |
-| `models/`        | ❌      | Trained models (regeneratable) |
-| `.venv/`         | ❌      | Virtual environment            |
-| `__pycache__/`   | ❌      | Python cache                   |
+| File/Folder        | Tracked | Description                    |
+| ------------------ | ------- | ------------------------------ |
+| `src/`             | ✅      | All source code                |
+| `data/trials/`     | ✅      | Trial definitions              |
+| `data/patients/`   | ✅      | Synthetic patients             |
+| `data/pairs/`      | ✅      | Labeled pairs                  |
+| `requirements.txt` | ✅      | Python dependencies            |
+| `LICENSE`          | ✅      | MIT License                    |
+| `models/`          | ❌      | Trained models (regeneratable) |
+| `.venv/`           | ❌      | Virtual environment            |
+| `__pycache__/`     | ❌      | Python cache                   |
 
 ---
 
