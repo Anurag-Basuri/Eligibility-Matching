@@ -1,5 +1,6 @@
 import pickle
 from pathlib import Path
+from src.utils.balancer import balance_pairs
 
 # ===============================
 # IMPORT PROJECT MODULES
@@ -65,6 +66,13 @@ def main():
 
     if not texts:
         raise RuntimeError("No valid samples found. Pipeline cannot continue.")
+    
+    print("\n🔹 Balancing dataset at pair level...")
+
+    texts, labels = balance_pairs(texts, labels)
+
+    print(f"Balanced samples: {len(labels)}")
+    print(f"Eligible ratio: {sum(labels)/len(labels):.2%}")
 
     # ---------------------------
     # TF-IDF Vectorization
