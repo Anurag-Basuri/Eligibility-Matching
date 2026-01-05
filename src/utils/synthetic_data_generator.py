@@ -13,8 +13,8 @@ PAIR_DIR = BASE_DIR / "pairs"
 PATIENT_DIR.mkdir(exist_ok=True)
 PAIR_DIR.mkdir(exist_ok=True)
 
-TARGET_PER_LABEL_PER_TRIAL = 80
-MAX_ATTEMPTS_PER_TRIAL = 5000
+NUM_PATIENTS = 160
+TARGET_ELIGIBLE_RATIO = 0.5  # ~50% eligible pairs overall
 
 # ================= CONDITION GROUPS =================
 CHRONIC_CONDITIONS = [
@@ -48,48 +48,30 @@ ALL_CONDITIONS = list(set(
 ))
 
 # ================= PATIENT GENERATION =================
-def generate_patient_for_trial(pid, trial, target_eligible: bool):
-    c = trial["criteria"]
-
-    if target_eligible:
-        age = random.randint(c["min_age"], c["max_age"])
-        conditions = set(c["required_conditions"])
-
-        extras = [
-            x for x in ALL_CONDITIONS
-            if x not in conditions and x not in c["excluded_conditions"]
-        ]
-        if extras and random.random() < 0.5:
-            conditions.add(random.choice(extras))
-    else:
-        strategy = random.choice(["age_low", "age_high", "missing_required", "has_excluded"])
-
-        if strategy == "age_low" and c["min_age"] > 18:
-            age = random.randint(18, c["min_age"] - 1)
-            conditions = set(c["required_conditions"])
-        elif strategy == "age_high" and c["max_age"] < 85:
-            age = random.randint(c["max_age"] + 1, 85)
-            conditions = set(c["required_conditions"])
-        elif strategy == "missing_required" and c["required_conditions"]:
-            age = random.randint(c["min_age"], c["max_age"])
-            conditions = set()
-        else:
-            age = random.randint(c["min_age"], c["max_age"])
-            conditions = set(c["required_conditions"])
-            if c["excluded_conditions"]:
-                conditions.add(random.choice(c["excluded_conditions"]))
-
+def generate_patient(pid):
+    age = random.randint(18, 85)
     gender = random.choice(["male", "female"])
+
+    conditions = set()
+    conditions.add(random.choice(CHRONIC_CONDITIONS))
+
+    if random.random() < 0.6:
+        conditions.add(random.choice(MENTAL_HEALTH))
+    if random.random() < 0.4:
+        conditions.add(random.choice(SYMPTOMS_ACUTE))
+    if random.random() < 0.3:
+        conditions.add(random.choice(INFECTIOUS))
+
     conditions = list(conditions)
 
     negated = random.sample(
-        [x for x in ALL_CONDITIONS if x not in conditions],
+        [c for c in ALL_CONDITIONS if c not in conditions],
         random.randint(0, 2)
     )
 
     raw_text = (
         f"Patient is a {age}-year-old {gender} with "
-        f"{' and '.join(conditions) if conditions else 'no significant conditions'}."
+        f"{' and '.join(conditions)}."
     )
 
     if negated:
@@ -103,11 +85,11 @@ def generate_patient_for_trial(pid, trial, target_eligible: bool):
             "gender": gender,
             "conditions": conditions,
             "negated_conditions": negated,
-            "source": "balanced_per_trial_v1"
+            "source": "balanced_160_patients_v1"
         }
     }
 
-
+# ================= ELIGIBILITY =================
 def is_eligible(patient, trial):
     age = patient["metadata"]["age"]
     conds = set(patient["metadata"]["conditions"])
@@ -121,76 +103,50 @@ def is_eligible(patient, trial):
         return False
     return True
 
-
 # ================= MAIN =================
 def main():
     trials = [json.load(open(f)) for f in sorted(TRIAL_DIR.glob("*.json"))]
     print(f"Loaded {len(trials)} trials")
 
-    patient_counter = 0
-    pair_counter = 0
+    total_eligible = 0
+    total_pairs = 0
 
-    for trial in trials:
-        eligible = 0
-        not_eligible = 0
-        attempts = 0
+    for i in range(NUM_PATIENTS):
+        pid = f"P_BAL_{i:03d}"
+        patient = generate_patient(pid)
 
-        print(f"\nGenerating data for trial {trial['trial_id']}")
+        # Save patient
+        with open(PATIENT_DIR / f"{pid}.json", "w") as f:
+            json.dump(patient, f, indent=2)
 
-        while (
-            eligible < TARGET_PER_LABEL_PER_TRIAL
-            or not_eligible < TARGET_PER_LABEL_PER_TRIAL
-        ) and attempts < MAX_ATTEMPTS_PER_TRIAL:
-
-            attempts += 1
-            target_eligible = eligible < TARGET_PER_LABEL_PER_TRIAL
-            pid = f"P_BAL_{patient_counter:05d}"
-
-            patient = generate_patient_for_trial(pid, trial, target_eligible)
+        # Evaluate against all trials
+        for trial in trials:
             label = int(is_eligible(patient, trial))
-
-            if label == 1 and eligible >= TARGET_PER_LABEL_PER_TRIAL:
-                continue
-            if label == 0 and not_eligible >= TARGET_PER_LABEL_PER_TRIAL:
-                continue
-
-            # Save patient
-            with open(PATIENT_DIR / f"{pid}.json", "w") as f:
-                json.dump(patient, f, indent=2)
 
             pair = {
                 "pair_id": f"{pid}_{trial['trial_id']}",
                 "patient_id": pid,
                 "trial_id": trial["trial_id"],
                 "label": label,
-                "reason": "Balanced per-trial synthetic generation"
+                "reason": "Balanced global generation"
             }
 
             with open(PAIR_DIR / f"{pair['pair_id']}.json", "w") as f:
                 json.dump(pair, f, indent=2)
 
-            patient_counter += 1
-            pair_counter += 1
+            total_pairs += 1
+            total_eligible += label
 
-            if label == 1:
-                eligible += 1
-            else:
-                not_eligible += 1
-
-        print(
-            f"  Completed → Eligible={eligible}, "
-            f"Not Eligible={not_eligible}, Attempts={attempts}"
-        )
-
-        if attempts >= MAX_ATTEMPTS_PER_TRIAL:
-            print("  ⚠️ Warning: Max attempts reached for this trial")
+        if (i + 1) % 20 == 0:
+            print(f"Generated {i + 1}/{NUM_PATIENTS} patients")
 
     print("\n" + "=" * 50)
     print("✅ Balanced dataset generation complete")
     print("=" * 50)
-    print(f"Patients generated: {patient_counter}")
-    print(f"Pairs generated   : {pair_counter}")
-
+    print(f"Patients generated: {NUM_PATIENTS}")
+    print(f"Total pairs       : {total_pairs}")
+    print(f"Eligible pairs    : {total_eligible}")
+    print(f"Eligible ratio    : {total_eligible / total_pairs:.2%}")
 
 if __name__ == "__main__":
     main()
