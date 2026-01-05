@@ -1,0 +1,12 @@
+{
+	"patient_id": "P002",
+	"raw_text": "Rohit Sharma, a 45-year-old male, diagnosed with hypothyroidism and iron deficiency anemia.",
+	"anonymized_text": "PATIENT_NAME, AGE-year-old male, diagnosed with hypothyroidism and iron deficiency anemia.",
+	"metadata": {
+		"age": 45,
+		"gender": "male",
+		"conditions": ["hypothyroidism", "iron deficiency anemia"],
+		"negated_conditions": [],
+		"notes": "Common endocrine and nutritional disorders"
+	}
+}
